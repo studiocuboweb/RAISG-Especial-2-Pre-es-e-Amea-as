@@ -82,9 +82,9 @@ const About = ({ intl, lastPath }) => {
               id="about.intro"
               defaultMessage="The Looted Amazon is an overview of the situation of illegal mining in six Amazonian countries. The analyses and cases presented are based on data from the {MineriaIlegal} platform."
               values={{
-                MineriaIlegal: (
+                link: (
                   <strong>
-                    <a href="https://mineria.amazoniasocioambiental.org/" target="_blank">Minería Ilegal</a>
+                    <a href="https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/" target="_blank">Presiones y amenazas sobre las Áreas Protegidas y los Territorios Indígenas de la Amazonía 2018</a>
                   </strong>
                 )
               }}
@@ -93,7 +93,20 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro2"
-              defaultMessage="This digital report published on December 10th 2018 was prepared through a partnership between:"
+              defaultMessage="Los datos pueden ser descargados {link2}"
+              values={{
+                link2: (
+                  <strong>
+                    <a href="https://www.amazoniasocioambiental.org/es/mapas/#descargas" target="_blank">en la página de RAISG</a>
+                  </strong>
+                )
+              }}
+            />
+          </Paragraph>
+          <Paragraph big>
+            <FormattedMessage
+              id="about.intro3"
+              defaultMessage="Este informe digital publicado el 03 de junio de 2019 se hizo en alianza por:"
             />
           </Paragraph>
           <GeneralBlock>
@@ -126,27 +139,38 @@ const About = ({ intl, lastPath }) => {
               <FormattedMessage
                   id="about.editor_chief"
                   defaultMessage="Image and map editor"
-                /> - Juliana Mori
+                /> - Juliana Mori<br />
+              <FormattedMessage
+                  id="about.dev"
+                  defaultMessage="Web Development and Design"
+                /> - <a href="mailto:contato@studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
+            </Paragraph>
+            <Paragraph>
+            <strong>
+              <FormattedMessage
+                id="about.fotos"
+                defaultMessage="Foto portada"
+              /> 
+            </strong> - Izabela Stachowicz
             </Paragraph>
             <Paragraph>
             <strong>
               <FormattedMessage
                 id="about.video"
-                defaultMessage="Videos (in order of appearance)"
+                defaultMessage="Videos"
               />
             </strong>
+              <FormattedMessage
+                id="about.video2"
+                defaultMessage=" (in order of appearance)"
+              />  
             <br />
               <FormattedMessage
                   id="about.videos"
-                  defaultMessage="1, 4 e 7 Claus García/FZS Perú, 2 e 6  Marcos Wesley/ISA, 3 Juan Doblas/ISA, 5 Production: Fundación Blue Foresta & Red Ambiental de Información (RAI)"
+                  defaultMessage="1 CAAAP, 2 ODECOFROC, ORPIAN-P y MOCCIC"
                 />
             </Paragraph>
-            <Paragraph>
-              <FormattedMessage
-                  id="about.dev"
-                  defaultMessage="Web Development and Design"
-                /> - <a href="https://studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
-          </Paragraph>
+
           <Button>
             <div>
               {

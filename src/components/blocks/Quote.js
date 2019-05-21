@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   `}
   blockquote {
     position: relative;
-    max-width: 450px;
+    max-width: 473px;
     float: right;
     margin: 0;
     .fa {

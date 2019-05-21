@@ -22,17 +22,15 @@ import Story from "components/Story";
 import Modal from "components/Modal";
 
 import Chapter1 from "./articles/1-Introduction";
-import Chapter2 from "./articles/2-Mercury";
-import Chapter3 from "./articles/3-ProtectedAreas";
-import Chapter4 from "./articles/4-IndigenousTerritories";
-import Chapter5 from "./articles/5-Conflicts";
+import Chapter2 from "./articles/2-CaminosSelvaAdentro";
+import Chapter3 from "./articles/3-LaAmazoniaTransformada";
+import Chapter4 from "./articles/4-LaPerdidaDeLaAmazonia";
 
 const articles = [
   "/story",
-  "/story/mercury",
-  "/story/protected-areas",
-  "/story/indigenous-territories",
-  "/story/conflicts"
+  "/story/caminos-selva-adentro",
+  "/story/la-amazonia-transformada",
+  "/story/la-perdida-de-la-amazonia"
 ];
 
 class Scene extends Component {
@@ -130,10 +128,9 @@ class Scene extends Component {
             >
               <Switch location={location}>
                 <Route exact path={`${match.url}`} component={Chapter1} />
-                <Route path={`${match.url}/mercury`}component={Chapter2} />
-                <Route path={`${match.url}/protected-areas`} component={Chapter3} />
-                <Route path={`${match.url}/indigenous-territories`} component={Chapter4} />
-                <Route path={`${match.url}/conflicts`} component={Chapter5} />
+                <Route path={`${match.url}/caminos-selva-adentro`}component={Chapter2} />
+                <Route path={`${match.url}/la-amazonia-transformada`} component={Chapter3} />
+                <Route path={`${match.url}/la-perdida-de-la-amazonia`} component={Chapter4} />
                 <Route
                   render={() => (
                     <Helmet>

@@ -240,35 +240,27 @@ class ArticleNav extends Component {
             </NavLink>
           </li>
           <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/mercury">
+            <NavLink to="/story/caminos-selva-adentro">
               <FormattedMessage
                 id="articles.title2"
-                defaultMessage="Mercury" />
-              <ProgressBar path="/story/mercury" />
+                defaultMessage="Caminos Selva Adentro" />
+              <ProgressBar path="/story/caminos-selva-adentro" />
             </NavLink>
           </li>
           <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/protected-areas">
+            <NavLink to="/story/la-amazonia-transformada">
               <FormattedMessage
                 id="articles.title3"
-                defaultMessage="Protected Areas" />
-              <ProgressBar path="/story/protected-areas" />
+                defaultMessage="La Amazonía Transformada" />
+              <ProgressBar path="/story/la-amazonia-transformada" />
             </NavLink>
           </li>
           <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/indigenous-territories">
+            <NavLink to="/story/la-perdida-de-la-amazonia">
               <FormattedMessage
                 id="articles.title4"
-                defaultMessage="Indigenous Territories" />
-              <ProgressBar path="/story/indigenous-territories" />
-            </NavLink>
-          </li>
-          <li onClick={() => this.closeNavbar()}>
-            <NavLink to="/story/conflicts">
-              <FormattedMessage
-                id="articles.title5"
-                defaultMessage="Conflicts" />
-              <ProgressBar path="/story/conflicts" />
+                defaultMessage="La pérdida de la Amazonía" />
+              <ProgressBar path="/story/la-perdida-de-la-amazonia" />
             </NavLink>
           </li>
         </ol>

@@ -50,7 +50,19 @@ const Wrapper = styled.div`
       th {
         padding:15px 10px 5px 10px;
       }
+      th:nth-child(1) {
+        text-align:left;
+      }
+      th:nth-child(2) {
+        text-align:right;
+      }
+      th:nth-child(3) {
+        text-align:right;
+      }
       td:nth-child(2) {
+        text-align:right;
+      }
+      td:nth-child(3) {
         text-align:right;
       }
   }

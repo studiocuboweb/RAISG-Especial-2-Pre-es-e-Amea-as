@@ -354,9 +354,9 @@ class Scene extends Component {
             </div>
           )}
         </Middle>
-        <video autoPlay muted loop id="background-video">
-          <source src={require("images/video_bg.mp4")} type="video/mp4" />
-        </video>
+        <backgroundImage>
+          <source src="url('images/home_bg.jpg')" />
+        </backgroundImage>
       </Wrapper>
     );
   }
