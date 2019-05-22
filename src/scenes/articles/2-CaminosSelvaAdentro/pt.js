@@ -9,158 +9,107 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import FileLink from "components/FileLink";
-import EndChapter from "../../../components/blocks/EndChapter";
 
 export default () => (
   <article>
     <Helmet>
-      <title>Mercúrio | Amazônia saqueada</title>
+      <title>Caminos selva adentro | Amazonía en la encrucijada socioambiental</title>
     </Helmet>
     <Container>
-      <Title as="h2">Mercúrio</Title>
+      <Title as="h2">Caminos selva adentro</Title>
       <Note>
         <p>
-          A grande quantidade de mercúrio usada na purificação do ouro está contaminando a Amazônia. A obtenção de ouro é o principal objetivo da mineração ilegal.
+          La 
+          <StoryMedia
+              media={{
+              id: "image-1",
+              type: "image",
+              data: {
+                credits: "Paulo Santos",
+                src: require("photos/chapter2/PauloSantos_AnapuPara_13_Transamazonica©PS.jpg")
+              }
+            }}> apertura de nuevas carreteras</StoryMedia>, 
+          ferrocarriles e hidrovías en la selva amazónica, siempre ha sido y será el principal vector de transformación del territorio.
         </p>
       </Note>
+
       <Paragraph>
-      <StoryMedia
+        Más de 136 mil kilómetros de carreteras se han desarrollado hasta el 2018 en la Pan Amazonía, siendo que 26 mil kilómetros están localizadas dentro de áreas naturales protegidas y territorios indígenas.  De este total, 16,9 mil kilómetros atraviesan territorios indígenas y 9,1 mil km fragmentan áreas naturales protegidas.
+      </Paragraph>
+
+      <Paragraph>
+        El caso de la Amazonía brasileña nos sirve para visualizar el futuro de toda la región.
+        <StoryMedia
+        icon="map"
         media={{
-          id: "image-1",
+        id: "map_01",
+        type: "mapbox",
+          data: {
+            map: "map2",
+            legend:"legend9",
+            update:"map2",
+            showExtraLayers: ['carreteras x deforestación en Brasil'],
+            coordinates: [-63.693113,2.766774],
+            zoomNumber: 5.50,
+            zoomMin: 5,
+            zoomMax: 10
+          }
+        }}> La mayor parte de la deforestación ocurre en las inmediaciones de carreteras
+        </StoryMedia>, 
+        y se estima que aproximadamente <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">90% de la  pérdida de vegetación nativa ocurrirá hasta una distancia de 100 kilómetros de la red vial</ExternalLink>, de acuerdo con el estudio “Space-time dynamics of deforestation in Brazilian Amazonia” , publicado en la revista científica International Journal of Remote Sensing, en 2002. 
+      </Paragraph>
+
+      <Paragraph>
+        Los resultados de las investigaciones sobre este tema, sin embargo, varían en cuanto a cuál es la distancia en la que ocurre la mayor intensidad de deforestación. Por ejemplo, Gregory Asner, en 2006, encuentra que <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">hasta 50 km de las carreteras tiene lugar 67% de la deforestación</ExternalLink>, pero, según el trabajo de Kenneth M. Chomitz y Timothy S. Thomas, a esa distancia ya <ExternalLink href="http://documents.worldbank.org/curated/en/102381468769744789/Geographic-patterns-of-land-use-and-land-intensity-in-the-Brazilian-Amazon" language="en">la cobertura vegetal ha sido removida a un nivel de 85%</ExternalLink>. En contraposición y casi una década después, los hallazgos de Christopher P. Barber muestran que en la Amazonía Legal brasileña <ExternalLink href="https://www.sciencedirect.com/science/article/abs/pii/S000632071400264X" language="en">94,9% de la deforestación ocurrió en los 5,5 kilómetros contiguos a las carreteras y un kilómetro de los ríos</ExternalLink>. Todo esto pone en evidencia la íntima conexión entre  la expansión de estos medios de transporte y la eliminación de la vegetación nativa.
+      </Paragraph>
+
+      <Paragraph>
+        Con carreteras abiertas en los años 60, Brasil conoce bien los efectos de la ocupación propiciada por la construcción de arterias viales que conectan el norte y el sur del país. Otros países como Perú, evalúan ahora las consecuencias de la construcción 
+        <StoryMedia
+          media={{
+          id: "image-2",
           type: "image",
           data: {
-            credits: "Oscar Mujica/FZS Perú",
-            src: require("photos/chapter2/04_OscarMujica-FZS_PE_Colorado.jpg")
+            credits: "Andina",
+            src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
           }
-        }}><strong>As cicatrizes na terra, as águas turvas dos rios</strong> são danos óbvios da mineração ilegal</StoryMedia>. Mas há um mal invisível que contamina a fauna amazônica e os habitantes da região. O mercúrio, de acordo com diferentes estudos, está afetando populações indígenas e locais que vivem perto ou trabalham em áreas de mineração de ouro, bem como aqueles que consomem peixe da Amazônia como parte de sua dieta.      
+        }}> reciente de grandes carreteras, como es el caso de la Interoceánica Sur, concluida en 2010
+        </StoryMedia>.
+        Y zonas de la Amazonía previamente no afectadas pasan ahora por un boom de nuevas vías, como es el caso en Colombia y Bolivia.
       </Paragraph>
+
       <Paragraph>
-        Ninguém come tantos peixes em sua dieta quanto o povo da Amazônia.
+        <strong className='regular-title'>Nuevas vías, nuevos actores</strong>
+      </Paragraph>
+
+      <Paragraph>
+        Actualmente, la
         <StoryMedia
-              media={{
-                id: "galery-1",
-                type: "gallery",
-                data: {
-                  items: [
-                    {
-                      src: require("photos/chapter2/gallery-1/01_CINCIA_IMG1678.jpg"),
-                      credits: "CINCIA"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/02_DSC05788.jpg"),
-                      credits: "Natalie Szponar"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/03_DSC05797.jpg"),
-                      credits: "Natalie Szponar"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/04_NatalieSzponar_DSC06069.jpg"),
-                      credits: "Natalie Szponar"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/05_NatalieSzponar_DSC06131.jpg"),
-                      credits: "Natalie Szponar"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/06_NatalieSzponar4_DSC06137.jpg"),
-                      credits: "Natalie Szponar",
-                      isVertical: true,
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/07_NatalieSzponar_DSC06141.jpg"),
-                      credits: "Natalie Szponar"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/08_CINCIA_DSCF3067.jpg"),
-                      credits: "CINCIA"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/09_CINCIA_IMG_0483.jpg"),
-                      credits: "CINCIA"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/10_CINCIA_IMG_3955.jpg"),
-                      credits: "CINCIA"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/11_AldoRivas_IMG_4152.jpg"),
-                      credits: "Aldo Rivas"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/12_AldoRivas_IMG_4167.jpg"),
-                      credits: "Aldo Rivas"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/13_CINCIA_P1000164.jpg"),
-                      credits: "CINCIA"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/14_CINCIA_P3240166.jpg"),
-                      credits: "CINCIA"
-                    },
-                    {
-                      src: require("photos/chapter2/gallery-1/15_NatalieSzponar_PacoMaizal.jpg"),
-                      credits: "Natalie Szponar"
-                    }
-                  ]
-                }
-              }}
-            > Riberinhos e povos indígenas têm sua principal fonte de proteína em espécies de água doce</StoryMedia>. Mas se o peixe garante uma dieta rica e saborosa, eles também podem conter ameaças à saúde dessas populações. Estudos mostraram o acúmulo de mercúrio acima dos níveis recomendados pela Organização Mundial de Saúde em vários peixes usados ​​para consumo humano.
-      </Paragraph>
-      <Paragraph>
-        Este metal é biocumulativo em tecidos animais. Ou seja, a concentração de mercúrio será maior em peixes que se alimentam de peixes menores e seu efeito negativo sobre os seres humanos será ainda mais intenso.
-      </Paragraph>
-      <Paragraph>
-        O mercúrio é usado na purificação do ouro. Os resíduos contaminam a água e o ar. Devolvido à natureza como metilmercúrio, este elemento causa um dano grave e altamente tóxico graças à acumulação permanente. O composto afeta o sistema nervoso central, causando problemas de perda de visão, de ordem cognitiva e motora, doença cardíaca e outras deficiências. Gestantes e crianças são as populações mais vulneráveis.
-      </Paragraph>
-      <Paragraph>
-        No Peru, resultados preliminares de um estudo realizado pelo Centro de Inovação Científica Amazônica (CINCIA)revelam que os <FileLink
-          href={require("documents/chapter2/CINCIA-Research-Brief-2-v7.2-Mercurio-en-peces-de-pozas-mineras.pdf")}
-          format="pdf"
-          size="1.7MB"
-        >níveis de mercúrio em peixes são 43% maiores em poços abandonados pela mineração de ouro</FileLink> do que em áreas onde não há garimpo. <StoryMedia
+        icon="map"
         media={{
-          id: "galery-2",
-          type: "gallery",
+        id: "map_02",
+        type: "mapbox",
           data: {
-            items: [
-              {
-                src: require("photos/chapter2/gallery-2/01_CINCIA_ColetaPeixe_1.jpg"),
-                credits: "CINCIA"
-              },
-              {
-                src: require("photos/chapter2/gallery-2/02_CINCIA_ColetaPeixe_a.jpg"),
-                credits: "CINCIA"
-              },
-              {
-                src: require("photos/chapter2/gallery-2/03_CINCIA_ColetaPeixe_b.jpg"),
-                credits: "CINCIA"
-              },
-              {
-                src: require("photos/chapter2/gallery-2/04_CINCIA_lab01.jpg"),
-                credits: "CINCIA"
-              }
-            ]
+            map: "map2",
+            legend:"legend9",
+            update:"map2",
+            showExtraLayers: ['CARRETERAS Colombia - presiones TIs y ANPs'],
+            coordinates: [-63.693113,2.766774],
+            zoomNumber: 5.50,
+            zoomMin: 5,
+            zoomMax: 10
           }
-        }}>Amostras de peixes foram coletadas</StoryMedia> em sete lagoas localizadas nas áreas de mineração abandonadas em Laberinto, Tambopata, Madre de Dios e Inambari. Além disso, amostras de peixes foram coletadas em dois lagos ou lagoas marginais e um rio dentro do Parque Nacional de Manu, como uma área de referência onde não há presença de atividade de mineração. 
+        }}> Amazonía colombiana tiene un total de 32.780 km de vías de nivel 1 al 7, siendo las de nivel 6 y 7 (vías terciarias) las de mayor extensión con un total de 23.407 km. De este total, 2.336 km se encuentran dentro de Resguardos Indígenas y 7.975 km en Áreas Protegidas
+        </StoryMedia>.
       </Paragraph>
+
+      <FeaturedText>
+       En Colombia, después de la firma del acuerdo de paz, la guerrilla de las FARC dejó de ocupar puntos estratégicos de entrada a la selva amazónica. En estos puntos, la presencia estatal es casi nula, por lo que nuevos actores (legales e ilegales) han empezado a llegar en busca de recursos naturales y tierras.
+      </FeaturedText>
+
       <Paragraph>
-        Na Venezuela, a pedido da Organização Indígena do Caura Kuyujani, em 2010, foi realizado um <FileLink
-          href={require("documents/chapter2/Informe_riesgo_exp_metilmercurio_Caura.pdf")}
-          format="pdf"
-          size="1.4MB"
-        >estudo para determinar o teor de mercúrio em algumas das principais espécies de peixes consumidas pelas comunidades na bacias do alto Caura.</FileLink> Todas as amostras apresentaram valores médios mais elevados do que o valor de 0,5 mg / kg, conforme permitido pela Organização Mundial da Saúde. Este é considerado um limite de segurança para usuários ocasionais, mas não para consumidores de alta frequência como as populações indígenas.
-      </Paragraph>
-      <Paragraph>
-        O mesmo aconteceu no rio Orinoco, em sua rota pelo estado do Amazonas, na fronteira com a Colômbia, onde os pesquisadores Carlos Lasso e Luis Pérez, já em 2003, descobriram que <FileLink
-          href={require("documents/chapter2/2006_Lasso_et_al_Peces_Ventuari_Venezuela_114p.pdf")}
-          format="pdf"
-          size="11.8MB"
-        >nove das 17 espécies de consumo local habitual apresentavam valores de mercúrio superiores aos indicados pela OMS como o máximo permitido.</FileLink> Consequentemente, membros de Ye'kwana das regiões do Caura, Bolívar e Uwottüja, do Orinoco e estado do Amazonas, apresentaram, entre 2009 e 2010, altas concentrações de mercúrio no cabelo. Esta situação se repete nos peixes dos rios Paragua e Caroní, segundo as investigações de 2009. Desta forma, todos os grandes rios da Amazônia venezuelana possuem peixes com altos níveis de mercúrio antes mesmo do <i>boom</i> massivo da extração de ouro.
-      </Paragraph>
-      <Paragraph>
-        Uma das regiões mais afetadas da Amazônia é o <StoryMedia
+        Todo ello ha sido facilitado por la apertura acelerada de nuevas vías y la oficialización de las construidas por la guerilla de las FARC antes de la firma del acuerdo de paz, a través de vías terciarias: la nueva forma de penetración al corazón de la selva. Como se muestra en el mapa de presiones y amenazas (RAISG, 2018),
+        <StoryMedia
         icon="map"
         media={{
         id: "map_03",
@@ -169,45 +118,150 @@ export default () => (
             map: "map2",
             legend:"legend9",
             update:"map2",
-            showExtraLayers: ['LEGENDA4- Yanomami_tis-afectadas'],
+            showExtraLayers: ['CARRETERAS Colombia, localiza arco noroccidental de la Amz - presiones ANPs y TIs'],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
             zoomMin: 5,
             zoomMax: 10
           }
-        }}>território Yanomami, que se estende entre o Brasil e a Venezuela</StoryMedia>. Há <FileLink
-        href={require("documents/chapter2/diagnostico_contaminacao_mercurio_terra_indigena_yanomami.pdf")}
-        format="pdf"
-        size="1.4MB">um estudo realizado pelo Instituto Socioambiental (ISA), em parceria com a Fundação Oswaldo Cruz (Fiocruz)</FileLink>, onde foram coletadas 239 amostras de cabelo em nove aldeias em novembro de 2014. A  prioridade foi dada aos grupos mais vulneráveis à contaminação: crianças, mulheres em idade reprodutiva e adultos com alguma história de contato direto com a atividade de extração de ouro. Também foram coletadas 35 amostras de peixes que são parte fundamental da dieta alimentar das comunidades. O estudo foi realizado nas regiões de Papiú e Waikás, onde residem os grupos étnicos Yanomami e Ye'kwana.
+        }}> la presencia de vías en Colombia se concentra en el arco noroccidental de la Amazonía
+        </StoryMedia>.
+        En el caso de las carreteras de las FARC en este país, de los <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3.753 kilómetros construidos</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km se encuentran dentro de Áreas Protegidas</ExternalLink> de la Amazonía colombiana, específicamente en el Parque Nacional Serranía de Chiribiquete, la Reserva Nacional Natural Nukak y el Parque Nacional Natural Tinigua.
       </Paragraph>
+
       <Paragraph>
-        "O caso mais preocupante era o da comunidade Yanomami de Aracaçá, na região de Waikás, onde 92% de todas as amostras apresentaram níveis elevados de contaminação. Esta comunidade, entre todas as participantes, era a única com a presença de garimpos. Na região de Papiú, onde foram registradas as menores taxas de contaminação - 6,7% das amostras analisadas - a presença de garimpeira é menos acentuada ", disse um resumo dos <StoryMedia
-              media={{
-              id: "video-1",
-              type: "youtube",
-              data: {
-                id: "XWF1MKP7pwY"
-              }
-              }}>resultados publicado pelo ISA</StoryMedia>.
+        Refuerza esta tendencia la inversión destinada a la creación y ampliación de carreteras  que penetran en la selva en Colombia, donde alrededor de 1,2 billones de pesos colombianos para vías terciarias del posconflicto están en manos de las gobernaciones departamentales. Además, las inversiones en infraestructura vial para las zonas priorizadas por el acuerdo de paz alcanzan los 1,38 billones de pesos colombianos, provenientes de recursos del Sistema General de Regalías (SGR). 
       </Paragraph>
+
       <Paragraph>
-        Na Colômbia, grande parte da atividade de mineração ocorre em áreas de fronteira. Isso significa que as bacias compartilhadas se tornam as principais rotas de contaminação por mercúrio. A área mais afetada é ao longo do rio Caquetá. Um estudo do Instituto Nacional de Saúde da Colômbia sobre o rio Apaporis revela que até 80% das populações indígenas dessa região estão contaminadas por mercúrio.
+        En el caso de Bolivia, destaca el
+        <StoryMedia
+        icon="map"
+        media={{
+        id: "map_04",
+        type: "mapbox",
+          data: {
+            map: "map2",
+            legend:"legend9",
+            update:"map2",
+            showExtraLayers: ['CARRETERAS Colombia, localiza TIPNIS'],
+            coordinates: [-63.693113,2.766774],
+            zoomNumber: 5.50,
+            zoomMin: 5,
+            zoomMax: 10
+          }
+        }}> Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas
+        </StoryMedia>.
+        Está delimitada por el río Isiboro (al sur) y el río Sécure (al norte), en el corazón del país. Fue creada para conservar los bosques y la cultura de  los pueblos indígenas que alberga (12 mil habitantes entre mojeños, yuracarés y chimanes). Si bien 80% de su extensión se encuentra en buen estado de conservación, está amenazada por el avance de cultivos desarrollados en su límite sur: enfrenta una gran amenaza debido a la expansión de plantaciones de coca junto a la
+        <StoryMedia
+          media={{
+          id: "image-3",
+          type: "image",
+          data: {
+            credits: "El Espectador",
+            src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
+          }
+        }}> construcción de la nueva carretera Villa Tunari - San Ignacio de Moxos
+        </StoryMedia>
+        que atravesaría el núcleo para conectar a los departamentos de Cochabamba y Beni (306 km de largo y 9,2 m de ancho).
       </Paragraph>
+
       <Paragraph>
-        Na Bolívia, os dados do Centro de Documentación e Información Bolivia (CEDIB) <ExternalLink href="https://cedib.org/post_type_mapas/contaminacion-por-mercurio-en-la-amazonia-de-bolivia/" language="es">mostram que em 2015 as importações totais do produto químico alcançaram 35,793 quilos, 20 vezes mais do que 1.710 quilos registradas em 2010</ExternalLink>. O livro "Mercúrio na Bolívia: Linha de Base de usos, emissões e poluição "- apresentado pelos Ministérios das Relações Exteriores e do Meio Ambiente em 2016 - afirma que com 133 toneladas de mercúrio liberadas por ano, a Bolívia é o terceiro país das Américas em contaminação, 47% vem da exploração de ouro.
+        Las presiones sobre el TIPNIS son preocupantes y los indígenas denuncian atropellos en su territorio. Tanto el Estado como una facción del CONISUR (Consejo Indígena del Sur), promovido por campesinos y grupos de poder del departamento del Beni mediante diferentes estrategias, han debilitado la resistencia de los indígenas.  El año 2017 se abroga la Ley 180, que declara al Territorio Indígena y Parque Nacional Isiboro Sécure - TIPNIS patrimonio sociocultural y natural, zona de preservación ecológica, reproducción histórica y hábitat de los pueblos indígenas Chimán, Yuracaré y se aprueba la Ley 969, anulando la intangibilidad del TIPNIS en nombre del desarrollo y progreso del país. Este conflicto puso en evidencia la visión de desarrollo del país, basada en la explotación de los recursos naturales, sin considerar los costos y consecuencias socioambientales en el largo plazo.
       </Paragraph>
-      <EndChapter>
-        <strong className='regular-title'>Convenção de Minamata</strong>
-        <p className='regular-txt'>
-          A grave situação de contaminação por este mercúrio metálico em vários países levou à criação, pelas Nações Unidas, da <ExternalLink href="https://treaties.un.org/Pages/ViewDetails.aspx?src=IND&mtdsg_no=XXVII-17&chapter=27&clang=_en" language="en">Convenção de Minamata, em memória do desastre humano e ambiental que ocorreu na área costeira de Minamata</ExternalLink>, Japão, causada pelo consumo de peixe com altos níveis de mercúrio. O acordo entre 101 membros prevê maior controle sobre a importação, comercialização e descarte de mercúrio.  
-        </p>
-        <p className='regular-txt'>
-          Para <ExternalLink href="https://www.paginasiete.bo/sociedad/2018/9/23/importacion-de-mercurio-crecio-20-veces-194729.html" language="es">os países amazônicos que assinaram a convenção em 2013, o acordo entrou em vigor em 2017 ao superar o ponto de corte de 50 ratificações</ExternalLink>. Com exceção da Colômbia e da Venezuela, todos os outros países com território no bioma - incluindo a França - já assinaram e ratificaram a Convenção de Minamata. Além disso, todos os países do bioma estão realizando projetos de acordo com a convenção. 
-        </p>
-        <p className='regular-txt'>
-          Apesar de ainda não terem ratificado, Colômbia e a Venezuela também avançam promovendo projetos para determinar a capacidade institucional, reguladora, técnica e comercial do país, em conformidade com as obrigações da Convenção.  A Colômbia tem uma estratégia ambiciosa para eliminar o descarte irregular de mercúrio, que está incluído no plano do governo, lançado em novembro de 2018 e em vigor até 2023.
-        </p>
-      </EndChapter>
+
+      <Paragraph>
+        En Venezuela, la Organización Regional de Pueblos Indígenas de Amazonas (Orpia) y Wataniba reportan el incremento de caminos fluviales y de tierra que son utilizados para el tráfico de coca. Venezuela sigue sin presentar espacios de producción de esta droga, pero su tráfico se une al de gasolina, alimentos y oro, entre otros bienes, en la frontera colombo-venezolana y colombo-brasilera, e incide en la gobernanza dentro de los territorios indígenas e incluso en la permanencia dentro de éstos. La
+        <StoryMedia
+          media={{
+          id: "image-4",
+          type: "image",
+          data: {
+            credits: "Guillermos da Silva",
+            src: require("photos/chapter2/GuillermoDaSilva_954_Arawak.jpg")
+          }
+        }}> presencia de grupos irregulares armados vinculados con el tráfico de diferentes productos y con la creciente minería ilegal en la misma frontera
+        </StoryMedia>
+        ha generado nuevas migraciones internas, donde las comunidades indígenas, y en especial las asociadas a los ejes fluviales fronterizos como los ríos Orinoco y Atabapo, no son la excepción. El pueblo Arawak ha hecho sentir su voz a través de organizaciones como Orpia y Coiam (Coordinadora de Organizaciones Indígenas de Amazonas), debido al desplazamiento de que han sido objeto como consecuencia de la violencia de la que han sido víctimas.
+      </Paragraph>
+
+      <Paragraph>
+        <strong className='regular-title'>Hidrovía y ferrovía</strong>
+      </Paragraph>
+
+      <Paragraph>
+        Dos importantes vías de acceso al territorio amazónico de Perú actúan como vectores de deforestación:
+        <StoryMedia
+        icon="map"
+        media={{
+        id: "map_05",
+        type: "mapbox",
+          data: {
+            map: "map2",
+            legend:"legend9",
+            update:"map2",
+            showExtraLayers: ['CARRETERAS X DEFORESTACIÓN en Perú'],
+            coordinates: [-63.693113,2.766774],
+            zoomNumber: 5.50,
+            zoomMin: 5,
+            zoomMax: 10
+          }
+        }}> la Carretera Marginal de la Selva, construida en los años sesenta, que llega hasta Ucayali, y la Interoceánica Sur, concluida en 2010, que llega hasta Madre de Dios
+        </StoryMedia>.
+        Asimismo, en años recientes, se ha advertido sobre la proliferación de una red de caminos forestales de penetración construidos sin autorización de los entes competentes de Perú. Estos caminos aceleran el proceso de colonización de la Amazonía peruana al tiempo que facilitan la acción depredadora de mineros, madereros y cultivadores de coca, que operan al margen de la ley.
+      </Paragraph>
+
+      <Paragraph>
+        En Perú, están por iniciarse las actividades para la habilitación de la
+        <StoryMedia
+        icon="map"
+        media={{
+        id: "map_06",
+        type: "mapbox",
+          data: {
+            map: "map2",
+            legend:"legend9",
+            update:"map2",
+            showExtraLayers: ['CARRETERAS? Perú - localiza Hidrovía Amazónica'],
+            coordinates: [-63.693113,2.766774],
+            zoomNumber: 5.50,
+            zoomMin: 5,
+            zoomMax: 10
+          }
+        }}> Hidrovía Amazónica, que busca crear un extenso canal de navegación conectando los caudalosos ríos Marañón, Amazonas, Huallaga y Ucayali
+        </StoryMedia>.
+        Esta obra, orientada a dinamizar el transporte fluvial de carga, pretende asegurar condiciones de navegabilidad permanentes a lo largo de los 2.600 kilómetros que separan los terminales portuarios de Yurimaguas, Iquitos y Pucallpa.
+      </Paragraph>
+
+      <Paragraph>
+        Las obras contemplan el dragado o remoción de sedimentos en zonas poco profundas y accidentadas de los mencionados ríos. Los especialistas advierten del impacto ambiental, toda vez que el reglamento de Protección Ambiental en el sector Transportes no contempla medidas específicas para hidrovías. De otro lado, señalan que el proyecto no ha considerado el impacto que tendrá el dragado de los ríos sobre el tránsito, reproducción y desove de peces, ni ha tomado en cuenta la turbidez que causará en el agua, que es usada por las poblaciones locales. Todo permite anticipar que la hidrovía se convertirá en un nuevo foco de conflicto socioambiental. Sin embargo, es motivo de esperanza la decisión, en marzo de 2019, del Servicio Nacional de Certificación Ambiental para las Inversiones Sostenibles (Senace), el cual por segunda vez rechazó el Estudio de Impacto Ambiental (EIA) del proyecto Hidrovía Amazónica. Sin este requisito no se puede dar inicio a las obras.
+      </Paragraph>
+
+      <Paragraph>
+        En Colombia, el presidente Duque se comprometió a gestionar la navegabilidad del río Vaupés, además de un sistema de transporte multimodal que conectará al Municipio de Calamar, en el Departamento del Guaviare con el Municipio de Mitú (Vaupés Colombia) y Yavaraté (Brasil), lo que generaría una aceleración en los procesos de colonización en la zona.
+      </Paragraph>
+
+      <Paragraph>
+        Por su parte, la continua expansión de la infraestructura de transportes en la Amazonia brasileña tiene como uno de sus protagonistas la modalidad ferroviaria. Con casi mil kilómetros de extensión, partiendo
+        <StoryMedia
+        icon="map"
+        media={{
+        id: "map_07",
+        type: "mapbox",
+          data: {
+            map: "map2",
+            legend:"legend9",
+            update:"map2",
+            showExtraLayers: ['CARRETERAS? localiza Ferrogrão, Brasil'],
+            coordinates: [-63.693113,2.766774],
+            zoomNumber: 5.50,
+            zoomMin: 5,
+            zoomMax: 10
+          }
+        }}> de la región productora de cereales de Sinop (Mato Grosso) hasta el puerto de Miritituba (Pará), Ferrogrão
+        </StoryMedia>
+        pretende consolidar el nuevo corredor ferroviario de exportación de Brasil por el norte del país. Paralelo a la carretera BR-163, el ferrocarril puede potenciar los impactos socioambientales negativos en la región, con amenazas directas e indirectas a áreas naturales protegidas y territorios  indígenas.
+      </Paragraph>
     </Container>
   </article>
 );
