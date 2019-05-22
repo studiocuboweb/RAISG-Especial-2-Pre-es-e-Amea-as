@@ -1,19 +1,16 @@
 {
   "name": "infoamazonia",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-      "start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0",
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "setup": "rm -rf public/*",
-      "build": "npm run setup && webpack --config webpack.config.js -d --env production",
-      "watch": "npm run setup && webpack --config webpack.config.js --watch",
-      "deploy": "npm run build && cp public/index.html public/404.html && gh-pages -d public",
-      "manage:translations": "node ./translationRunner.js",
-    "engines": {
-      "node": "11.11.0"
-    }
+  "scripts": {
+    "start": "node_modules/.bin/webpack-dev-server --host 0.0.0.0",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "rm -rf public/*",
+    "build": "npm run setup && webpack --config webpack.config.js -d --env production",
+    "watch": "npm run setup && webpack --config webpack.config.js --watch",
+    "deploy": "npm run build && cp public/index.html public/404.html && gh-pages -d public",
+    "manage:translations": "node ./translationRunner.js"
   },
   "repository": {
     "type": "git",
