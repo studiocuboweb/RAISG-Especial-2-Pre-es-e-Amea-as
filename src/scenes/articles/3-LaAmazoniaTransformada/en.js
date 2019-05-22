@@ -295,7 +295,7 @@ export default () => (
                   credits: "Javier Mesa"
                 },
                 {
-                  src: require("photos/chapter3/gallery-3/02_Cercanias_El-Paují_Edo-Bolivar_Hernan-Biord_IMG-20170221-WA0022.jpg"),
+                  src: require("photos/chapter3/gallery-3/02_Cercanias_El-Paujii_Edo-Bolivar_Hernan-Biord_IMG-20170221-WA0022.jpg"),
                   credits: "Hernan Biord"
                 },
                 {
