@@ -4,21 +4,20 @@ import { media } from "styles/utils";
 import { margins } from "./utils";
 
 const Wrapper = styled.div`
-  padding: 2rem;
+  padding: .5rem;
   background: #f7f7f7;
-  font-size: 1.2em;
   position: relative;
   z-index: 1;
   ${media.desktop`
     width: 20vw;
-    margin: 0 2vw;
+    margin: 0 1vw 0 10vw;
     margin-bottom: 1.5rem;
     ${props => css`
       float: ${props.float || "left"};
     `}
   `}
   ${media.desktopHD`
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   `}
   .featured-text-content {
     max-width: 500px;

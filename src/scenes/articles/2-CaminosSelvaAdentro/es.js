@@ -9,7 +9,6 @@ import FeaturedText from "components/blocks/FeaturedText";
 import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import FileLink from "components/FileLink";
-import EndChapter from "../../../components/blocks/EndChapter";
 
 export default () => (
   <article>
@@ -104,9 +103,9 @@ export default () => (
         </StoryMedia>.
       </Paragraph>
 
-      <EndChapter>
+      <FeaturedText>
        En Colombia, después de la firma del acuerdo de paz, la guerrilla de las FARC dejó de ocupar puntos estratégicos de entrada a la selva amazónica. En estos puntos, la presencia estatal es casi nula, por lo que nuevos actores (legales e ilegales) han empezado a llegar en busca de recursos naturales y tierras.
-      </EndChapter>
+      </FeaturedText>
 
       <Paragraph>
         Todo ello ha sido facilitado por la apertura acelerada de nuevas vías y la oficialización de las construidas por la guerilla de las FARC antes de la firma del acuerdo de paz, a través de vías terciarias: la nueva forma de penetración al corazón de la selva. Como se muestra en el mapa de presiones y amenazas (RAISG, 2018),

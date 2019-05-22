@@ -20,6 +20,7 @@ export default () => (
       <title>Introducción | Amazonía en la encrucijada socioambiental</title>
     </Helmet>
     <Container>
+      <Title as="h2">Introducción</Title>
       <Note>
         <p>
           La Pan Amazonía resguarda el bosque tropical más extenso del mundo, representa el 40% de la extensión de Sudamérica. En ella habitan pueblos indígenas que cubren el 28% del territorio y una mega-biodiversidad en áreas protegidas que representan el 23% de la región. Ahora, más que nunca, esta gran riqueza cultural y natural afronta diversos retos.

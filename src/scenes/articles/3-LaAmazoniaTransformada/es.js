@@ -11,7 +11,6 @@ import Quote from "components/blocks/Quote";
 import FullBlock from "components/blocks/Full";
 import Note from "components/blocks/Note";
 import Table from "components/blocks/Table";
-import EndChapter from "../../../components/blocks/EndChapter";
 
 
 export default () => (
@@ -247,13 +246,13 @@ export default () => (
         Similar énfasis recibe el petróleo ecuatoriano. En lo que va del siglo, la exportación petrolera representa 50% del total de exportaciones, con ingresos económicos que representan, en promedio, 11% del PIB. Sin embargo, la explotación petrolera ha traído consigo la deforestación de 2 millones de hectáreas, más de 650.000 barriles de crudo derramados en bosques, ríos y esteros, además de metales pesados que han contaminado las fuentes de agua de la región amazónica. Esto ha causado impactos en la salud en poblaciones estudiadas que enferman al consumir el agua contaminada y que ya no pueden pescar en esos ríos.
       </Paragraph>
 
+      <FeaturedText>
+        La minería ilegal y la presencia de grupos irregulares armados (nacionales o extranjeros) en la Amazonía venezolana son elementos de la mayor relevancia.
+      </FeaturedText>
+      
       <Paragraph>
         Venezuela se encuentra sufriendo una fuerte crisis económica, política y social desde hace varios años. En 2018, y en lo que va de 2019, la situación se ha agravado de forma importante. La crítica situación del servicio eléctrico se suma a la carencia de medicinas, la dificultad para conseguir alimentos, la ausencia de moneda en efectivo y la hiperinflación. Todo ello ha derivado en una crisis humanitaria muy grave. Atentan directamente contra la permanencia de los ecosistemas amazónicos y su diversidad de especies, la prosperidad de las poblaciones indígenas, las costumbres ancestrales, la gobernabilidad de la región y la autodeterminación de los pueblos originarios.
       </Paragraph>
-
-      <EndChapter>
-        La minería ilegal y la presencia de grupos irregulares armados (nacionales o extranjeros) en la Amazonía venezolana son elementos de la mayor relevancia.
-      </EndChapter>
 
       <Paragraph>
         La
@@ -358,6 +357,10 @@ export default () => (
           Este pueblo accedió a la creación de un área protegida como parte de las negociaciones de paz con Ecuador. En 1999 fue creada la Zona Reservada Santiago Comaina, categoría temporal, que debía luego dar lugar a un parque nacional. Sin embargo, en 2007, y por disposición del gobierno de Alan García que cedió a presiones del sector minero, una parte de la Reserva se convirtió en el Parque Nacional Ichigat Muja - Cordillera del Cóndor, en tanto que la otra mitad del área quedó excluida. Sobre la parte excluida, el gobierno de García otorgó concesiones mineras. Este es un escenario permanente de conflicto socioambiental. En 2016, el gobierno del presidente Kuczynski anuló la licencia de operaciones de la empresa concesionaria, pero ello no ha impedido que hasta la fecha se continúe explotando oro en ese lugar, de manera ilegal.
       </Paragraph>
 
+      <FeaturedText>
+        La minería afecta las fuentes de alimentación, quebradas, ríos, bosque, suelo y es una amenaza seria y directa a la supervivencia de los awajún. 
+      </FeaturedText>
+
       <Paragraph>
         En el caso de la minería legal e ilegal
         <StoryMedia
@@ -372,14 +375,10 @@ export default () => (
           que tienen lugar en su territorio. Si bien el gobierno central y el gobierno regional de Amazonas han retirado los permisos de operaciones de la compañía, estos actos no han sido acompañados de acciones destinadas a asegurar el cumplimiento de la ley. La empresa ha continuado operando en la zona mediante estrategias como fomentar la actividad de pequeños mineros “artesanales” y provocando la división entre los indígenas al, por ejemplo, atraer a los jóvenes a su causa.  Éstos tomaron el caso en sus manos y destruyeron las oficinas de la empresa, ahora ilegal, y se encargan de patrullar la zona para mantener a raya a la minería ilegal, pero eso no ha cambiado significativamente el estado de cosas.
       </Paragraph>
 
-      <EndChapter>
-        La minería afecta las fuentes de alimentación, quebradas, ríos, bosque, suelo y es una amenaza seria y directa a la supervivencia de los awajún. 
-      </EndChapter>
-
       <Paragraph>
         En toda la Pan Amazonía, la superposición de los bloques de minería y petróleo con áreas naturales protegidas y territorios indígenas es motivo de constantes conflictos socioambientales. Juntos, los bloques de concesión para la explotación de minerales y petróleo se extienden sobre 87,2 millones de hectáreas de bosques. Los intereses económicos se imponen a la conservación de la diversidad que habita en ellos.
       </Paragraph>
-
+      
       <Paragraph>
         Por ejemplo,
         <StoryMedia

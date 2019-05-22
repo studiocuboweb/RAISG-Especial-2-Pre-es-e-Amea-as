@@ -12,7 +12,6 @@ import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import LittleNote from "components/blocks/LittleNote";
 import Board from "components/blocks/Board";
-import EndChapter from "../../../components/blocks/EndChapter";
 
 export default () => (
   <article>
@@ -141,6 +140,10 @@ export default () => (
         Análisis realizados por la Fundación Amigos de la Naturaleza (FAN) en el período 2005–2018 indican que el 88% de las quemas e incendios forestales de Bolivia se concentran en la región Amazónica , afectando a más de 18,7 millones de hectáreas, donde los ecosistemas con mayor impacto son pastizales naturales (70%) comprendidos por sabanas y cerrados, y en menor proporción (30%) ocurren en áreas boscosas.
       </Paragraph>
 
+      <FeaturedText>
+        El año 2010 fue considerado en Bolivia como el de mayor magnitud e impacto, donde el fuego asociado con la sequía afectó a más de 8,5 millones de hectáreas en la cuenca amazónica.
+      </FeaturedText>
+      
       <Paragraph>
         Debido a la falta de medidas de prevención,
         <StoryMedia
@@ -155,10 +158,6 @@ export default () => (
           </StoryMedia>,
         y afectar anualmente, en promedio, más de 4 millones de hectáreas. Por otro lado, la intensificación y magnitud de quemas e incendios, además de la acción humana, están estrechamente relacionadas con las condiciones climáticas extremas como las sequías.
       </Paragraph>
-
-      <EndChapter>
-        El año 2010 fue considerado en Bolivia como el de mayor magnitud e impacto, donde el fuego asociado con la sequía afectó a más de 8,5 millones de hectáreas en la cuenca amazónica.
-      </EndChapter>
 
       <Paragraph>
         El panorama de la Amazonía colombiana muestra una alta deforestación, el aumento de cultivos ilícitos y la presencia de incendios forestales. Además, en el Plan Nacional de Desarrollo, el presente gobierno definió que habrá un 0% de variación en la meta de deforestación respecto al cuatrienio del gobierno pasado. Es decir, se permitirá la destrucción de 215.000 mil ha de bosque al año a nivel nacional, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">de los cuales, el 72% son de la Amazonía colombiana</ExternalLink>, hasta llegar al punto de no retorno, lo que da luz verde para proyectos de desarrollo económico que antes no  eran permitidos en esta región colombiana.
@@ -183,7 +182,7 @@ export default () => (
         <strong className='regular-title'>La búsqueda de Justicia</strong>
       </Paragraph>
 
-      <EndChapter>
+      <FeaturedText>
         Ante el cuadro preocupante de las amenazas y presiones que enfrenta, los pueblos ancestrales y las comunidades que tradicionalmente ocupan la región Pan Amazónica 
         <StoryMedia
           media={{
@@ -195,7 +194,7 @@ export default () => (
             }
           }}> luchan para que sus derechos sean reconocidos y respetados
           </StoryMedia>.
-      </EndChapter>
+      </FeaturedText>
 
       <Paragraph>
         Los pueblos indígenas no escapan a la realidad política polarizada que se viene desarrollando en Venezuela desde el año 2002. Sin embargo, y a pesar de tal situación, el movimiento indígena ha logrado posicionarse en una serie de espacios políticos con participación para la autodemarcación de sus territorios, la consolidación de un marco jurídico de autonomía para el desarrollo y la defensa de sus derechos, así como su autodeterminación cultural. A pesar de los logros alcanzados, para 2018 muchas de las políticas públicas mermaron su impulso inicial, donde destaca la paralización del proceso de demarcación de hábitats y tierras indígenas.
