@@ -86,7 +86,7 @@ export default () => (
                   credits: "Pedro Martinelli / ISA"
                 },
                 {
-                  src: require("photos/chapter4/gallery-1/02_Vinícius-MendoncaAscomIbama_RS2441_1093_24_PqXingu.jpg"),
+                  src: require("photos/chapter4/gallery-1/02_Vinicius-MendoncaAscomIbama_RS2441_1093_24_PqXingu.jpg"),
                   credits: "Vinícius Mendonca / Ascom / Ibama"
                 },
                 {
