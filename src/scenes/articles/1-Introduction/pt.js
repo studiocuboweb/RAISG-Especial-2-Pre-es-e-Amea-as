@@ -3,35 +3,31 @@ import { Helmet } from "react-helmet";
 import Container from "components/blocks/Container";
 import StoryMedia from "components/StoryMedia";
 import ExternalLink from "components/ExternalLink";
-import FileLink from "components/FileLink";
 import Paragraph from "components/blocks/Paragraph";
-import FullBlock from "components/blocks/Full";
-import ImageBlock from "components/blocks/Image";
 import Title from "components/blocks/Title";
 import Quote from "components/blocks/Quote";
-import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
-import EndChapter from "components/blocks/EndChapter";
-import Table from "components/blocks/Table";
+import TableIntro from "components/blocks/TableIntro";
 
 export default () => (
   <article>
     <Helmet>
-      <title>Introducción | Amazonía en la encrucijada socioambiental</title>
+      <title>Início | Amazônia: a encruzilhada socioambiental </title>
     </Helmet>
     <Container>
+      <Title as="h2">Início</Title>
       <Note>
         <p>
-          La Pan Amazonía resguarda el bosque tropical más extenso del mundo, representa el 40% de la extensión de Sudamérica. En ella habitan pueblos indígenas que cubren el 28% del territorio y una mega-biodiversidad en áreas protegidas que representan el 23% de la región. Ahora, más que nunca, esta gran riqueza cultural y natural afronta diversos retos.
+          A Pan-Amazônia protege a floresta tropical mais extensa do mundo, representando 40% da América do Sul.  Nela habitam povos indígenas que cobrem 28% do território e uma mega biodiversidade em áreas protegidas que representam 23% da região. Agora, mais do que nunca, esta grande riqueza cultural e natural enfrenta diversos desafios.
         </p>
       </Note>
 
       <Paragraph>
-        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/" language="es">Red Amazónica de Información Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}grupo técnico formado por organizaciones de seis países de la región, publicó la más reciente colección de mapas con las presiones y amenazas que enfrenta la Amazonía.
+        A <ExternalLink href="https://www.amazoniasocioambiental.org/es/" language="es">Rede Amazônica de Informação Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}, um grupo técnico formado por organizações de seis países da região, publicou sua mais recente coleção de mapas com as pressões e ameaças enfrentadas na Amazônia.
       </Paragraph>
 
       <Paragraph>
-        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publicación, actualizada al 2018</ExternalLink>{" "}, aborda las intervenciones en infraestructura de transporte, energía e industrias extractivas, además de hacer un seguimiento a la frecuencia de quemas e incendios. Los resultados indican que <StoryMedia
+        A <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publicação, atualizada em 2018</ExternalLink>{" "}, aborda seis temas: intervenções em infraestrutura de transportes (vias), energia (hidrelétricas) e indústrias extrativas (mineração e petróleo), além de monitorar a frequência de queimadas e desmatamentos. Os resultados indicam que <StoryMedia
         icon="map"
         media={{
         id: "map_01",
@@ -46,19 +42,109 @@ export default () => (
             zoomMin: 3,
             zoomMax: 10
           }
-        }}> 68% de las áreas naturales protegidas y territorios indígenas de la región tienen superposición con proyectos de infraestructura y planes de inversión</StoryMedia>.
+        }}> 68% das áreas naturais protegidas e territórios indígenas da região se sobrepõem a projetos de infraestrutura e planos de investimento</StoryMedia>.
       </Paragraph>
 
       <Paragraph>
-        La RAISG muestra que, sólo considerando minería y  petróleo, 87,2 millones de hectáreas o el 22% de los 390 millones de hectáreas dedicadas a la conservación y a territorios indígenas están sujetas a algún tipo de amenaza o presión.
+        <strong>Total de pressões e ameaças - Qtd de temas analisados que se superpõe a territórios indígenas  (TIs) e áreas naturais protegidas (ANPs)</strong>
+      </Paragraph>
+
+      <TableIntro>
+        <table>
+          <tr>
+            <th># temas</th>
+            <th># TI</th>
+            <th></th>
+            <th></th>
+            <th># temas</th>
+            <th># ANP</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>523</td>
+            <td>8,20%</td>
+            <th></th>
+            <td>0</td>
+            <td>63</td>
+            <td>9,10%</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2584</td>
+            <td>40,70%</td>
+            <th></th>
+            <td>1</td>
+            <td>141</td>
+            <td>20,38%</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2042</td>
+            <td>32,20%</td>
+            <th></th>
+            <td>2</td>
+            <td>188</td>
+            <td>27,17%</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>877</td>
+            <td>13,80%</td>
+            <th></th>
+            <td>3</td>
+            <td>193</td>
+            <td>27,89%</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>279</td>
+            <td>4,40%</td>
+            <th></th>
+            <td>4</td>
+            <td>90</td>
+            <td>13,01%</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>35</td>
+            <td>0,60%</td>
+            <th></th>
+            <td>5</td>
+            <td>15</td>
+            <td>2,17%</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>5</td>
+            <td>0,10%</td>
+            <th></th>
+            <td>6</td>
+            <td>2</td>
+            <td>0,29%</td>
+          </tr>
+          <tr>
+            <th>Total TI</th>
+            <th>6345</th>
+            <th>100%</th>
+            <th></th>
+            <th>Total ANP</th>
+            <th>692</th>
+            <th>100%</th>
+          </tr>
+        </table>
+      </TableIntro>
+
+      <Paragraph>
+        A RAISG mostra que, considerando apenas mineração e petróleo, 87,2 milhões de hectares ou 22% dos 390 milhões de hectares dedicados à conservação e territórios indígenas estão sujeitos a algum tipo de ameaça ou pressão.
       </Paragraph>
 
       <Paragraph>
-        Sus mapas también revelan la presencia de hidroeléctricas y carreteras en áreas naturales protegidas y en territorios indígenas. En este sentido, de las 272 grandes centrales hidroeléctricas en la región amazónica - sean planificadas, en construcción o en operación - 78 están dentro de territorios indígenas y 84 se hallan en conflicto con áreas naturales protegidas. Con  relación a las carreteras y vías, de los 136 mil kilómetros mapeados en la región, aproximadamente 20% (26 mil km) están superpuestos con áreas naturales protegidas y territorios indígenas.
+        Seus mapas também revelam a presença de hidrelétricas e estradas em áreas naturais protegidas e em territórios indígenas. Nesse sentido, das 272 grandes usinas hidrelétricas da Amazônia - planejadas, em construção ou em operação - 78 estão dentro dos territórios indígenas e 84 estão em conflito com áreas naturais protegidas. No que diz respeito a estradas e rotas, dos 136.000 quilômetros mapeados na região, aproximadamente 20% (26.000 km) são sobrepostos com áreas naturais protegidas e territórios indígenas.
       </Paragraph>
 
-      <Quote author="Richard C. Smith, director del Instituto Bien Común, del Perú">
-        Actualmente, no existe una política nacional para la Amazonía que nos permita trazar una visión integral, coherente y de largo plazo para la región. Por consiguiente, una estrategia clara de desarrollo territorial tampoco está en vigor. De hecho, la orientación de las decisiones políticas depende principalmente de las circunstancias y de la voluntad de los actuales gobernantes
+      <Quote author="Richard C. Smith, diretor do Well Common Institute, do Peru">
+        Atualmente, não existe uma política nacional para a Amazônia que nos permita traçar uma visão abrangente, coerente e de longo prazo para a região. Portanto, uma estratégia clara de desenvolvimento territorial também não está em vigor. De fato, a orientação das decisões políticas depende principalmente das circunstâncias e da vontade dos atuais governantes
       </Quote>
     </Container>
   </article>
