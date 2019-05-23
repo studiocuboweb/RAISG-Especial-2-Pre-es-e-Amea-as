@@ -12,10 +12,10 @@ import TableIntro from "components/blocks/TableIntro";
 export default () => (
   <article>
     <Helmet>
-      <title>Início | Amazônia: a encruzilhada socioambiental </title>
+      <title>Introdução | Amazônia: a encruzilhada socioambiental </title>
     </Helmet>
     <Container>
-      <Title as="h2">Início</Title>
+      <Title as="h2">Introdução</Title>
       <Note>
         <p>
           A Pan-Amazônia protege a floresta tropical mais extensa do mundo, representando 40% da América do Sul.  Nela habitam povos indígenas que cobrem 28% do território e uma mega biodiversidade em áreas protegidas que representam 23% da região. Agora, mais do que nunca, esta grande riqueza cultural e natural enfrenta diversos desafios.
