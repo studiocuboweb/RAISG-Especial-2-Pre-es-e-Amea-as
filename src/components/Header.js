@@ -196,7 +196,7 @@ class Header extends Component {
                   <img src={require("images/partners/infoamazonia-crop.png")} className="logo-infoamazonia" alt="INFOAMAZONIA" />
                 </a>
                 <a href="https://www.amazoniasocioambiental.org" target="_blank">
-                  <img src={require("images/partners/avatar_r_cheio.png")} className="logo-raisg" alt="RAISG"/>
+                  <img src={require("images/partners/avatar_r_vazado.png")} className="logo-raisg" alt="RAISG"/>
                 </a>
               </div>
             </div>

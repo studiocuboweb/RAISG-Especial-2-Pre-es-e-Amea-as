@@ -13,13 +13,13 @@ import FileLink from "components/FileLink";
 export default () => (
   <article>
     <Helmet>
-      <title>Caminos selva adentro | Amazonía en la encrucijada socioambiental</title>
+      <title>Caminhos selva adentro | Amazônia: a encruzilhada socioambiental</title>
     </Helmet>
     <Container>
-      <Title as="h2">Caminos selva adentro</Title>
+      <Title as="h2">Caminhos selva adentro</Title>
       <Note>
         <p>
-          La 
+          A 
           <StoryMedia
               media={{
               id: "image-1",
@@ -28,17 +28,17 @@ export default () => (
                 credits: "Paulo Santos",
                 src: require("photos/chapter2/PauloSantos_AnapuPara_13_Transamazonica©PS.jpg")
               }
-            }}> apertura de nuevas carreteras</StoryMedia>, 
-          ferrocarriles e hidrovías en la selva amazónica, siempre ha sido y será el principal vector de transformación del territorio.
+            }}> abertura de novas estradas</StoryMedia>, 
+          ferrovias e hidrovias na floresta amazônica sempre foi e será o principal vetor de transformação do território.
         </p>
       </Note>
 
       <Paragraph>
-        Más de 136 mil kilómetros de carreteras se han desarrollado hasta el 2018 en la Pan Amazonía, siendo que 26 mil kilómetros están localizadas dentro de áreas naturales protegidas y territorios indígenas.  De este total, 16,9 mil kilómetros atraviesan territorios indígenas y 9,1 mil km fragmentan áreas naturales protegidas.
+        Mais de 136 mil quilômetros de estradas foram construídas até 2018 na Pan- Amazônia, onde 26 mil quilômetros estão localizados dentro de áreas naturais protegidas e territórios indígenas. Desse total, 16,9 mil quilômetros cruzam territórios indígenas e 9,1 mil km, trechos protegidos de áreas naturais.
       </Paragraph>
 
       <Paragraph>
-        El caso de la Amazonía brasileña nos sirve para visualizar el futuro de toda la región.
+        O caso da Amazônia brasileira nos ajuda a visualizar o futuro de toda a região.
         <StoryMedia
         icon="map"
         media={{
@@ -54,17 +54,17 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> La mayor parte de la deforestación ocurre en las inmediaciones de carreteras
+        }}> A maior parte do desmatamento ocorre na proximidade de estradas
         </StoryMedia>, 
-        y se estima que aproximadamente <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">90% de la  pérdida de vegetación nativa ocurrirá hasta una distancia de 100 kilómetros de la red vial</ExternalLink>, de acuerdo con el estudio “Space-time dynamics of deforestation in Brazilian Amazonia” , publicado en la revista científica International Journal of Remote Sensing, en 2002. 
+        e estima-se que aproximadamente <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">90% da perda de vegetação nativa ocorrerá até uma distância de 100 quilômetros da malha viária</ExternalLink>, segundo o estudo "Space-time dynamics of deforestation in Brazilian Amazonia", publicado na revista científica International Journal of Remote Sensing, em 2002.
       </Paragraph>
 
       <Paragraph>
-        Los resultados de las investigaciones sobre este tema, sin embargo, varían en cuanto a cuál es la distancia en la que ocurre la mayor intensidad de deforestación. Por ejemplo, Gregory Asner, en 2006, encuentra que <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">hasta 50 km de las carreteras tiene lugar 67% de la deforestación</ExternalLink>, pero, según el trabajo de Kenneth M. Chomitz y Timothy S. Thomas, a esa distancia ya <ExternalLink href="http://documents.worldbank.org/curated/en/102381468769744789/Geographic-patterns-of-land-use-and-land-intensity-in-the-Brazilian-Amazon" language="en">la cobertura vegetal ha sido removida a un nivel de 85%</ExternalLink>. En contraposición y casi una década después, los hallazgos de Christopher P. Barber muestran que en la Amazonía Legal brasileña <ExternalLink href="https://www.sciencedirect.com/science/article/abs/pii/S000632071400264X" language="en">94,9% de la deforestación ocurrió en los 5,5 kilómetros contiguos a las carreteras y un kilómetro de los ríos</ExternalLink>. Todo esto pone en evidencia la íntima conexión entre  la expansión de estos medios de transporte y la eliminación de la vegetación nativa.
+        Os resultados das pesquisas sobre esse assunto, no entanto, variam quanto à distância em que ocorre a maior intensidade de desmatamento. Por exemplo, Gregory Asner, em 2006, descobriu que <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">a uma distância máxima de 50 km das estradas ocorrem 67% do desmatamento</ExternalLink>, mas, de acordo com o trabalho de Kenneth M. Chomitz e Timothy S. Thomas, a essa distância a <ExternalLink href="http://documents.worldbank.org/curated/en/102381468769744789/Geographic-patterns-of-land-use-and-land-intensity-in-the-Brazilian-Amazon" language="en">cobertura vegetal foi removida em um nível de 85%</ExternalLink>. Em contraste e quase uma década depois, as descobertas de Christopher P. Barber mostram que na Amazônia Legal brasileira <ExternalLink href="https://www.sciencedirect.com/science/article/abs/pii/S000632071400264X" language="en">94,9% do desmatamento ocorreu nos 5,5 quilômetros adjacentes às estradas e um quilômetro dos rios</ExternalLink>. Tudo isso evidencia a íntima conexão entre a expansão desses meios de transporte e a eliminação da vegetação nativa.
       </Paragraph>
 
       <Paragraph>
-        Con carreteras abiertas en los años 60, Brasil conoce bien los efectos de la ocupación propiciada por la construcción de arterias viales que conectan el norte y el sur del país. Otros países como Perú, evalúan ahora las consecuencias de la construcción 
+        Com as estradas abertas na década de 1960, o Brasil está bem ciente dos efeitos da ocupação causada pela construção de artérias rodoviárias que ligam o norte e o sul do país. Outros países, como o Peru, estão agora avaliando as conseqüências da construção 
         <StoryMedia
           media={{
           id: "image-2",
@@ -73,17 +73,17 @@ export default () => (
             credits: "Andina",
             src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
           }
-        }}> reciente de grandes carreteras, como es el caso de la Interoceánica Sur, concluida en 2010
+        }}> recente de importantes rodovias, como a Interoceânica Sul, concluída em 2010
         </StoryMedia>.
-        Y zonas de la Amazonía previamente no afectadas pasan ahora por un boom de nuevas vías, como es el caso en Colombia y Bolivia.
+        E áreas anteriormente não afetadas da Amazônia estão experimentando agora um boom de novas estradas, como é o caso da Colômbia e da Bolívia.
       </Paragraph>
 
       <Paragraph>
-        <strong className='regular-title'>Nuevas vías, nuevos actores</strong>
+        <strong className='regular-title'>Novas rotas, novos atores</strong>
       </Paragraph>
 
       <Paragraph>
-        Actualmente, la
+        Atualmente, a
         <StoryMedia
         icon="map"
         media={{
@@ -99,16 +99,16 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> Amazonía colombiana tiene un total de 32.780 km de vías de nivel 1 al 7, siendo las de nivel 6 y 7 (vías terciarias) las de mayor extensión con un total de 23.407 km. De este total, 2.336 km se encuentran dentro de Resguardos Indígenas y 7.975 km en Áreas Protegidas
+        }}> Amazônia colombiana tem um total de 32.780 km de estradas do nível 1 ao 7, sendo os níveis 6 e 7 (estradas terciárias) a maior extensão, com um total de 23.407 km. Desse total, 2.336 km estão dentro de Reservas Indígenas e 7.975 km em Áreas Protegidas
         </StoryMedia>.
       </Paragraph>
 
       <FeaturedText>
-       En Colombia, después de la firma del acuerdo de paz, la guerrilla de las FARC dejó de ocupar puntos estratégicos de entrada a la selva amazónica. En estos puntos, la presencia estatal es casi nula, por lo que nuevos actores (legales e ilegales) han empezado a llegar en busca de recursos naturales y tierras.
+        Na Colômbia, após a assinatura do acordo de paz, os guerrilheiros das FARC pararam de ocupar pontos de entrada estratégicos na selva amazônica. Nesses pontos, a presença do estado é quase nula, então novos atores (legais e ilegais) começaram a chegar em busca de recursos naturais e terras.
       </FeaturedText>
 
       <Paragraph>
-        Todo ello ha sido facilitado por la apertura acelerada de nuevas vías y la oficialización de las construidas por la guerilla de las FARC antes de la firma del acuerdo de paz, a través de vías terciarias: la nueva forma de penetración al corazón de la selva. Como se muestra en el mapa de presiones y amenazas (RAISG, 2018),
+        Isto tem sido facilitado pela rápida abertura de novas rotas e a formalização de outras construídas pelos guerrilheiros das FARC antes da assinatura do acordo de paz. São principalmente estradas terciárias, a nova maneira de penetrar no coração da selva. Tal como mostrado no mapa de pressões e ameaças (RAISG, 2018),
         <StoryMedia
         icon="map"
         media={{
@@ -124,17 +124,17 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> la presencia de vías en Colombia se concentra en el arco noroccidental de la Amazonía
+        }}> a presença de estradas na Colômbia é concentrada no arco noroeste da Amazônia
         </StoryMedia>.
-        En el caso de las carreteras de las FARC en este país, de los <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3.753 kilómetros construidos</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km se encuentran dentro de Áreas Protegidas</ExternalLink> de la Amazonía colombiana, específicamente en el Parque Nacional Serranía de Chiribiquete, la Reserva Nacional Natural Nukak y el Parque Nacional Natural Tinigua.
+        No caso das estradas das Farc, dos <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3.753 quilômetros construídos</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km estão dentro de áreas protegidas da Amazônia colombiana</ExternalLink>, especificamente no Parque Nacional Serras de Chiribiquete,n a Reserva Nacional de Vida Selvagem Nukak e no Parque Nacional  Natural Tinigua.
       </Paragraph>
 
       <Paragraph>
-        Refuerza esta tendencia la inversión destinada a la creación y ampliación de carreteras  que penetran en la selva en Colombia, donde alrededor de 1,2 billones de pesos colombianos para vías terciarias del posconflicto están en manos de las gobernaciones departamentales. Además, las inversiones en infraestructura vial para las zonas priorizadas por el acuerdo de paz alcanzan los 1,38 billones de pesos colombianos, provenientes de recursos del Sistema General de Regalías (SGR). 
+        Essa tendência é reforçada pelo investimento na criação e expansão de estradas que penetram na selva da Colômbia, onde cerca de 1,2 trilhão de pesos colombianos destinados a estradas terciárias do pós-conflito estão nas mãos dos governos departamentais. Além disso, os investimentos em infraestrutura rodoviária para áreas priorizadas pelo acordo de paz alcançam 1,38 trilhões de pesos colombiano, graças aos recursos do Sistema Geral de Regalias (SGR).
       </Paragraph>
 
       <Paragraph>
-        En el caso de Bolivia, destaca el
+        No caso da Bolívia, destaca-se o
         <StoryMedia
         icon="map"
         media={{
@@ -150,9 +150,9 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas
+        }}> Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), uma das 22 áreas protegidas nacionais que abrange 1,3 milhões de hectares
         </StoryMedia>.
-        Está delimitada por el río Isiboro (al sur) y el río Sécure (al norte), en el corazón del país. Fue creada para conservar los bosques y la cultura de  los pueblos indígenas que alberga (12 mil habitantes entre mojeños, yuracarés y chimanes). Si bien 80% de su extensión se encuentra en buen estado de conservación, está amenazada por el avance de cultivos desarrollados en su límite sur: enfrenta una gran amenaza debido a la expansión de plantaciones de coca junto a la
+        É delimitado pelo rio Isiboro (sul) e o rio Sécure (norte), no coração do país. Ele foi criado para conservar as florestas e a cultura dos povos indígenas que vivem lá (12 mil habitantes entre Mojeños, Yuracarés e Chimanes). Enquanto 80% de suas terras está em boas condições, o parque é ameaçado pelo avanço dos cultivos em sua fronteira sul.  Principalmente a expansão das plantações de coca junto à
         <StoryMedia
           media={{
           id: "image-3",
@@ -161,17 +161,17 @@ export default () => (
             credits: "El Espectador",
             src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
           }
-        }}> construcción de la nueva carretera Villa Tunari - San Ignacio de Moxos
+        }}> construção da nova estrada Villa Tunari - San Ignacio de Moxos
         </StoryMedia>
-        que atravesaría el núcleo para conectar a los departamentos de Cochabamba y Beni (306 km de largo y 9,2 m de ancho).
+        (306 km de comprimento e 9,2 m de largura) que atravessa o núcleo do território para conectar os departamentos de Cochabamba e Beni.
       </Paragraph>
 
       <Paragraph>
-        Las presiones sobre el TIPNIS son preocupantes y los indígenas denuncian atropellos en su territorio. Tanto el Estado como una facción del CONISUR (Consejo Indígena del Sur), promovido por campesinos y grupos de poder del departamento del Beni mediante diferentes estrategias, han debilitado la resistencia de los indígenas.  El año 2017 se abroga la Ley 180, que declara al Territorio Indígena y Parque Nacional Isiboro Sécure - TIPNIS patrimonio sociocultural y natural, zona de preservación ecológica, reproducción histórica y hábitat de los pueblos indígenas Chimán, Yuracaré y se aprueba la Ley 969, anulando la intangibilidad del TIPNIS en nombre del desarrollo y progreso del país. Este conflicto puso en evidencia la visión de desarrollo del país, basada en la explotación de los recursos naturales, sin considerar los costos y consecuencias socioambientales en el largo plazo.
+        As pressões sobre TIPNIS são preocupantes e os indígenas denunciam abusos em seu território. Tanto o Estado quanto uma facção do CONISUR (Conselho Indígena do Sul), apoiados por agricultores e grupos do departamento de Beni, tem enfraquecido a resistência dos nativos. No ano de 2017 se aprovou a Lei 180, declarando o Território Indígena e Parque Nacional Isiboro Secure (Tipnis) patrimônio sociocultural e natural,  zona de preservação ecológica, reprodução histórica e habitat dos povos indígenas Chimán e Yuracaré. Mas no mesmo ano aprovou-se a Lei 969 anulando a intangibilidade do Tipnis, em nome do desenvolvimento e progresso do país. Este conflito destacou a visão de desenvolvimento baseada na exploração dos recursos naturais sem considerar os custos sociais e ambientais e as consequências a longo prazo.
       </Paragraph>
 
       <Paragraph>
-        En Venezuela, la Organización Regional de Pueblos Indígenas de Amazonas (Orpia) y Wataniba reportan el incremento de caminos fluviales y de tierra que son utilizados para el tráfico de coca. Venezuela sigue sin presentar espacios de producción de esta droga, pero su tráfico se une al de gasolina, alimentos y oro, entre otros bienes, en la frontera colombo-venezolana y colombo-brasilera, e incide en la gobernanza dentro de los territorios indígenas e incluso en la permanencia dentro de éstos. La
+        Na Venezuela, a Organização Regional dos Povos Indígenas do Amazonas (Orpia) e Wataniba relatam aumento de rotas fluviais e estradas de terra que são usadas ​​para traficar cocaína. A Venezuela também possui zonas de produção desta droga e o seu tráfico é aliado aos de gasolina, alimentos e ouro, entre outros bens. Este comércio ocorre nas fronteiras com Colômbia e Brasil e afeta a governança dentro de territórios indígenas e até mesmo na permanência dentro deles. A
         <StoryMedia
           media={{
           id: "image-4",
@@ -180,17 +180,17 @@ export default () => (
             credits: "Guillermos da Silva",
             src: require("photos/chapter2/GuillermoDaSilva_954_Arawak.jpg")
           }
-        }}> presencia de grupos irregulares armados vinculados con el tráfico de diferentes productos y con la creciente minería ilegal en la misma frontera
-        </StoryMedia>
-        ha generado nuevas migraciones internas, donde las comunidades indígenas, y en especial las asociadas a los ejes fluviales fronterizos como los ríos Orinoco y Atabapo, no son la excepción. El pueblo Arawak ha hecho sentir su voz a través de organizaciones como Orpia y Coiam (Coordinadora de Organizaciones Indígenas de Amazonas), debido al desplazamiento de que han sido objeto como consecuencia de la violencia de la que han sido víctimas.
+        }}> presença de grupos armados irregulares ligadas ao tráfico de diferentes produtos e o aumento da mineração ilegal na fronteira têm gerado novas migrações internas, onde comunidades indígenas, especialmente aquelas associadas com eixos fluviais de fronteira
+        </StoryMedia>, 
+        como os rios Orinoco e Atabapo, não são exceção. O povo Arawak fez ouvir a sua voz através de organizações como Orpia e Coiam (Coordenação das Organizações Indígenas da Amazônia) devido ao deslocamento ocorrido como resultado da violência que sofreram.
       </Paragraph>
 
       <Paragraph>
-        <strong className='regular-title'>Hidrovía y ferrovía</strong>
+        <strong className='regular-title'>Hidrovias e ferrovias</strong>
       </Paragraph>
 
       <Paragraph>
-        Dos importantes vías de acceso al territorio amazónico de Perú actúan como vectores de deforestación:
+        Duas importantes vias de acesso ao território da Amazônia no Peru atuam também como vetores de desmatamento:
         <StoryMedia
         icon="map"
         media={{
@@ -206,13 +206,13 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> la Carretera Marginal de la Selva, construida en los años sesenta, que llega hasta Ucayali, y la Interoceánica Sur, concluida en 2010, que llega hasta Madre de Dios
+        }}> a Carretera Marginal de la Selva, construído na década de sessenta, que atinge Ucayali, e a Interoceânica Sul, concluída em 2010, que chega a Madre de Dios
         </StoryMedia>.
-        Asimismo, en años recientes, se ha advertido sobre la proliferación de una red de caminos forestales de penetración construidos sin autorización de los entes competentes de Perú. Estos caminos aceleran el proceso de colonización de la Amazonía peruana al tiempo que facilitan la acción depredadora de mineros, madereros y cultivadores de coca, que operan al margen de la ley.
+        Além disso, nos últimos anos, alertas foram emitidos sobre a proliferação de uma rede de estradas de acesso florestais construídas sem autorização das autoridades competentes no Peru. Estas estradas aceleram o processo de colonização da Amazônia peruana, facilitando as depredações por mineiros, madeireiros e plantadores de coca que operam fora da lei.
       </Paragraph>
 
       <Paragraph>
-        En Perú, están por iniciarse las actividades para la habilitación de la
+        No Peru, devem ser iniciadas as atividades para a conclusão da
         <StoryMedia
         icon="map"
         media={{
@@ -228,21 +228,21 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> Hidrovía Amazónica, que busca crear un extenso canal de navegación conectando los caudalosos ríos Marañón, Amazonas, Huallaga y Ucayali
+        }}> Hidrovia Amazônica, que criará um extenso canal de navegação para ligar os rios Marañon, Amazonas, Ucayali e Huallaga
         </StoryMedia>.
-        Esta obra, orientada a dinamizar el transporte fluvial de carga, pretende asegurar condiciones de navegabilidad permanentes a lo largo de los 2.600 kilómetros que separan los terminales portuarios de Yurimaguas, Iquitos y Pucallpa.
+        Esta obra, orientada a dinamizar o transporte fluvial de carga busca assegurar condições de navegabilidade permanente ao longo dos 2.600 quilômetros entre os terminais portuários de Yurimaguas, Iquitos e Pucallpa.
       </Paragraph>
 
       <Paragraph>
-        Las obras contemplan el dragado o remoción de sedimentos en zonas poco profundas y accidentadas de los mencionados ríos. Los especialistas advierten del impacto ambiental, toda vez que el reglamento de Protección Ambiental en el sector Transportes no contempla medidas específicas para hidrovías. De otro lado, señalan que el proyecto no ha considerado el impacto que tendrá el dragado de los ríos sobre el tránsito, reproducción y desove de peces, ni ha tomado en cuenta la turbidez que causará en el agua, que es usada por las poblaciones locales. Todo permite anticipar que la hidrovía se convertirá en un nuevo foco de conflicto socioambiental. Sin embargo, es motivo de esperanza la decisión, en marzo de 2019, del Servicio Nacional de Certificación Ambiental para las Inversiones Sostenibles (Senace), el cual por segunda vez rechazó el Estudio de Impacto Ambiental (EIA) del proyecto Hidrovía Amazónica. Sin este requisito no se puede dar inicio a las obras.
+        As obras contemplam a dragagem ou remoção de sedimentos em áreas rasas e acidentadas dos rios mencionados. Especialistas alertam para o impacto ambiental, já que o regulamento de Proteção Ambiental no setor de Transportes não inclui medidas específicas para hidrovias. Além disso, eles apontam que o projeto não considerou o impacto que a dragagem de rios em matéria de trânsito, reprodução e desova dos peixes, nem teve em conta a turbidez que afetará a água usada pelas populações locais. Tudo isso permite antecipar que a hidrovia se tornará um novo foco de conflito socioambiental. No entanto,  há razão para a esperança, já que em decisão de março de 2019, o Serviço Nacional de Certificação Ambiental para o Investimento Sustentável (Senace), pela segunda vez rejeitou a Avaliação de Impacto Ambiental (EIA) do projeto da Hidrovia Amazônica. Sem esse requisito, as obras não podem ser iniciadas.
       </Paragraph>
 
       <Paragraph>
-        En Colombia, el presidente Duque se comprometió a gestionar la navegabilidad del río Vaupés, además de un sistema de transporte multimodal que conectará al Municipio de Calamar, en el Departamento del Guaviare con el Municipio de Mitú (Vaupés Colombia) y Yavaraté (Brasil), lo que generaría una aceleración en los procesos de colonización en la zona.
+        Na Colômbia, o presidente Duke comprometeu-se a melhorar a navegabilidade do rio Vaupés, além de um sistema de transporte multimodal que vai ligar o município de Calamar, em Guaviare com a Prefeitura de Mitu (Vaupés, Colômbia) e Yavaraté (Brasil), o que geraria uma aceleração nos processos de colonização na área.
       </Paragraph>
 
       <Paragraph>
-        Por su parte, la continua expansión de la infraestructura de transportes en la Amazonia brasileña tiene como uno de sus protagonistas la modalidad ferroviaria. Con casi mil kilómetros de extensión, partiendo
+        Por outro lado, a contínua expansão da infraestrutura de transporte na Amazônia brasileira tem como um de seus protagonistas a modalidade ferroviária. Com quase mil quilômetros de extensão, a partir
         <StoryMedia
         icon="map"
         media={{
@@ -258,9 +258,9 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> de la región productora de cereales de Sinop (Mato Grosso) hasta el puerto de Miritituba (Pará), Ferrogrão
-        </StoryMedia>
-        pretende consolidar el nuevo corredor ferroviario de exportación de Brasil por el norte del país. Paralelo a la carretera BR-163, el ferrocarril puede potenciar los impactos socioambientales negativos en la región, con amenazas directas e indirectas a áreas naturales protegidas y territorios  indígenas.
+        }}> da região produtora de grãos de Sinop (Mato Grosso) para o porto de Miritituba (Pará), a Ferrogrão
+        </StoryMedia>,  
+        visa consolidar a exportação através de um novo corredor ferroviário para o norte do país. Em paralelo à rodovia BR-163, a estrada de ferro pode potencializar os impactos sociais e ambientais negativos na região, com danos diretos e indiretos a áreas naturais protegidas e ameaças a territórios indígenas.
       </Paragraph>
     </Container>
   </article>

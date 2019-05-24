@@ -12,7 +12,7 @@ import Quote from "components/blocks/Quote";
 import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
 import EndChapter from "components/blocks/EndChapter";
-import Table from "components/blocks/Table";
+import TableIntro from "components/blocks/TableIntro";
 
 export default () => (
   <article>
@@ -32,7 +32,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publicación, actualizada al 2018</ExternalLink>{" "}, aborda las intervenciones en infraestructura de transporte, energía e industrias extractivas, además de hacer un seguimiento a la frecuencia de quemas e incendios. Los resultados indican que <StoryMedia
+        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publicación, actualizada al 2018</ExternalLink>{" "}, aborda seis temas: intervenciones en infraestructura de transportes (vías), energía (hidroeléctricas) e industrias extractivas (minería y petróleo), además de hacer un seguimiento a la frecuencia de quemas y deforestación. Los resultados indican que <StoryMedia
         icon="map"
         media={{
         id: "map_01",
@@ -49,6 +49,96 @@ export default () => (
           }
         }}> 68% de las áreas naturales protegidas y territorios indígenas de la región tienen superposición con proyectos de infraestructura y planes de inversión</StoryMedia>.
       </Paragraph>
+
+      <Paragraph>
+        <strong>Total de presiones y amenazas - Qtd de temas analizados que se superponen a territorios indígenas (TIs) y áreas naturales protegidas (ANPs)</strong>
+      </Paragraph>
+
+      <TableIntro>
+        <table>
+          <tr>
+            <th># temas</th>
+            <th># TI</th>
+            <th></th>
+            <th></th>
+            <th># temas</th>
+            <th># ANP</th>
+            <th></th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>523</td>
+            <td>8,20%</td>
+            <th></th>
+            <td>0</td>
+            <td>63</td>
+            <td>9,10%</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2584</td>
+            <td>40,70%</td>
+            <th></th>
+            <td>1</td>
+            <td>141</td>
+            <td>20,38%</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2042</td>
+            <td>32,20%</td>
+            <th></th>
+            <td>2</td>
+            <td>188</td>
+            <td>27,17%</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>877</td>
+            <td>13,80%</td>
+            <th></th>
+            <td>3</td>
+            <td>193</td>
+            <td>27,89%</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>279</td>
+            <td>4,40%</td>
+            <th></th>
+            <td>4</td>
+            <td>90</td>
+            <td>13,01%</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>35</td>
+            <td>0,60%</td>
+            <th></th>
+            <td>5</td>
+            <td>15</td>
+            <td>2,17%</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>5</td>
+            <td>0,10%</td>
+            <th></th>
+            <td>6</td>
+            <td>2</td>
+            <td>0,29%</td>
+          </tr>
+          <tr>
+            <th>Total TI</th>
+            <th>6345</th>
+            <th>100%</th>
+            <th></th>
+            <th>Total ANP</th>
+            <th>692</th>
+            <th>100%</th>
+          </tr>
+        </table>
+      </TableIntro>
 
       <Paragraph>
         La RAISG muestra que, sólo considerando minería y  petróleo, 87,2 millones de hectáreas o el 22% de los 390 millones de hectáreas dedicadas a la conservación y a territorios indígenas están sujetas a algún tipo de amenaza o presión.
