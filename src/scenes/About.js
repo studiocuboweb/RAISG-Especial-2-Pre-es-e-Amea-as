@@ -84,7 +84,12 @@ const About = ({ intl, lastPath }) => {
               values={{
                 link: (
                   <strong>
-                    <a href="https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/" target="_blank">Presiones y amenazas sobre las Áreas Protegidas y los Territorios Indígenas de la Amazonía 2018</a>
+                    <a href="https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/" target="_blank">
+                      <FormattedMessage
+                        id="text.link"
+                        defaultMessage="The Looted Amazon is an overview of the situation of illegal mining in six Amazonian countries. The analyses and cases presented are based on data from the platform."
+                      />
+                    </a>
                   </strong>
                 )
               }}
@@ -97,7 +102,7 @@ const About = ({ intl, lastPath }) => {
               values={{
                 link2: (
                   <strong>
-                    <a href="https://www.amazoniasocioambiental.org/es/mapas/#descargas" target="_blank">en la página de RAISG</a>
+                    <a href="https://www.amazoniasocioambiental.org/es/mapas/#descargas" target="_blank">RAISG</a>
                   </strong>
                 )
               }}

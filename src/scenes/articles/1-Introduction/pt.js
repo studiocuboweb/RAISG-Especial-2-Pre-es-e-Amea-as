@@ -37,9 +37,9 @@ export default () => (
             legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
+            coordinates: [-61.480337,-5.080136],
             zoomNumber: 4,
-            zoomMin: 3,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> 68% das áreas naturais protegidas e territórios indígenas da região se sobrepõem a projetos de infraestrutura e planos de investimento</StoryMedia>.

@@ -41,8 +41,8 @@ class LegendCollapse extends React.Component {
             <div key="1" className="input">
             {legend == 'legend1' &&
                 <div>
-                    <RAISGPressoes2018_geral_escala1 key="legend11" defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
-                    <RAISGPressoes2018_geral_escala2 key="legend12" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <RAISGPressoes2018_geral_escala1 key="legend11" defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <RAISGPressoes2018_geral_escala2 key="legend12" defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }
             {legend == 'legend2' &&

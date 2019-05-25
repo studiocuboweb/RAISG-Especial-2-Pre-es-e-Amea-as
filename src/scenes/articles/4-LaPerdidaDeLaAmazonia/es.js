@@ -70,7 +70,7 @@ export default () => (
       </LittleNote>
 
       <Paragraph>
-        La deforestación en el interior de estos territorios y áreas protegidas sigue siendo pequeña en términos absolutos y se encuentra concentrada en regiones críticas.  No obstante, hay una tendencia a la aceleración de la pérdida de biodiversidad. Este proceso viene acompañado de una creciente violencia contra los pueblos indígenas. Como mostró recientemente una investigación acerca de <ExternalLink href="https://colombiacheck.com/especiales/tierra-resistentes/es-co/" language="es">1.356 hechos de amenazas y asesinatos de líderes en América Latina, 56% de esos episodios de violencia (761 registros) pertenece a alguna minoría étnica</ExternalLink>, demostrando que los territorios indígenas y afrodescendientes son especialmente vulnerables a estos intereses criminales
+        La deforestación en el interior de estos territorios y áreas protegidas sigue siendo pequeña en términos absolutos y se encuentra concentrada en regiones críticas.  No obstante, hay una tendencia a la aceleración de la pérdida de biodiversidad. Este proceso viene acompañado de una creciente violencia contra los pueblos indígenas. Como mostró recientemente una investigación acerca de <ExternalLink href="https://colombiacheck.com/especiales/tierra-resistentes/es-co/" language="es">1.356 hechos de amenazas y asesinatos de líderes en América Latina, 56% de esos episodios de violencia (761 registros) pertenece a alguna minoría étnica</ExternalLink>, demostrando que los territorios indígenas y afrodescendientes son especialmente vulnerables a estos intereses criminales.
       </Paragraph>
 
       <Paragraph>
@@ -270,7 +270,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Un ejemplo de ello es el caso de Ecuador, donde  el Banco Central  reportó un total de
+        Un ejemplo de ello es el caso de Ecuador, donde el Banco Central reportó un total de
           <FileLink
             href={require("documents/chapter4/Mineria_gran_escala_El Comercio_Ecuador.pdf")}
             format="pdf"

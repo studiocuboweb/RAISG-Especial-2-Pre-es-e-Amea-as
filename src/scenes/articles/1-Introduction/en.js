@@ -41,9 +41,9 @@ export default () => (
             legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-62.798552,-7.736987],
+            coordinates: [-61.480337,-5.080136],
             zoomNumber: 4,
-            zoomMin: 3,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> 68% de las áreas naturales protegidas y territorios indígenas de la región tienen superposición con proyectos de infraestructura y planes de inversión</StoryMedia>.
