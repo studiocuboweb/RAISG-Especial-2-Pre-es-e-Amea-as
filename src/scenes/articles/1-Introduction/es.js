@@ -17,7 +17,7 @@ import TableIntro from "components/blocks/TableIntro";
 export default () => (
   <article>
     <Helmet>
-      <title>Introducción | Amazonía en la encrucijada socioambiental</title>
+      <title>Introducción | Amazonía en la encrucijada</title>
     </Helmet>
     <Container>
       <Title as="h2">Introducción</Title>
@@ -42,7 +42,7 @@ export default () => (
             legend:"legend1",
             update: "map1_1",
             showExtraLayers: [],
-            coordinates: [-61.480337,-5.080136],
+            coordinates: [-61.480337,-6.435536],
             zoomNumber: 4,
             zoomMin: 4,
             zoomMax: 10

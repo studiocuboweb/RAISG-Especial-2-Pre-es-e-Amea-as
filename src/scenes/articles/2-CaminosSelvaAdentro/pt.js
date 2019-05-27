@@ -42,16 +42,16 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_01",
+        id: "map_02",
         type: "mapbox",
           data: {
             map: "map2",
-            legend:"legend9",
+            legend:"legend2",
             update:"map2",
-            showExtraLayers: ['carreteras x deforestación en Brasil'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            showExtraLayers: ['GERAL - PETROLEO'],
+            coordinates: [-62.965837,-5.841715],
+            zoomNumber: 4,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> A maior parte do desmatamento ocorre na proximidade de estradas
@@ -83,7 +83,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Atualmente, a
+        Atualmente, a Amazônia colombiana tem um total de 32.780 km de estradas do nível 1 ao 7, sendo os níveis 6 e 7 (estradas terciárias) a maior extensão, com um total de 23.407 km. Desse total,
         <StoryMedia
         icon="map"
         media={{
@@ -99,7 +99,7 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> Amazônia colombiana tem um total de 32.780 km de estradas do nível 1 ao 7, sendo os níveis 6 e 7 (estradas terciárias) a maior extensão, com um total de 23.407 km. Desse total, 2.336 km estão dentro de Reservas Indígenas e 7.975 km em Áreas Protegidas
+        }}> 2.336 km estão dentro de Reservas Indígenas e 7.975 km em Áreas Protegidas
         </StoryMedia>.
       </Paragraph>
 
@@ -108,25 +108,7 @@ export default () => (
       </FeaturedText>
 
       <Paragraph>
-        Isto tem sido facilitado pela rápida abertura de novas rotas e a formalização de outras construídas pelos guerrilheiros das FARC antes da assinatura do acordo de paz. São principalmente estradas terciárias, a nova maneira de penetrar no coração da selva. Tal como mostrado no mapa de pressões e ameaças (RAISG, 2018),
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_03",
-        type: "mapbox",
-          data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS Colombia, localiza arco noroccidental de la Amz - presiones ANPs y TIs'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
-            zoomMax: 10
-          }
-        }}> a presença de estradas na Colômbia é concentrada no arco noroeste da Amazônia
-        </StoryMedia>.
-        No caso das estradas das Farc, dos <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3.753 quilômetros construídos</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km estão dentro de áreas protegidas da Amazônia colombiana</ExternalLink>, especificamente no Parque Nacional Serras de Chiribiquete,n a Reserva Nacional de Vida Selvagem Nukak e no Parque Nacional  Natural Tinigua.
+        Isto tem sido facilitado pela rápida abertura de novas rotas e a formalização de outras construídas pelos guerrilheiros das FARC antes da assinatura do acordo de paz. São principalmente estradas terciárias, a nova maneira de penetrar no coração da selva. Tal como mostrado no mapa de pressões e ameaças (RAISG, 2018), a presença de estradas na Colômbia é concentrada no arco noroeste da Amazônia. No caso das estradas das Farc, dos <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3.753 quilômetros construídos</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km estão dentro de áreas protegidas da Amazônia colombiana</ExternalLink>, especificamente no Parque Nacional Serras de Chiribiquete,n a Reserva Nacional de Vida Selvagem Nukak e no Parque Nacional  Natural Tinigua.
       </Paragraph>
 
       <Paragraph>

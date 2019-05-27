@@ -52,31 +52,31 @@ class RAISGPressoes2018_geral_escala2 extends Component {
                 <span className={this.state.arrowClass} onClick={this.toggle}></span>
             </label>
             <Collapse isOpened={this.state.collapse}>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingTop:'10px'}}><img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend2_1_0" defaultMessage="no pressure or threat known">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend1.legend2_1_0" defaultMessage="no pressure or threat known">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_square_1.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend2_1_1" defaultMessage="1 pressure/threat">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_1.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend1.legend2_1_1" defaultMessage="1 pressure/threat">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_square_2.png')} alt='ico_circle-11_inactive2' title='ico_circle-11_inactive2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend2_1_2" defaultMessage="2 pressures/threats">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_2.png')} alt='ico_circle-11_inactive2' title='ico_circle-11_inactive2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend1.legend2_1_2" defaultMessage="2 pressures/threats">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_square_3.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend2_1_3" defaultMessage="3 pressures/threats">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_3.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend1.legend2_1_3" defaultMessage="3 pressures/threats">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_square_4.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend2_1_4" defaultMessage="4 pressures/threats">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_4.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend1.legend2_1_4" defaultMessage="4 pressures/threats">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_square_5.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend2_1_5" defaultMessage="5 pressures/threats">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_5.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend1.legend2_1_5" defaultMessage="5 pressures/threats">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>
-                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px'}}><img src={require('images/legend-icons/ico_square_6.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':0,'padding':0}} /></span><FormattedMessage id="legend1.legend2_1_6" defaultMessage="6 pressures/threats">
+                <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_6.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend1.legend2_1_6" defaultMessage="6 pressures/threats">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 </div>

@@ -8,7 +8,7 @@ import MAP_STYLE5 from './styles/Map5.json';
 import MAP_STYLE6 from './styles/Map6.json';
 import "styles/mapbox.css";
 import Legend1 from './legends/Legend1';
-
+import Legend2 from './legends/Legend1';
 
 const styles = {
   map1: MAP_STYLE1,
@@ -247,6 +247,20 @@ export default class StyleControls extends PureComponent {
           </div>
       );
   }
+  _renderLayerControl() {
+    const {visibility} = this.state;
+    const LegendCollapse = Legend2;
+    return (
+        <div>
+        <LegendCollapse
+          visibility={visibility}
+          onVisibilityChange={this._onVisibilityChange}
+          legend={this.props.legend}
+          parentScope={this}
+        />
+        </div>
+    );
+}
   _toggleLegend() {
     if (this.state.displayLegend['display'] == 'none') {
       this.setState({displayLegend: {'display':'block'}})

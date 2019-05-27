@@ -44,17 +44,17 @@ export default () => (
         <StoryMedia
           icon="map"
           media={{
-          id: "map_01",
+          id: "map_09",
           type: "mapbox",
             data: {
-              map: "map3",
-              legend:"legend3",
-              update:"map3",
-              showExtraLayers: ['GERAL - MINERIA E PETROLEO'],
-              coordinates: [-64.770093,-6.650804],
-              zoomNumber: 4.00,
+              map: "map2",
+              legend:"legend2",
+              update:"map2",
+              showExtraLayers: ['MINERIA E PETROLEO'],
+              coordinates: [-62.965837,-5.841715],
+              zoomNumber: 4,
               zoomMin: 4,
-              zoomMax: 12
+              zoomMax: 10
             }
           }}> áreas sob concessões de mineração e hidrocarbonetos
           </StoryMedia>. 

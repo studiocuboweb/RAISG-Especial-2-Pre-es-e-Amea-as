@@ -3,7 +3,7 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
-class RAISGPressoes2018_geral_escala1 extends Component {
+class RAISGPressoes2018_Petroleo_geral1 extends Component {
 
     constructor(props) {
         super(props);
@@ -109,4 +109,4 @@ class RAISGPressoes2018_geral_escala1 extends Component {
     }
 }
 
-export default RAISGPressoes2018_geral_escala1;
+export default RAISGPressoes2018_Petroleo_geral1;

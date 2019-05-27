@@ -16,7 +16,7 @@ import Board from "components/blocks/Board";
 export default () => (
   <article>
     <Helmet>
-    <title>La pérdida de la Amazonía | Amazonía en la encrucijada socioambiental</title>
+    <title>La pérdida de la Amazonía | Amazonía en la encrucijada</title>
     </Helmet>
     <Container>
       <Title as="h2">La pérdida de la Amazonía</Title>

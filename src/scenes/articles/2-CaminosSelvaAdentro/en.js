@@ -13,7 +13,7 @@ import FileLink from "components/FileLink";
 export default () => (
   <article>
     <Helmet>
-      <title>Caminos selva adentro | Amazonía en la encrucijada socioambiental</title>
+      <title>Caminos selva adentro | Amazonía en la encrucijada</title>
     </Helmet>
     <Container>
       <Title as="h2">Caminos selva adentro</Title>
@@ -83,7 +83,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Actualmente, la
+        Actualmente, la Amazonía colombiana tiene un total de 32.780 km de vías de nivel 1 al 7, siendo las de nivel 6 y 7 (vías terciarias) las de mayor extensión con un total de 23.407 km. De este total,
         <StoryMedia
         icon="map"
         media={{
@@ -99,7 +99,7 @@ export default () => (
             zoomMin: 5,
             zoomMax: 10
           }
-        }}> Amazonía colombiana tiene un total de 32.780 km de vías de nivel 1 al 7, siendo las de nivel 6 y 7 (vías terciarias) las de mayor extensión con un total de 23.407 km. De este total, 2.336 km se encuentran dentro de Resguardos Indígenas y 7.975 km en Áreas Protegidas
+        }}> 2.336 km se encuentran dentro de Resguardos Indígenas y 7.975 km en Áreas Protegidas
         </StoryMedia>.
       </Paragraph>
 
@@ -108,25 +108,7 @@ export default () => (
       </FeaturedText>
 
       <Paragraph>
-        Todo ello ha sido facilitado por la apertura acelerada de nuevas vías y la oficialización de las construidas por la guerilla de las FARC antes de la firma del acuerdo de paz, a través de vías terciarias: la nueva forma de penetración al corazón de la selva. Como se muestra en el mapa de presiones y amenazas (RAISG, 2018),
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_03",
-        type: "mapbox",
-          data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS Colombia, localiza arco noroccidental de la Amz - presiones ANPs y TIs'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
-            zoomMax: 10
-          }
-        }}> la presencia de vías en Colombia se concentra en el arco noroccidental de la Amazonía
-        </StoryMedia>.
-        En el caso de las carreteras de las FARC en este país, de los <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3.753 kilómetros construidos</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km se encuentran dentro de Áreas Protegidas</ExternalLink> de la Amazonía colombiana, específicamente en el Parque Nacional Serranía de Chiribiquete, la Reserva Nacional Natural Nukak y el Parque Nacional Natural Tinigua.
+        Todo ello ha sido facilitado por la apertura acelerada de nuevas vías y la oficialización de las construidas por la guerilla de las FARC antes de la firma del acuerdo de paz, a través de vías terciarias: la nueva forma de penetración al corazón de la selva. Como se muestra en el mapa de presiones y amenazas (RAISG, 2018), la presencia de vías en Colombia se concentra en el arco noroccidental de la Amazonía. En el caso de las carreteras de las FARC en este país, de los <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3.753 kilómetros construidos</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km se encuentran dentro de Áreas Protegidas</ExternalLink> de la Amazonía colombiana, específicamente en el Parque Nacional Serranía de Chiribiquete, la Reserva Nacional Natural Nukak y el Parque Nacional Natural Tinigua.
       </Paragraph>
 
       <Paragraph>

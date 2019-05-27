@@ -16,7 +16,7 @@ import Table from "components/blocks/Table";
 export default () => (
   <article>
     <Helmet>
-      <title>La Amazonia Transformada | Amazonía en la encrucijada socioambiental</title>
+      <title>La Amazonia Transformada | Amazonía en la encrucijada</title>
     </Helmet>
     <Container>
       <Title as="h2">La Amazonia Transformada</Title>
