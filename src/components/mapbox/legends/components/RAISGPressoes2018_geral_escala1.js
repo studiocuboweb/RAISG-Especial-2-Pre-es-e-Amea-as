@@ -3,7 +3,6 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
-let checked = true;
 class RAISGPressoes2018_geral_escala1 extends Component {
 
     constructor(props) {
@@ -54,15 +53,8 @@ class RAISGPressoes2018_geral_escala1 extends Component {
                 }
             }
         }
-
-        if (!checked) {
-            checked = true;
-        } else {
-            checked = false;
-        }
-
-        //event.target.checked = checked;
-        this.props._onChangeHandler(name,this.props.parentScope,checked)
+        
+        this.props._onChangeHandler(name,this.props.parentScope,event.target.checked)
 
         // event.preventDefault(); // Let's stop this event.
         // event.stopPropagation(); // Really this time.
