@@ -3,7 +3,7 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
-class RAISGPressoes2018_geral_escala1 extends Component {
+class Legend1_Areas_Naturales_Protegidas extends Component {
 
     constructor(props) {
         super(props);
@@ -61,11 +61,12 @@ class RAISGPressoes2018_geral_escala1 extends Component {
     }
 
     render () {
+        const {legendGroup} = this.props;
         return (
             <div>
                 <input type="checkbox" name='areas-protegidas' className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'areas-naturales-protegidas')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
-                <FormattedMessage id="legend1.title1" defaultMessage="Natural Protected Areas">
+                <FormattedMessage id="legend1.title" defaultMessage="Natural Protected Areas">
                     {(txt) => (txt)}
                 </FormattedMessage>
                 <span id="seta" className={this.state.arrowClass} onClick={this.toggle}></span>
@@ -78,7 +79,7 @@ class RAISGPressoes2018_geral_escala1 extends Component {
                         <div className='mapbox_control-panel_subtitle' style={{paddingTop:'10px'}}>
                             <input type="checkbox" name="acs" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'nacionales')} />
                             <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
-                                <FormattedMessage id="legend1.legend1_1_1" defaultMessage="national">
+                                <FormattedMessage id="legend1.item1" defaultMessage="national">
                                     {(txt) => (txt)}
                                 </FormattedMessage>
                             </label>
@@ -86,7 +87,7 @@ class RAISGPressoes2018_geral_escala1 extends Component {
                         <div className='mapbox_control-panel_subtitle'>
                             <input type="checkbox" name="acs" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'departamentales')} />
                             <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
-                            <FormattedMessage id="legend1.legend1_1_2" defaultMessage="state">
+                            <FormattedMessage id="legend1.item2" defaultMessage="state">
                                 {(txt) => (txt)}
                             </FormattedMessage>
                             </label>
@@ -94,11 +95,31 @@ class RAISGPressoes2018_geral_escala1 extends Component {
                         <div className='mapbox_control-panel_subtitle'>
                             <input type="checkbox" name="acs" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'bosquesprot')} />
                             <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
-                                <FormattedMessage id="legend1.legend1_1_3" defaultMessage="Protective Forest (Ecuador)">
+                                <FormattedMessage id="legend1.item3" defaultMessage="Protective Forest (Ecuador)">
                                 {(txt) => (txt)}
                                 </FormattedMessage>
                             </label>
                         </div>
+                        {legendGroup == 'legend_group2' || legendGroup == 'legend_group3' &&
+                            <div>
+                                <div className='mapbox_control-panel_subtitle'>
+                                    <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
+                                        <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                    </span>
+                                    <FormattedMessage id="legend1.item4" defaultMessage="no pressure or threat known">
+                                        {(txt) => (txt)}
+                                    </FormattedMessage>
+                                </div>
+                                <div className='mapbox_control-panel_subtitle'>
+                                    <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
+                                        <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                    </span>
+                                    <FormattedMessage id="legend1.item5" defaultMessage="no pressure or threat known">
+                                        {(txt) => (txt)}
+                                    </FormattedMessage>
+                                </div>
+                            </div>
+                        }
                     </td>
                 </tr>
                 </tbody>
@@ -109,4 +130,4 @@ class RAISGPressoes2018_geral_escala1 extends Component {
     }
 }
 
-export default RAISGPressoes2018_geral_escala1;
+export default Legend1_Areas_Naturales_Protegidas;

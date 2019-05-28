@@ -7,8 +7,7 @@ import MAP_STYLE4 from './styles/Map4.json';
 import MAP_STYLE5 from './styles/Map5.json';
 import MAP_STYLE6 from './styles/Map6.json';
 import "styles/mapbox.css";
-import Legend1 from './legends/Legend1';
-import Legend2 from './legends/Legend1';
+import Legends from './legends/Legends';
 
 const styles = {
   map1: MAP_STYLE1,
@@ -22,15 +21,15 @@ const styles = {
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
-const categories = ['bosquesprot','nacionales','departamentales','tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
+const categories = ['bosquesprot','nacionales','departamentales','tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
 
-// const notShowInLegend = {'map1':['tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map1_5':['tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map2':['tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map3':['tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDATIs-afectadas'],
-// 'map4':['tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA bosques-afectados','LEGENDA4- Yanomami_tis-afectadas'],
-// 'map5':['tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
-// 'map6':['tindigenas','COLOMBIA-MASCARA_div-politica-pais','BOLIVIA-MASCARA_div-politica-pais','LEGENDA4_MineracaoLegalZ4','LEGENDA bosques-afectados','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA4- Yanomami_tis-afectadas']
+// const notShowInLegend = {'map1':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+// 'map1_5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+// 'map2':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+// 'map3':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA4- Yanomami_tis-afectadas','LEGENDATIs-afectadas'],
+// 'map4':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA bosques-afectados','LEGENDA4- Yanomami_tis-afectadas'],
+// 'map5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA4- Yanomami_tis-afectadas','LEGENDA ANPs-nacionales-afectadas','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
+// 'map6':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA bosques-afectados','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA4- Yanomami_tis-afectadas']
 // };
 
 // Layer id patterns by category
@@ -39,9 +38,9 @@ const layerSelector = {
   'nacionales': /nacionales/,
   'departamentales': /departamentales/,
   'tindigenas': /tindigenas/,
-  'COLOMBIA-MASCARA_div-politica-pais': /COLOMBIA-MASCARA_div-politica-pais/,
-  'BOLIVIA-MASCARA_div-politica-pais': /BOLIVIA-MASCARA_div-politica-pais/,
-  'LEGENDA4_MineracaoLegalZ4': /LEGENDA4_MineracaoLegalZ4/,
+  'petroleo_LEGENDA': /petroleo_LEGENDA/,
+  'tindigenas_LEGENDA': /tindigenas_LEGENDA/,
+  'LEGENDA_mineria_azulEscuro': /LEGENDA_mineria_azulEscuro/,
   'LEGENDA4- Yanomami_tis-afectadas': /LEGENDA4- Yanomami_tis-afectadas/,
   'LEGENDA ANPs-nacionales-afectadas': /LEGENDA ANPs-nacionales-afectadas/,
   'LEGENDA ANPS-departamentales-afectadas': /LEGENDA ANPS-departamentales-afectadas/,
@@ -68,7 +67,7 @@ const layerSelector = {
 //     ,'inactivo':'#492173'
 //     ,'s.i':'#733dd1'    
 //   },
-//   'LEGENDA4_MineracaoLegalZ4': {
+//   'LEGENDA_mineria_azulEscuro': {
 //     'em exploração':'#29dbc3'
 //     ,'solicitud':'#037587'
 //     ,'potencial':'#012f37'  
@@ -111,7 +110,7 @@ const layerSelector = {
 //   'bosquesprot': 'pontos de mineração ilegal',
 //   'nacionales': 'rios com mineração ilegal',
 //   'departamentales': 'áreas de mineração ilegal',
-//   'LEGENDA4_MineracaoLegalZ4': 'áreas de mineração legal',
+//   'LEGENDA_mineria_azulEscuro': 'áreas de mineração legal',
 //   'LEGENDA4- Yanomami_tis-afectadas': 'Terras Indígenas afetadas',
 //   'LEGENDA ANPs-nacionales-afectadas': 'Áreas protegidas (nacionais)',
 //   'LEGENDA ANPS-departamentales-afectadas': 'Áreas protegidas (depart.)',
@@ -134,6 +133,9 @@ export default class StyleControls extends PureComponent {
   constructor(props) {
     super(props);
     this.defaultMapStyle = fromJS(styles[this.props.map]);
+    console.log('defaultMapStyle')
+    console.log(this.defaultMapStyle)
+    console.log(styles[this.props.map]);
     this._defaultLayers = this.defaultMapStyle.get('layers');
     
     this.state = {
@@ -145,9 +147,9 @@ export default class StyleControls extends PureComponent {
         'nacionales': true,
         'departamentales': true,
         'tindigenas': true,
-        'COLOMBIA-MASCARA_div-politica-pais': false,
-        'BOLIVIA-MASCARA_div-politica-pais': false,
-        'LEGENDA4_MineracaoLegalZ4': false,
+        'petroleo_LEGENDA': true,
+        'tindigenas_LEGENDA': true,
+        'LEGENDA_mineria_azulEscuro': true,
         'LEGENDA4- Yanomami_tis-afectadas': false,
         'LEGENDA ANPs-nacionales-afectadas': false,
         'LEGENDA ANPS-departamentales-afectadas': false,
@@ -161,9 +163,9 @@ export default class StyleControls extends PureComponent {
         'nacionales': '',
         'departamentales': '',
         'tindigenas': '',
-        'COLOMBIA-MASCARA_div-politica-pais': '',
-        'BOLIVIA-MASCARA_div-politica-pais': '',
-        'LEGENDA4_MineracaoLegalZ4': '',
+        'petroleo_LEGENDA': '',
+        'tindigenas_LEGENDA': '',
+        'LEGENDA_mineria_azulEscuro': '',
         'LEGENDA4- Yanomami_tis-afectadas':'',
         'LEGENDA ANPs-nacionales-afectadas': '',
         'LEGENDA ANPS-departamentales-afectadas': '',
@@ -235,7 +237,7 @@ export default class StyleControls extends PureComponent {
 
   _renderLayerControl() {
       const {visibility} = this.state;
-      const LegendCollapse = Legend1;
+      const LegendCollapse = Legends;
       return (
           <div>
           <LegendCollapse
@@ -247,20 +249,6 @@ export default class StyleControls extends PureComponent {
           </div>
       );
   }
-  _renderLayerControl() {
-    const {visibility} = this.state;
-    const LegendCollapse = Legend2;
-    return (
-        <div>
-        <LegendCollapse
-          visibility={visibility}
-          onVisibilityChange={this._onVisibilityChange}
-          legend={this.props.legend}
-          parentScope={this}
-        />
-        </div>
-    );
-}
   _toggleLegend() {
     if (this.state.displayLegend['display'] == 'none') {
       this.setState({displayLegend: {'display':'block'}})

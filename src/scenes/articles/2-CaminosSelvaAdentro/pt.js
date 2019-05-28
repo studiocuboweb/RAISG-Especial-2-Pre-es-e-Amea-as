@@ -46,7 +46,7 @@ export default () => (
         type: "mapbox",
           data: {
             map: "map2",
-            legend:"legend2",
+            legend:"legend_group2",
             update:"map2",
             showExtraLayers: ['GERAL - PETROLEO'],
             coordinates: [-62.965837,-5.841715],
@@ -87,16 +87,16 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_02",
+        id: "map_03",
         type: "mapbox",
           data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS Colombia - presiones TIs y ANPs'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            map: "map3",
+            legend:"legend_group3",
+            update:"map3",
+            showExtraLayers: [],
+            coordinates: [-65.676290,6.520153],
+            zoomNumber: 5.70,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> 2.336 km estão dentro de Reservas Indígenas e 7.975 km em Áreas Protegidas

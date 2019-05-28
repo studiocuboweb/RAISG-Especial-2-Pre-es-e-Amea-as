@@ -42,16 +42,16 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_01",
+        id: "map_02",
         type: "mapbox",
           data: {
             map: "map2",
-            legend:"legend9",
+            legend:"legend_group2",
             update:"map2",
-            showExtraLayers: ['carreteras x deforestación en Brasil'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            showExtraLayers: [],
+            coordinates: [-62.965837,-5.841715],
+            zoomNumber: 4,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> La mayor parte de la deforestación ocurre en las inmediaciones de carreteras
@@ -87,16 +87,16 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_02",
+        id: "map_03",
         type: "mapbox",
           data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS Colombia - presiones TIs y ANPs'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            map: "map3",
+            legend:"legend_group3",
+            update:"map3",
+            showExtraLayers: [],
+            coordinates: [-65.676290,6.520153],
+            zoomNumber: 5.70,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> 2.336 km se encuentran dentro de Resguardos Indígenas y 7.975 km en Áreas Protegidas
@@ -123,13 +123,13 @@ export default () => (
         id: "map_04",
         type: "mapbox",
           data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS Colombia, localiza TIPNIS'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            map: "map4",
+            legend:"legend_group3",
+            update:"map4",
+            showExtraLayers: [],
+            coordinates: [-78.078420,-3.660983],
+            zoomNumber: 8.50,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas
@@ -182,7 +182,7 @@ export default () => (
             map: "map2",
             legend:"legend9",
             update:"map2",
-            showExtraLayers: ['CARRETERAS X DEFORESTACIÓN en Perú'],
+            showExtraLayers: [],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
             zoomMin: 5,
@@ -204,7 +204,7 @@ export default () => (
             map: "map2",
             legend:"legend9",
             update:"map2",
-            showExtraLayers: ['CARRETERAS? Perú - localiza Hidrovía Amazónica'],
+            showExtraLayers: [],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
             zoomMin: 5,
@@ -234,7 +234,7 @@ export default () => (
             map: "map2",
             legend:"legend9",
             update:"map2",
-            showExtraLayers: ['CARRETERAS? localiza Ferrogrão, Brasil'],
+            showExtraLayers: [],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
             zoomMin: 5,

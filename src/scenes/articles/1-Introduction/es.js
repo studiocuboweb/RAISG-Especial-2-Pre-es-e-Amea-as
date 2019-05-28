@@ -39,7 +39,7 @@ export default () => (
         type: "mapbox",
           data: {
             map: "map1",
-            legend:"legend1",
+            legend:"legend_group1",
             update: "map1_1",
             showExtraLayers: [],
             coordinates: [-61.480337,-6.435536],
