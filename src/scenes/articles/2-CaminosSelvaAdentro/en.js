@@ -116,24 +116,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En el caso de Bolivia, destaca el
-        <StoryMedia
-        icon="map"
-        media={{
-        id: "map_04",
-        type: "mapbox",
-          data: {
-            map: "map4",
-            legend:"legend_group3",
-            update:"map4",
-            showExtraLayers: [],
-            coordinates: [-78.078420,-3.660983],
-            zoomNumber: 8.50,
-            zoomMin: 4,
-            zoomMax: 10
-          }
-        }}> Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas
-        </StoryMedia>.
+        En el caso de Bolivia, destaca el Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas.
         Está delimitada por el río Isiboro (al sur) y el río Sécure (al norte), en el corazón del país. Fue creada para conservar los bosques y la cultura de  los pueblos indígenas que alberga (12 mil habitantes entre mojeños, yuracarés y chimanes). Si bien 80% de su extensión se encuentra en buen estado de conservación, está amenazada por el avance de cultivos desarrollados en su límite sur: enfrenta una gran amenaza debido a la expansión de plantaciones de coca junto a la
         <StoryMedia
           media={{
@@ -180,12 +163,12 @@ export default () => (
         type: "mapbox",
           data: {
             map: "map5",
-            legend:"legend9",
+            legend:"legend_group5",
             update:"map5",
             showExtraLayers: [],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            coordinates: [-65.776617,-16.137845],
+            zoomNumber: 8.17,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> la Carretera Marginal de la Selva, construida en los años sesenta, que llega hasta Ucayali, y la Interoceánica Sur, concluida en 2010, que llega hasta Madre de Dios

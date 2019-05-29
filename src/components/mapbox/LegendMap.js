@@ -28,14 +28,14 @@ const styles = {
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
-const categories = ['bosquesprot','nacionales','departamentales','tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','Desmatamento_60m_3857_LZWNoData','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
+const categories = ['bosquesprot','nacionales','departamentales','tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
 
-// const notShowInLegend = {'map1':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','Desmatamento_60m_3857_LZWNoData','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map1_5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_vias_Vermelhos','Desmatamento_60m_3857_LZWNoData','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map2':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','Desmatamento_60m_3857_LZWNoData','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+// const notShowInLegend = {'map1':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+// 'map1_5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
+// 'map2':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
 // 'map3':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','LEGENDATIs-afectadas'],
 // 'map4':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA bosques-afectados','LEGENDA_vias_Vermelhos'],
-// 'map5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','Desmatamento_60m_3857_LZWNoData','LEGENDA ANPS-departamentales-afectadas','LEGENDA bosques-afectados'],
+// 'map5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados'],
 // 'map6':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA bosques-afectados','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA_vias_Vermelhos']
 // };
 
@@ -49,8 +49,8 @@ const layerSelector = {
   'tindigenas_LEGENDA': /tindigenas_LEGENDA/,
   'LEGENDA_mineria_azulEscuro': /LEGENDA_mineria_azulEscuro/,
   'LEGENDA_vias_Vermelhos': /LEGENDA_vias_Vermelhos/,
-  'Desmatamento_60m_3857_LZWNoData': /Desmatamento_60m_3857_LZWNoData/,
-  'LEGENDA ANPS-departamentales-afectadas': /LEGENDA ANPS-departamentales-afectadas/,
+  'TIPNIS_TI-limite_LEGENDA': /TIPNIS_TI-limite_LEGENDA/,
+  'TIPNIS_Nacionales-limite_LEGENDA': /TIPNIS_Nacionales-limite_LEGENDA/,
   'LEGENDA bosques-afectados': /LEGENDA bosques-afectados/,
   'LEGENDATIs-afectadas': /LEGENDATIs-afectadas/,
   'ETIQUETA_nombre-tis-afectadas':/ETIQUETA_nombre-tis-afectadas/,
@@ -83,14 +83,14 @@ const layerSelector = {
 //   'LEGENDA_vias_Vermelhos': {
 //     'Yanomami': '#eb5905'
 //   },
-//   'Desmatamento_60m_3857_LZWNoData': {
+//   'TIPNIS_TI-limite_LEGENDA': {
 //     'pressão: garimpo ativo dentro': 'hsla(165, 98%, 46%, 0.8)',
 //     'pressão: balsas dentro/no limite': 'hsla(165, 97%, 30%, 0.5)',
 //     'ameaça: garimpo inativo dentro': 'hsla(185, 79%, 24%, 0.5)',
 //     'ameaça: garimpo no limite entorno': 'hsla(187, 98%, 12%, 0.77)',
 //     'sem afetação direta conhecida': 'hsla(0, 0%, 0%, 0.33)'
 //   },
-//   'LEGENDA ANPS-departamentales-afectadas': {
+//   'TIPNIS_Nacionales-limite_LEGENDA': {
 //     'pressão: garimpo ativo dentro': 'hsla(165, 98%, 46%, 0.8)',
 //     'pressão: balsas dentro/no limite': 'hsla(165, 97%, 30%, 0.5)',
 //     'ameaça: garimpo inativo dentro': 'hsla(185, 79%, 24%, 0.5)',
@@ -119,8 +119,8 @@ const layerSelector = {
 //   'departamentales': 'áreas de mineração ilegal',
 //   'LEGENDA_mineria_azulEscuro': 'áreas de mineração legal',
 //   'LEGENDA_vias_Vermelhos': 'Terras Indígenas afetadas',
-//   'Desmatamento_60m_3857_LZWNoData': 'Áreas protegidas (nacionais)',
-//   'LEGENDA ANPS-departamentales-afectadas': 'Áreas protegidas (depart.)',
+//   'TIPNIS_TI-limite_LEGENDA': 'Áreas protegidas (nacionais)',
+//   'TIPNIS_Nacionales-limite_LEGENDA': 'Áreas protegidas (depart.)',
 //   'LEGENDA bosques-afectados': 'Áreas protegidas (bosques)',
 //   'LEGENDATIs-afectadas': 'Terras Indígenas'
 // };
@@ -158,8 +158,8 @@ export default class StyleControls extends PureComponent {
         'tindigenas_LEGENDA': true,
         'LEGENDA_mineria_azulEscuro': true,
         'LEGENDA_vias_Vermelhos': true,
-        'Desmatamento_60m_3857_LZWNoData': true,
-        'LEGENDA ANPS-departamentales-afectadas': false,
+        'TIPNIS_TI-limite_LEGENDA': true,
+        'TIPNIS_Nacionales-limite_LEGENDA': true,
         'LEGENDA bosques-afectados': false,
         'LEGENDATIs-afectadas': false,
         'ETIQUETA_nombre-tis-afectadas':false,
@@ -174,8 +174,8 @@ export default class StyleControls extends PureComponent {
         'tindigenas_LEGENDA': '',
         'LEGENDA_mineria_azulEscuro': '',
         'LEGENDA_vias_Vermelhos':'',
-        'Desmatamento_60m_3857_LZWNoData': '',
-        'LEGENDA ANPS-departamentales-afectadas': '',
+        'TIPNIS_TI-limite_LEGENDA': '',
+        'TIPNIS_Nacionales-limite_LEGENDA': '',
         'LEGENDA bosques-afectados': '',
         'LEGENDATIs-afectadas':'',
         'ETIQUETA_nombre-tis-afectadas':'',
@@ -188,13 +188,13 @@ export default class StyleControls extends PureComponent {
     if (this.props.showExtraLayers.length > 0) {
       var visibility = '';
       if (this.props.map == 'map3') {
-        visibility = {...this.state.visibility, ['Desmatamento_60m_3857_LZWNoData']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDA bosques-afectados']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDA bosques-afectados']: true};
       } else if (this.props.map == 'map4') {
-        visibility = {...this.state.visibility, ['Desmatamento_60m_3857_LZWNoData']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDATIs-afectadas']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDATIs-afectadas']: true};
       } else if (this.props.map == 'map6') {
-        visibility = {...this.state.visibility, ['Desmatamento_60m_3857_LZWNoData']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_nombre-tis-afectadas']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_nombre-tis-afectadas']: true};
       } else if (this.props.map == 'map6_1') {
-        visibility = {...this.state.visibility, ['Desmatamento_60m_3857_LZWNoData']: true, ['LEGENDA ANPS-departamentales-afectadas']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_etnias-tis-afectadas']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_etnias-tis-afectadas']: true};
       } else {
         visibility = {...this.state.visibility, [this.props.showExtraLayers]: true};
       }

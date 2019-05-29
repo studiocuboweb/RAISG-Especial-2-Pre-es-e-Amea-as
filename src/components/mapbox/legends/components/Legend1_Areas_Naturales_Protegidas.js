@@ -101,7 +101,7 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
                             </label>
                         </div>
                         {(legendGroup == 'legend_group2' || legendGroup == 'legend_group3' || legendGroup == 'legend_group10') &&
-                            <div>
+                            <block>
                                 <div className='mapbox_control-panel_subtitle'>
                                     <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
                                         <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
@@ -118,7 +118,19 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
                                         {(txt) => (txt)}
                                     </FormattedMessage>
                                 </div>
-                            </div>
+                            </block>
+                        }
+                        {(legendGroup == 'legend_group5') &&
+                            <block>
+                                <div className='mapbox_control-panel_subtitle' style={{paddingTop:'10px'}}>
+                                    <input type="checkbox" name="acs" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_Nacionales-limite_LEGENDA')} />
+                                    <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
+                                        <FormattedMessage id="legend1.item6" defaultMessage="national">
+                                            {(txt) => (txt)}
+                                        </FormattedMessage>
+                                    </label>
+                                </div>
+                            </block>
                         }
                     </td>
                 </tr>

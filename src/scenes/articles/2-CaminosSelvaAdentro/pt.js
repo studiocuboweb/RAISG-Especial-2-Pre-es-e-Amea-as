@@ -180,12 +180,12 @@ export default () => (
         type: "mapbox",
           data: {
             map: "map5",
-            legend:"legend9",
+            legend:"legend_group5",
             update:"map5",
             showExtraLayers: [],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            coordinates: [-65.776617,-16.137845],
+            zoomNumber: 8.17,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> a Carretera Marginal de la Selva, construído na década de sessenta, que atinge Ucayali, e a Interoceânica Sul, concluída em 2010, que chega a Madre de Dios

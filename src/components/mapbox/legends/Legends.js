@@ -58,6 +58,13 @@ class LegendCollapse extends React.Component {
                     <Legend2_Territorios_Indigenas key="legend12" legendGroup='legend_group3' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }
+            {legend == 'legend_group5' &&
+                <div>
+                    <Legend5_Carreteras_principales key="legend10" legendGroup='legend_group5' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend1_Areas_Naturales_Protegidas key="legend11" legendGroup='legend_group5' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend2_Territorios_Indigenas key="legend12" legendGroup='legend_group5' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                </div>
+            }
             {legend == 'legend_group9' &&
                 <div>
                     <Legend3_Lotes_Petroleo key="legend9" legendGroup='legend_group9' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
