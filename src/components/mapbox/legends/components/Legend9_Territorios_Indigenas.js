@@ -35,8 +35,8 @@ class Legend9_Territorios_Indigenas extends Component {
         return (
             <div>
                 <div className='mapbox_control-panel_subtitle'>
-                    <span style={{'width':'15px',height:'15px',paddingTop:'10px'}}>
-                        <img src={require('images/legend-icons/map_06_4.gif')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
+                    <span style={{'width':'18px',height:'15px',paddingTop:'3px'}}>
+                        <img src={require('images/legend-icons/map07_3.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'5px','padding':0}} />
                     </span>
                     <FormattedMessage id="legend9.title" defaultMessage="no pressure or threat known">
                         {(txt) => (txt)}

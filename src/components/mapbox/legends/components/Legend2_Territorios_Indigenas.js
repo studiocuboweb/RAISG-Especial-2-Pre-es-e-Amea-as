@@ -87,11 +87,11 @@ class Legend2_Territorios_Indigenas extends Component {
                 }
                 {(legendGroup == 'legend_group3' || legendGroup == 'legend_group5' || legendGroup == 'legend_group8') &&
                 <block>
-                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_6.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend2.item8" defaultMessage="without overlapping">
+                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'20px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/map_03-03.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend2.item8" defaultMessage="without overlapping">
                         {(txt) => (txt)}
                     </FormattedMessage>
                     </div>
-                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_6.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend2.item9" defaultMessage="with overlapping">
+                    <div className='mapbox_control-panel_subtitle'><span style={{'width':'20px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/map_03-04.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend2.item9" defaultMessage="with overlapping">
                         {(txt) => (txt)}
                     </FormattedMessage>
                     </div>
@@ -99,9 +99,9 @@ class Legend2_Territorios_Indigenas extends Component {
                 }
                 {legendGroup == 'legend_group5' &&
                             <block>
-                            <div className='mapbox_control-panel_subtitle' style={{paddingTop:'10px'}}>
+                            <div className='mapbox_control-panel_subtitle' style={{paddingTop:'3px',paddingLeft:'20px'}}>
                                 <input type="checkbox" name="acs" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_TI-limite_LEGENDA')} />
-                                <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
+                                <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.4rem'}} onClick={this.toggle}>
                                     <FormattedMessage id="legend2.item10" defaultMessage="national">
                                         {(txt) => (txt)}
                                     </FormattedMessage>

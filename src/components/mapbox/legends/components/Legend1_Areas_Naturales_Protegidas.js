@@ -100,19 +100,19 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
                                 </FormattedMessage>
                             </label>
                         </div>
-                        {(legendGroup == 'legend_group2' || legendGroup == 'legend_group3' || legendGroup == 'legend_group8' || legendGroup == 'legend_group10') &&
+                        {(legendGroup == 'legend_group2' || legendGroup == 'legend_group3' || legendGroup == 'legend_group5' || legendGroup == 'legend_group8' || legendGroup == 'legend_group10') &&
                             <block>
                                 <div className='mapbox_control-panel_subtitle'>
-                                    <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                        <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                    <span style={{'width':'17px',height:'15px'}}>
+                                        <img src={require('images/legend-icons/map_03-01.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','margin-left':'2px','padding':0}} />
                                     </span>
                                     <FormattedMessage id="legend1.item4" defaultMessage="no pressure or threat known">
                                         {(txt) => (txt)}
                                     </FormattedMessage>
                                 </div>
                                 <div className='mapbox_control-panel_subtitle'>
-                                    <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                        <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                    <span style={{'width':'17px',height:'15px'}}>
+                                        <img src={require('images/legend-icons/map_03-02.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','margin-left':'2px','padding':0}} />
                                     </span>
                                     <FormattedMessage id="legend1.item5" defaultMessage="no pressure or threat known">
                                         {(txt) => (txt)}
@@ -122,7 +122,7 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
                         }
                         {(legendGroup == 'legend_group5') &&
                             <block>
-                                <div className='mapbox_control-panel_subtitle' style={{paddingTop:'10px'}}>
+                                <div className='mapbox_control-panel_subtitle' style={{paddingTop:'3px'}}>
                                     <input type="checkbox" name="acs" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_Nacionales-limite_LEGENDA')} />
                                     <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                                         <FormattedMessage id="legend1.item6" defaultMessage="national">
