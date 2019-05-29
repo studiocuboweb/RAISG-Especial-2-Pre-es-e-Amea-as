@@ -53,7 +53,7 @@ class Legend2_Territorios_Indigenas extends Component {
                 <span className={this.state.arrowClass} onClick={this.toggle}></span>
             </label>
             <Collapse isOpened={this.state.collapse}>
-                {(legendGroup != 'legend_group3' && legendGroup != 'legend_group5') &&
+                {(legendGroup != 'legend_group3' && legendGroup != 'legend_group5' && legendGroup != 'legend_group8') &&
                     <block>
                         <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend2.item1" defaultMessage="no pressure or threat known">
                             {(txt) => (txt)}
@@ -85,7 +85,7 @@ class Legend2_Territorios_Indigenas extends Component {
                         </div>
                     </block>
                 }
-                {(legendGroup == 'legend_group3' || legendGroup == 'legend_group5') &&
+                {(legendGroup == 'legend_group3' || legendGroup == 'legend_group5' || legendGroup == 'legend_group8') &&
                 <block>
                     <div className='mapbox_control-panel_subtitle'><span style={{'width':'15px',height:'15px',paddingLeft:'15px'}}><img src={require('images/legend-icons/ico_square_6.png')} alt='ico_circle-11_noinfo2' title='ico_circle-11_noinfo2' style={{'margin':'6px','padding':0}} /></span><FormattedMessage id="legend2.item8" defaultMessage="without overlapping">
                         {(txt) => (txt)}

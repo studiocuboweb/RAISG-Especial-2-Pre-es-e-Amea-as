@@ -50,13 +50,13 @@ export default () => (
           type: "mapbox",
             data: {
               map: "map8",
-              legend:"legend8",
+              legend:"legend_group8",
               update:"map8",
               showExtraLayers: [],
-              coordinates: [-64.770093,-6.650804],
-              zoomNumber: 4.00,
+              coordinates: [-55.392433,-10.128833],
+              zoomNumber: 5.21,
               zoomMin: 4,
-              zoomMax: 12
+              zoomMax: 10
             }
           }}> áreas bajo concesiones mineras y de hidrocarburos
           </StoryMedia>. 

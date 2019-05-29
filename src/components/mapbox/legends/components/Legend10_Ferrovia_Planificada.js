@@ -3,7 +3,7 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
-class Legend7_LEGENDA_RIOS_hidroviaamazonica extends Component {
+class Legend10_LEGENDA_Ferrograo extends Component {
 
     constructor(props) {
         super(props);
@@ -38,7 +38,7 @@ class Legend7_LEGENDA_RIOS_hidroviaamazonica extends Component {
                     <span style={{'width':'15px',height:'15px',paddingTop:'10px'}}>
                         <img src={require('images/legend-icons/map_06_4.gif')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
                     </span>
-                    <FormattedMessage id="legend7.title" defaultMessage="no pressure or threat known">
+                    <FormattedMessage id="legend10.title" defaultMessage="no pressure or threat known">
                         {(txt) => (txt)}
                     </FormattedMessage>
                 </div>
@@ -47,4 +47,4 @@ class Legend7_LEGENDA_RIOS_hidroviaamazonica extends Component {
     }
 }
 
-export default Legend7_LEGENDA_RIOS_hidroviaamazonica;
+export default Legend10_LEGENDA_Ferrograo;

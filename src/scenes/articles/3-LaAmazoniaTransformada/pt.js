@@ -48,11 +48,11 @@ export default () => (
           type: "mapbox",
             data: {
               map: "map8",
-              legend:"legend2",
+              legend:"legend_group8",
               update:"map8",
               showExtraLayers: [],
-              coordinates: [-62.965837,-5.841715],
-              zoomNumber: 4,
+              coordinates: [-55.392433,-10.128833],
+              zoomNumber: 5.21,
               zoomMin: 4,
               zoomMax: 10
             }

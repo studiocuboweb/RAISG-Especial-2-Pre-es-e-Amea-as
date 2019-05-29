@@ -3,7 +3,7 @@ import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
-class Legend8_LEGENDA_PontoDragado_hidroviaamazonica extends Component {
+class Legend8_Pontos_de_dragado extends Component {
 
     constructor(props) {
         super(props);
@@ -47,4 +47,4 @@ class Legend8_LEGENDA_PontoDragado_hidroviaamazonica extends Component {
     }
 }
 
-export default Legend8_LEGENDA_PontoDragado_hidroviaamazonica;
+export default Legend8_Pontos_de_dragado;
