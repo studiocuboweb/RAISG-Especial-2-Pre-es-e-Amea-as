@@ -51,16 +51,23 @@ class LegendCollapse extends React.Component {
                     <Legend6_Deforestacion key="legend4" legendGroup='legend_group2' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }
+            {legend == 'legend_group3' &&
+                <div>
+                    <Legend5_Carreteras_principales key="legend10" legendGroup='legend_group3' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend1_Areas_Naturales_Protegidas key="legend11" legendGroup='legend_group3' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend2_Territorios_Indigenas key="legend12" legendGroup='legend_group3' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                </div>
+            }
             {legend == 'legend_group9' &&
                 <div>
-                    <Legend3_Lotes_Petroleo key="legend9" legendGroup='legend_group2' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
-                    <Legend1_Areas_Naturales_Protegidas key="legend10" legendGroup='legend_group2' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend3_Lotes_Petroleo key="legend9" legendGroup='legend_group9' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend1_Areas_Naturales_Protegidas key="legend10" legendGroup='legend_group9' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }
             {legend == 'legend_group10' &&
                 <div>
-                    <Legend4_Zonas_Mineras key="legend5" legendGroup='legend_group3' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
-                    <Legend1_Areas_Naturales_Protegidas key="legend7" legendGroup='legend_group3' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend4_Zonas_Mineras key="legend5" legendGroup='legend_group10' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend1_Areas_Naturales_Protegidas key="legend7" legendGroup='legend_group10' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <Legend2_Territorios_Indigenas key="legend8" legendGroup='legend_group1' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }

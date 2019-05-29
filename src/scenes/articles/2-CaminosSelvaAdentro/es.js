@@ -94,8 +94,8 @@ export default () => (
             legend:"legend_group3",
             update:"map3",
             showExtraLayers: [],
-            coordinates: [-65.676290,6.520153],
-            zoomNumber: 5.70,
+            coordinates: [-72.000616,0.384479],
+            zoomNumber: 5.99,
             zoomMin: 4,
             zoomMax: 10
           }
