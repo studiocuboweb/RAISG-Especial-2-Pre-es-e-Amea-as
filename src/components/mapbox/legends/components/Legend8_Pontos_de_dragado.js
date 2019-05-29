@@ -35,8 +35,8 @@ class Legend8_Pontos_de_dragado extends Component {
         return (
             <div>
                 <div className='mapbox_control-panel_subtitle'>
-                    <span style={{'width':'15px',height:'15px',paddingTop:'10px'}}>
-                        <img src={require('images/legend-icons/map07_2.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
+                    <span style={{'width':'17px',height:'15px',paddingTop:'10px'}}>
+                        <img src={require('images/legend-icons/map08_1.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
                     </span>
                     <FormattedMessage id="legend8.title" defaultMessage="no pressure or threat known">
                         {(txt) => (txt)}
