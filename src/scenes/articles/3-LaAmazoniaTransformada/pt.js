@@ -44,13 +44,13 @@ export default () => (
         <StoryMedia
           icon="map"
           media={{
-          id: "map_09",
+          id: "map_08",
           type: "mapbox",
             data: {
-              map: "map2",
+              map: "map8",
               legend:"legend2",
-              update:"map2",
-              showExtraLayers: ['MINERIA E PETROLEO'],
+              update:"map8",
+              showExtraLayers: [],
               coordinates: [-62.965837,-5.841715],
               zoomNumber: 4,
               zoomMin: 4,
@@ -257,12 +257,12 @@ export default () => (
         <StoryMedia
           icon="map"
           media={{
-          id: "map_02",
+          id: "map_09",
           type: "mapbox",
             data: {
-              map: "map3",
+              map: "map9",
               legend:"legend3",
-              update:"map3",
+              update:"map9",
               showExtraLayers: ['GERAL - MINERIA E PETROLEO'],
               coordinates: [-64.770093,-6.650804],
               zoomNumber: 4.00,
@@ -338,12 +338,12 @@ export default () => (
         <StoryMedia
           icon="map"
           media={{
-          id: "map_03",
+          id: "map_10",
           type: "mapbox",
             data: {
-              map: "map3",
-              legend:"legend3",
-              update:"map3",
+              map: "map10",
+              legend:"legend10",
+              update:"map10",
               showExtraLayers: ['MINERÍA Perú, localiza Cordillera del Cóndor/PN Ichigat Muja'],
               coordinates: [-64.770093,-6.650804],
               zoomNumber: 4.00,

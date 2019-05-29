@@ -123,13 +123,13 @@ export default () => (
         id: "map_04",
         type: "mapbox",
           data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS Colombia, localiza TIPNIS'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            map: "map4",
+            legend:"legend_group3",
+            update:"map4",
+            showExtraLayers: [],
+            coordinates: [-78.078420,-3.660983],
+            zoomNumber: 8.50,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas
@@ -179,10 +179,10 @@ export default () => (
         id: "map_05",
         type: "mapbox",
           data: {
-            map: "map2",
+            map: "map5",
             legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS X DEFORESTACIÓN en Perú'],
+            update:"map5",
+            showExtraLayers: [],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
             zoomMin: 5,
@@ -201,12 +201,12 @@ export default () => (
         id: "map_06",
         type: "mapbox",
           data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS? Perú - localiza Hidrovía Amazónica'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
+            map: "map6",
+            legend:"legend_group2",
+            update:"map6",
+            showExtraLayers: [],
+            coordinates: [-74.370790,-9.992592],
+            zoomNumber: 6.00,
             zoomMin: 5,
             zoomMax: 10
           }
@@ -231,10 +231,10 @@ export default () => (
         id: "map_07",
         type: "mapbox",
           data: {
-            map: "map2",
+            map: "map7",
             legend:"legend9",
-            update:"map2",
-            showExtraLayers: ['CARRETERAS? localiza Ferrogrão, Brasil'],
+            update:"map7",
+            showExtraLayers: [],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
             zoomMin: 5,

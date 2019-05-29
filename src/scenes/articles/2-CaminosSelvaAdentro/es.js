@@ -179,9 +179,9 @@ export default () => (
         id: "map_05",
         type: "mapbox",
           data: {
-            map: "map2",
+            map: "map5",
             legend:"legend9",
-            update:"map2",
+            update:"map5",
             showExtraLayers: [],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
@@ -201,12 +201,12 @@ export default () => (
         id: "map_06",
         type: "mapbox",
           data: {
-            map: "map2",
-            legend:"legend9",
-            update:"map2",
+            map: "map6",
+            legend:"legend_group2",
+            update:"map6",
             showExtraLayers: [],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
+            coordinates: [-74.370790,-9.992592],
+            zoomNumber: 6.00,
             zoomMin: 5,
             zoomMax: 10
           }
@@ -231,9 +231,9 @@ export default () => (
         id: "map_07",
         type: "mapbox",
           data: {
-            map: "map2",
+            map: "map7",
             legend:"legend9",
-            update:"map2",
+            update:"map7",
             showExtraLayers: [],
             coordinates: [-63.693113,2.766774],
             zoomNumber: 5.50,
