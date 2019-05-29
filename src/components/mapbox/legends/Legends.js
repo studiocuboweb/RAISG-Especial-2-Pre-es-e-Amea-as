@@ -7,6 +7,9 @@ import Legend3_Lotes_Petroleo from './components/Legend3_Lotes_Petroleo.js'
 import Legend4_Zonas_Mineras from './components/Legend4_Zonas_Mineras.js'
 import Legend5_Carreteras_principales from './components/Legend5_Carreteras_principales.js'
 import Legend6_Deforestacion from './components/Legend6_Deforestacion.js'
+import Legend7_LEGENDA_RIOS_hidroviaamazonica from './components/Legend7_LEGENDA_RIOS_hidroviaamazonica.js'
+import Legend8_LEGENDA_PontoDragado_hidroviaamazonica from './components/Legend8_LEGENDA_PontoDragado_hidroviaamazonica.js'
+import Legend9_Territorios_Indigenas from './components/Legend9_Territorios_Indigenas.js'
 
 class LegendCollapse extends React.Component {
 
@@ -63,6 +66,14 @@ class LegendCollapse extends React.Component {
                     <Legend5_Carreteras_principales key="legend10" legendGroup='legend_group5' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <Legend1_Areas_Naturales_Protegidas key="legend11" legendGroup='legend_group5' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <Legend2_Territorios_Indigenas key="legend12" legendGroup='legend_group5' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                </div>
+            }
+            {legend == 'legend_group7' &&
+                <div>
+                    <Legend7_LEGENDA_RIOS_hidroviaamazonica key="legend13" legendGroup='legend_group7' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend8_LEGENDA_PontoDragado_hidroviaamazonica key="legend14" legendGroup='legend_group7' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend1_Areas_Naturales_Protegidas key="legend15" legendGroup='legend_group7' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend9_Territorios_Indigenas key="legend16" legendGroup='legend_group7' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }
             {legend == 'legend_group9' &&

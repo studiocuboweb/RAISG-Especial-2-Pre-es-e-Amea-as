@@ -232,12 +232,12 @@ export default () => (
         type: "mapbox",
           data: {
             map: "map7",
-            legend:"legend9",
+            legend:"legend_group7",
             update:"map7",
-            showExtraLayers: ['CARRETERAS? localiza Ferrogrão, Brasil'],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            showExtraLayers: [],
+            coordinates: [-73.834649,-6.401255],
+            zoomNumber: 5.65,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> da região produtora de grãos de Sinop (Mato Grosso) para o porto de Miritituba (Pará), a Ferrogrão

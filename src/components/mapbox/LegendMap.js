@@ -28,15 +28,15 @@ const styles = {
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
-const categories = ['bosquesprot','nacionales','departamentales','tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
+const categories = ['bosquesprot','nacionales','departamentales','tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas'];
 
-// const notShowInLegend = {'map1':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map1_5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map2':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados','LEGENDATIs-afectadas'],
-// 'map3':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','LEGENDATIs-afectadas'],
-// 'map4':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA bosques-afectados','LEGENDA_vias_Vermelhos'],
-// 'map5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA bosques-afectados'],
-// 'map6':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA bosques-afectados','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA_vias_Vermelhos']
+// const notShowInLegend = {'map1':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica'],
+// 'map1_5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica'],
+// 'map2':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica'],
+// 'map3':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','LEGENDA_PontoDragado_hidroviaamazonica'],
+// 'map4':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_vias_Vermelhos'],
+// 'map5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica'],
+// 'map6':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_RIOS_hidroviaamazonica','ETIQUETA_nombre-tis-afectadas','ETIQUETA_etnias-tis-afectadas','LEGENDA_vias_Vermelhos']
 // };
 
 // Layer id patterns by category
@@ -51,8 +51,8 @@ const layerSelector = {
   'LEGENDA_vias_Vermelhos': /LEGENDA_vias_Vermelhos/,
   'TIPNIS_TI-limite_LEGENDA': /TIPNIS_TI-limite_LEGENDA/,
   'TIPNIS_Nacionales-limite_LEGENDA': /TIPNIS_Nacionales-limite_LEGENDA/,
-  'LEGENDA bosques-afectados': /LEGENDA bosques-afectados/,
-  'LEGENDATIs-afectadas': /LEGENDATIs-afectadas/,
+  'LEGENDA_RIOS_hidroviaamazonica': /LEGENDA_RIOS_hidroviaamazonica/,
+  'LEGENDA_PontoDragado_hidroviaamazonica': /LEGENDA_PontoDragado_hidroviaamazonica/,
   'ETIQUETA_nombre-tis-afectadas':/ETIQUETA_nombre-tis-afectadas/,
   'ETIQUETA_etnias-tis-afectadas':/ETIQUETA_etnias-tis-afectadas/
 };
@@ -97,14 +97,14 @@ const layerSelector = {
 //     'ameaça: garimpo no limite entorno': 'hsla(187, 98%, 12%, 0.77)',
 //     'sem afetação direta conhecida': 'hsla(0, 0%, 0%, 0.33)'
 //   },
-//   'LEGENDA bosques-afectados': {
+//   'LEGENDA_RIOS_hidroviaamazonica': {
 //     'pressão: garimpo ativo dentro': 'hsla(165, 98%, 46%, 0.8)',
 //     'pressão: balsas dentro/no limite': 'hsla(165, 97%, 30%, 0.5)',
 //     'ameaça: garimpo inativo dentro': 'hsla(185, 79%, 24%, 0.5)',
 //     'ameaça: garimpo no limite entorno': 'hsla(187, 98%, 12%, 0.77)',
 //     'sem afetação direta conhecida': 'hsla(0, 0%, 0%, 0.33)'
 //   },
-//   'LEGENDATIs-afectadas': {
+//   'LEGENDA_PontoDragado_hidroviaamazonica': {
 //     'pressão: garimpo ativo dentro': '#f37859',
 //     'pressão: balsas dentro/no limite': 'hsla(17, 99%, 67%, 0.8)',
 //     'ameaça: garimpo inativo dentro': 'hsla(47, 98%, 59%, 0.8)',
@@ -121,8 +121,8 @@ const layerSelector = {
 //   'LEGENDA_vias_Vermelhos': 'Terras Indígenas afetadas',
 //   'TIPNIS_TI-limite_LEGENDA': 'Áreas protegidas (nacionais)',
 //   'TIPNIS_Nacionales-limite_LEGENDA': 'Áreas protegidas (depart.)',
-//   'LEGENDA bosques-afectados': 'Áreas protegidas (bosques)',
-//   'LEGENDATIs-afectadas': 'Terras Indígenas'
+//   'LEGENDA_RIOS_hidroviaamazonica': 'Áreas protegidas (bosques)',
+//   'LEGENDA_PontoDragado_hidroviaamazonica': 'Terras Indígenas'
 // };
 
 // Layer color class by type
@@ -160,8 +160,8 @@ export default class StyleControls extends PureComponent {
         'LEGENDA_vias_Vermelhos': true,
         'TIPNIS_TI-limite_LEGENDA': true,
         'TIPNIS_Nacionales-limite_LEGENDA': true,
-        'LEGENDA bosques-afectados': false,
-        'LEGENDATIs-afectadas': false,
+        'LEGENDA_RIOS_hidroviaamazonica': true,
+        'LEGENDA_PontoDragado_hidroviaamazonica': true,
         'ETIQUETA_nombre-tis-afectadas':false,
         'ETIQUETA_etnias-tis-afectadas':false
       },
@@ -176,8 +176,8 @@ export default class StyleControls extends PureComponent {
         'LEGENDA_vias_Vermelhos':'',
         'TIPNIS_TI-limite_LEGENDA': '',
         'TIPNIS_Nacionales-limite_LEGENDA': '',
-        'LEGENDA bosques-afectados': '',
-        'LEGENDATIs-afectadas':'',
+        'LEGENDA_RIOS_hidroviaamazonica': '',
+        'LEGENDA_PontoDragado_hidroviaamazonica':'',
         'ETIQUETA_nombre-tis-afectadas':'',
         'ETIQUETA_etnias-tis-afectadas':''
       }
@@ -188,13 +188,13 @@ export default class StyleControls extends PureComponent {
     if (this.props.showExtraLayers.length > 0) {
       var visibility = '';
       if (this.props.map == 'map3') {
-        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDA bosques-afectados']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDA_RIOS_hidroviaamazonica']: true};
       } else if (this.props.map == 'map4') {
-        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDATIs-afectadas']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDA_PontoDragado_hidroviaamazonica']: true};
       } else if (this.props.map == 'map6') {
-        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_nombre-tis-afectadas']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDA_PontoDragado_hidroviaamazonica']: true, ['ETIQUETA_nombre-tis-afectadas']: true};
       } else if (this.props.map == 'map6_1') {
-        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDATIs-afectadas']: true, ['ETIQUETA_etnias-tis-afectadas']: true};
+        visibility = {...this.state.visibility, ['TIPNIS_TI-limite_LEGENDA']: true, ['TIPNIS_Nacionales-limite_LEGENDA']: true, ['LEGENDA_PontoDragado_hidroviaamazonica']: true, ['ETIQUETA_etnias-tis-afectadas']: true};
       } else {
         visibility = {...this.state.visibility, [this.props.showExtraLayers]: true};
       }

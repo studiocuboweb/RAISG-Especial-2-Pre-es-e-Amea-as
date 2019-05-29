@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "RAISGP2018_Mapa06_ViasDesmatamento_Peru",
+    "name": "RAISG2018_Mapa07_HidroviaAmazonica_APsSemPressao",
     "metadata": {
         "mapbox:origin": "basic-template-v1",
         "mapbox:autocomposite": true,
@@ -12,13 +12,13 @@
         },
         "mapbox:trackposition": false,
         "mapbox:groups": {
-            "2fda30ef93da7a3f7b9d5626d112acd6": {
-                "name": "LEGENDA - APs e TI",
-                "collapsed": true
+            "0fb61dd51be8c8b757a7a4bfaead63ea": {
+                "name": "LEGENDA_ANP e TI_sem pressao",
+                "collapsed": false
             },
             "35193f33295b3e2cce6e4992a11631e7": {
                 "name": "BaseCartografica_RAISGMapbox",
-                "collapsed": false
+                "collapsed": true
             },
             "1b0bf84dc9295c195587566d7667e5b5": {
                 "name": "ETIQUETA APSeTIs",
@@ -30,8 +30,8 @@
             }
         }
     },
-    "center": [-74.37078970032127, -9.99259192010723],
-    "zoom": 5.99942264096677,
+    "center": [-73.83326658944713, -6.402685520695613],
+    "zoom": 5.6506760657721635,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -45,17 +45,12 @@
             "type": "raster",
             "tileSize": 256
         },
-        "mapbox://infoamazonia.6dx1yppl": {
-            "url": "mapbox://infoamazonia.6dx1yppl",
-            "type": "raster",
-            "tileSize": 256
-        },
         "composite": {
-            "url": "mapbox://infoamazonia.a163w3r6,mapbox.mapbox-streets-v7,infoamazonia.6d1wlvd9,infoamazonia.cm10oidv,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g",
+            "url": "mapbox://infoamazonia.2pv5ho58,infoamazonia.a163w3r6,infoamazonia.54n3egn6,infoamazonia.95hlikd1,mapbox.mapbox-streets-v7,infoamazonia.4lhvnfbu,infoamazonia.6d1wlvd9,infoamazonia.430srds2,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g,infoamazonia.11aaqkdj",
             "type": "vector"
         }
     },
-    "sprite": "mapbox://sprites/infoamazonia/cjw2jzpqv04sd1drterim7e5v/eqiemxbsncjkgzy9os0x4u8hf",
+    "sprite": "mapbox://sprites/infoamazonia/cjw800n9a1w8l1ckamhfr4nkk/5ik3ca97ke7d32fhylrr530m2",
     "glyphs": "mapbox://fonts/infoamazonia/{fontstack}/{range}.pbf",
     "layers": [
         {
@@ -109,169 +104,114 @@
             }
         },
         {
-            "id": "Desmatamento_60m_3857_LZWNoData",
-            "type": "raster",
-            "source": "mapbox://infoamazonia.6dx1yppl",
-            "minzoom": 2,
-            "maxzoom": 11,
-            "layout": {},
-            "paint": {
-                "raster-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    1,
-                    8,
-                    0.8,
-                    9,
-                    0.7
-                ]
-            }
-        },
-        {
-            "id": "LEGENDA_vias_Vermelhos",
-            "type": "line",
+            "id": "tindigenas_LEGENDA",
+            "type": "fill",
+            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
             "source": "composite",
-            "source-layer": "vias",
+            "source-layer": "tindigenas",
             "minzoom": 4,
             "layout": {},
             "paint": {
-                "line-color": [
-                    "match",
-                    ["get", "leyenda"],
-                    ["Pavimentada", "Pavimentado", "pavimentada"],
-                    "hsl(354, 96%, 45%)",
-                    [
-                        "No Pavimentada",
-                        "no pavimentada",
-                        "sin pavimentación",
-                        "en obras de pavimentación"
-                    ],
-                    "hsla(354, 96%, 45%, 0.7)",
-                    ["s/inf."],
-                    "#5f0609",
-                    "hsla(346, 0%, 10%, 0)"
-                ],
-                "line-width": [
+                "fill-opacity": [
                     "interpolate",
                     ["linear"],
                     ["zoom"],
                     4,
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["Pavimentado", "Pavimentada", "pavimentada"],
-                        1,
-                        [
-                            "No Pavimentada",
-                            "no pavimentada",
-                            "sin pavimentación",
-                            "en obras de pavimentación"
-                        ],
-                        0.5,
-                        ["s/inf."],
-                        0.75,
-                        0
-                    ],
-                    8,
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["Pavimentado", "Pavimentada", "pavimentada"],
-                        4,
-                        [
-                            "No Pavimentada",
-                            "no pavimentada",
-                            "sin pavimentación",
-                            "en obras de pavimentación"
-                        ],
-                        2,
-                        ["s/inf."],
-                        1.5,
-                        0
-                    ],
-                    9,
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["Pavimentado", "Pavimentada", "pavimentada"],
-                        6,
-                        [
-                            "No Pavimentada",
-                            "no pavimentada",
-                            "sin pavimentación",
-                            "en obras de pavimentación"
-                        ],
-                        3,
-                        ["s/inf."],
-                        2,
-                        0
-                    ],
+                    0.71,
+                    7,
+                    0.6,
                     10,
-                    [
-                        "match",
-                        ["get", "leyenda"],
-                        ["Pavimentado", "Pavimentada", "pavimentada"],
-                        10,
-                        [
-                            "No Pavimentada",
-                            "no pavimentada",
-                            "sin pavimentación",
-                            "en obras de pavimentación"
-                        ],
-                        5,
-                        ["s/inf."],
-                        4,
-                        0
-                    ]
+                    0.56
                 ],
-                "line-opacity": [
-                    "match",
-                    ["get", "nm_sigla"],
-                    ["PE-5N", "PE-30C"],
-                    1,
-                    ["BR-364", "BR-317"],
-                    0.5,
-                    0
-                ]
+                "fill-color": "hsla(12, 87%, 65%, 0.2)",
+                "fill-outline-color": "hsla(22, 95%, 43%, 0.21)"
             }
         },
         {
-            "id": "UcaMDD_div-politica-departamental copy 1",
+            "id": "nacionales_LEGENDA",
+            "type": "fill",
+            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
+            "source": "composite",
+            "source-layer": "nacionales",
+            "minzoom": 4,
+            "layout": {},
+            "paint": {
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    0.71,
+                    7,
+                    0.6,
+                    10,
+                    0.56
+                ],
+                "fill-outline-color": "hsla(172, 100%, 54%, 0.71)",
+                "fill-color": "hsla(172, 74%, 43%, 0.2)"
+            }
+        },
+        {
+            "id": "departamentales_LEGENDA",
+            "type": "fill",
+            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
+            "source": "composite",
+            "source-layer": "departamentales",
+            "minzoom": 4,
+            "layout": {},
+            "paint": {
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    0.71,
+                    7,
+                    0.6,
+                    10,
+                    0.56
+                ],
+                "fill-outline-color": "hsla(172, 100%, 54%, 0.71)",
+                "fill-color": "hsla(172, 74%, 43%, 0.2)"
+            }
+        },
+        {
+            "id": "bosquesprot_LEGENDA",
+            "type": "fill",
+            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
+            "source": "composite",
+            "source-layer": "bosquesprot",
+            "minzoom": 4,
+            "layout": {},
+            "paint": {
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    0.71,
+                    7,
+                    0.6,
+                    10,
+                    0.56
+                ],
+                "fill-outline-color": "#14ffe0",
+                "fill-color": "hsla(172, 74%, 43%, 0.2)"
+            }
+        },
+        {
+            "id": "div-politica-departamental",
             "type": "line",
             "metadata": {"mapbox:group": "35193f33295b3e2cce6e4992a11631e7"},
             "source": "composite",
             "source-layer": "div_politica_departamental",
-            "minzoom": 5,
+            "minzoom": 6.5,
             "layout": {},
             "paint": {
                 "line-color": "hsl(15, 0%, 48%)",
-                "line-pattern": "minimo-grey_poi-3",
+                "line-opacity": ["match", ["get", "paisiso"], ["PER"], 1, 0.5],
                 "line-width": 1,
-                "line-opacity": [
-                    "match",
-                    ["get", "nomedep"],
-                    ["Ucayali", "Madre De Dios"],
-                    1,
-                    0.2
-                ]
-            }
-        },
-        {
-            "id": "Peru_div-politica-pais",
-            "type": "line",
-            "metadata": {"mapbox:group": "35193f33295b3e2cce6e4992a11631e7"},
-            "source": "composite",
-            "source-layer": "div_politica_pais",
-            "minzoom": 3,
-            "layout": {"line-join": "bevel"},
-            "paint": {
-                "line-color": "#6e6e6e",
-                "line-opacity": 1,
-                "line-width": ["match", ["get", "paisiso"], ["PER"], 4, 1],
-                "line-gap-width": 0,
-                "line-blur": 1
+                "line-pattern": "minimo-grey_poi-3"
             }
         },
         {
@@ -284,16 +224,16 @@
             "layout": {},
             "paint": {
                 "circle-radius": 3,
-                "circle-color": "#404040",
+                "circle-color": "#4f4f4f",
                 "circle-opacity": [
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    7.5,
+                    6,
                     0,
-                    7.7,
-                    0.5,
-                    8.5,
+                    7,
+                    0.65,
+                    7.4,
                     1
                 ],
                 "circle-stroke-color": "#292929",
@@ -301,29 +241,446 @@
             }
         },
         {
-            "id": "UcayaliMDD_div-politica-departamental",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "9612493b6f9d5e3c50b3ffc708114060"},
+            "id": "div-politica-pais",
+            "type": "line",
+            "metadata": {"mapbox:group": "35193f33295b3e2cce6e4992a11631e7"},
             "source": "composite",
-            "source-layer": "div_politica_departamental",
-            "minzoom": 5,
+            "source-layer": "div_politica_pais",
+            "minzoom": 3,
+            "layout": {"line-join": "bevel"},
+            "paint": {
+                "line-color": "hsl(0, 0%, 43%)",
+                "line-opacity": 1,
+                "line-width": ["match", ["get", "paisiso"], ["PER"], 3, 1]
+            }
+        },
+        {
+            "id": "LEGENDA_RIOS_hidroviaamazonica",
+            "type": "line",
+            "source": "composite",
+            "source-layer": "HidroviaAmazonica_rio-4e7vde",
+            "minzoom": 4,
+            "layout": {},
+            "paint": {
+                "line-color": "#ac20fe",
+                "line-opacity": 1,
+                "line-width": 3,
+                "line-blur": 1,
+                "line-offset": 0,
+                "line-gap-width": 0
+            }
+        },
+        {
+            "id": "bosquesprot etiqueta",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
+            "source": "composite",
+            "source-layer": "bosquesprot",
+            "minzoom": 6.5,
+            "layout": {
+                "text-line-height": 1.1,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    13,
+                    7,
+                    15,
+                    8,
+                    17,
+                    9,
+                    21,
+                    10,
+                    23
+                ],
+                "icon-offset": [0, 0],
+                "icon-image": "park-11_greenaps_stroke",
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    30,
+                    7,
+                    60,
+                    8,
+                    270,
+                    9,
+                    300,
+                    10,
+                    350
+                ],
+                "text-offset": [0, 0.5],
+                "text-anchor": "top",
+                "text-field": [
+                    "concat",
+                    ["get", "categoria"],
+                    ["get", "nombre"]
+                ],
+                "text-letter-spacing": 0.01
+            },
+            "paint": {
+                "text-color": "#53f9e3",
+                "text-halo-width": 0.2,
+                "icon-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.9],
+                    7,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.9, 1, 0.9]
+                ],
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    7,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
+                ],
+                "text-translate": [0, 0],
+                "text-halo-color": "#383838"
+            }
+        },
+        {
+            "id": "tindigenas etiqueta",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
+            "source": "composite",
+            "source-layer": "tindigenas",
+            "minzoom": 6.5,
+            "layout": {
+                "text-line-height": 1.1,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    13,
+                    7,
+                    15,
+                    8,
+                    17,
+                    9,
+                    21,
+                    10,
+                    23
+                ],
+                "icon-offset": [0, -4],
+                "icon-image": "circle-11_laranja",
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    55,
+                    8,
+                    90,
+                    9,
+                    300,
+                    10,
+                    350
+                ],
+                "text-offset": [0, 0],
+                "icon-size": 0.7,
+                "text-anchor": "top",
+                "text-field": [
+                    "concat",
+                    ["get", "categoria"],
+                    ["get", "nombre"],
+                    ["get", "etnias"]
+                ],
+                "text-letter-spacing": 0.01
+            },
+            "paint": {
+                "text-color": "hsl(10, 83%, 46%)",
+                "text-halo-color": "hsl(22, 0%, 22%)",
+                "text-halo-width": 0,
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    7,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.5, 1, 1],
+                    8,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 1, 1, 1]
+                ],
+                "text-translate": [0, 0]
+            }
+        },
+        {
+            "id": "departamentales etiqueta",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
+            "source": "composite",
+            "source-layer": "departamentales",
+            "minzoom": 6.5,
+            "layout": {
+                "text-line-height": 1.1,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    13,
+                    7,
+                    15,
+                    8,
+                    17,
+                    9,
+                    21,
+                    10,
+                    23
+                ],
+                "icon-offset": [0, 0],
+                "icon-image": "park-11_greenaps_stroke",
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    30,
+                    7,
+                    60,
+                    8,
+                    270,
+                    9,
+                    300,
+                    10,
+                    350
+                ],
+                "text-offset": [0, 0.5],
+                "text-anchor": "top",
+                "text-field": [
+                    "concat",
+                    ["get", "categoria"],
+                    ["get", "nombre"]
+                ],
+                "text-letter-spacing": 0.01
+            },
+            "paint": {
+                "text-color": "#53f9e3",
+                "text-halo-width": 0.2,
+                "icon-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.9],
+                    7,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.9, 1, 0.9]
+                ],
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    7,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
+                ],
+                "text-translate": [0, 0],
+                "text-halo-color": "hsl(0, 0%, 22%)"
+            }
+        },
+        {
+            "id": "nacionales etiqueta",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
+            "source": "composite",
+            "source-layer": "nacionales",
+            "minzoom": 6.5,
+            "layout": {
+                "text-line-height": 1.1,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    13,
+                    7,
+                    15,
+                    8,
+                    17,
+                    9,
+                    21,
+                    10,
+                    23
+                ],
+                "icon-offset": [0, 0],
+                "icon-image": "park-11_greenaps_stroke",
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    30,
+                    7,
+                    60,
+                    8,
+                    270,
+                    9,
+                    300,
+                    10,
+                    350
+                ],
+                "text-offset": [0, 0.5],
+                "text-anchor": "top",
+                "text-field": [
+                    "concat",
+                    ["get", "categoria"],
+                    ["get", "nombre"]
+                ],
+                "text-letter-spacing": 0.01
+            },
+            "paint": {
+                "text-color": "hsl(172, 93%, 65%)",
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    7,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
+                ],
+                "text-halo-width": 0.2,
+                "icon-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.9],
+                    7,
+                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.9, 1, 0.9]
+                ],
+                "text-translate": [0, 0],
+                "text-halo-color": "hsl(0, 0%, 22%)"
+            }
+        },
+        {
+            "id": "LEGENDA_PontoDragado_hidroviaamazonica-",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "HidroviaAmazonica_dragado-bzjyrb",
+            "minzoom": 4,
+            "layout": {"icon-image": "circle-stroked-11", "icon-size": 1},
+            "paint": {"icon-opacity": 0.9}
+        },
+        {
+            "id": "hidroviaamazonica-rio-4e7vde copy",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "HidroviaAmazonica_rio-4e7vde",
+            "minzoom": 4,
+            "maxzoom": 9,
             "layout": {
                 "text-size": [
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    5,
-                    13,
                     6,
-                    14,
+                    13,
+                    7,
+                    15,
+                    10,
+                    16
+                ],
+                "symbol-spacing": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    100,
+                    6.428,
+                    10,
+                    7,
+                    1,
+                    10,
+                    100
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    90,
+                    7,
+                    110,
+                    9,
+                    350
+                ],
+                "text-offset": [0, 0],
+                "text-anchor": "top-left",
+                "text-field": ["to-string", ["get", "EJES"]],
+                "text-letter-spacing": 0.1
+            },
+            "paint": {
+                "text-color": "#60108e",
+                "text-opacity": [
+                    "match",
+                    ["get", "EJES"],
+                    [
+                        "Río Marañón",
+                        "Río Amazonas",
+                        "Río Ucayali",
+                        "Río Huallaga"
+                    ],
+                    1,
+                    0
+                ],
+                "text-halo-width": 0.3,
+                "text-halo-color": "hsl(0, 2%, 94%)"
+            }
+        },
+        {
+            "id": "div-politica-departamental copy",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "9612493b6f9d5e3c50b3ffc708114060"},
+            "source": "composite",
+            "source-layer": "div_politica_departamental",
+            "minzoom": 6.5,
+            "layout": {
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    12,
+                    7,
+                    13,
                     9,
                     18
                 ],
                 "text-transform": "uppercase",
                 "text-font": ["Open Sans Italic", "Arial Unicode MS Regular"],
-                "text-padding": 80,
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    160,
+                    6,
+                    160
+                ],
+                "text-offset": [
+                    "match",
+                    ["get", "nomedep"],
+                    ["Pará"],
+                    ["literal", [15, 0]],
+                    ["literal", [0, 0]]
+                ],
                 "text-rotation-alignment": "map",
-                "text-anchor": "bottom-right",
                 "text-pitch-alignment": "map",
                 "text-field": ["to-string", ["get", "nomedep"]],
                 "text-letter-spacing": 0.3
@@ -331,14 +688,18 @@
             "paint": {
                 "text-color": "#4f4f4f",
                 "text-opacity": [
-                    "match",
-                    ["get", "nomedep"],
-                    ["Ucayali", "Madre De Dios"],
-                    0.7,
-                    0
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6.5,
+                    ["match", ["get", "paisiso"], ["PER"], 0.7, 0],
+                    7.1,
+                    ["match", ["get", "paisiso"], ["PER"], 0.9, 0],
+                    9,
+                    ["match", ["get", "paisiso"], ["PER"], 1, 0]
                 ],
                 "text-translate": [0, 0],
-                "text-halo-width": 0.1,
+                "text-halo-width": 0,
                 "text-halo-color": "hsl(0, 0%, 3%)"
             }
         },
@@ -349,13 +710,32 @@
             "source": "composite",
             "source-layer": "country_label",
             "minzoom": 4,
+            "maxzoom": 10.6,
             "layout": {
-                "text-field": [
-                    "step",
+                "text-offset": [
+                    "interpolate",
+                    ["linear"],
                     ["zoom"],
-                    ["to-string", ["get", "name"]],
-                    22,
-                    ["to-string", ["get", "name"]]
+                    4,
+                    [
+                        "match",
+                        ["get", "name"],
+                        ["Guyane"],
+                        ["literal", [0.7, 0]],
+                        ["Perú"],
+                        ["literal", [1, 0]],
+                        ["literal", [0, 0]]
+                    ],
+                    6,
+                    [
+                        "match",
+                        ["get", "name"],
+                        ["Guyane"],
+                        ["literal", [0.7, 0]],
+                        ["Perú"],
+                        ["literal", [-1, -10]],
+                        ["literal", [0, 0]]
+                    ]
                 ],
                 "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
                 "text-size": [
@@ -367,100 +747,30 @@
                     5,
                     17,
                     6,
-                    20,
+                    18,
                     6.49,
                     22
                 ],
-                "text-offset": [
-                    "match",
-                    ["get", "name"],
-                    ["Colombia"],
-                    ["literal", [1, 7]],
-                    ["Venezuela"],
-                    ["literal", [2, 2]],
-                    ["Guyane"],
-                    ["literal", [0.7, 0]],
-                    ["literal", [0, 0]]
-                ]
+                "text-field": ["to-string", ["get", "name"]],
+                "text-padding": 0
             },
             "paint": {
                 "text-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
+                    "match",
+                    ["get", "name"],
                     [
-                        "match",
-                        ["get", "name"],
-                        [
-                            "Colombia",
-                            "Guyana",
-                            "Guyane",
-                            "Venezuela",
-                            "Ecuador",
-                            "Suriname",
-                            "Perú",
-                            "Brasil",
-                            "Bolivia"
-                        ],
-                        1,
-                        0
+                        "Guyana",
+                        "Guyane",
+                        "Venezuela",
+                        "Ecuador",
+                        "Suriname",
+                        "Brasil",
+                        "Bolivia"
                     ],
-                    5,
-                    [
-                        "match",
-                        ["get", "name"],
-                        [
-                            "Colombia",
-                            "Guyana",
-                            "Guyane",
-                            "Venezuela",
-                            "Ecuador",
-                            "Suriname",
-                            "Brasil",
-                            "Bolivia"
-                        ],
-                        0.5,
-                        ["Perú"],
-                        1,
-                        0
-                    ],
-                    6,
-                    [
-                        "match",
-                        ["get", "name"],
-                        [
-                            "Colombia",
-                            "Guyana",
-                            "Guyane",
-                            "Venezuela",
-                            "Ecuador",
-                            "Suriname",
-                            "Perú",
-                            "Brasil",
-                            "Bolivia"
-                        ],
-                        1,
-                        0
-                    ],
-                    22,
-                    [
-                        "match",
-                        ["get", "name"],
-                        [
-                            "Colombia",
-                            "Guyana",
-                            "Guyane",
-                            "Venezuela",
-                            "Ecuador",
-                            "Suriname",
-                            "Perú",
-                            "Brasil",
-                            "Bolivia"
-                        ],
-                        1,
-                        0
-                    ]
+                    0.5,
+                    ["Perú"],
+                    0.9,
+                    0
                 ],
                 "text-halo-blur": 0,
                 "text-halo-width": 0.7,
@@ -481,83 +791,30 @@
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    8,
+                    7,
                     12,
+                    8,
+                    13,
                     9,
-                    15,
-                    10,
-                    17
+                    17,
+                    11,
+                    19
                 ],
                 "text-anchor": "left",
                 "text-justify": "left"
             },
             "paint": {
-                "text-color": "#404040",
+                "text-color": "#303030",
                 "text-opacity": [
                     "interpolate",
                     ["linear"],
                     ["zoom"],
+                    7,
+                    0.75,
                     7.5,
-                    0,
-                    7.7,
-                    0.5,
-                    8.5,
                     1
                 ],
                 "text-translate": [5, 0]
-            }
-        },
-        {
-            "id": "vias Vermelhos ETIQUETA",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "vias",
-            "minzoom": 6,
-            "layout": {
-                "text-field": ["to-string", ["get", "nm_sigla"]],
-                "text-font": ["Ubuntu Bold", "Arial Unicode MS Regular"],
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    11,
-                    7,
-                    12,
-                    8,
-                    14,
-                    10,
-                    18
-                ],
-                "symbol-placement": "line",
-                "symbol-spacing": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    10,
-                    8,
-                    20,
-                    10,
-                    250
-                ],
-                "text-allow-overlap": true
-            },
-            "paint": {
-                "text-color": "#df051b",
-                "text-halo-color": "hsl(0, 0%, 100%)",
-                "text-halo-width": 2,
-                "text-opacity": [
-                    "match",
-                    ["get", "nm_sigla"],
-                    ["Sem Toponímia na Carta Impressa"],
-                    0,
-                    ["PE-5N", "PE-30C"],
-                    1,
-                    ["BR-317", "BR-364"],
-                    0,
-                    0
-                ]
             }
         },
         {
@@ -572,9 +829,9 @@
                     ["linear"],
                     ["zoom"],
                     0,
-                    0.2,
+                    0.3,
                     5,
-                    0.2,
+                    0.3,
                     6,
                     0.32
                 ],
@@ -582,9 +839,9 @@
             }
         }
     ],
-    "created": "2019-05-24T20:44:24.295Z",
-    "id": "cjw2jzpqv04sd1drterim7e5v",
-    "modified": "2019-05-29T13:08:32.697Z",
+    "created": "2019-05-28T16:11:52.478Z",
+    "id": "cjw800n9a1w8l1ckamhfr4nkk",
+    "modified": "2019-05-29T18:40:26.413Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false

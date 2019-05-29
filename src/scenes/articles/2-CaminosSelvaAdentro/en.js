@@ -215,12 +215,12 @@ export default () => (
         type: "mapbox",
           data: {
             map: "map7",
-            legend:"legend9",
+            legend:"legend_group7",
             update:"map7",
             showExtraLayers: [],
-            coordinates: [-63.693113,2.766774],
-            zoomNumber: 5.50,
-            zoomMin: 5,
+            coordinates: [-73.834649,-6.401255],
+            zoomNumber: 5.65,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> de la región productora de cereales de Sinop (Mato Grosso) hasta el puerto de Miritituba (Pará), Ferrogrão
