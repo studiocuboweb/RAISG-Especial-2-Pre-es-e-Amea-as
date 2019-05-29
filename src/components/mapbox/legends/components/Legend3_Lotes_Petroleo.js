@@ -34,7 +34,7 @@ class Legend3_Lotes_Petroleo extends Component {
     render () {
         return (
             <div>
-                <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'areas-naturales-protegidas')} />
+                <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'petroleo_LEGENDA')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                 <FormattedMessage id="legend3.title" defaultMessage="Natural Protected Areas">
                     {(txt) => (txt)}

@@ -6,7 +6,10 @@ import MAP_STYLE3 from './styles/Map3.json';
 import MAP_STYLE4 from './styles/Map4.json';
 import MAP_STYLE5 from './styles/Map5.json';
 import MAP_STYLE6 from './styles/Map6.json';
+import MAP_STYLE7 from './styles/Map7.json';
+import MAP_STYLE8 from './styles/Map8.json';
 import MAP_STYLE9 from './styles/Map9.json';
+import MAP_STYLE10 from './styles/Map10.json';
 import "styles/mapbox.css";
 import Legends from './legends/Legends';
 
@@ -17,8 +20,10 @@ const styles = {
   map4: MAP_STYLE4,
   map5: MAP_STYLE5,
   map6: MAP_STYLE6,
-  map6_1: MAP_STYLE6,
+  map7: MAP_STYLE7,
+  map8: MAP_STYLE8,
   map9: MAP_STYLE9,
+  map10: MAP_STYLE10,
 };
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];

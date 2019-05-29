@@ -100,7 +100,7 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
                                 </FormattedMessage>
                             </label>
                         </div>
-                        {legendGroup == 'legend_group2' || legendGroup == 'legend_group3' &&
+                        {legendGroup == 'legend_group2' || legendGroup == 'legend_group10' &&
                             <div>
                                 <div className='mapbox_control-panel_subtitle'>
                                     <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>

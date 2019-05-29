@@ -261,7 +261,7 @@ export default () => (
           type: "mapbox",
             data: {
               map: "map9",
-              legend:"legend3",
+              legend:"legend_group9",
               update:"map9",
               showExtraLayers: ['GERAL - MINERIA E PETROLEO'],
               coordinates: [-64.770093,-6.650804],
@@ -342,7 +342,7 @@ export default () => (
           type: "mapbox",
             data: {
               map: "map10",
-              legend:"legend10",
+              legend:"legend_group10",
               update:"map10",
               showExtraLayers: ['MINERÍA Perú, localiza Cordillera del Cóndor/PN Ichigat Muja'],
               coordinates: [-64.770093,-6.650804],

@@ -263,7 +263,7 @@ export default () => (
           type: "mapbox",
             data: {
               map: "map9",
-              legend:"legend9",
+              legend:"legend_group9",
               update:"map9",
               showExtraLayers: [],
               coordinates: [-64.770093,-6.650804],
@@ -344,7 +344,7 @@ export default () => (
           type: "mapbox",
             data: {
               map: "map10",
-              legend:"legend10",
+              legend:"legend_group10",
               update:"map10",
               showExtraLayers: [],
               coordinates: [-64.770093,-6.650804],
