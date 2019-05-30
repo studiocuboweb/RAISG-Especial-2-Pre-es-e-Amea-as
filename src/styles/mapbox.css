@@ -85,7 +85,7 @@
     cursor: pointer;
     font-size: 1rem;
   }
-  /* rgb(168,229,221) verde */
+  /* rgb(168,229,221) verde */ 
   .mapbox_custom-checkbox-colored_1:after {
     content: " ";
     background-color: rgb(253,238,233);
@@ -111,4 +111,34 @@
   
   .mapbox_custom-checkbox-colored_2:checked:after {
     padding:0.5rem;
+  }
+
+  .mapbox_custom-checkbox-tipnis:after {
+    content: " ";
+    background-color:#ffffff;
+    background-image: url("/0d5beb668914478db184751b64f120f8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    visibility: visible;
+    border-radius:4px;
+  }
+  
+  .mapbox_custom-checkbox-tipnis:checked:after {
+    padding: 0.36rem;
+  }
+
+  .mapbox_custom-checkbox-tipnis-nacional:after {
+    content: " ";
+    background-color:#ffffff;
+    background-image: url("/1affd1b01e9ddce0ddc630cee0690177.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    visibility: visible;
+    border-radius:4px;
+  }
+  
+  .mapbox_custom-checkbox-tipnis-nacional:checked:after {
+    padding: 0.36rem;
   }

@@ -38,7 +38,7 @@ class Legend13_Limite_TIPNIS_nacional extends Component {
     render () {
         return (
             <div className='mapbox_control-panel_subtitle' style={{paddingTop:'3px',paddingLeft:'20px'}}>
-                <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_Nacionales-limite_LEGENDA')} />
+                <input type="checkbox" className="mapbox_custom-checkbox-tipnis-nacional" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_Nacionales-limite_LEGENDA')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                     <FormattedMessage id="legend1.item6" defaultMessage="national">
                         {(txt) => (txt)}
