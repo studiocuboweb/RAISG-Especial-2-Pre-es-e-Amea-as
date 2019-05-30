@@ -130,9 +130,9 @@ export default () => (
               credits: "E. Sánchez / FAN",
               src: require("photos/chapter4/ESanchez_DSC9161.jpg")
             }
-          }}> está transformando seu alto potencial paisagístico e florestal em um modelo baseado na expansão da agricultura e pecuária
-          </StoryMedia>, 
-          insustentável por causa de baixos rendimentos e pobres retornos econômicos.
+          }}> está transformando seu alto potencial paisagístico e florestal em um modelo baseado na expansão da agricultura 
+          </StoryMedia>
+          e pecuária insustentável por causa de baixos rendimentos e pobres retornos econômicos.
       </Paragraph>
 
       <Paragraph>

@@ -80,14 +80,14 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro"
-              defaultMessage="The Looted Amazon is an overview of the situation of illegal mining in six Amazonian countries. The analyses and cases presented are based on data from the {MineriaIlegal} platform."
+              defaultMessage="Amazonia at a crossroads is an overview of the status of pressures and threats in the Protected Natural Areas and Indigenous Territories of six countries of the Amazon. The analysis and the examples presented are based on cartographic data of the publication - Pressures on and Threats to Protected Areas and Indigenous Territories in Amazonia 2018."
               values={{
                 link: (
                   <strong>
                     <a href="https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/" target="_blank">
                       <FormattedMessage
                         id="text.link"
-                        defaultMessage="The Looted Amazon is an overview of the situation of illegal mining in six Amazonian countries. The analyses and cases presented are based on data from the platform."
+                        defaultMessage="Pressures on and Threats to Protected Areas and Indigenous Territories in Amazonia 2018."
                       />
                     </a>
                   </strong>
@@ -98,7 +98,7 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro2"
-              defaultMessage="Los datos pueden ser descargados {link2}"
+              defaultMessage="Data can be downloaded from the site of {link2}"
               values={{
                 link2: (
                   <strong>
@@ -111,7 +111,7 @@ const About = ({ intl, lastPath }) => {
           <Paragraph big>
             <FormattedMessage
               id="about.intro3"
-              defaultMessage="Este informe digital publicado el 03 de junio de 2019 se hizo en alianza por:"
+              defaultMessage="This digital report published on 5 June 2019 was prepared under a partnership between:"
             />
           </Paragraph>
           <GeneralBlock>
@@ -143,18 +143,18 @@ const About = ({ intl, lastPath }) => {
                 /> - Gustavo Faleiros<br />
               <FormattedMessage
                   id="about.editor_chief"
-                  defaultMessage="Image and map editor"
+                  defaultMessage="Map and image editor"
                 /> - Juliana Mori<br />
               <FormattedMessage
                   id="about.dev"
-                  defaultMessage="Web Development and Design"
+                  defaultMessage="Development and Web Design"
                 /> - <a href="mailto:contato@studiocuboweb.com.br" target="_blank"> StudioCubo</a><br />
             </Paragraph>
             <Paragraph>
             <strong>
               <FormattedMessage
                 id="about.fotos"
-                defaultMessage="Foto portada"
+                defaultMessage="Cover photo"
               /> 
             </strong> - Izabela Stachowicz
             </Paragraph>

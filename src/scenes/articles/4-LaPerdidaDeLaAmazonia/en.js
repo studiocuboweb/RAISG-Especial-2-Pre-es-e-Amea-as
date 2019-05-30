@@ -16,18 +16,17 @@ import Board from "components/blocks/Board";
 export default () => (
   <article>
     <Helmet>
-    <title>La pérdida de la Amazonía | Amazonía en la encrucijada</title>
+    <title>The loss of the Amazon | Amazonia at crossroads</title>
     </Helmet>
     <Container>
-      <Title as="h2">La pérdida de la Amazonía</Title>
+      <Title as="h2">The loss of the Amazon</Title>
       <Note>
         <p>
-          La Pan Amazonía está siendo impactada. Con las inversiones en infraestructura, se advierte una degradación en los ecosistemas boscosos, a consecuencia de  la deforestación, pero no es el único parámetro. Los restantes ecosistemas no boscosos experimentan pérdida de especies características, sustitución de su vegetación original por especies invasoras o especies resistentes al fuego y no típicas. O bien, por su empobrecimiento hacia sistemas sabanizados no naturales, o por cambios en procesos ecológicos ligados a cambios en los sistemas hidrológicos. 
+          The Pan-Amazon region is suffering serious impacts. With investments in infrastructure, there is degradation of forest ecosystems as a consequence of deforestation. But this is not the only parameter. Non-forest ecosystems experience loss of endemic species, replacement of their original vegetation by invasive species or by species resistant to fire. Or again, there is impoverishment caused by the establishment of unnatural savanna ecosystems, resulting from changes in the ecological processes linked to alterations in hydrological systems.
         </p>
       </Note>
 
       <Paragraph>
-        En la Panamazonia,
         <StoryMedia
           media={{
             id: "image-1",
@@ -36,25 +35,25 @@ export default () => (
               credits: "Fábio Garcia Moreira / ISA",
               src: require("photos/chapter4/FabioGarciaMoreiraISA_RS1908_vista-aerea-da-area-de-plantio-na-fazenda-sao-jose-do-tanguro-e-da-aldeia-tangurinho-Limite-sudeste-do-TIX.jpg")
             }
-          }}> los territorios indígenas y las áreas naturales protegidas continúan siendo las principales barreras que  aseguran  la protección de los ecosistemas boscosos
-          </StoryMedia>, 
-          la diversidad biológica y cultural que allí habita. En conjunto, las áreas protegidas y los  territorios indígenas representan 390 millones de hectáreas en la Amazonía. Esto quiere decir que el 46% de los 847 millones de hectáreas del territorio amazónico está ocupado por áreas naturales protegidas o territorios indígenas.
+          }}> Indigenous territories and protected natural areas remain the main barriers that guarantee the protection of forest ecosystems
+          </StoryMedia> 
+          and the biological and cultural diversity found in these. In all, protected areas and indigenous territories represent 390 million hectares in Amazonia. This means that 46% of the 847 million hectares of Amazonian territory are occupied by protected natural areas or indigenous territories.
       </Paragraph>
 
       <Table>
         <table>
           <tr>
-            <th>Figura de protección</th>
-            <th>área (mil ha)</th>
-            <th>% en relación a la Amazonía general</th>
+            <th>Protection category</th>
+            <th>area (thousands of ha)</th>
+            <th>% in relation to the Amazon overall</th>
           </tr>
           <tr>
-            <td>Áreas Naturales Protegidas</td>
+            <td>Protected Natural Areas</td>
             <td>198.456</td>
             <td>23,40%</td>
           </tr>
           <tr>
-            <td>Territorios Indígenas</td>
+            <td>Indigenous Territories</td>
             <td>236.893</td>
             <td>28,00%</td>
           </tr>
@@ -66,15 +65,15 @@ export default () => (
         </table>
       </Table>
       <LittleNote>
-        Nota: Superposición de ANP con TI representa 45.474 mil hectáreas o 5,40% del total. Este valor se sustrae del ‘Total’ de 389.876 mil hectáreas.
+        Note: the overlap of ANPs with TIs represents 45.474 thousand hectares or 5.40% of the total. This amount is contained in the total of 389,876 hectares.
       </LittleNote>
 
       <Paragraph>
-        La deforestación en el interior de estos territorios y áreas protegidas sigue siendo pequeña en términos absolutos y se encuentra concentrada en regiones críticas.  No obstante, hay una tendencia a la aceleración de la pérdida de biodiversidad. Este proceso viene acompañado de una creciente violencia contra los pueblos indígenas. Como mostró recientemente una investigación acerca de <ExternalLink href="https://colombiacheck.com/especiales/tierra-resistentes/es-co/" language="es">1.356 hechos de amenazas y asesinatos de líderes en América Latina, 56% de esos episodios de violencia (761 registros) pertenece a alguna minoría étnica</ExternalLink>, demostrando que los territorios indígenas y afrodescendientes son especialmente vulnerables a estos intereses criminales
+        Deforestation in indigenous territories and protected areas remains small in absolute terms and is concentrated in critical regions. However, there is an accelerating trend of biodiversity loss. This process is accompanied by an increase in violence against indigenous peoples. As a recent investigation of <ExternalLink href="https://colombiacheck.com/especiales/tierra-resistentes/es-co/" language="es">1,356 acts of threats and killings of Latin American environmental leaders showed, 56% of these episodes of violence (761 records) occurred against members of minorities</ExternalLink>, demonstrating that indigenous and Afro-descendant territories are especially vulnerable to such criminal action.
       </Paragraph>
 
       <Paragraph>
-        De acuerdo con los nuevos mapas de RAISG,
+        According to the latest RAISG maps,
         <StoryMedia
           media={{
             id: "galery-1",
@@ -112,17 +111,17 @@ export default () => (
               ]
             }
           }}
-        > 10,3 millones de hectáreas de áreas naturales protegidas y territorios indígenas fueron directamente afectadas por la deforestación entre 2000 y 2015
+        > 10.3 million hectares of protected natural areas and indigenous territories were directly affected by deforestation between 2000 and 2015
         </StoryMedia>, 
-        lo que representa un 12% de la región amazónica.
+        amounting to 12% of the Amazon region.
       </Paragraph>
 
       <Paragraph>
-        Los resultados indican una alerta para la protección de la Amazonía, pues un reciente estudio de Thomas Lovejoy y Carlos Nobre publicado en 2018 en la revista Science resalta que <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">la suma de impactos de la deforestación, el  cambio climático y los incendios forestales llevará a un punto de inflexión (o punto de no retorno) al sistema amazónico</ExternalLink>. Es decir, que tan pronto como sea alcanzado el 20% a 25% de la deforestación habrán consecuencias irreversibles hacia ecosistemas no forestales en las regiones este, sur y central de la Amazonía. Este modelo ha considerado la cuenca amazónica sin la inclusión de las cuencas de partes de los ríos Orinoco Araguaia, Tocantins y las cuencas del Atlántico Norte y zonas costeras.
+      The results are a warning for the protection of the biome, as highlighted by a study by Thomas Lovejoy and Carlos Nobre published in the journal Science in 2018. According to the authors, <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">the sum of the impacts of deforestation, climate change and forest fires will lead to an inflection point (or point of no return) for the Amazon system.</ExternalLink>. That is, once deforestation reaches 20% to 25% of the biome there will be irreversible consequences for the non-forest ecosystems of southern and central Amazonia. This model considered the Amazon basin without the inclusion of parts of the Orinoco, Araguaia and Tocantins basins and of the North Atlantic and coastal areas.
       </Paragraph>
 
       <Paragraph>
-        En la Amazonía boliviana, como viene ocurriendo desde hace más de una década, hay una visión de desarrollo enfocada en la conversión de uso del suelo. Es decir, se
+        In the Bolivian Amazon, as has been happening for more than a decade, there is a development model based on land use conversion. That is, 
         <StoryMedia
           media={{
             id: "image-2",
@@ -131,21 +130,21 @@ export default () => (
               credits: "E. Sánchez / FAN",
               src: require("photos/chapter4/ESanchez_DSC9161.jpg")
             }
-          }}> está transformando su paisaje y alto potencial forestal hacia una economía basada en la ampliación de la agriculturaprotegidas continúan siendo las principales barreras que  aseguran  la protección de los ecosistemas boscosos
-          </StoryMedia>
-        y ganadería extensiva , poco sostenible por sus bajos rendimientos de producción y escasos réditos económicos para el país.
+          }}> the country is transforming its high landscape and forestry potential into a model based on the expansion of agriculture and livestock
+          </StoryMedia>, 
+          unsustainable because of low incomes and poor economic returns.
       </Paragraph>
 
       <Paragraph>
-        Análisis realizados por la Fundación Amigos de la Naturaleza (FAN) en el período 2005–2018 indican que el 88% de las quemas e incendios forestales de Bolivia se concentran en la región Amazónica , afectando a más de 18,7 millones de hectáreas, donde los ecosistemas con mayor impacto son pastizales naturales (70%) comprendidos por sabanas y cerrados, y en menor proporción (30%) ocurren en áreas boscosas.
+        The analysis of the Fundación Amigos de la Naturaleza (FAN) for the period 2005-2018 shows that 88% of burnings and forest fires in Bolivia are concentrated in the Amazon region, affecting more than 18.7 million hectares, with the ecosystems most impacted being natural grasslands, comprising savannas and cerrados (70%) and, to a lesser degree (30%), forest areas.
       </Paragraph>
 
       <FeaturedText>
-        El año 2010 fue considerado en Bolivia como el de mayor magnitud e impacto, donde el fuego asociado con la sequía afectó a más de 8,5 millones de hectáreas en la cuenca amazónica.
+        The 2010 events in Bolivia, where fires associated with drought affected more than 8.5 million hectares in the Amazon Basin, were considered to have been the greatest in magnitude and impact.
       </FeaturedText>
       
       <Paragraph>
-        Debido a la falta de medidas de prevención,
+        Due to the lack of preventive measures,
         <StoryMedia
           media={{
             id: "image-3",
@@ -154,17 +153,17 @@ export default () => (
               credits: "C. Pinto / FAN",
               src: require("photos/chapter4/01_DSC_0373.jpg")
             }
-          }}> el fuego iniciado para habilitar una parcela destinada a la siembra de cultivos o el establecimiento de pastos para ganadería suele descontrolarse 
-          </StoryMedia>,
-        y afectar anualmente, en promedio, más de 4 millones de hectáreas. Por otro lado, la intensificación y magnitud de quemas e incendios, además de la acción humana, están estrechamente relacionadas con las condiciones climáticas extremas como las sequías.
+          }}> fires started to clear plots for crops or livestock tend to get out of control
+          </StoryMedia> 
+          and affect, on average, more than 4 million hectares. In addition to human action, the intensification and spread of burning and wildfires are closely related to extreme climatic conditions, such as drought.
       </Paragraph>
 
       <Paragraph>
-        El panorama de la Amazonía colombiana muestra una alta deforestación, el aumento de cultivos ilícitos y la presencia de incendios forestales. Además, en el Plan Nacional de Desarrollo, el presente gobierno definió que habrá un 0% de variación en la meta de deforestación respecto al cuatrienio del gobierno pasado. Es decir, se permitirá la destrucción de 215.000 mil ha de bosque al año a nivel nacional, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">de los cuales, el 72% son de la Amazonía colombiana</ExternalLink>, hasta llegar al punto de no retorno, lo que da luz verde para proyectos de desarrollo económico que antes no  eran permitidos en esta región colombiana.
+        The overview of the Colombian Amazon reveals high deforestation, an increase in illicit crops and the presence of forest fires. In addition, in the National Development Plan, the current government has decided that there will be no change in its deforestation goal relative to the previous government's four-year administration. That is to say, the destruction of 215,000 hectares of forest per year will be allowed at the national level, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">of which 72% will be from the Amazon region</ExternalLink>. hThere is thus a green light for economic development projects previously not allowed in this region of Colombia.
       </Paragraph>
 
       <Paragraph>
-        En Brasil,
+        In Brazil,
         <StoryMedia
           media={{
             id: "image-4",
@@ -173,17 +172,17 @@ export default () => (
               credits: "Lilo Clareto / ISA",
               src: require("photos/chapter4/LiloClaretoISA_RS26041_Castanha-3548.jpg")
             }
-          }}> durante el período electoral (agosto a noviembre de 2018), la deforestación en la Amazonía se duplicó con relación al mismo período del año anterior
-          </StoryMedia>,
-          llegando a 1.4 millones de hectáreas de bosques perdidos. En concreto, la deforestación detectada en el mes de noviembre de 2018 fue cuatro veces mayor que en noviembre de 2017. Este escenario de amenaza e intensificación de la deforestación siguió después de las elecciones. En enero de 2019 la Amazonía Legal perdió 10.800 hectáreas de bosques, un aumento del 54% en comparación al mismo período del año anterior según los datos divulgados por el Instituto do Homem e Meio Ambiente da Amazônia (Imazon). De esta deforestación registrada en enero de 2019, el 12% ocurrió en áreas protegidas, territorios indígenas y el 5% en unidades de conservación.
+          }}> during the electoral period (August to November 2018), deforestation in the Amazon doubled compared to the same period of the previous year
+          </StoryMedia>, 
+          reaching 1.4 million hectares of forest loss. Specifically, deforestation detected in November 2018 was four times greater than in November 2017. This scenario of threats and intensification of deforestation continued after the elections. In January 2019, the Amazon region (Amazônia Legal) lost 10,800 hectares of forest, an increase of 54% over the same period the previous year, according to data released by the Instituto do Homem e Meio Ambiente da Amazônia (Imazon). Of this deforestation recorded in January 2019, 12% occurred in indigenous territories and 5% in protected areas.
       </Paragraph>
 
       <Paragraph>
-        <strong className='regular-title'>La búsqueda de Justicia</strong>
+        <strong className='regular-title'>The search for justice</strong>
       </Paragraph>
 
       <FeaturedText>
-        Ante el cuadro preocupante de las amenazas y presiones que enfrenta, los pueblos ancestrales y las comunidades que tradicionalmente ocupan la región Pan Amazónica 
+        In light of the worrying picture of the threats and pressures they face, the ancestral communities that traditionally occupy the Pan-Amazon region are 
         <StoryMedia
           media={{
             id: "image-5",
@@ -192,26 +191,26 @@ export default () => (
               credits: "Priscila Tapajowara",
               src: require("photos/chapter4/01_PriscilaTapajowara_RS34624_20190425_120415-01.jpg")
             }
-          }}> luchan para que sus derechos sean reconocidos y respetados
+          }}> fighting for their rights to be recognized and respected
           </StoryMedia>.
       </FeaturedText>
 
       <Paragraph>
-        Los pueblos indígenas no escapan a la realidad política polarizada que se viene desarrollando en Venezuela desde el año 2002. Sin embargo, y a pesar de tal situación, el movimiento indígena ha logrado posicionarse en una serie de espacios políticos con participación para la autodemarcación de sus territorios, la consolidación de un marco jurídico de autonomía para el desarrollo y la defensa de sus derechos, así como su autodeterminación cultural. A pesar de los logros alcanzados, para 2018 muchas de las políticas públicas mermaron su impulso inicial, donde destaca la paralización del proceso de demarcación de hábitats y tierras indígenas.
+        Indigenous peoples are not immune from the polarized political reality that has developed in Venezuela since 2002. Despite this situation however, the indigenous movement has managed to position itself in a series of openings in political participation for the self-demarcation of its territories, the consolidation of a legal framework of autonomy and the defence of indigenous rights, as well as cultural self-determination. Notwithstanding these achievements, in 2018 many public policies lost their initial impulse, confirming the paralysis of processes of demarcation of indigenous lands and habitats.
       </Paragraph>
 
       <Paragraph>
-        En Ecuador,  la exploración, explotación, transporte y refinación de crudo amazónico representó en épocas pasadas “el etnocidio de grupos ancestrales como los tetete, el desplazamiento forzado y la aculturación vía asimilación forzada de otros pueblos pertenecientes a grupos lingüísticos como el tukano (sionas y secoyas), barbacoano (cofán) y waorani” (
+        In Ecuador, the exploration, transport and refining of oil represented in the past the "ethnocide of ancestral groups such as the Tetete, forced displacement and acculturation through forced assimilation of other peoples belonging to linguistic groups such as Tukano (Siona Sequoias), Barbacoa (Cofán) and Waorani" (
           <FileLink
             href={require("documents/chapter4/Amazonia_bajo_presion.pdf")}
             format="pdf"
             size="19.3MB"
-          > Amazonía bajo presión / RAISG, 2012
+          > Amazon under Pressure / RAISG, 2012
           </FileLink>).
       </Paragraph>
 
       <Paragraph>
-        El
+        This
         <StoryMedia
           media={{
             id: "galery-2",
@@ -233,29 +232,29 @@ export default () => (
               ]
             }
           }}
-          > pueblo waorani instauró una demanda constitucional en este año para suspender un plan gubernamental de licitación petrolera en la Amazonía
+          > year the Waorani have filed a constitutional complaint to halt a government plan to explore oil in the Amazon
         </StoryMedia>, 
-        con la que busca mantener libre de actividades petroleras cerca de 180.000 hectáreas de territorio ancestral waorani en la parte norte de Pastaza. Piden que sus derechos sean reconocidos y se les compense por los daños sufridos desde el 2012 cuando el Estado licitó parte de su territorio para la actividad petrolera. La demanda presentada logró un fallo favorable para las comunidades waorani y podría sentar un precedente jurídico a favor de la consulta previa libre e informada y a la autodeterminación de los pueblos.
+        by which they intend to keep around 180,000 hectares of their ancestral territory in the northern part of Pastaza free of oil-related activities. They demand recognition of their rights and compensation for damages suffered since 2012, when the State offered part of their land for oil extraction. The lawsuit resulted in a ruling favourable to the communities; one that can act as a legal precedent in favour of free and informed prior consultation and self-determination of peoples.
       </Paragraph>
 
       <Paragraph>
-        Otro hecho precedente en Ecuador, suscitado en octubre de 2018, dejó sin sustento 52 concesiones mineras otorgadas por el Estado en la provincia de Sucumbíos, en donde la Corte Provincial aceptó pruebas del impacto ambiental a través de un recurso de acción de protección presentado por la comunidad A´i Cofán de Sinangoe, que acusaba al gobierno de no haber consultado a la comunidad y de amenazar el derecho al agua y al medio ambiente, al territorio, a la consulta previa y a las comunidades tanto indígenas como aledañas.
+        Another decision in Ecuador in October 2018 withdrew support for 52 mining concessions granted by the state in the province of Sucumbios, as the Provincial Court accepted evidence of environmental impacts offered as part of a plea for protection of their resources submitted by the A'i Cofán Sinangoe community, which accuses the government of failing to consult and of endangering their rights to water, the environment and their territory.
       </Paragraph>
 
       <Paragraph>
-        En Perú, los awajún-wampis reclaman la intervención del Estado para detener la minería ilegal de oro, la misma que está devastando la Cordillera del Cóndor, territorio ancestral de estos pueblos y sobre el cual habían dado su consentimiento en 2005 para la creación de un parque nacional. Por decisión unilateral del Estado, parte de este territorio fue excluido del parque nacional y otorgado en concesión para minería. Posteriormente, los permisos fueron revocados, pero los mineros artesanales siguen operando en forma ilegal.
+        In Peru, the Awajún-Wampis demand state intervention to stop the illegal gold mining that is devastating the Cordillera del Condor, ancestral territory of these peoples and for which they had agreed in 2005 to the creation of a National Park. By a unilateral decision of the State, part of this territory was excluded from the national park and granted for mining. Subsequently, the licenses were revoked, but miners continued to operate illegally.
       </Paragraph>
 
       <Paragraph>
-        Con respecto a los frecuentes derrames de petróleo ocurridos en la Amazonía peruana en los últimos años, los cuales tienen un impacto directo sobre las fuentes de agua y alimentos de la población local, constituida mayormente por comunidades indígenas, estas vienen reclamando al Estado que cumpla con su compromiso de brindar remediación ambiental, servicios de agua potable y atención médica especializada. 
+        In respect of the frequent oil spills that have occurred in the Peruvian Amazon in recent years, which have a direct impact on the water sources and food security of the local population, which mostly comprises indigenous communities, they are demanding that the State honour its commitment to provide environmental remediation, potable water services and specialized medical care.
       </Paragraph>
 
       <Paragraph>
-        <strong className='regular-title'>Modelo Económico</strong>
+        <strong className='regular-title'>Economic model</strong>
       </Paragraph>
 
       <Paragraph>
-        En los países amazónicos,
+        In the Amazonian countries,
         <StoryMedia
           media={{
             id: "image-6",
@@ -264,24 +263,24 @@ export default () => (
               credits: "Lundin Gold",
               src: require("photos/chapter4/LundinGold_Fruta_del_Norte01.jpg")
             }
-          }}> gran parte de las inversiones extranjeras están dedicadas a las actividades de la industria extractiva
-          </StoryMedia>
-          y confirman que la integración de las economías amazónicas al mercado global ocurre a través del comercio de recursos naturales y alta dependencia de la fluctuación de los precios de commodities.
+          }}> most foreign investments are devoted to extractive activities
+          </StoryMedia>, 
+          thereby confirming that the integration of Amazonian economies into the global market will occur through trade in natural resources and high dependence on commodity price fluctuations.
       </Paragraph>
 
       <Paragraph>
-        Un ejemplo de ello es el caso de Ecuador, donde  el Banco Central  reportó un total de
+        One example of this is Ecuador, where the Central Bank recorded a total of
           <FileLink
             href={require("documents/chapter4/Mineria_gran_escala_El Comercio_Ecuador.pdf")}
             format="pdf"
             size="873KB"
-            > US$ 1,4 mil millones en inversiones directas extranjeras en el año 2018, de los cuales el 53% se destinó a proyectos de minería a gran escala
+            > US$ 1.4 billion in foreign direct investment in 2018, of which 53% went to large-scale mining projects
           </FileLink>.
-        Sin embargo, estos proyectos extractivos son rechazados por la población. En el 2018, el gobierno de Lenin Moreno sometió a Consulta Popular la ampliación a la protección del Parque Nacional Yasuní (que junto con el Territorio Waorani y la Zona Intangible, en donde habitan pueblos no contactados, forman parte de la Reserva de la Biósfera Yasuní), el 67.31% de los votantes estuvieron de acuerdo con incrementar la zona intangible en al menos 50.000 hectáreas y reducir el área de explotación petrolera autorizada por la Asamblea Nacional en el Parque Nacional Yasuní de 1030 hectáreas a 300 hectáreas.
+          However, these extractive projects are rejected by the population. In 2018 Lenin Moreno's government held a referendum on the expansion of protection of the Yasuni National Park (which, together with the Waorani territory and the Intangible Zone, home to indigenous peoples in voluntary isolation, form part of the Yasuni Biosphere Reserve); 67.31% of voters agreed to increase the intangible area by at least 50,000 hectares and to reduce the area of ​​oil exploration in the Yasuni National Park from the 1030 hectares authorized by the National Assembly to 300 hectares.
       </Paragraph>
 
       <Paragraph>
-        Las evidencias presentadas en este reportaje revelan que los impactos ambientales, sociales y económicos del desarrollo basado en la extracción y conversión de ecosistemas, están siendo sub-dimensionados, pues en el largo plazo tienen consecuencias para los países más costosas que los réditos que perciben.
+        The evidence provided in this report reveals that the environmental impacts of social and economic development based on extraction and ecosystem conversion are being underestimated, as in the long run the damage is more costly than the revenues that countries receive.
         <StoryMedia
           media={{
             id: "image-7",
@@ -290,17 +289,17 @@ export default () => (
               credits: "Leonardo Milano",
               src: require("photos/chapter4/_LeonardoMilano_RS34830__MG_5405.jpg")
             }
-          }}> Los gobiernos, tanto a nivel nacional como local, están desestructurando órganos de protección ambiental
+          }}> Governments, both locally and nationally, are weakening environmental protection agencies
           </StoryMedia>.
-          Sumando a este cuadro los episodios recientes de corrupción generalizada en el sector de infraestructura en América Latina, se llega a una situación de casi total falta de compromiso de los países con una agenda de desarrollo sostenible. 
+          In addition, recent episodes of widespread corruption in the infrastructure sector in Latin America have created a situation of almost total lack of commitment by countries to an agenda for sustainable development.
       </Paragraph>
 
       <Paragraph>
-        En Brasil, las propuestas del nuevo gobierno, que asumió en 2019, vienen a agravar la situación, ya que sus políticas relativas a los pueblos indígenas y sus tierras son semejantes a las de la dictadura militar que gobernó el país entre 1964 y 1985, cuando miles de indígenas fueron muertos y otros miles fueron expulsados de sus tierras a consecuencia de grandes proyectos de infraestructura. Estas propuestas implican recortes en la financiación gubernamental para atender las demandas indígenas, retroceso y reducción en las operaciones de fiscalización ambiental, congelación de las demarcaciones por el gobierno federal e incluso diversas manifestaciones a favor de la apertura de los territorios a la minería. Los emprendimientos de infraestructura implantados en la Amazonía durante la última década, con el argumento de mantener el abastecimiento de energía y mover la economía brasileña, son ejemplos de obras planificadas según el interés sectorial en detrimento de las necesidades locales.
+        In Brazil, the proposals of the new government which took office in 2019 tend to aggravate the situation because its policies on indigenous peoples and their lands are similar to those of the military dictatorship that ruled the country between 1964 and 1985, when thousands of Indians were killed and thousands more were driven from their lands as a result of major infrastructure projects. These proposals imply cuts in government funding available to meet indigenous demands, policy reversals and reduced environmental control operations, freezing of demarcations by the federal government, and even several demonstrations in favour of opening up mining territories. Infrastructure projects implemented in the Amazon during the last decade, under the argument of maintaining the energy supply and stimulating the Brazilian economy, are examples of works planned in accordance with sectoral interests to the detriment of local needs.
       </Paragraph>
 
       <Paragraph>
-        La Amazonía está en una encrucijada. Los nueve países que la conforman poseen la selva tropical más biodiversa y la mayor reserva de agua dulce del planeta. Pero sus gobernantes, las políticas de Estado y los intereses económicos la empujan hacia su agotamiento. Los últimos refugios para especies únicas están en las áreas protegidas y los territorios indígenas. Los científicos ya hablan de la inminencia de un punto de no retorno, donde las contribuciones de la naturaleza al bienestar humano o a la humanidad –el agua, el aire limpio, la regulación del clima, los recursos naturales– dejarán de ser provistos por el bioma. ¿Llegaremos hasta ese extremo?
+        The Amazon is at a crossroads. The nine countries that comprise the region have the most biodiverse tropical forest and the largest freshwater reserves on the planet. But its rulers, government policies, and economic interests are driving it to exhaustion. The last refuges for unique species are in protected areas and indigenous territories. Scientists are already talking about the imminence of a point of no return, where the contributions of nature to human well-being - water, clean air, climate regulation, natural resources - will no longer be provided by the biome. Are we about to reach this point?
       </Paragraph>
     </Container>
   </article>

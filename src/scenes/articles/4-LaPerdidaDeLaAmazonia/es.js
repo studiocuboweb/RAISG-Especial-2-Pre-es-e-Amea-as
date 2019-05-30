@@ -131,7 +131,7 @@ export default () => (
               credits: "E. Sánchez / FAN",
               src: require("photos/chapter4/ESanchez_DSC9161.jpg")
             }
-          }}> está transformando su paisaje y alto potencial forestal hacia una economía basada en la ampliación de la agriculturaprotegidas continúan siendo las principales barreras que  aseguran  la protección de los ecosistemas boscosos
+          }}> está transformando su paisaje y alto potencial forestal hacia una economía basada en la ampliación de la agricultura
           </StoryMedia>
         y ganadería extensiva , poco sostenible por sus bajos rendimientos de producción y escasos réditos económicos para el país.
       </Paragraph>

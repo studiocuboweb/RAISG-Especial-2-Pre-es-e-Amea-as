@@ -165,7 +165,7 @@ export default () => (
                 },
                 {
                   src: require("photos/chapter3/gallery-1/07_FederacionFEDIQUEP_DERRAM01_lagunaUshpayacu_Pastaza_2017.jpg"),
-                  credits: "Federación FECONACOR"
+                  credits: "Federación FEDIQUEP"
                 }
               ]
             }
