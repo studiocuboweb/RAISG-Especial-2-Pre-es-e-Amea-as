@@ -131,3 +131,21 @@
   .mapbox_custom-checkbox-colored_legend_7:checked:after {
     padding:0.5rem;
   }
+  .mapbox_custom-checkbox-colored_legend_8 {
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  /* rgb(168,229,221) verde */
+  .mapbox_custom-checkbox-colored_legend_8:after {
+    content: " ";
+    background-color:#ffffff;
+    background-image: url("/16172ae3423caf152349d0edaa58568c.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    visibility: visible;
+  }
+  
+  .mapbox_custom-checkbox-colored_legend_8:checked:after {
+    padding:0.5rem;
+  }

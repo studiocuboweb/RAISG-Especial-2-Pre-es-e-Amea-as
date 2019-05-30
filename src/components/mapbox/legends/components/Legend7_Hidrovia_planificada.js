@@ -38,7 +38,7 @@ class Legend7_Hidrovia_planificada extends Component {
     render () {
         return (
             <div className='mapbox_control-panel_subtitle' style={{paddingTop:'10px'}}>
-                <input type="checkbox" name="indigena2" className="mapbox_custom-checkbox-colored_legend_7" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA_RIOS_hidroviaamazonica')} />
+                <input type="checkbox" className="mapbox_custom-checkbox-colored_legend_7" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA_RIOS_hidroviaamazonica')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                     <FormattedMessage id="legend7.title" defaultMessage="national">
                         {(txt) => (txt)}
