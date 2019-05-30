@@ -85,10 +85,10 @@
     cursor: pointer;
     font-size: 1rem;
   }
-  
+  /* rgb(168,229,221) verde */
   .mapbox_custom-checkbox-colored_1:after {
     content: " ";
-    background-color: #b350f1;
+    background-color: rgb(253,238,233);
     display: inline-block;
     visibility: visible;
   }

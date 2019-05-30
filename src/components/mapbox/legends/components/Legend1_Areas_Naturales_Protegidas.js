@@ -15,8 +15,30 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
         };
     }
     componentDidMount() {
+        if (this.props.defaultOpened == true) { 
+            this.setState({arrowClass: 'fa fa-caret-down'})
+        } else {
+            this.setState({arrowClass: 'fa fa-caret-right'})
+        }
         this.setState({collapse:this.props.defaultOpened});
-        this.setState({arrowClass: 'fa fa-caret-right'})
+        /*****
+        //Grupos onde a legenda vem desativada por padrão
+         *****/
+        if (this.props.legendGroup == 'legend_group7' || this.props.legendGroup == 'legend_group8') {
+            var items = document.getElementsByName('acs');
+            var itemMaster = document.getElementsByName('areas-protegidas')
+            itemMaster[0].checked = false
+            for (var i = 0; i < items.length; i++) {
+                if (items[i].type == 'checkbox') {
+                    items[i].checked = false;
+                }
+            }
+        }
+        if (this.props.legendGroup == 'legend_group10' || this.props.legendGroup == 'legend_group11') {
+            var items = document.getElementsByName('acs');
+            items[1].checked = false;
+            items[2].checked = false;
+        }
     }
     toggle() {
         this.setState({ collapse: !this.state.collapse });
@@ -100,7 +122,7 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
                                 </FormattedMessage>
                             </label>
                         </div>
-                        {(legendGroup == 'legend_group2' || legendGroup == 'legend_group3' || legendGroup == 'legend_group5' || legendGroup == 'legend_group8' || legendGroup == 'legend_group10') &&
+                        {(legendGroup == 'legend_group2' || legendGroup == 'legend_group3' || legendGroup == 'legend_group5' || legendGroup == 'legend_group8' || legendGroup == 'legend_group9' || legendGroup == 'legend_group10') &&
                             <block>
                                 <div className='mapbox_control-panel_subtitle'>
                                     <span style={{'width':'17px',height:'15px'}}>
@@ -117,18 +139,6 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
                                     <FormattedMessage id="legend1.item5" defaultMessage="no pressure or threat known">
                                         {(txt) => (txt)}
                                     </FormattedMessage>
-                                </div>
-                            </block>
-                        }
-                        {(legendGroup == 'legend_group5') &&
-                            <block>
-                                <div className='mapbox_control-panel_subtitle' style={{paddingTop:'3px'}}>
-                                    <input type="checkbox" name="acs" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_Nacionales-limite_LEGENDA')} />
-                                    <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
-                                        <FormattedMessage id="legend1.item6" defaultMessage="national">
-                                            {(txt) => (txt)}
-                                        </FormattedMessage>
-                                    </label>
                                 </div>
                             </block>
                         }

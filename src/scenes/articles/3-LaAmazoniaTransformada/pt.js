@@ -44,17 +44,17 @@ export default () => (
         <StoryMedia
           icon="map"
           media={{
-          id: "map_08",
+          id: "map_09",
           type: "mapbox",
             data: {
-              map: "map8",
-              legend:"legend_group8",
-              update:"map8",
+              map: "map9",
+              legend:"legend_group9",
+              update:"map9",
               showExtraLayers: [],
-              coordinates: [-55.392433,-10.128833],
-              zoomNumber: 5.21,
+              coordinates: [-62.170093,-6.650804],
+              zoomNumber: 4.00,
               zoomMin: 4,
-              zoomMax: 10
+              zoomMax: 22
             }
           }}> áreas sob concessões de mineração e hidrocarbonetos
           </StoryMedia>. 
@@ -257,17 +257,17 @@ export default () => (
         <StoryMedia
           icon="map"
           media={{
-          id: "map_09",
+          id: "map_10",
           type: "mapbox",
             data: {
-              map: "map9",
-              legend:"legend_group9",
-              update:"map9",
-              showExtraLayers: ['GERAL - MINERIA E PETROLEO'],
-              coordinates: [-64.770093,-6.650804],
-              zoomNumber: 4.00,
+              map: "map10",
+              legend:"legend_group10",
+              update:"map10",
+              showExtraLayers: [],
+              coordinates: [-63.976290,5.520153],
+              zoomNumber: 5.70,
               zoomMin: 4,
-              zoomMax: 12
+              zoomMax: 22
             }
           }}> Zona Nacional de Desenvolvimento Estratégico "Arco Minero del Orinoco" (ZDEN-AMO)
           </StoryMedia> 
@@ -338,15 +338,15 @@ export default () => (
         <StoryMedia
           icon="map"
           media={{
-          id: "map_10",
+          id: "map_11",
           type: "mapbox",
             data: {
-              map: "map10",
-              legend:"legend_group10",
-              update:"map10",
-              showExtraLayers: ['MINERÍA Perú, localiza Cordillera del Cóndor/PN Ichigat Muja'],
-              coordinates: [-64.770093,-6.650804],
-              zoomNumber: 4.00,
+              map: "map11",
+              legend:"legend_group11",
+              update:"map11",
+              showExtraLayers: ['bosquesprot'],
+              coordinates: [-78.078420,-3.660983],
+              zoomNumber: 8.50,
               zoomMin: 4,
               zoomMax: 12
             }

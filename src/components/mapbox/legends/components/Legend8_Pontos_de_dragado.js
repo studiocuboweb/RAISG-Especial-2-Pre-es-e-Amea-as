@@ -16,7 +16,11 @@ class Legend8_Pontos_de_dragado extends Component {
     }
     componentDidMount() {
         this.setState({collapse:this.props.defaultOpened});
-        this.setState({arrowClass: 'fa fa-caret-right'})
+        if (this.props.defaultOpened == true) { 
+            this.setState({arrowClass: 'fa fa-caret-down'})
+        } else {
+            this.setState({arrowClass: 'fa fa-caret-right'})
+        }
     }
     toggle() {
         this.setState({ collapse: !this.state.collapse });
@@ -36,7 +40,7 @@ class Legend8_Pontos_de_dragado extends Component {
             <div>
                 <div className='mapbox_control-panel_subtitle'>
                     <span style={{'width':'17px',height:'15px',paddingTop:'10px'}}>
-                        <img src={require('images/legend-icons/map08_1.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
+                        <img src={require('images/legend-icons/map07_2.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
                     </span>
                     <FormattedMessage id="legend8.title" defaultMessage="no pressure or threat known">
                         {(txt) => (txt)}

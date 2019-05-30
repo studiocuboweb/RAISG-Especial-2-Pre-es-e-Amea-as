@@ -264,7 +264,7 @@
             }
         },
         {
-            "id": "LEGENDA_vias Vermelhos",
+            "id": "LEGENDA_vias_Vermelhos",
             "type": "line",
             "source": "composite",
             "source-layer": "vias",

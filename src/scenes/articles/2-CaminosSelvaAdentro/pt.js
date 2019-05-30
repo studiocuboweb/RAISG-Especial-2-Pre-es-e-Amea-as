@@ -48,9 +48,9 @@ export default () => (
             map: "map2",
             legend:"legend_group2",
             update:"map2",
-            showExtraLayers: ['GERAL - PETROLEO'],
-            coordinates: [-62.965837,-5.841715],
-            zoomNumber: 4,
+            showExtraLayers: [],
+            coordinates: [-57.190342,-7.196235],
+            zoomNumber: 5.07,
             zoomMin: 4,
             zoomMax: 10
           }
@@ -94,8 +94,8 @@ export default () => (
             legend:"legend_group3",
             update:"map3",
             showExtraLayers: [],
-            coordinates: [-65.676290,6.520153],
-            zoomNumber: 5.70,
+            coordinates: [-72.000616,0.004479],
+            zoomNumber: 5.99,
             zoomMin: 4,
             zoomMax: 10
           }
@@ -116,24 +116,22 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        No caso da Bolívia, destaca-se o
-        <StoryMedia
+        No caso da Bolívia, destaca-se o <StoryMedia
         icon="map"
         media={{
-        id: "map_04",
+        id: "map_05",
         type: "mapbox",
           data: {
-            map: "map4",
-            legend:"legend_group3",
-            update:"map4",
+            map: "map5",
+            legend:"legend_group5",
+            update:"map5",
             showExtraLayers: [],
-            coordinates: [-78.078420,-3.660983],
-            zoomNumber: 8.50,
+            coordinates: [-65.896617,-16.237845],
+            zoomNumber: 8.17,
             zoomMin: 4,
             zoomMax: 10
           }
-        }}> Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), uma das 22 áreas protegidas nacionais que abrange 1,3 milhões de hectares
-        </StoryMedia>.
+        }}>Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), uma das 22 áreas protegidas nacionais que abrange 1,3 milhões de hectares</StoryMedia>.
         É delimitado pelo rio Isiboro (sul) e o rio Sécure (norte), no coração do país. Ele foi criado para conservar as florestas e a cultura dos povos indígenas que vivem lá (12 mil habitantes entre Mojeños, Yuracarés e Chimanes). Enquanto 80% de suas terras está em boas condições, o parque é ameaçado pelo avanço dos cultivos em sua fronteira sul.  Principalmente a expansão das plantações de coca junto à
         <StoryMedia
           media={{
@@ -176,17 +174,17 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_05",
+        id: "map_06",
         type: "mapbox",
           data: {
-            map: "map5",
-            legend:"legend_group5",
-            update:"map5",
+            map: "map6",
+            legend:"legend_group6",
+            update:"map6",
             showExtraLayers: [],
-            coordinates: [-65.776617,-16.137845],
-            zoomNumber: 8.17,
+            coordinates: [-74.370790,-10.992592],
+            zoomNumber: 6.00,
             zoomMin: 4,
-            zoomMax: 10
+            zoomMax: 10.99
           }
         }}> a Carretera Marginal de la Selva, construído na década de sessenta, que atinge Ucayali, e a Interoceânica Sul, concluída em 2010, que chega a Madre de Dios
         </StoryMedia>.
@@ -198,16 +196,16 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_06",
+        id: "map_07",
         type: "mapbox",
           data: {
-            map: "map6",
-            legend:"legend_group2",
-            update:"map6",
+            map: "map7",
+            legend:"legend_group7",
+            update:"map7",
             showExtraLayers: [],
-            coordinates: [-74.370790,-9.992592],
-            zoomNumber: 6.00,
-            zoomMin: 5,
+            coordinates: [-73.834649,-6.401255],
+            zoomNumber: 5.65,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> Hidrovia Amazônica, que criará um extenso canal de navegação para ligar os rios Marañon, Amazonas, Ucayali e Huallaga
@@ -226,21 +224,21 @@ export default () => (
       <Paragraph>
         Por outro lado, a contínua expansão da infraestrutura de transporte na Amazônia brasileira tem como um de seus protagonistas a modalidade ferroviária. Com quase mil quilômetros de extensão, a partir
         <StoryMedia
-        icon="map"
-        media={{
-        id: "map_07",
-        type: "mapbox",
-          data: {
-            map: "map7",
-            legend:"legend_group7",
-            update:"map7",
-            showExtraLayers: [],
-            coordinates: [-73.834649,-6.401255],
-            zoomNumber: 5.65,
-            zoomMin: 4,
-            zoomMax: 10
-          }
-        }}> da região produtora de grãos de Sinop (Mato Grosso) para o porto de Miritituba (Pará), a Ferrogrão
+          icon="map"
+          media={{
+          id: "map_08",
+          type: "mapbox",
+            data: {
+              map: "map8",
+              legend:"legend_group8",
+              update:"map8",
+              showExtraLayers: [],
+              coordinates: [-55.392433,-10.128833],
+              zoomNumber: 5.21,
+              zoomMin: 4,
+              zoomMax: 10
+            }
+          }}> da região produtora de grãos de Sinop (Mato Grosso) para o porto de Miritituba (Pará), a Ferrogrão
         </StoryMedia>,  
         visa consolidar a exportação através de um novo corredor ferroviário para o norte do país. Em paralelo à rodovia BR-163, a estrada de ferro pode potencializar os impactos sociais e ambientais negativos na região, com danos diretos e indiretos a áreas naturais protegidas e ameaças a territórios indígenas.
       </Paragraph>

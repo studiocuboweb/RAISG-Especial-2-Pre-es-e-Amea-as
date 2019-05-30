@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "RAISGPressoes2018_geral_escala-copy",
+    "name": "RAISGPressoes2018_geral_escala",
     "metadata": {
         "mapbox:origin": "basic-template-v1",
         "mapbox:autocomposite": true,
@@ -50,20 +50,18 @@
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://infoamazonia.2pv5ho58,infoamazonia.a163w3r6,infoamazonia.95hlikd1,mapbox.mapbox-streets-v7,infoamazonia.4lhvnfbu,infoamazonia.6d1wlvd9,infoamazonia.430srds2,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g,mapbox.mapbox-terrain-v2",
+            "url": "mapbox://infoamazonia.2pv5ho58,infoamazonia.a163w3r6,infoamazonia.95hlikd1,mapbox.mapbox-streets-v7,infoamazonia.4lhvnfbu,infoamazonia.6d1wlvd9,infoamazonia.430srds2,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g",
             "type": "vector"
         }
     },
-    "sprite": "mapbox://sprites/infoamazonia/cjw11s27m0mrr1cmkn714f26s/49d5xqh71marhfy9ls1mwyul9",
+    "sprite": "mapbox://sprites/infoamazonia/cjvztnkg51ko31co5t3k0sg6m/49d5xqh71marhfy9ls1mwyul9",
     "glyphs": "mapbox://fonts/infoamazonia/{fontstack}/{range}.pbf",
     "layers": [
         {
-            "id": "landcover",
-            "type": "fill",
-            "source": "composite",
-            "source-layer": "landcover",
+            "id": "background",
+            "type": "background",
             "layout": {},
-            "paint": {"fill-color": "hsl(0, 0%, 100%)"}
+            "paint": {"background-color": "hsl(0, 0%, 100%)"}
         },
         {
             "id": "mapbox-terrain-rgb",
@@ -897,9 +895,9 @@
             }
         }
     ],
-    "created": "2019-05-23T19:26:47.993Z",
-    "id": "cjw11s27m0mrr1cmkn714f26s",
-    "modified": "2019-05-23T19:26:47.993Z",
+    "created": "2019-05-22T22:51:34.947Z",
+    "id": "cjvztnkg51ko31co5t3k0sg6m",
+    "modified": "2019-05-30T00:09:52.526Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false

@@ -16,7 +16,7 @@ class Legend3_Lotes_Petroleo extends Component {
     }
     componentDidMount() {
         this.setState({collapse:this.props.defaultOpened});
-        this.setState({arrowClass: 'fa fa-caret-right'})
+        this.toggle()
     }
     toggle() {
         this.setState({ collapse: !this.state.collapse });
@@ -48,7 +48,7 @@ class Legend3_Lotes_Petroleo extends Component {
                     <td>
                         <div className='mapbox_control-panel_subtitle'>
                             <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                <img src={require('images/legend-icons/map_09_01.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item1" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}
@@ -56,7 +56,7 @@ class Legend3_Lotes_Petroleo extends Component {
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
                             <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                <img src={require('images/legend-icons/map_09_02.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item2" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}
@@ -64,7 +64,7 @@ class Legend3_Lotes_Petroleo extends Component {
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
                             <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                <img src={require('images/legend-icons/map_09_03.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item3" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}
@@ -72,7 +72,7 @@ class Legend3_Lotes_Petroleo extends Component {
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
                             <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/ico_square_0.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                                <img src={require('images/legend-icons/map_09_04.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item4" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}

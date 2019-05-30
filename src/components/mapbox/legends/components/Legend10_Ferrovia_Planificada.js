@@ -16,7 +16,11 @@ class Legend10_LEGENDA_Ferrograo extends Component {
     }
     componentDidMount() {
         this.setState({collapse:this.props.defaultOpened});
-        this.setState({arrowClass: 'fa fa-caret-right'})
+        if (this.props.defaultOpened == true) { 
+            this.setState({arrowClass: 'fa fa-caret-down'})
+        } else {
+            this.setState({arrowClass: 'fa fa-caret-right'})
+        }
     }
     toggle() {
         this.setState({ collapse: !this.state.collapse });

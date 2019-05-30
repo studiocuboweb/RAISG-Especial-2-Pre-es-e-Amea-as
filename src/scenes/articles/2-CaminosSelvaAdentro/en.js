@@ -49,8 +49,8 @@ export default () => (
             legend:"legend_group2",
             update:"map2",
             showExtraLayers: [],
-            coordinates: [-62.965837,-5.841715],
-            zoomNumber: 4,
+            coordinates: [-57.190342,-7.196235],
+            zoomNumber: 5.07,
             zoomMin: 4,
             zoomMax: 10
           }
@@ -94,8 +94,8 @@ export default () => (
             legend:"legend_group3",
             update:"map3",
             showExtraLayers: [],
-            coordinates: [-65.676290,6.520153],
-            zoomNumber: 5.70,
+            coordinates: [-72.000616,0.004479],
+            zoomNumber: 5.99,
             zoomMin: 4,
             zoomMax: 10
           }
@@ -116,7 +116,22 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        En el caso de Bolivia, destaca el Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas.
+        En el caso de Bolivia, destaca el <StoryMedia
+        icon="map"
+        media={{
+        id: "map_05",
+        type: "mapbox",
+          data: {
+            map: "map5",
+            legend:"legend_group5",
+            update:"map5",
+            showExtraLayers: [],
+            coordinates: [-65.896617,-16.237845],
+            zoomNumber: 8.17,
+            zoomMin: 4,
+            zoomMax: 10
+          }
+        }}>Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas</StoryMedia>.
         Está delimitada por el río Isiboro (al sur) y el río Sécure (al norte), en el corazón del país. Fue creada para conservar los bosques y la cultura de  los pueblos indígenas que alberga (12 mil habitantes entre mojeños, yuracarés y chimanes). Si bien 80% de su extensión se encuentra en buen estado de conservación, está amenazada por el avance de cultivos desarrollados en su límite sur: enfrenta una gran amenaza debido a la expansión de plantaciones de coca junto a la
         <StoryMedia
           media={{
@@ -159,17 +174,17 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_05",
+        id: "map_06",
         type: "mapbox",
           data: {
-            map: "map5",
-            legend:"legend_group5",
-            update:"map5",
+            map: "map6",
+            legend:"legend_group6",
+            update:"map6",
             showExtraLayers: [],
-            coordinates: [-65.776617,-16.137845],
-            zoomNumber: 8.17,
+            coordinates: [-74.370790,-10.992592],
+            zoomNumber: 6.00,
             zoomMin: 4,
-            zoomMax: 10
+            zoomMax: 10.99
           }
         }}> la Carretera Marginal de la Selva, construida en los años sesenta, que llega hasta Ucayali, y la Interoceánica Sur, concluida en 2010, que llega hasta Madre de Dios
         </StoryMedia>.
@@ -181,16 +196,16 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_06",
+        id: "map_07",
         type: "mapbox",
           data: {
-            map: "map6",
-            legend:"legend_group2",
-            update:"map6",
+            map: "map7",
+            legend:"legend_group7",
+            update:"map7",
             showExtraLayers: [],
-            coordinates: [-74.370790,-9.992592],
-            zoomNumber: 6.00,
-            zoomMin: 5,
+            coordinates: [-73.834649,-6.401255],
+            zoomNumber: 5.65,
+            zoomMin: 4,
             zoomMax: 10
           }
         }}> Hidrovía Amazónica, que busca crear un extenso canal de navegación conectando los caudalosos ríos Marañón, Amazonas, Huallaga y Ucayali
@@ -209,21 +224,21 @@ export default () => (
       <Paragraph>
         Por su parte, la continua expansión de la infraestructura de transportes en la Amazonia brasileña tiene como uno de sus protagonistas la modalidad ferroviaria. Con casi mil kilómetros de extensión, partiendo
         <StoryMedia
-        icon="map"
-        media={{
-        id: "map_07",
-        type: "mapbox",
-          data: {
-            map: "map7",
-            legend:"legend_group7",
-            update:"map7",
-            showExtraLayers: [],
-            coordinates: [-73.834649,-6.401255],
-            zoomNumber: 5.65,
-            zoomMin: 4,
-            zoomMax: 10
-          }
-        }}> de la región productora de cereales de Sinop (Mato Grosso) hasta el puerto de Miritituba (Pará), Ferrogrão
+          icon="map"
+          media={{
+          id: "map_08",
+          type: "mapbox",
+            data: {
+              map: "map8",
+              legend:"legend_group8",
+              update:"map8",
+              showExtraLayers: [],
+              coordinates: [-55.392433,-10.128833],
+              zoomNumber: 5.21,
+              zoomMin: 4,
+              zoomMax: 10
+            }
+          }}> de la región productora de cereales de Sinop (Mato Grosso) hasta el puerto de Miritituba (Pará), Ferrogrão
         </StoryMedia>
         pretende consolidar el nuevo corredor ferroviario de exportación de Brasil por el norte del país. Paralelo a la carretera BR-163, el ferrocarril puede potenciar los impactos socioambientales negativos en la región, con amenazas directas e indirectas a áreas naturales protegidas y territorios  indígenas.
       </Paragraph>

@@ -136,7 +136,7 @@
             "source": "composite",
             "source-layer": "tindigenas",
             "minzoom": 4,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": [
                     "match",
@@ -176,7 +176,7 @@
             "source": "composite",
             "source-layer": "nacionales",
             "minzoom": 4,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": [
                     "match",
@@ -216,7 +216,7 @@
             "source": "composite",
             "source-layer": "departamentales",
             "minzoom": 4,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": [
                     "match",
@@ -256,7 +256,7 @@
             "source": "composite",
             "source-layer": "bosquesprot",
             "minzoom": 4,
-            "layout": {"visibility": "none"},
+            "layout": {},
             "paint": {
                 "fill-color": [
                     "match",

@@ -16,7 +16,11 @@ class Legend4_Zonas_Mineras extends Component {
     }
     componentDidMount() {
         this.setState({collapse:this.props.defaultOpened});
-        this.setState({arrowClass: 'fa fa-caret-right'})
+        if (this.props.defaultOpened == true) { 
+            this.setState({arrowClass: 'fa fa-caret-down'})
+        } else {
+            this.setState({arrowClass: 'fa fa-caret-right'})
+        }
     }
     toggle() {
         this.setState({ collapse: !this.state.collapse });
@@ -34,7 +38,7 @@ class Legend4_Zonas_Mineras extends Component {
     render () {
         return (
             <div>
-                <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'areas-naturales-protegidas')} />
+                <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA_mineria_azulEscuro')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                 <FormattedMessage id="legend4.title" defaultMessage="Natural Protected Areas">
                     {(txt) => (txt)}
