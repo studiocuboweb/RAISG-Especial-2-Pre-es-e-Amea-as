@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Collapse} from 'react-collapse';
 import { FormattedMessage } from "react-intl";
 import styled, { css } from "styled-components";
 
@@ -38,7 +37,7 @@ class Legend12_Limite_TIPNIS extends Component {
     render () {
         return (
             <div className='mapbox_control-panel_subtitle' style={{paddingTop:'3px',paddingLeft:'20px'}}>
-                <input type="checkbox" className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_TI-limite_LEGENDA')} />
+                <input type="checkbox" className="mapbox_custom-checkbox-tipnis" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'TIPNIS_TI-limite_LEGENDA')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.4rem'}} onClick={this.toggle}>
                     <FormattedMessage id="legend2.item10" defaultMessage="national">
                         {(txt) => (txt)}

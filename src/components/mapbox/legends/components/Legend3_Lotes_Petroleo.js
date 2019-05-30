@@ -42,37 +42,37 @@ class Legend3_Lotes_Petroleo extends Component {
                 <span id="seta" className={this.state.arrowClass} onClick={this.toggle}></span>
                 </label>
                 <Collapse isOpened={this.state.collapse}>
-                <table style={{'marginTop':'-10px','marginLeft':'16px'}}>
+                <table style={{'marginTop':'-10px','marginLeft':'11px'}}>
                 <tbody>
                 <tr>
                     <td>
                         <div className='mapbox_control-panel_subtitle'>
-                            <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/map_09_01.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                            <span style={{'width':'17px',height:'15px',paddingTop:'10px'}}>
+                                <img src={require('images/legend-icons/map_09_1.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item1" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}
                             </FormattedMessage>
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
-                            <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/map_09_02.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                            <span style={{'width':'15px',height:'15px'}}>
+                                <img src={require('images/legend-icons/map_09_2.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item2" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}
                             </FormattedMessage>
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
-                            <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/map_09_03.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                            <span style={{'width':'15px',height:'15px'}}>
+                                <img src={require('images/legend-icons/map_09_3.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item3" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}
                             </FormattedMessage>
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
-                            <span style={{'width':'15px',height:'15px',paddingTop:'10px',paddingLeft:'15px'}}>
-                                <img src={require('images/legend-icons/map_09_04.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
+                            <span style={{'width':'15px',height:'15px'}}>
+                                <img src={require('images/legend-icons/map_09_4.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin':'6px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend3.item4" defaultMessage="no pressure or threat known">
                                 {(txt) => (txt)}
