@@ -37,15 +37,13 @@ class Legend10_LEGENDA_Ferrograo extends Component {
 
     render () {
         return (
-            <div>
-                <div className='mapbox_control-panel_subtitle'>
-                    <span style={{'width':'15px',height:'15px',paddingTop:'10px'}}>
-                        <img src={require('images/legend-icons/map08_1.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
-                    </span>
-                    <FormattedMessage id="legend10.title" defaultMessage="no pressure or threat known">
+            <div className='mapbox_control-panel_subtitle' style={{paddingTop:'10px'}}>
+                <input type="checkbox" className="mapbox_custom-checkbox-colored_legend_10" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'LEGENDA_Ferrograo')} />
+                <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
+                    <FormattedMessage id="legend10.title" defaultMessage="national">
                         {(txt) => (txt)}
                     </FormattedMessage>
-                </div>
+                </label>
             </div>
         )
     }
