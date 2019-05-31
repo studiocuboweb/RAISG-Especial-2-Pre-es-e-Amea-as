@@ -64,7 +64,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Con carreteras abiertas en los años 60, Brasil conoce bien los efectos de la ocupación propiciada por la construcción de arterias viales que conectan el norte y el sur del país. Otros países como Perú, evalúan ahora las consecuencias de la construcción 
+        Con carreteras abiertas en los años 60, Brasil conoce bien los efectos de la ocupación propiciada por la construcción de arterias viales que conectan el norte y el sur del país. Otros países como Perú, evalúan ahora las consecuencias de la construcción reciente de grandes carreteras, como es el caso de la
         <StoryMedia
           media={{
           id: "image-2",
@@ -73,7 +73,7 @@ export default () => (
             credits: "Andina",
             src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
           }
-        }}> reciente de grandes carreteras, como es el caso de la Interoceánica Sur, concluida en 2010
+        }}> Interoceánica Sur, concluida en 2010
         </StoryMedia>.
         Y zonas de la Amazonía previamente no afectadas pasan ahora por un boom de nuevas vías, como es el caso en Colombia y Bolivia.
       </Paragraph>

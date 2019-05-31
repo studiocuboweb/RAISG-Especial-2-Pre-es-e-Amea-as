@@ -64,7 +64,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Com as estradas abertas na década de 1960, o Brasil está bem ciente dos efeitos da ocupação causada pela construção de artérias rodoviárias que ligam o norte e o sul do país. Outros países, como o Peru, estão agora avaliando as conseqüências da construção 
+        Com as estradas abertas na década de 1960, o Brasil está bem ciente dos efeitos da ocupação causada pela construção de artérias rodoviárias que ligam o norte e o sul do país. Outros países, como o Peru, estão agora avaliando as conseqüências da construção recente de importantes rodovias, como a
         <StoryMedia
           media={{
           id: "image-2",
@@ -73,7 +73,7 @@ export default () => (
             credits: "Andina",
             src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
           }
-        }}> recente de importantes rodovias, como a Interoceânica Sul, concluída em 2010
+        }}> Interoceânica Sul, concluída em 2010
         </StoryMedia>.
         E áreas anteriormente não afetadas da Amazônia estão experimentando agora um boom de novas estradas, como é o caso da Colômbia e da Bolívia.
       </Paragraph>
@@ -160,9 +160,9 @@ export default () => (
             credits: "Guillermos da Silva",
             src: require("photos/chapter2/GuillermoDaSilva_954_Arawak.jpg")
           }
-        }}> presença de grupos armados irregulares ligadas ao tráfico de diferentes produtos e o aumento da mineração ilegal na fronteira têm gerado novas migrações internas, onde comunidades indígenas, especialmente aquelas associadas com eixos fluviais de fronteira
-        </StoryMedia>, 
-        como os rios Orinoco e Atabapo, não são exceção. O povo Arawak fez ouvir a sua voz através de organizações como Orpia e Coiam (Coordenação das Organizações Indígenas da Amazônia) devido ao deslocamento ocorrido como resultado da violência que sofreram.
+        }}> presença de grupos armados irregulares ligadas ao tráfico de diferentes produtos e o aumento da mineração ilegal na fronteira 
+        </StoryMedia> 
+        têm gerado novas migrações internas, onde comunidades indígenas, especialmente aquelas associadas com eixos fluviais de fronteira como os rios Orinoco e Atabapo, não são exceção. O povo Arawak fez ouvir a sua voz através de organizações como Orpia e Coiam (Coordenação das Organizações Indígenas da Amazônia) devido ao deslocamento ocorrido como resultado da violência que sofreram.
       </Paragraph>
 
       <Paragraph>

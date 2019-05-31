@@ -64,7 +64,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        With the roads opened in the 1960s, Brazil is familiar with the impacts of occupation caused by the construction of long distance roads connecting the north and south of the country. Other countries, such as Peru, are now evaluating the consequences of the recent construction of 
+        With the roads opened in the 1960s, Brazil is familiar with the impacts of occupation caused by the construction of long distance roads connecting the north and south of the country. Other countries, such as Peru, are now evaluating the consequences of the recent construction of important highways, such as the
         <StoryMedia
           media={{
           id: "image-2",
@@ -73,7 +73,7 @@ export default () => (
             credits: "Andina",
             src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
           }
-        }}> important highways, such as the Interoceanic South, completed in 2010
+        }}> Interoceanic South, completed in 2010
         </StoryMedia>.
         And previously unaffected areas of the Amazon are now experiencing a boom in new roads, such as in Colombia and Bolivia.
       </Paragraph>

@@ -49,85 +49,72 @@ export default () => (
       </Paragraph>
 
       <TableIntro>
-        <table>
+      <table>
           <tr>
-            <th># themes</th>
-            <th># TIs</th>
-            <th></th>
-            <th></th>
-            <th># themes</th>
-            <th># ANP</th>
-            <th></th>
+            <th colspan="5">
+              Number of pressures and threats that overlap Indigenous Territories and Natural Protected Areas
+            </th>
+          </tr>
+          <tr>
+            <th># pressures and threatss</th>
+            <th># Indigenous Territories</th>
+            <th>Percentage</th>
+            <th># Natural Protected Areas</th>
+            <th>Percentage</th>
           </tr>
           <tr>
             <td>0</td>
             <td>523</td>
-            <td>8,20%</td>
-            <th></th>
-            <td>0</td>
+            <td>8%</td>
             <td>63</td>
-            <td>9,10%</td>
+            <td>9%</td>
           </tr>
           <tr>
             <td>1</td>
             <td>2584</td>
-            <td>40,70%</td>
-            <th></th>
-            <td>1</td>
+            <td>41%</td>
             <td>141</td>
-            <td>20,38%</td>
+            <td>20%</td>
           </tr>
           <tr>
             <td>2</td>
             <td>2042</td>
-            <td>32,20%</td>
-            <th></th>
-            <td>2</td>
+            <td>32%</td>
             <td>188</td>
-            <td>27,17%</td>
+            <td>27%</td>
           </tr>
           <tr>
             <td>3</td>
             <td>877</td>
-            <td>13,80%</td>
-            <th></th>
-            <td>3</td>
+            <td>14%</td>
             <td>193</td>
-            <td>27,89%</td>
+            <td>28%</td>
           </tr>
           <tr>
             <td>4</td>
             <td>279</td>
-            <td>4,40%</td>
-            <th></th>
-            <td>4</td>
+            <td>4%</td>
             <td>90</td>
-            <td>13,01%</td>
+            <td>13%</td>
           </tr>
           <tr>
             <td>5</td>
             <td>35</td>
-            <td>0,60%</td>
-            <th></th>
-            <td>5</td>
+            <td>&#60;1%</td>
             <td>15</td>
-            <td>2,17%</td>
+            <td>2%</td>
           </tr>
           <tr>
             <td>6</td>
             <td>5</td>
-            <td>0,10%</td>
-            <th></th>
-            <td>6</td>
+            <td>&#60;1%</td>
             <td>2</td>
-            <td>0,29%</td>
+            <td>&#60;1%</td>
           </tr>
           <tr>
-            <th>Total TI</th>
+            <th>Total</th>
             <th>6345</th>
             <th>100%</th>
-            <th></th>
-            <th>Total ANP</th>
             <th>692</th>
             <th>100%</th>
           </tr>
