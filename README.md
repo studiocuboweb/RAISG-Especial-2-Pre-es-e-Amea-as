@@ -1,4 +1,4 @@
-# RAISG-Especial-1-A-Amazonia-saqueada
+# RAISG-Especial-2-Pressão-e-Ameaças
 Especial: Olhando por dentro da floresta (Série de reportagens em REACT)
 
 # PRÉ REQUISITOS
@@ -8,7 +8,7 @@ Especial: Olhando por dentro da floresta (Série de reportagens em REACT)
 # INSTALAÇÃO DO SITE
 
 - CLONANDO O SITE DO GITHUB
-git clone https://github.com/studiocuboweb/RAISG-Especial-1-A-Amazonia-saqueada.git
+git clone https://github.com/studiocuboweb/RAISG-Especial-2-Pressao-e-Ameacas
 
 - INSTALANDO O NPM E AS DEPENDENCIAS
 docker run -v "$PWD":/usr/src/app -w /usr/src/app node:8 yarn install<br/>
