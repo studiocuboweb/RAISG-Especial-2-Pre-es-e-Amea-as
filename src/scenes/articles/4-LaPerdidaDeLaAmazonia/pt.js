@@ -22,7 +22,7 @@ export default () => (
       <Title as="h2">A perda da Amazônia</Title>
       <Note>
         <p>
-          A Pan-Amazônia está sob forte impacto. Com os investimentos em infraestrutura, há uma degradação nos ecossistemas florestais, conseqüência do desmatamento. Mas este não é o único parâmetro. Os ecossistemas não-florestais experimentam perda de espécies endêmicas, substituição de sua vegetação original por espécies invasoras ou espécies resistentes ao fogo. Ou ainda, há um empobrecimento com o estabelecimento de ambientes de savanas não naturais, graças a mudanças nos processos ecológicos ligados a alterações nos sistemas hidrológicos.
+          A Pan-Amazônia está sob forte impacto. Com os investimentos em infraestrutura, há uma degradação nos ecossistemas florestais, consequência do desmatamento. Mas este não é o único parâmetro. Os ecossistemas não-florestais experimentam perda de espécies endêmicas, substituição de sua vegetação original por espécies invasoras ou espécies resistentes ao fogo. Ou ainda, há um empobrecimento com o estabelecimento de ambientes de savanas não naturais, graças a mudanças nos processos ecológicos ligados a alterações nos sistemas hidrológicos.
         </p>
       </Note>
 
@@ -37,7 +37,7 @@ export default () => (
             }
           }}> Territórios indígenas e áreas naturais protegidas continuam sendo as principais barreiras que garantem a proteção dos ecossistemas florestais
           </StoryMedia>, 
-          a diversidade biológica e cultural que os habitam. Ao todo, áreas protegidas e territórios indígenas representam 390 milhões de hectares na Amazônia. Isso significa que 46% dos 847 milhões de hectares do território amazônico são ocupados por áreas naturais protegidas ou territórios indígenas.
+          a diversidade biológica e cultural dos povos que os habitam. Ao todo, áreas protegidas e territórios indígenas representam 390 milhões de hectares na Amazônia. Isso significa que 46% dos 847 milhões de hectares do território amazônico são ocupados por áreas naturais protegidas ou territórios indígenas.
       </Paragraph>
 
       <Table>
@@ -117,7 +117,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Os resultados são um alerta para a proteção do bioma, como destaca um estudo de Thomas Lovejoy e Carlos Nobre publicado em 2018 na revista Science. Segundo eles, <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">a soma dos impactos do desmatamento, mudanças climáticas e incêndios florestais levará a um ponto de inflexão (ou ponto de não retorno) ao sistema amazônico</ExternalLink>. Ou seja, assim que o desmatamento chegar a 20% a 25% do bioma terá consequências irreversíveis aos ecossistemas não-florestais do sul e centro da Amazônia. Este modelo considerou a bacia amazônica sem a inclusão de partes das bacias do Orinoco, do Araguaia, Tocantins, do Atlântico Norte e áreas costeiras.
+        Os resultados são um alerta para a proteção do bioma, como destaca um estudo de Thomas Lovejoy e Carlos Nobre publicado em 2018 na revista Science. Segundo eles, <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">a soma dos impactos do desmatamento, mudanças climáticas e incêndios florestais levará a um ponto de inflexão (ou ponto de não retorno) ao sistema amazônico</ExternalLink>. Ou seja, assim que o desmatamento atingir de 20% a 25% do bioma, haverá consequências irreversíveis aos ecossistemas não-florestais do sul e centro da Amazônia. Este modelo considerou a bacia amazônica sem a inclusão de partes das bacias do Orinoco, do Araguaia, Tocantins, do Atlântico Norte e áreas costeiras.
       </Paragraph>
 
       <Paragraph>

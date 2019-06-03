@@ -20,7 +20,7 @@ export default () => (
       <Title as="h2">A Amazônia transformada</Title>
       <Note>
         <p>
-          As indústrias extrativas estão presentes na Pan-Amazônia há várias décadas. Alguns destes empreendimentos são as maiores minas a céu aberto do planeta ou possuem
+          As indústrias extrativas estão presentes na Pan-Amazônia há várias décadas. Algumas delas têm as maiores minas a céu aberto do planeta ou possuem
           <StoryMedia
             media={{
             id: "image-1",
@@ -29,14 +29,14 @@ export default () => (
               credits: "Andina",
               src: require("photos/chapter3/Andina_000362563W_DuctosPetroleo.jpg")
             }
-          }}> longas tubulações para extrair petróleo do meio da selva
+          }}> grandes dutos para extrair petróleo do meio da floresta
           </StoryMedia>. 
           Esses projetos geram um passivo ambiental a ser resolvido.
         </p>
       </Note>
 
       <Paragraph>
-        Em sua recente análise de pressões e ameaças na Amazônia, a RAISG indica que, em termos de extensão territorial, as indústrias extrativas de mineração e petróleo são aquelas que possuem maior peso. Juntos, esses dois setores têm blocos destinados a prospecção e exploração equivalentes a 208 milhões de hectares, o que representa 24,5% de toda a extensão da <ExternalLink href="https://www.amazoniasocioambiental.org/es/publicacion/amazonia-2017-areas-protegidas-y-territorios-indigenas/" language="es">Pan-Amazônia, para a qual é estimada uma área total de 847 milhões de hectares (RAISG, 2017).</ExternalLink>.
+        Em sua recente análise de pressões e ameaças na Amazônia, a RAISG indica que, em termos de extensão territorial, as indústrias extrativas de mineração e petróleo são aquelas que possuem maior peso. Juntos, esses dois setores têm blocos destinados a prospecção e exploração equivalentes a 208 milhões de hectares, o que representa 24,5% de toda a extensão da <ExternalLink href="https://www.amazoniasocioambiental.org/pt-br/publicacao/amazonia-2017-areas-protegidas-e-territorios-indigenas/" language="pt">Pan-Amazônia, para a qual é estimada uma área total de 847 milhões de hectares (RAISG, 2017).</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
@@ -92,7 +92,7 @@ export default () => (
             <td>6.817.191</td>
           </tr>
           <tr>
-            <td>GUF</td>
+            <td>Guiana Francesa</td>
             <td>s.i.</td>
             <td>s.i.</td>
           </tr>
@@ -125,11 +125,11 @@ export default () => (
       </Table>
 
       <Paragraph>
-        Danos ambientais não remediados são frequentes. Isso ocorre tanto onde a mineração e a extração de petróleo são coisa do passado quanto onde continuam a se desenvolver. Embora a mineração ilegal, a qual abordamos no especial <ExternalLink href="https://garimpoilegal.amazoniasocioambiental.org/?lang=pt" language="pt">"Amazônia Saqueada" (realizado por RAISG/InfoAmazonia em 2018)</ExternalLink>, esteja presente em todos os países amazônicos, os maiores danos são causados ​​por projetos apoiados pelos governos nacionais e regionais . Muitas vezes, esses projetos foram autorizados sem a devida consulta às populações afetadas e também impactam sem distinção todos os países da região amazônica. Em outros casos, agentes dos governos participam ou contribuem para a atividade, embora em teoria isso seja ilegal.
+        Danos ambientais não remediados são frequentes. Isso ocorre tanto onde a mineração e a extração de petróleo são coisa do passado quanto onde continuam a se desenvolver. Embora a mineração ilegal, que abordamos no especial <ExternalLink href="https://garimpoilegal.amazoniasocioambiental.org/?lang=pt" language="pt">"Amazônia Saqueada" (realizado por RAISG/InfoAmazonia em 2018)</ExternalLink>, esteja presente em todos os países amazônicos, os maiores danos são causados ​​por projetos apoiados pelos governos nacionais e regionais . Muitas vezes, esses projetos foram autorizados sem a devida consulta às populações afetadas e também impactam sem distinção todos os países da região amazônica. Em outros casos, agentes dos governos participam ou contribuem para a atividade, embora em teoria isso seja ilegal.
       </Paragraph>
 
       <Paragraph>
-        <strong className='regular-title'>O custo do petróleo e mineração</strong>
+        <strong className='regular-title'>O custo do petróleo e da mineração</strong>
       </Paragraph>
 
       <Paragraph>
@@ -170,9 +170,9 @@ export default () => (
               ]
             }
           }}
-        > Em 20 anos, 190 derrames de petróleo foram registrados na Amazônia peruana
+        > Em 20 anos, 190 derramamentos de petróleo foram registrados na Amazônia peruana
         </StoryMedia>,
-        de acordo com o órgão de supervisão de investimentos em energia e mineração, Osinergmin. Essa fonte também indica que os derrames se devem principalmente à existência de infraestrutura antiga nos poços mais produtivos, que remonta aos anos 70 e não recebeu manutenção adequada. Entre 2008 e 2017, foram derramados 25 mil barris de petróleo, segundo relatório do Congresso Nacional.
+        de acordo com o órgão de supervisão de investimentos em energia e mineração, Osinergmin. Essa fonte também indica que os derrames se devem principalmente à existência de infraestrutura antiga nos poços mais produtivos, que remontam aos anos 70 e não receberam manutenção adequada. Entre 2008 e 2017 foram derramados 25 mil barris de petróleo, segundo relatório do Congresso Nacional.
       </Paragraph>
 
       <Paragraph>
@@ -190,7 +190,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Os derrames de petróleo na Amazônia peruana têm causado sérios impactos ambientais - poluição dos corpos d'água e  mortalidade dos peixes. Além disso, graves danos culturais e sociais entre a população indígena, já que os vazamentos afetam sua saúde e qualidade de vida e não foram adequadamente tratados até o presente.
+        Os derrames de petróleo na Amazônia peruana têm causado sérios impactos ambientais como a poluição dos corpos d'água e  mortalidade dos peixes. Além disso, graves danos culturais e sociais entre a população indígena, já que os vazamentos afetam sua saúde e qualidade de vida e não foram adequadamente tratados até o presente.
       </Paragraph>
 
       <Paragraph>
@@ -271,7 +271,7 @@ export default () => (
             }
           }}> Zona Nacional de Desenvolvimento Estratégico "Arco Minero del Orinoco" (ZDEN-AMO)
           </StoryMedia> 
-          foi decretada em fevereiro de 2016 pelo governo nacional da Venezuela. É referido como um megaprojeto, embora na realidade seja uma área sujeita a exploração e exploração sem um plano conhecido. Sua extensão territorial excede países como Cuba, Bélgica, Panamá, Equador, entre muitos outros. Ele cobre 11,1 milhões de hectares, divididos em quatro quadras ao norte do estado de Bolívar, mas atinge quase 11,4 milhões de hectares para incluir o que é chamado de bloco especial Icabaru (1,7 milhões de hectares), ao sul do Parque Nacional Canaima, como indicado por Francisco Ruiz em seu 2018 trabalho,
+          foi decretada em fevereiro de 2016 pelo governo nacional da Venezuela. É onsiderada um megaprojeto, embora na realidade seja uma área sujeita a prospecção e exploração sem um plano conhecido. Sua extensão territorial excede países como Cuba, Bélgica, Panamá, Equador, entre muitos outros. Ele cobre 11,1 milhões de hectares, divididos em quatro blocos ao norte do estado de Bolívar, mas atinge quase 11,4 milhões de hectares para incluir o que é chamado de bloco especial Icabaru (1,7 milhões de hectares), ao sul do Parque Nacional Canaima, como indicado por Francisco Ruiz em seu trabalho de 2018,
           <FileLink
             href={require("documents/chapter3/9.TC_Ruiz_274.pdf")}
             format="pdf"
@@ -281,7 +281,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Seu objetivo de criação era a extração de minerais estratégicos como ouro, coltan, diamantes, cobre, ferro e bauxita, além de terras raras (matéria-prima para diferentes aplicações na indústria nuclear). Isso foi feito ignorando boa parte do atual arcabouço legal do país, em meio ambiente, mão de obra, povos indígenas e até direitos humanos. Para realizar este processo, foram assinados acordos com empresas transnacionais de diferentes países. Esses acordos envolvem
+        Seu objetivo de criação era a extração de minerais estratégicos como ouro, coltan, diamantes, cobre, ferro e bauxita, além de terras raras (matéria-prima para diferentes aplicações na indústria nuclear). Isso foi feito ignorando boa parte do atual arcabouço legal do país sobre meio ambiente, mão de obra, povos indígenas e até direitos humanos. Para realizar este processo, foram assinados acordos com empresas transnacionais de diferentes países. Esses acordos envolvem
         <StoryMedia
           media={{
             id: "galery-3",
@@ -330,7 +330,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Na Venezuela, não houve investimentos em tecnologia para extração de minerais (principalmente ouro), apesar da criação do Ministério de Mineração Ecológica. As avaliações socioambientais e culturais de cada projeto de prospeção e exploração não foram divulgadas, nem os processos de consulta prévia e informada com as comunidades indígenas, conforme estipulado na lei deste país. Somente no primeiro trimestre de 2019, um acordo especial entre a Universidade Experimental Nacional da Guiana e do Governo para realizar vários estudos de impacto social e ambiental foi assinado.
+        Na Venezuela não houve investimentos em tecnologia para extração de minerais (principalmente ouro), apesar da criação do Ministério de Mineração Ecológica. As avaliações socioambientais e culturais de cada projeto de prospecção e exploração não foram divulgadas, nem os processos de consulta prévia e informada com as comunidades indígenas, conforme estipulado na lei deste país. Recentemente, no primeiro trimestre de 2019, foi assinado um acordo especial entre a Universidade Experimental Nacional da Guiana e o Governo para realizar vários estudos de impacto socioambiental.
       </Paragraph>
 
       <Paragraph>
@@ -350,9 +350,9 @@ export default () => (
               zoomMin: 4,
               zoomMax: 12
             }
-          }}> Cordilheira do Condor, no Peru, localizado na fronteira entre este país e o Equador, no departamento de Amazonas, no território ancestral Awajún-Wampis
+          }}> Cordilheira do Condor, no Peru, localizada na fronteira entre este país e o Equador, no departamento de Amazonas, no território ancestral Awajún-Wampis
           </StoryMedia>.
-          Estes povos concordaram com a criação de uma área protegida como parte das negociações de paz com o Equador. Em 1999, foi criada a Zona Reservada de Santiago Comaina, uma categoria temporária, que então se transformaria em um parque nacional. No entanto, em 2007, e por ordem do governo de Alan Garcia, que cedeu à pressão do setor de mineração, parte da Reserva tornou-se o Parque Nacional Muja Ichigat - Cordillera del Condor, enquanto a outra metade da área foi excluída . Na parte excluída, o governo de García gerou concessões de mineração. Criou-se assim um cenário permanente de conflito socioambiental. Em 2016, o governo do presidente Kuczynski anulou a licença de operação da empresa concessionária, mas isso não impediu que, até o momento, continue a explorar ilegalmente o ouro naquele local.
+          Estes povos concordaram com a criação de uma área protegida como parte das negociações de paz com o Equador. Em 1999 foi criada a Zona Reservada de Santiago Comaina, uma categoria temporária que então se transformaria em um parque nacional. No entanto, em 2007, e por ordem do governo de Alan Garcia que cedeu à pressão do setor de mineração, parte da Reserva tornou-se o Parque Nacional Muja Ichigat - Cordillera del Condor, enquanto a outra metade da área foi excluída . Na parte excluída, o governo de García gerou concessões de mineração. Criou-se assim um cenário permanente de conflito socioambiental. Em 2016, o governo do presidente Kuczynski anulou a licença de operação da empresa concessionária, mas isso não impediu que, até o momento, se continue a explorar ilegalmente o ouro naquele local.
       </Paragraph>
 
       <FeaturedText>
@@ -370,11 +370,11 @@ export default () => (
           }
           }}> Cordilheira do Condor, os Awajún-Wampis têm lutado contra as operações legais e ilegais de mineração
           </StoryMedia>
-          que ocorrem em seu território. Embora o governo central e o governo regional do Amazonas tenham retirado as permissões de funcionamento da empresa, esses atos não foram acompanhados de ações destinadas a garantir o cumprimento da lei. A empresa continuou a operar na área por meio de estratégias como promover a atividade de pequenos garimpeiros e provocar uma divisão entre os povos indígenas, por exemplo, atraindo os jovens para sua causa. Mas os indígenas reagiram e destruíram os escritórios da empresa e estão encarregados de patrulhar a área para manter a mineração ilegal afastada. Mas isso não mudou significativamente o estado das coisas.
+          que ocorrem em seu território. Embora o governo central e o governo regional do Amazonas tenham retirado as permissões de funcionamento da empresa, esses atos não foram acompanhados de ações destinadas a garantir o cumprimento da lei. A empresa continuou a operar na área por meio de estratégias como promover a atividade de pequenos garimpeiros e provocar uma divisão entre os povos indígenas, por exemplo, atraindo os jovens para sua causa. No entanto, os indígenas reagiram e destruíram os escritórios da empresa e estão encarregados de patrulhar a área para manter a mineração ilegal afastada. Mas isso não mudou significativamente o estado das coisas.
       </Paragraph>
 
       <Paragraph>
-        Em toda a Pan Amazônia, a superposição da mineração e dos blocos petrolíferos com áreas naturais protegidas e territórios indígenas é motivo de constantes conflitos socioambientais. Juntos, os blocos de concessão para a exploração de minerais e petróleo abrangem mais de 87,2 milhões de hectares de florestas protegidas. Interesses econômicos são impostos à conservação da diversidade que os habita.
+        Em toda a Pan-Amazônia, a sobreposição da mineração e dos blocos petrolíferos com áreas naturais protegidas e territórios indígenas é motivo de constantes conflitos socioambientais. Juntos, os blocos de concessão para a exploração de minerais e petróleo abrangem mais de 87,2 milhões de hectares de florestas protegidas. Os interesses econômicos se impõem à conservação da diversidade ali existente.
       </Paragraph>
       
       <Paragraph>
@@ -412,13 +412,13 @@ export default () => (
               ]
             }
           }}
-        > dos sete parques nacionais na Amazônia venezuelana, seis possuem áreas de mineração ilegal ou áreas dentro de suas fronteiras
+        > dos sete parques nacionais da Amazônia venezuelana, seis possuem pontos ou áreas de mineração ilegal dentro de suas fronteiras
         </StoryMedia>.
-        A exceção é o Delta del Orinoco, no estado do Delta Amacuro. Os restantes estão no estado do Amazonas (Duida - Marahuaca, Parime - Tapirecó Serrania O Haze, Yapacana e Caura), onde a mineração é proibida por decreto e Bolívar (Caura e Canaima), a área mais afetada pela mineração no país. O Canaima e Yapacana  são os parques nacionais que se destacam como sendo aqueles com a maior intensidade da atividade de mineração. No caso do PN Canaima, a mineração não apenas se encontra dentro de seus limites, mas praticamente ladeando toda sua extremidade oeste e sul (Rio Caroní, no limite oeste, e no Bloco Especial Icabarú, ao sul). Esta é também uma área protegida declarada Patrimônio da Humanidade pela Unesco em 1994. Em ambos os casos, os alarmes foram dados, porque embora a área do Parque Nacional Yapacana afetada é proporcionalmente maior do que a do PN Canaima, a intensidade do impacto ao longo de suas fronteiras leste e sul é motivo de preocupação, mesmo sem considerar o que acontece em seu território direto.
+        A exceção é o Delta del Orinoco, no estado de Delta Amacuro. Os restantes estão no estado do Amazonas (Duida - Marahuaca, Parime - Tapirecó, Serranía La Neblina, Yapacana e Caura), onde a mineração é proibida por decreto, e Bolívar (Caura e Canaima), a área mais afetada pela mineração no país. Os parques nacionais Canaima e Yapacana se destacam como sendo aqueles com a maior intensidade de atividade de mineração. No caso do PN Canaima, a mineração não apenas se encontra dentro de seus limites, mas praticamente ladeando toda sua extremidade oeste e sul (Rio Caroní, no limite oeste, e no Bloco Especial Icabarú, ao sul). Esta é também uma área protegida declarada Patrimônio da Humanidade pela Unesco em 1994. Em ambos os casos os alarmes soam, porque embora a área do Parque Nacional Yapacana afetada seja proporcionalmente maior do que a do PN Canaima, a intensidade do impacto ao longo de suas fronteiras oeste e sul é motivo de preocupação, mesmo sem considerar o que acontece em seu território direto.
       </Paragraph>
 
       <Paragraph>
-        No Peru, na porção andina da bacia amazônica, grande parte das concessões de mineração é sobreposta às comunidades camponesas. Isso gera conflitos socioambientais Uma das estratégias utilizadas pelas empresas de concessão é comprar a terra concessionada. Sendo propriedade comunal, isso não é fácil, mas não impossível.  O Estado peruano tem, há mais de uma década, feito mudanças do sistema de posse comunal para facilitar a divisão e venda de terras comunais como lotes individuais.
+        No Peru, na porção andina da bacia amazônica, grande parte das concessões de mineração é sobreposta às comunidades camponesas. Isso gera conflitos socioambientais Uma das estratégias utilizadas pelas empresas de concessão é comprar a terra concessionada. Sendo propriedade comunal, isso não é fácil, mas não impossível. O Estado peruano tem, há mais de uma década, feito mudanças no sistema de posse comunal para facilitar a divisão e venda de terras comunais como lotes individuais.
       </Paragraph>
     </Container>
   </article>

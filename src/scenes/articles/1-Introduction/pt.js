@@ -23,11 +23,11 @@ export default () => (
       </Note>
 
       <Paragraph>
-        A <ExternalLink href="https://www.amazoniasocioambiental.org/es/" language="es">Rede Amazônica de Informação Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}, um grupo técnico formado por organizações de seis países da região, publicou sua mais recente coleção de mapas com as pressões e ameaças enfrentadas na Amazônia.
+        A <ExternalLink href="https://www.amazoniasocioambiental.org/pt-br/" language="pt">Rede Amazônica de Informação Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}, um grupo técnico formado por organizações de seis países da região, publicou sua mais recente coleção de mapas com as pressões e ameaças enfrentadas na Amazônia.
       </Paragraph>
 
       <Paragraph>
-        A <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publicação, atualizada em 2018</ExternalLink>{" "}, aborda seis temas: intervenções em infraestrutura de transportes (vias), energia (hidrelétricas) e indústrias extrativas (mineração e petróleo), além de monitorar a frequência de queimadas e desmatamentos. Os resultados indicam que <StoryMedia
+        A <ExternalLink href="https://www.amazoniasocioambiental.org/pt-br/publicacao/pressoes-e-ameacas-sobre-as-areas-protegidas-e-territorios-indigenas-da-amazonia-2/" language="pt">publicação, atualizada em 2018</ExternalLink>{" "}, aborda seis temas: intervenções em infraestrutura de transportes (vias), energia (hidrelétricas) e indústrias extrativas (mineração e petróleo), além de monitorar a frequência de queimadas e desmatamentos. Os resultados indicam que <StoryMedia
         icon="map"
         media={{
         id: "map_01",
@@ -127,7 +127,7 @@ export default () => (
         Seus mapas também revelam a presença de hidrelétricas e estradas em áreas naturais protegidas e em territórios indígenas. Nesse sentido, das 272 grandes usinas hidrelétricas da Amazônia - planejadas, em construção ou em operação - 78 estão dentro dos territórios indígenas e 84 estão em conflito com áreas naturais protegidas. No que diz respeito a estradas e rotas, dos 136.000 quilômetros mapeados na região, aproximadamente 20% (26.000 km) são sobrepostos com áreas naturais protegidas e territórios indígenas.
       </Paragraph>
 
-      <Quote author="Richard C. Smith, diretor do Well Common Institute, do Peru">
+      <Quote author="Richard C. Smith, diretor do Instituto del Bien Común, do Peru">
         Atualmente, não existe uma política nacional para a Amazônia que nos permita traçar uma visão abrangente, coerente e de longo prazo para a região. Portanto, uma estratégia clara de desenvolvimento territorial também não está em vigor. De fato, a orientação das decisões políticas depende principalmente das circunstâncias e da vontade dos atuais governantes
       </Quote>
     </Container>
