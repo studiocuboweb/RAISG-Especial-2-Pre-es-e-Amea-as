@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   ${margins} ${props =>
       props.big &&
       css`
-        font-size: 0.8em!important;
+        font-size: 0.6em!important;
         a {
           color: #333;
           &:active,
@@ -19,7 +19,7 @@ const Wrapper = styled.div`
       `} ${props =>
       props.small &&
       css`
-        font-size: 0.6em!important;
+        font-size: 0.4em!important;
         color: #666;
       `} ${media.desktop`
     margin-bottom: 1.5rem;
@@ -38,7 +38,7 @@ const Wrapper = styled.div`
       border:1px solid #cccccc;
       border-collapse: collapse;
       background-color: #f3f3f3;
-      font-size: 0.8em!important;
+      font-size: 0.6em!important;
       th {
           font-wight:bold
       }
@@ -60,9 +60,6 @@ const Wrapper = styled.div`
       th:nth-child(3) {
         text-align:right;
       }
-      th:nth-child(6) {
-        text-align:right;
-      }
       td:nth-child(1) {
         text-align:center;
       }
@@ -72,13 +69,10 @@ const Wrapper = styled.div`
       td:nth-child(3) {
         text-align:right;
       }
-      td:nth-child(5) {
+      td:nth-child(4) {
         text-align:center;
       }
-      td:nth-child(6) {
-        text-align:right;
-      }
-      td:nth-child(7) {
+      td:nth-child(5) {
         text-align:right;
       }
   }

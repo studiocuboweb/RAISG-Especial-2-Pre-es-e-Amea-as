@@ -132,15 +132,15 @@ export default () => (
             }
           }}> está transformando seu alto potencial paisagístico e florestal em um modelo baseado na expansão da agricultura 
           </StoryMedia>
-          e pecuária insustentável por causa de baixos rendimentos e pobres retornos econômicos.
+          e pecuária insustentável por causa de baixos rendimentos e escassos retornos econômicos.
       </Paragraph>
 
       <Paragraph>
-        As análises da Fundação Amigos da Natureza (FAN), no período 2005-2018 indicam que 88% das queimadas e incêndios florestais na Bolívia estão concentrados na região amazônica, afetando mais de 18,7 milhões de hectares, onde os ecossistemas mais impactos são pastagens naturais (70%), constituídas por savanas e cerrados, e em menor grau (30%) em áreas florestais.
+        Análises da Fundação Amigos da Natureza (FAN) no período 2005-2018 indicam que 88% das queimadas e incêndios florestais na Bolívia estão concentrados na região amazônica, afetando mais de 18,7 milhões de hectares, onde os ecossistemas mais impactos são pastagens naturais (70%), constituídas por savanas e cerrados, e em menor grau (30%) áreas florestais.
       </Paragraph>
 
       <FeaturedText>
-        Os eventos de 2010 foram considerados na Bolívia como os de maior magnitude e impacto, onde os incêndios associados à seca afetaram mais de 8,5 milhões de hectares na bacia amazônica.
+        O ano de 2010 foi considerado na Bolívia como o de maior magnitude e impacto, quando os incêndios associados à seca afetaram mais de 8,5 milhões de hectares na bacia amazônica.
       </FeaturedText>
       
       <Paragraph>
@@ -159,7 +159,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Já o panorama da Amazônia colombiana mostra alto desmatamento, aumento de cultivos ilícitos e presença de incêndios florestais. Além disso, no Plano Nacional de Desenvolvimento, o atual governo definiu que não haverá variação na meta de desmatamento com relação ao período de quatro anos do governo anterior. Ou seja, a destruição de 215.000 hectares de floresta por ano serão permitidas a nível nacional, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">dos quais 72% são da Amazônia</ExternalLink>. Assim, se dá luz verde para projetos de desenvolvimento econômico que anteriormente não eram permitidos nesta região colombiana.
+        Já o panorama da Amazônia colombiana mostra alto desmatamento, aumento de cultivos ilícitos e presença de incêndios florestais. Além disso, no Plano Nacional de Desenvolvimento, o atual governo definiu que não haverá variação na meta de desmatamento com relação ao período de quatro anos do governo anterior. Ou seja, a destruição de 215.000 hectares de floresta por ano serão permitidas a nível nacional, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">dos quais 72% ocorrem na Amazônia</ExternalLink>. Assim, se dá luz verde para projetos de desenvolvimento econômico que anteriormente não eram permitidos nesta região colombiana.
       </Paragraph>
 
       <Paragraph>
@@ -196,11 +196,11 @@ export default () => (
       </FeaturedText>
 
       <Paragraph>
-        Os povos indígenas não escapam à realidade política polarizada que se desenvolveu na Venezuela desde 2002. No entanto, apesar desta situação, o movimento indígena conseguiu posicionar-se em uma série de espaços de participação política para a auto-demarcação de seus territórios , a consolidação de um marco legal de autonomia e a defesa de seus direitos, bem como sua autodeterminação cultural. Apesar das conquistas, em 2018 muitas políticas públicas diminuíram seu impulso inicial, o que evidencia a paralisia do processo de demarcação de terras e habitats indígenas.
+        Os povos indígenas não escapam à realidade política polarizada que se desenvolveu na Venezuela desde 2002. No entanto, e apesar desta situação, o movimento indígena conseguiu posicionar-se em uma série de espaços de participação política para a auto-demarcação de seus territórios , a consolidação de um marco legal de autonomia e a defesa de seus direitos, bem como sua autodeterminação cultural. Apesar das conquistas, em 2018 muitas políticas públicas diminuíram seu impulso inicial, o que evidencia a paralisia do processo de demarcação de terras e habitats indígenas.
       </Paragraph>
 
       <Paragraph>
-      No Equador, a exploração, transporte e refino de petróleo representou no passado o "etnocidio de grupos ancestrais como os tetete, deslocamento forçado e aculturamento através assimilação forçada de outros povos que pertencem a grupos linguísticos como tukano (siona sequóias), barbacoa (cofán) e waorani" (
+        No Equador, a exploração, transporte e refino de petróleo representou no passado o "etnocício de grupos ancestrais como os tetete, deslocamento forçado e aculturamento através assimilação forçada de outros povos que pertencem a grupos linguísticos como tukano (siona sequóias), barbacoa (cofán) e waorani" (
           <FileLink
             href={require("documents/chapter4/Amazonia_bajo_presion.pdf")}
             format="pdf"
@@ -234,7 +234,7 @@ export default () => (
           }}
           > Waorani estabeleceram uma queixa constitucional este ano para suspender um plano do governo para explorar petróleo na Amazônia
         </StoryMedia>, 
-        com o qual pretendem manter livre de atividades petroleira em torno de 180.000 hectares de seu território ancestral na parte norte de Pastaza. Eles pedem que seus direitos sejam reconhecidos e compensados ​​pelos danos sofridos desde 2012, quando o Estado ofereceu parte de suas terras para a atividade extrativa. A ação movida conseguiu uma decisão favorável para as comunidades e pode estabelecer um precedente legal a favor da consulta prévia livre e informada e à autodeterminação dos povos.
+        com o qual pretendem manter livre de atividades petroleiras em torno de 180.000 hectares de seu território ancestral na parte norte de Pastaza. Eles pedem que seus direitos sejam reconhecidos e compensados ​​pelos danos sofridos desde 2012, quando o Estado ofereceu parte de suas terras para a atividade extrativa. A ação movida conseguiu uma decisão favorável para as comunidades e pode estabelecer um precedente legal a favor da consulta prévia livre e informada e à autodeterminação dos povos.
       </Paragraph>
 
       <Paragraph>
@@ -246,7 +246,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Em relação aos derramamentos de óleo frequentes que ocorreram na Amazônia peruana nos últimos anos, que têm um impacto direto sobre as fontes de água e a segurança alimentar da população local, na sua maioria composta de comunidades indígenas, eles estão reivindicando que o Estado atenda seu compromisso de fornecer remediação ambiental, serviços de água potável e atendimento médico especializado.
+        Em relação aos frequentes derramamentos de petróleo que ocorreram na Amazônia peruana nos últimos anos, que têm um impacto direto sobre as fontes de água e a segurança alimentar da população local, em sua maioria composta de comunidades indígenas, estas estão reivindicando que o Estado atenda seu compromisso de fornecer remediação ambiental, serviços de água potável e atendimento médico especializado.
       </Paragraph>
 
       <Paragraph>
@@ -276,11 +276,11 @@ export default () => (
             size="873KB"
             > US $ 1,4 bilhão em investimentos estrangeiros diretos em 2018, dos quais 53% foram para projetos de mineração em grande escala
           </FileLink>.
-        No entanto, esses projetos extrativos são rejeitados pela população. Em 2018, o governo de Lenin Moreno submeteu a referendo a expansão da protecção do Parque Nacional Yasuni (que, juntamente com o território Waorani e à Zona Intangível, onde vivem povos isolados, fazem parte da Reserva da Biosfera Yasuni ); 67,31% dos votantes concordaram em aumentar a área intangível em pelo menos 50.000 hectares e reduzir a área de exploração de petróleo autorizado pela Assembleia Nacional no Parque Nacional Yasuni de 1030 hectares para 300 hectares.
+        No entanto, esses projetos extrativos são rejeitados pela população. Em 2018, o governo de Lenin Moreno submeteu a referendo a expansão da proteção do Parque Nacional Yasuni (que, juntamente com o território Waorani e à Zona Intangível, onde vivem povos isolados, fazem parte da Reserva da Biosfera Yasuni ); 67,31% dos votantes concordaram em aumentar a área intangível em pelo menos 50.000 hectares e reduzir a área de exploração de petróleo autorizado pela Assembleia Nacional no Parque Nacional Yasuni de 1030 hectares para 300 hectares.
       </Paragraph>
 
       <Paragraph>
-        As evidências apresentadas neste relatório revelam que os impactos ambientais do desenvolvimento social e econômico baseado na extração e conversão de ecossistemas estão sendo subdimensionados, pois no longo prazo há um dano mais caro do que as receitas que recebem os países.
+        As evidências apresentadas neste relatório revelam que os impactos ambientais do desenvolvimento social e econômico baseado na extração e conversão de ecossistemas estão sendo subdimensionados, pois no longo prazo há um dano mais alto do que as receitas que recebem os países.
         <StoryMedia
           media={{
             id: "image-7",
@@ -291,7 +291,7 @@ export default () => (
             }
           }}> Os governos, tanto em nível nacional como localmente, estão enfraquecendo os órgãos de proteção ambiental
           </StoryMedia>.
-        Além disso, episódios recentes de corrupção generalizada no setor de infraestrutura na América Latina, criaram uma situação de quase total falta de compromisso dos países com uma agenda para o desenvolvimento sustentável.
+        Além disso, episódios recentes de corrupção generalizada no setor de infraestrutura na América Latina criaram uma situação de quase total falta de compromisso dos países com uma agenda para o desenvolvimento sustentável.
       </Paragraph>
 
       <Paragraph>
