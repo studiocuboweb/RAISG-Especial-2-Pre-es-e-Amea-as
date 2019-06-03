@@ -3,35 +3,30 @@ import { Helmet } from "react-helmet";
 import Container from "components/blocks/Container";
 import StoryMedia from "components/StoryMedia";
 import ExternalLink from "components/ExternalLink";
-import FileLink from "components/FileLink";
 import Paragraph from "components/blocks/Paragraph";
-import FullBlock from "components/blocks/Full";
-import ImageBlock from "components/blocks/Image";
 import Title from "components/blocks/Title";
 import Quote from "components/blocks/Quote";
-import FeaturedText from "components/blocks/FeaturedText";
 import Note from "components/blocks/Note";
-import EndChapter from "components/blocks/EndChapter";
-import Table from "components/blocks/Table";
+import TableIntro from "components/blocks/TableIntro";
 
 export default () => (
   <article>
     <Helmet>
-      <title>Introducción | Amazonía en la encrucijada</title>
+      <title>Introduction | Amazonia at the crossroads</title>
     </Helmet>
     <Container>
       <Note>
         <p>
-          La Pan Amazonía resguarda el bosque tropical más extenso del mundo, representa el 40% de la extensión de Sudamérica. En ella habitan pueblos indígenas que cubren el 28% del territorio y una mega-biodiversidad en áreas protegidas que representan el 23% de la región. Ahora, más que nunca, esta gran riqueza cultural y natural afronta diversos retos.
+          The Pan-Amazonia region protects the world's largest rainforest, accounting for 40% of South America. It contains indigenous peoples covering 28% of the territory and mega biodiversity in protected areas that represent 23% of the region. Now, more than ever, this great cultural and natural wealth faces many challenges.
         </p>
       </Note>
 
       <Paragraph>
-        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/" language="es">Red Amazónica de Información Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}grupo técnico formado por organizaciones de seis países de la región, publicó la más reciente colección de mapas con las presiones y amenazas que enfrenta la Amazonía.
+        The <ExternalLink href="https://www.amazoniasocioambiental.org/en/" language="en">Amazonian Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}a technical group formed by organizations from six countries in the region, has published its latest collection of maps on the pressures and threats faced by the Amazonia.
       </Paragraph>
 
       <Paragraph>
-        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publicación, actualizada al 2018</ExternalLink>{" "}, aborda las intervenciones en infraestructura de transporte, energía e industrias extractivas, además de hacer un seguimiento a la frecuencia de quemas e incendios. Los resultados indican que <StoryMedia
+        The <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publication, updated in 2018</ExternalLink>{" "}, addresses six themes: interventions in transport infrastructure (roads, waterways, railways), energy (hydroelectric projects) and extractive industries (mining and oil), as well as monitoring the frequency of burning and deforestation. The results show that <StoryMedia
         icon="map"
         media={{
         id: "map_01",
@@ -46,19 +41,92 @@ export default () => (
             zoomMin: 4,
             zoomMax: 10
           }
-        }}> 68% de las áreas naturales protegidas y territorios indígenas de la región tienen superposición con proyectos de infraestructura y planes de inversión</StoryMedia>.
+        }}> 68% of the region's protected natural areas and indigenous territories overlap with infrastructure projects and investment plans</StoryMedia>.
+      </Paragraph>
+
+      <TableIntro>
+      <table>
+          <tr>
+            <th colspan="5">
+              Number of pressures and threats that overlap Indigenous Territories and Natural Protected Areas
+            </th>
+          </tr>
+          <tr>
+            <th># pressures and threatss</th>
+            <th># Indigenous Territories</th>
+            <th>Percentage</th>
+            <th># Natural Protected Areas</th>
+            <th>Percentage</th>
+          </tr>
+          <tr>
+            <td>0</td>
+            <td>523</td>
+            <td>8%</td>
+            <td>63</td>
+            <td>9%</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2584</td>
+            <td>41%</td>
+            <td>141</td>
+            <td>20%</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2042</td>
+            <td>32%</td>
+            <td>188</td>
+            <td>27%</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>877</td>
+            <td>14%</td>
+            <td>193</td>
+            <td>28%</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>279</td>
+            <td>4%</td>
+            <td>90</td>
+            <td>13%</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>35</td>
+            <td>&#60;1%</td>
+            <td>15</td>
+            <td>2%</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>5</td>
+            <td>&#60;1%</td>
+            <td>2</td>
+            <td>&#60;1%</td>
+          </tr>
+          <tr>
+            <th>Total</th>
+            <th>6345</th>
+            <th>100%</th>
+            <th>692</th>
+            <th>100%</th>
+          </tr>
+        </table>
+      </TableIntro>
+
+      <Paragraph>
+        RAISG shows that, considering just mining and oil, 87.2 million hectares or 22% of the 390 million hectares dedicated to conservation and indigenous territories are subject to some kind of threat or pressure.
       </Paragraph>
 
       <Paragraph>
-        La RAISG muestra que, sólo considerando minería y  petróleo, 87,2 millones de hectáreas o el 22% de los 390 millones de hectáreas dedicadas a la conservación y a territorios indígenas están sujetas a algún tipo de amenaza o presión.
+        The maps also show the presence of hydroelectric projects and roads in protected natural areas and in indigenous territories. In this case, 78 of the 272 large hydroelectric power plants in the Amazonia - planned, under construction or in operation - are inside indigenous territories and 84 are in conflict with protected natural areas. As far as roads, waterways and railways are concerned, of the 136,000 kilometres mapped in the region, approximately 20% (26,000 km) are superimposed onto protected natural areas and indigenous territories.
       </Paragraph>
 
-      <Paragraph>
-        Sus mapas también revelan la presencia de hidroeléctricas y carreteras en áreas naturales protegidas y en territorios indígenas. En este sentido, de las 272 grandes centrales hidroeléctricas en la región amazónica - sean planificadas, en construcción o en operación - 78 están dentro de territorios indígenas y 84 se hallan en conflicto con áreas naturales protegidas. Con  relación a las carreteras y vías, de los 136 mil kilómetros mapeados en la región, aproximadamente 20% (26 mil km) están superpuestos con áreas naturales protegidas y territorios indígenas.
-      </Paragraph>
-
-      <Quote author="Richard C. Smith, director del Instituto Bien Común, del Perú">
-        Actualmente, no existe una política nacional para la Amazonía que nos permita trazar una visión integral, coherente y de largo plazo para la región. Por consiguiente, una estrategia clara de desarrollo territorial tampoco está en vigor. De hecho, la orientación de las decisiones políticas depende principalmente de las circunstancias y de la voluntad de los actuales gobernantes
+      <Quote author="Richard C. Smith, director of the Instituto Bien Común, Peru">
+        Currently, there is no national policy for the Amazonia that will allow us to draw up a comprehensive, coherent and long-term vision for the region. Thus, a clear territorial development strategy is also not in force. In fact, guidance for policy decisions depends mainly on circumstances and the will of the current rulers
       </Quote>
     </Container>
   </article>

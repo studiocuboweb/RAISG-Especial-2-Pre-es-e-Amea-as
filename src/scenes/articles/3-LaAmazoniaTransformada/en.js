@@ -16,13 +16,13 @@ import Table from "components/blocks/Table";
 export default () => (
   <article>
     <Helmet>
-      <title>La Amazonia Transformada | Amazonía en la encrucijada</title>
+      <title>The Amazonia transformed | Amazonia at the crossroads</title>
     </Helmet>
     <Container>
-      <Title as="h2">La Amazonia Transformada</Title>
+      <Title as="h2">The Amazonia transformed</Title>
       <Note>
         <p>
-          Las industrias extractivas  tienen presencia en la Pan Amazonía desde hace varias décadas. Algunas de ellas son las mayores minas a cielo abierto del planeta o cuentan con
+          Extractive industries have been a feature of the Pan-Amazonia region for several decades. Among these ventures are some of the largest open-cast mines on the planet and
           <StoryMedia
             media={{
             id: "image-1",
@@ -31,18 +31,18 @@ export default () => (
               credits: "Andina",
               src: require("photos/chapter3/Andina_000362563W_DuctosPetroleo.jpg")
             }
-          }}> largos ductos para extraer petróleo del medio de la selva
+          }}> long distance pipelines to move oil out of the heart of the forest
           </StoryMedia>.
-          Estos proyectos generan  un pasivo ambiental por resolver.
+          These projects have generated unresolved environmental liabilities.
         </p>
       </Note>
 
       <Paragraph>
-        En su reciente análisis de presiones y amenazas en la Amazonía, la RAISG indica que en términos de extensión territorial, las industrias extractivas de minería y de petróleo son las que tienen mayor peso. Juntos, estos dos sectores poseen lotes asignados a  concesión equivalentes a 208 millones de hectáreas, lo que representa 24,5% de toda la extensión de la <ExternalLink href="https://www.amazoniasocioambiental.org/es/publicacion/amazonia-2017-areas-protegidas-y-territorios-indigenas/" language="es">Pan Amazonia, para la cual se estima una superficie total de 847 millones de hectáreas (RAISG, 2017 )</ExternalLink>.
+        In its recent analysis of pressures and threats in the Amazonia, RAISG shows that, in terms of area, the extractive industries of mining and oil are those with the greatest weight. Together, these two sectors have blocks of land set aside for exploration and exploitation equivalent to 208 million hectares, representing 24.5% of the entire <ExternalLink href="https://www.amazoniasocioambiental.org/es/publicacion/amazonia-2017-areas-protegidas-y-territorios-indigenas/" language="es">Pan-Amazonian area, whose total area is calculated to be ​​847 million hectares (RAISG, 2017)</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
-        Estas amenazas y presiones no ocurren de manera uniforme o con la misma intensidad en todo este vasto territorio cubierto por 
+        These threats and pressures do not occur uniformly or with the same intensity throughout this vast territory of 
         <StoryMedia
           icon="map"
           media={{
@@ -58,20 +58,20 @@ export default () => (
               zoomMin: 4,
               zoomMax: 22
             }
-          }}> áreas bajo concesiones mineras y de hidrocarburos
+          }}> areas covered by mining and hydrocarbon concessions
           </StoryMedia>. 
-          Pero su existencia demuestra cuál es el modelo propuesto en estos países, basado en el extractivismo y la renta, sin valorar las consecuencias de perder más de un cuarto de la Amazonía.
+          But the existence of such an area confirms the proposed model for the countries of the region: one based on extraction and profit, with no evaluation of the consequences of losing more than a quarter of the Amazonia.
       </Paragraph>
       
       <Table>
         <table>
           <tr>
-            <th colspan="3">Bloques de petróleo y minería</th>
+            <th colspan="3">Oil and mining areas</th>
           </tr>
           <tr>
-            <th>País</th>
-            <th>Minería (ha)</th>
-            <th>Petróleo (ha)</th>
+            <th>Country</th>
+            <th>Mining (ha)</th>
+            <th>Oil (ha)</th>
           </tr>
           <tr>
             <td>Bolivia</td>
@@ -79,7 +79,7 @@ export default () => (
             <td>15.604.528</td>
           </tr>
           <tr>
-            <td>Brasil</td>
+            <td>Brazil</td>
             <td>108.053.239</td>
             <td>9.158.666</td>
           </tr>
@@ -94,17 +94,17 @@ export default () => (
             <td>6.817.191</td>
           </tr>
           <tr>
-            <td>GUF</td>
+            <td>French Guiana</td>
             <td>s.i.</td>
             <td>s.i.</td>
           </tr>
           <tr>
-            <td>Guyana</td>
+            <td>Guiana</td>
             <td>10.045.243</td>
             <td>s.i.</td>
           </tr>
           <tr>
-            <td>Perú</td>
+            <td>Peru</td>
             <td>7.535.204</td>
             <td>13.840.684</td>
           </tr>
@@ -127,11 +127,11 @@ export default () => (
       </Table>
 
       <Paragraph>
-        Los daños ambientales no remediados son frecuentes, tanto donde la minería y la extracción de petróleo son cosa del pasado, como donde continúan desarrollándose. Y si bien en casi todos los países amazónicos hay presencia de minería ilegal –tema que abordamos en <ExternalLink href="https://mineriailegal.amazoniasocioambiental.org/?lang=es" language="es">el especial "Amazonía Saqueada" (realizado por RAISG/InfoAmazonia, 2018)</ExternalLink>–, los mayores daños son causados por emprendimientos apoyados por los gobiernos nacionales y regionales. A menudo, estos proyectos fueron autorizados sin las debidas consultas a las poblaciones afectadas e impactan también sin distinción a casi todos los países de la región amazónica. En otros casos, elementos de los gobiernos participan o coadyuvan la actividad, aunque en teoría esta sea ilegal.
+        Unremedied environmental damage is common. This occurs both where mining and oil extraction took place in the past and where these are still carried out. Although illegal mining, which we address in the <ExternalLink href="https://illegalmining.amazoniasocioambiental.org/?lang=en" language="en">special report "Looted Amazonia" (published by RAISG and InfoAmazonia in 2018)</ExternalLink>, is present in all Amazonian countries, the greatest damage is caused by projects supported by national and regional governments. Often these projects have been authorized without due consultation with the affected populations and cause indiscriminate impacts on other countries of the Amazonia region. In other cases, government agents participate in or contribute to the activity, although in theory this is illegal.
       </Paragraph>
 
       <Paragraph>
-        <strong className='regular-title'>El costo del petróleo y la minería</strong>
+        <strong className='regular-title'>The cost of oil and mining</strong>
       </Paragraph>
 
       <Paragraph>
@@ -167,18 +167,18 @@ export default () => (
                 },
                 {
                   src: require("photos/chapter3/gallery-1/07_FederacionFEDIQUEP_DERRAM01_lagunaUshpayacu_Pastaza_2017.jpg"),
-                  credits: "Federación FECONACOR"
+                  credits: "Federación FEDIQUEP"
                 }
               ]
             }
           }}
-        > En 20 años se han registrado 190 derrames de crudo en la Amazonía peruana
-        </StoryMedia>,
-        según el organismo supervisor de la inversión en energía y minería, Osinergmin. Esta fuente indica, además, que los derrames se deben fundamentalmente a la existencia de infraestructura antigua en los pozos más productivos, la cual data de los años 70 y no ha recibido el mantenimiento adecuado. Entre 2008 y 2017 se derramaron 25.000 barriles de petróleo, según informe del Congreso de la Nación.
+        > According to the energy and mining investment watchdog, Osinergmin, 190 oil spills were recorded in the Peruvian Amazonia over 20 years
+        </StoryMedia>.
+        This source also suggests that spills are mainly due to the existence of old infrastructure in the most productive wells, which date back to the 1970s and are not properly maintained. Between 2008 and 2017, 25,000 barrels of oil were spilled, according to a report by the National Congress.
       </Paragraph>
 
       <Paragraph>
-        Para agravar la situación, la empresa estatal de hidrocarburos del Perú contrató para la
+        To make the situation worse, the Peruvian state hydrocarbons company has hired
         <StoryMedia
           media={{
           id: "video-1",
@@ -186,17 +186,17 @@ export default () => (
           data: {
             id: "SiQ6CE4D8xQ"
           }
-          }}> limpieza de los derrames equipos de trabajo improvisados, que emplearon mano de obra local, no calificada
+          }}> improvised work teams to clean up leaks using unskilled local labour
           </StoryMedia>.
-          En algunos casos, la remuneración pagada por estos servicios se convirtió en un aliciente para el sabotaje del oleoducto.
+          In some cases, the payments for these services have acted as an incentive for the sabotage of the pipeline.
       </Paragraph>
 
       <Paragraph>
-        Los derrames de petróleo en la Amazonía peruana han generado graves impactos ambientales – contaminación de cuerpos de agua, cultivos y mortandad de peces– y sociales entre la población indígena, con afectación de su salud y calidad de vida, que no han sido debidamente atendidos hasta el presente.
+        Oil spills in the Peruvian Amazonia have caused serious environmental impacts - pollution of water courses and fish mortality, as well as serious cultural and social damage to the indigenous population, since the leaks affect their health and quality of life and have not been adequately addressed to date.
       </Paragraph>
 
       <Paragraph>
-        Sin embargo, en algunos casos, el daño sobre el ambiente y la salud de la población se hace tan agudo que los gobiernos se ven forzados a actuar. En febrero del 2019,
+        However, in some cases, damage to the environment and the health of the population becomes so acute that governments are forced to act. In February 2019,
         <StoryMedia
           media={{
             id: "galery-2",
@@ -222,13 +222,13 @@ export default () => (
               ]
             }
           }}
-        > el desastre ambiental y social que envolvió  a la minería ilegal en Madre de Dios, en Perú, obligó al gobierno a lanzar la Operación Mercurio
+        > the environmental and social disaster that involved illegal mining in Madre de Dios in Peru forced the government to launch Operation Mercury
         </StoryMedia>,
-        una intervención con un enfoque integral y multisectorial que busca restaurar el estado de derecho, garantizar la salud y el bienestar de la población, así como ofrecer alternativas económicas frente a la minería. Para evaluar los resultados aún hay que esperar.
+        a comprehensive and multisectoral intervention aimed at restoring the rule of law and guaranteeing the health and well-being of the population, as well as offering economic alternatives to mining. We will have to wait to assess the results.
       </Paragraph>
       
       <Paragraph>
-        El Ecuador, desde los tiempos del gobierno de Correa, viene apostando por
+        Since the period of the Correa government, Ecuador has been betting on
         <StoryMedia
           media={{
           id: "image-2",
@@ -237,25 +237,25 @@ export default () => (
             credits: "La Sección",
             src: require("photos/chapter3/Mirador_Fuente_La_Seccion.jpg")
           }
-        }}> la minería a gran escala como actividad estratégica para el modelo de desarrollo del país
+        }}> large-scale mining as a strategic activity for the country's development model
         </StoryMedia>.
-        Las Cuentas Nacionales Anuales del Banco Central del Ecuador señalan que la producción bruta de la explotación de minerales metálicos y de minerales no metálicos, así como actividades de apoyo a las minas y canteras, alcanza un 0,3 % del total del  PIB. El gobierno espera dar un salto a 4% en este indicador para el 2021 mediante el fomento a la minería.
+        The National Accounts of the Central Bank of Ecuador show that the gross production of the exploitation of metallic and non-metallic minerals, as well as mining and quarrying support activities, represents 0.3% of total GDP. The government hopes this figure will rise to 4% by 2021 through the promotion of mining.
       </Paragraph>
 
       <Paragraph>
-        Similar énfasis recibe el petróleo ecuatoriano. En lo que va del siglo, la exportación petrolera representa 50% del total de exportaciones, con ingresos económicos que representan, en promedio, 11% del PIB. Sin embargo, la explotación petrolera ha traído consigo la deforestación de 2 millones de hectáreas, más de 650.000 barriles de crudo derramados en bosques, ríos y esteros, además de metales pesados que han contaminado las fuentes de agua de la región amazónica. Esto ha causado impactos en la salud en poblaciones estudiadas que enferman al consumir el agua contaminada y que ya no pueden pescar en esos ríos.
+        Ecuadorian oil receives the same treatment. So far this century, oil exports have accounted for 50% of total exports, with economic returns accounting for an average 11% of GDP. However, oil exploration has led to the deforestation of 2 million hectares and spillage of more than 650,000 barrels of oil in forests, rivers and streams, as well as heavy metals that have contaminated water sources in the Amazonia region. This has had an impact on the health of populations studied who fall sick after drinking contaminated water and can no longer fish in these rivers.
       </Paragraph>
 
       <FeaturedText>
-        La minería ilegal y la presencia de grupos irregulares armados (nacionales o extranjeros) en la Amazonía venezolana son elementos de la mayor relevancia.
+        Illegal mining and the presence of irregular armed groups (national or foreign) in the Venezuelan Amazonia are extremely important factors.
       </FeaturedText>
       
       <Paragraph>
-        Venezuela se encuentra sufriendo una fuerte crisis económica, política y social desde hace varios años. En 2018, y en lo que va de 2019, la situación se ha agravado de forma importante. La crítica situación del servicio eléctrico se suma a la carencia de medicinas, la dificultad para conseguir alimentos, la ausencia de moneda en efectivo y la hiperinflación. Todo ello ha derivado en una crisis humanitaria muy grave. Atentan directamente contra la permanencia de los ecosistemas amazónicos y su diversidad de especies, la prosperidad de las poblaciones indígenas, las costumbres ancestrales, la gobernabilidad de la región y la autodeterminación de los pueblos originarios.
+        Venezuela has been suffering a serious economic, political and social crisis for several years. In 2018, and so far in 2019, the situation has worsened significantly. The critical situation affecting electricity supply increases the lack of medicines, the difficulty of obtaining food, the absence of currency and hyperinflation. All of this has led to a serious humanitarian crisis.The crisis directly impacts the preservation of Amazonian ecosystems and their diversity of species, the prosperity of indigenous populations, ancestral customs, governability of the region and self-determination of native peoples.
       </Paragraph>
 
       <Paragraph>
-        La
+        The
         <StoryMedia
           icon="map"
           media={{
@@ -271,19 +271,19 @@ export default () => (
               zoomMin: 4,
               zoomMax: 22
             }
-          }}> Zona de Desarrollo Estratégico Nacional “Arco Minero del Orinoco” (ZDEN-AMO)
+          }}> National Zone of Strategic Development "Mining Arc of the Orinoco" (ZDEN-AMO)
           </StoryMedia> 
-          fue decretada en febrero de 2016 por el gobierno nacional de Venezuela. Es referida como un megaproyecto, aunque en realidad es un área sujeta a exploración y explotación sin un proyecto conocido. Su extensión territorial supera a países como Cuba, Bélgica, Panamá, Ecuador, entre muchos otros. Abarca 11,1 millones de hectares, divididos en cuatro bloques, al norte del estado Bolívar, pero alcanza casi 11,4 millones de hectáreas al incluir lo que se denominó Bloque Especial Icabarú (1.7 millones de hectáreas ), al sur del Parque Nacional Canaima, tal como lo indica Francisco Ruiz en su trabajo de 2018,
+          was decreed in February 2016 by the Venezuelan national government. It is referred to as a megaproject, although in real terms it is an area available for exploitation, and exploration with no known plan. Its territorial area exceeds that of countries such as Cuba, Belgium, Panama, Ecuador, among many others. It covers 11.1 million hectares, divided into four blocks in the north of the state of Bolívar, but reaches almost 11.4 million hectares to include what is called the Icabaru special block (1.7 million hectares), to the south of the Canaima National Park, as indicated by Francisco Ruiz in his 2018 work, 
           <FileLink
             href={require("documents/chapter3/9.TC_Ruiz_274.pdf")}
             format="pdf"
             size="1.2MB"
-          > El Arco Minero del Orinoco: diversificación del extractivismo y nuevos regímenes biopolíticos
+          > "El Arco Minero del Orinoco: diversificación del extractivismo y nuevos regímenes biopolíticos”
           </FileLink>.
       </Paragraph>
 
       <Paragraph>
-        Su objetivo de creación fue la extracción de minerales estratégicos como oro, coltán, diamantes, cobre, hierro y bauxita, además de tierras raras (materia prima para diferentes aplicaciones en la industria nuclear). Esto se hizo desconociendo buena parte del marco jurídico vigente del país, en materia ambiental, laboral, de pueblos indígenas e incluso de derechos humanos. Para llevar a cabo este proceso se han firmado acuerdos con empresas trasnacionales de diferentes países. Dichos convenios implican la
+        The purpose behind its creation was the extraction of strategic minerals such as gold, coltan, diamonds, copper, iron and bauxite, as well as rare earths (raw material for different applications in the nuclear industry). This was done by ignoring much of the current legal framework of the country, as regards environmental, labour, indigenous peoples’ and even human rights. To undertake this process, agreements have been signed with transnational companies from various countries. These deals involve
         <StoryMedia
           media={{
             id: "galery-3",
@@ -326,17 +326,17 @@ export default () => (
               ]
             }
           }}
-        > explotación minera a cielo abierto con las mismas tecnologías usadas por la minería ilegal
+        > open cast mining using the same technologies as those used in illegal mining
         </StoryMedia>,
-        en especial, de oro.
+        especially gold mining.
       </Paragraph>
 
       <Paragraph>
-        En Venezuela no ha habido inversión en tecnología para la extracción de minerales (en particular de oro), a pesar de la creación del Ministerio de Minería Ecológica. Tampoco se dieron a conocer las evaluaciones socioambientales y culturales de cada proyecto de exploración y explotación, ni los procesos de consulta previa e informada con las comunidades indígenas, como lo estipula la ley de este país. Recién en el primer trimestre de 2019, se firmó un convenio especial entre la Universidad Nacional Experimental de Guayana y el Gobierno para la realización de múltiples evaluaciones de impacto socioambiental.
+        In Venezuela, there has been no investment in mining technology (especially for gold), despite the creation of the Ministry of Ecological Mining. The socio-environmental and cultural impact assessments for each prospecting and exploration project have not been disclosed and neither were the processes of prior and informed consultation with indigenous communities as required under national law. It was only in the first quarter of 2019 that a special agreement was signed between the National Experimental University of Guyana and the Government to carry out a number of social and environmental impact studies.
       </Paragraph>
 
       <Paragraph>
-        Otro foco de presión, se ha dado en la
+        Another source of pressure occurs in the 
         <StoryMedia
           icon="map"
           media={{
@@ -352,17 +352,17 @@ export default () => (
               zoomMin: 4,
               zoomMax: 12
             }
-          }}> Cordillera del Cóndor, en Perú, que se encuentra en la frontera entre este país y Ecuador, en el departamento de Amazonas, en territorio ancestral del pueblo awajun-wampis
+          }}>Cordillera del Condor in Peru, in the department of Amazonas, on the border between Peru and Ecuador, in the Awajún-Wampis ancestral territory
           </StoryMedia>.
-          Este pueblo accedió a la creación de un área protegida como parte de las negociaciones de paz con Ecuador. En 1999 fue creada la Zona Reservada Santiago Comaina, categoría temporal, que debía luego dar lugar a un parque nacional. Sin embargo, en 2007, y por disposición del gobierno de Alan García que cedió a presiones del sector minero, una parte de la Reserva se convirtió en el Parque Nacional Ichigat Muja - Cordillera del Cóndor, en tanto que la otra mitad del área quedó excluida. Sobre la parte excluida, el gobierno de García otorgó concesiones mineras. Este es un escenario permanente de conflicto socioambiental. En 2016, el gobierno del presidente Kuczynski anuló la licencia de operaciones de la empresa concesionaria, pero ello no ha impedido que hasta la fecha se continúe explotando oro en ese lugar, de manera ilegal.
+          These peoples agreed to the creation of a protected area as part of the peace negotiations with Ecuador. In 1999, the Reserved Zone of Santiago Comaina was created, a temporary category that would then become a national park. However, in 2007 by order of the government of Alan Garcia, who gave way under pressure from the mining sector, half of the Reserve became the Muja Ichigat National Park - Cordillera del Condor, while the other half was excluded. In the excluded part, the García government granted mining concessions. This set the stage for permanent socio-environmental conflict. In 2016, President Kuczynski's administration canceled the concessionaire's operating license, but that did not prevent it from continuing to illegally exploit gold in the area.
       </Paragraph>
 
       <FeaturedText>
-        La minería afecta las fuentes de alimentación, quebradas, ríos, bosque, suelo y es una amenaza seria y directa a la supervivencia de los awajún. 
+        Mining affects food sources, streams, rivers, forests, soils and is a serious and direct threat to the survival of the Awajún.
       </FeaturedText>
 
       <Paragraph>
-        En el caso de la minería legal e ilegal
+        In the case of mining in the
         <StoryMedia
           media={{
           id: "video-2",
@@ -370,17 +370,17 @@ export default () => (
           data: {
             id: "Sy2Nm0bPljI"
           }
-          }}> en la Cordillera del Cóndor, los awajún-wampis vienen luchando contra las operaciones mineras legales e ilegales
+          }}> Cordillera del Condor, the Awajún-Wampis have fought against these legal and illegal mining operations
           </StoryMedia>
-          que tienen lugar en su territorio. Si bien el gobierno central y el gobierno regional de Amazonas han retirado los permisos de operaciones de la compañía, estos actos no han sido acompañados de acciones destinadas a asegurar el cumplimiento de la ley. La empresa ha continuado operando en la zona mediante estrategias como fomentar la actividad de pequeños mineros “artesanales” y provocando la división entre los indígenas al, por ejemplo, atraer a los jóvenes a su causa.  Éstos tomaron el caso en sus manos y destruyeron las oficinas de la empresa, ahora ilegal, y se encargan de patrullar la zona para mantener a raya a la minería ilegal, pero eso no ha cambiado significativamente el estado de cosas.
+          taking place in their territory. Although the central government and the regional government of Amazonas have cancelled the operating permits of the company, these acts were not followed up by actions to ensure compliance with the law. The company has continued to operate in the area through strategies such as promoting the activities of small scale prospectors and provoking divisions among the indigenous peoples by, for example, enticing young people to their cause. But the indigenous residents reacted by destroying the company's offices and taking charge of patrolling the area to keep illegal mining out. However, this has not significantly changed the state of affairs.
       </Paragraph>
 
       <Paragraph>
-        En toda la Pan Amazonía, la superposición de los bloques de minería y petróleo con áreas naturales protegidas y territorios indígenas es motivo de constantes conflictos socioambientales. Juntos, los bloques de concesión para la explotación de minerales y petróleo se extienden sobre 87,2 millones de hectáreas de bosques. Los intereses económicos se imponen a la conservación de la diversidad que habita en ellos.
+        Throughout the Pan-Amazonia region, the overlapping of mining and petroleum blocks with protected natural areas and indigenous territories is the cause of constant socio-environmental conflicts. Together, concession blocks for mineral and oil exploration cover more than 87.2 million hectares of protected forests. Economic interests prevail over conservation of the diversity found in them.
       </Paragraph>
       
       <Paragraph>
-        Por ejemplo,
+        For example,
         <StoryMedia
           media={{
             id: "galery-4",
@@ -414,13 +414,13 @@ export default () => (
               ]
             }
           }}
-        > de los siete parques nacionales existentes en la Amazonía venezolana, seis presentan puntos o áreas de minería ilegal dentro de sus límites
+        > of the seven national parks in the Venezuelan Amazonia, six have areas of illegal mining within their borders
         </StoryMedia>.
-        La excepción la constituye el PN Delta del Orinoco, en el estado Delta Amacuro. Los restantes se encuentran en el estado Amazonas (Duida – Marahuaca, Parima – Tapirecó, Serranía La Neblina, Yapacana y Caura), donde la minería está totalmente prohibida por decreto, y en Bolívar (Caura y Canaima), el área con mayor minería en el país. Los parques nacionales Canaima y Yapacana, en Venezuela, destacan por ser los que presentan la mayor intensidad de actividad minera, la cual en el caso del PN Canaima no sólo se encuentra dentro de sus límites, sino que prácticamente flanquea todo su extremo occidental y sur (río Caroní, en su límite oeste, y en el Bloque Especial Icabarú, al sur). Se trata además de un área protegida declarada Patrimonio Natural de la Humanidad por la Unesco en el año 1994. En ambos casos se encienden las alarmas, porque si bien en el Parque Nacional Yapacana la superficie afectada es proporcionalmente mayor, en el PN Canaima sólo la intensidad de impacto a lo largo de sus linderos este y sur es motivo de alarma, aún sin considerar lo que sucede en su territorio directo. 
+        The exception is the Delta del Orinoco National Park, in the state of Delta Amacuro. The remainder are in the states of Amazonas (Duida-Marahuaca, Parima Tapirapecó, Serranía La Neblina, Yapacana and Caura), where mining is prohibited by decree, and Bolívar (Caura and Canaima), the area most affected by mining in the country. The Canaima and Yapacana top the list of national parks with the highest intensity of mining activity. In the case of the Canaima national park, mining is found not only within its boundaries, but practically encircling its entire western and southern edges (the Caroní River on its western boundary and the Icabarú Special Block to the south). This is also a protected area classified as a World Heritage Site by Unesco in 1994. In both cases alarms have been raised because, although the affected area of ​​the Yapacana National Park is proportionally greater than that of the Canaima National Park, the intensity of the impact over the western and southern borders of the latter is cause for concern, even without regard to what is happening within the area itself.
       </Paragraph>
 
       <Paragraph>
-        En Perú, en la porción andina de la cuenca amazónica, gran parte de las concesiones mineras se encuentra superpuesta a comunidades campesinas. Esto genera conflictos socioambientales. Una de las estrategias empleadas por las empresas concesionarias es comprar las tierras concesionadas. Al tratarse de propiedad comunal, esto no es fácil, pero tampoco imposible, pues el Estado peruano viene, desde hace más de una década, cambiando el régimen de tenencia comunal para facilitar la división y venta de tierras comunales como parcelas individuales.
+        In Peru, in the Andean portion of the Amazonia basin, most mining concessions are superimposed on peasant communities. This creates socio-environmental conflicts. One of the strategies used by concessionaires is to buy the land under concession. Being communal property, this is not easy, but not impossible. For more than a decade, the Peruvian state has been making changes to the communal tenure system to facilitate the division and sale of communal lands as individual plots. 
       </Paragraph>
     </Container>
   </article>

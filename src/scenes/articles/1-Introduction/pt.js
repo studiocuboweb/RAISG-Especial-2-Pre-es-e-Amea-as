@@ -23,11 +23,11 @@ export default () => (
       </Note>
 
       <Paragraph>
-        A <ExternalLink href="https://www.amazoniasocioambiental.org/es/" language="es">Rede Amazônica de Informação Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}, um grupo técnico formado por organizações de seis países da região, publicou sua mais recente coleção de mapas com as pressões e ameaças enfrentadas na Amazônia.
+        A <ExternalLink href="https://www.amazoniasocioambiental.org/pt-br/" language="pt">Rede Amazônica de Informação Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}, um grupo técnico formado por organizações de seis países da região, publicou sua mais recente coleção de mapas com as pressões e ameaças enfrentadas na Amazônia.
       </Paragraph>
 
       <Paragraph>
-        A <ExternalLink href="https://www.amazoniasocioambiental.org/es/mapas/#!/presiones" language="es">publicação, atualizada em 2018</ExternalLink>{" "}, aborda seis temas: intervenções em infraestrutura de transportes (vias), energia (hidrelétricas) e indústrias extrativas (mineração e petróleo), além de monitorar a frequência de queimadas e desmatamentos. Os resultados indicam que <StoryMedia
+        A <ExternalLink href="https://www.amazoniasocioambiental.org/pt-br/publicacao/pressoes-e-ameacas-sobre-as-areas-protegidas-e-territorios-indigenas-da-amazonia-2/" language="pt">publicação, atualizada em 2018</ExternalLink>{" "}, aborda seis temas: intervenções em infraestrutura de transportes (vias), energia (hidrelétricas) e indústrias extrativas (mineração e petróleo), além de monitorar a frequência de queimadas e desmatamentos. Os resultados indicam que <StoryMedia
         icon="map"
         media={{
         id: "map_01",
@@ -45,94 +45,78 @@ export default () => (
         }}> 68% das áreas naturais protegidas e territórios indígenas da região se sobrepõem a projetos de infraestrutura e planos de investimento</StoryMedia>.
       </Paragraph>
 
-      <Paragraph>
-        <strong>Total de pressões e ameaças - Qtd de temas analisados que se superpõe a territórios indígenas  (TIs) e áreas naturais protegidas (ANPs)</strong>
-      </Paragraph>
-
       <TableIntro>
-        <table>
+      <table>
           <tr>
-            <th># temas</th>
-            <th># TI</th>
-            <th></th>
-            <th></th>
-            <th># temas</th>
-            <th># ANP</th>
-            <th></th>
+            <th colspan="5">
+            Total de pressões e ameaças - Quantidade de temas analisados que se sobrepõe a territórios indígenas (TIs) e áreas naturais protegidas (ANPs)
+            </th>
+          </tr>
+          <tr>
+            <th># pressões e ameaças</th>
+            <th># Territórios Indígenas</th>
+            <th>Porcentagem</th>
+            <th># Áreas Naturais Protegidas</th>
+            <th>Porcentagem</th>
           </tr>
           <tr>
             <td>0</td>
             <td>523</td>
-            <td>8,20%</td>
-            <th></th>
-            <td>0</td>
+            <td>8%</td>
             <td>63</td>
-            <td>9,10%</td>
+            <td>9%</td>
           </tr>
           <tr>
             <td>1</td>
             <td>2584</td>
-            <td>40,70%</td>
-            <th></th>
-            <td>1</td>
+            <td>41%</td>
             <td>141</td>
-            <td>20,38%</td>
+            <td>20%</td>
           </tr>
           <tr>
             <td>2</td>
             <td>2042</td>
-            <td>32,20%</td>
-            <th></th>
-            <td>2</td>
+            <td>32%</td>
             <td>188</td>
-            <td>27,17%</td>
+            <td>27%</td>
           </tr>
           <tr>
             <td>3</td>
             <td>877</td>
-            <td>13,80%</td>
-            <th></th>
-            <td>3</td>
+            <td>14%</td>
             <td>193</td>
-            <td>27,89%</td>
+            <td>28%</td>
           </tr>
           <tr>
             <td>4</td>
             <td>279</td>
-            <td>4,40%</td>
-            <th></th>
-            <td>4</td>
+            <td>4%</td>
             <td>90</td>
-            <td>13,01%</td>
+            <td>13%</td>
           </tr>
           <tr>
             <td>5</td>
             <td>35</td>
-            <td>0,60%</td>
-            <th></th>
-            <td>5</td>
+            <td>&#60;1%</td>
             <td>15</td>
-            <td>2,17%</td>
+            <td>2%</td>
           </tr>
           <tr>
             <td>6</td>
             <td>5</td>
-            <td>0,10%</td>
-            <th></th>
-            <td>6</td>
+            <td>&#60;1%</td>
             <td>2</td>
-            <td>0,29%</td>
+            <td>&#60;1%</td>
           </tr>
           <tr>
-            <th>Total TI</th>
+            <th>Total</th>
             <th>6345</th>
             <th>100%</th>
-            <th></th>
-            <th>Total ANP</th>
             <th>692</th>
             <th>100%</th>
           </tr>
         </table>
+
       </TableIntro>
 
       <Paragraph>
@@ -143,7 +127,7 @@ export default () => (
         Seus mapas também revelam a presença de hidrelétricas e estradas em áreas naturais protegidas e em territórios indígenas. Nesse sentido, das 272 grandes usinas hidrelétricas da Amazônia - planejadas, em construção ou em operação - 78 estão dentro dos territórios indígenas e 84 estão em conflito com áreas naturais protegidas. No que diz respeito a estradas e rotas, dos 136.000 quilômetros mapeados na região, aproximadamente 20% (26.000 km) são sobrepostos com áreas naturais protegidas e territórios indígenas.
       </Paragraph>
 
-      <Quote author="Richard C. Smith, diretor do Well Common Institute, do Peru">
+      <Quote author="Richard C. Smith, diretor do Instituto del Bien Común, do Peru">
         Atualmente, não existe uma política nacional para a Amazônia que nos permita traçar uma visão abrangente, coerente e de longo prazo para a região. Portanto, uma estratégia clara de desenvolvimento territorial também não está em vigor. De fato, a orientação das decisões políticas depende principalmente das circunstâncias e da vontade dos atuais governantes
       </Quote>
     </Container>

@@ -83,10 +83,10 @@ const favicons = new FaviconsWebpackPlugin({
 });
 
 const pwa = new WebpackPwaManifest({
-  name: "Looted Amazon",
-  short_name: "Looted Amazon",
+  name: "Amazonia at the crossroads",
+  short_name: "Amazonia at the crossroads",
   description:
-    "The destruction of 110 thousand square kilometers of forests in the largest mining project in Venezuela",
+    "Recent analysis from six countries show the conflict between the vision of economic development and the rights of indigenous territories and conservation of protected areas",
   background_color: "#fff",
   orientation: "portrait",
   start_url: "/?launcher=true",

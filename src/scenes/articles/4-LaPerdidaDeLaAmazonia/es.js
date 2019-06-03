@@ -22,12 +22,12 @@ export default () => (
       <Title as="h2">La pérdida de la Amazonía</Title>
       <Note>
         <p>
-          La Pan Amazonía está siendo impactada. Con las inversiones en infraestructura, se advierte una degradación en los ecosistemas boscosos, a consecuencia de  la deforestación, pero no es el único parámetro. Los restantes ecosistemas no boscosos experimentan pérdida de especies características, sustitución de su vegetación original por especies invasoras o especies resistentes al fuego y no típicas. O bien, por su empobrecimiento hacia sistemas sabanizados no naturales, o por cambios en procesos ecológicos ligados a cambios en los sistemas hidrológicos. 
+          La Panamazonía está siendo impactada. Con las inversiones en infraestructura, se advierte que los ecosistemas boscosos presentan degradación como consecuencia de la deforestación, pero no es el único elemento indicador. Los ecosistemas no boscosos experimentan pérdida de especies características, sustitución de su vegetación original por especies invasoras o especies resistentes al fuego y no típicas. También se observa su empobrecimiento hacia sistemas sabanizados no naturales, o cambios en sus procesos ecológicos vinculados con la modificación de los sistemas hidrológicos.
         </p>
       </Note>
 
       <Paragraph>
-        En la Panamazonia,
+        En la Panamazonía,
         <StoryMedia
           media={{
             id: "image-1",
@@ -66,7 +66,7 @@ export default () => (
         </table>
       </Table>
       <LittleNote>
-        Nota: Superposición de ANP con TI representa 45.474 mil hectáreas o 5,40% del total. Este valor se sustrae del ‘Total’ de 389.876 mil hectáreas.
+        Nota: Superposición de ANP con TI representa 45.474 mil hectáreas o 5,40% del total. Este valor esta incluso en el ‘Total’ de 389.876 mil hectáreas.
       </LittleNote>
 
       <Paragraph>
@@ -118,7 +118,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Los resultados indican una alerta para la protección de la Amazonía, pues un reciente estudio de Thomas Lovejoy y Carlos Nobre publicado en 2018 en la revista Science resalta que <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">la suma de impactos de la deforestación, el  cambio climático y los incendios forestales llevará a un punto de inflexión (o punto de no retorno) al sistema amazónico</ExternalLink>. Es decir, que tan pronto como sea alcanzado el 20% a 25% de la deforestación habrán consecuencias irreversibles hacia ecosistemas no forestales en las regiones este, sur y central de la Amazonía. Este modelo ha considerado la cuenca amazónica sin la inclusión de las cuencas de partes de los ríos Orinoco Araguaia, Tocantins y las cuencas del Atlántico Norte y zonas costeras.
+        Estos resultados representan una alerta para la protección de la Amazonía. En ese sentido, un estudio reciente de Thomas Lovejoy y Carlos Nobre, publicado en 2018 en la revista Science, resalta que <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">la suma de impactos de la deforestación, el cambio climático y los incendios forestales llevará a un punto de inflexión (o punto de no retorno) al sistema amazónico</ExternalLink>. Es decir, que tan pronto como sea alcanzado un nivel de deforestación del 20% a 25% habrán consecuencias irreversibles, donde los ecosistemas boscosos se transformarán en no forestales en las regiones este, sur y central de la Amazonía. El estudio se basa en un modelo que tiene por foco la cuenca amazónica sin la inclusión de las cuencas de parte de los ríos Orinoco, Araguaia, Tocantins y las cuencas del Atlántico Norte y zonas costeras.
       </Paragraph>
 
       <Paragraph>
@@ -131,13 +131,20 @@ export default () => (
               credits: "E. Sánchez / FAN",
               src: require("photos/chapter4/ESanchez_DSC9161.jpg")
             }
-          }}> está transformando su paisaje y alto potencial forestal hacia una economía basada en la ampliación de la agriculturaprotegidas continúan siendo las principales barreras que  aseguran  la protección de los ecosistemas boscosos
+          }}> está transformando su paisaje y alto potencial forestal hacia una economía basada en la ampliación de la agricultura
           </StoryMedia>
         y ganadería extensiva , poco sostenible por sus bajos rendimientos de producción y escasos réditos económicos para el país.
       </Paragraph>
 
       <Paragraph>
-        Análisis realizados por la Fundación Amigos de la Naturaleza (FAN) en el período 2005–2018 indican que el 88% de las quemas e incendios forestales de Bolivia se concentran en la región Amazónica , afectando a más de 18,7 millones de hectáreas, donde los ecosistemas con mayor impacto son pastizales naturales (70%) comprendidos por sabanas y cerrados, y en menor proporción (30%) ocurren en áreas boscosas.
+        Análisis realizados por la Fundación Amigos de la Naturaleza (FAN) 
+        <FileLink
+            href={require("documents/chapter3/9.TC_Ruiz_274.pdf")}
+            format="pdf"
+            size="1.2MB"
+          > en el período 2005–2018 indican que el 88% de las quemas e incendios forestales de Bolivia
+          </FileLink>.
+           se concentran en la región Amazónica, lo que afecta a más de 18,7 millones de hectáreas, en donde los ecosistemas con mayor impacto son pastizales naturales (70%), comprendidos por sabanas y cerrados, y, en menor proporción (30%) áreas boscosas.
       </Paragraph>
 
       <FeaturedText>
@@ -156,11 +163,11 @@ export default () => (
             }
           }}> el fuego iniciado para habilitar una parcela destinada a la siembra de cultivos o el establecimiento de pastos para ganadería suele descontrolarse 
           </StoryMedia>,
-        y afectar anualmente, en promedio, más de 4 millones de hectáreas. Por otro lado, la intensificación y magnitud de quemas e incendios, además de la acción humana, están estrechamente relacionadas con las condiciones climáticas extremas como las sequías.
+        y afectar anualmente, en promedio, más de 4 millones de hectáreas.
       </Paragraph>
 
       <Paragraph>
-        El panorama de la Amazonía colombiana muestra una alta deforestación, el aumento de cultivos ilícitos y la presencia de incendios forestales. Además, en el Plan Nacional de Desarrollo, el presente gobierno definió que habrá un 0% de variación en la meta de deforestación respecto al cuatrienio del gobierno pasado. Es decir, se permitirá la destrucción de 215.000 mil ha de bosque al año a nivel nacional, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">de los cuales, el 72% son de la Amazonía colombiana</ExternalLink>, hasta llegar al punto de no retorno, lo que da luz verde para proyectos de desarrollo económico que antes no  eran permitidos en esta región colombiana.
+        El panorama de la Amazonía colombiana muestra una alta deforestación, el aumento de cultivos ilícitos y la presencia de incendios forestales. Además, en el Plan Nacional de Desarrollo, el presente gobierno definió que habrá un 0% de variación en la meta de deforestación respecto al cuatrienio del gobierno pasado. Es decir, se permitirá la destrucción de 215.000 mil hectáreas de bosque al año a nivel nacional, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">de los cuales, el 72% son de la Amazonía colombiana</ExternalLink>, hasta llegar al punto de no retorno, lo que da luz verde para proyectos de desarrollo económico que antes no  eran permitidos en esta región colombiana.
       </Paragraph>
 
       <Paragraph>
@@ -277,9 +284,13 @@ export default () => (
             size="873KB"
             > US$ 1,4 mil millones en inversiones directas extranjeras en el año 2018, de los cuales el 53% se destinó a proyectos de minería a gran escala
           </FileLink>.
-        Sin embargo, estos proyectos extractivos son rechazados por la población. En el 2018, el gobierno de Lenin Moreno sometió a Consulta Popular la ampliación a la protección del Parque Nacional Yasuní (que junto con el Territorio Waorani y la Zona Intangible, en donde habitan pueblos no contactados, forman parte de la Reserva de la Biósfera Yasuní), el 67.31% de los votantes estuvieron de acuerdo con incrementar la zona intangible en al menos 50.000 hectáreas y reducir el área de explotación petrolera autorizada por la Asamblea Nacional en el Parque Nacional Yasuní de 1030 hectáreas a 300 hectáreas.
+        Sin embargo, estos proyectos extractivos son rechazados por la población. En el 2018, el gobierno de Lenin Moreno sometió a Consulta Popular la ampliación a la protección del Parque Nacional Yasuní (que junto con el Territorio Waorani y la Zona Intangible, en donde habitan pueblos no contactados, forman parte de la Reserva de la Biósfera Yasuní), el 67,31% de los votantes estuvieron de acuerdo con incrementar la zona intangible en al menos 50.000 hectáreas y reducir el área de explotación petrolera autorizada por la Asamblea Nacional en el Parque Nacional Yasuní de 1030 hectáreas a 300 hectáreas.
       </Paragraph>
 
+      <Paragraph>
+        En mayo del 2019, la delimitación de la Zona Intangible Tagaeri Taromenane (ZITT) del Yasuní fue modificada por el presidente Lenín Moreno, mediante la la firma del Decreto Ejecutivo No. 751. Este señala la ampliación de la zona, que pasa de 758.051 a 818.501,42 hectáreas y establece prohibiciones en la zona de amortiguamiento como la realización de actividades extractivas de productos forestales con propósito comercial, así como obras de infraestructura (carreteras, centrales hidroeléctricas,facilidades petroleras). Sin embargo se exceptúa el levantamiento de plataformas para perforación de pozos petroleros y producción de hidrocarburos, excepción que generó el rechazo de varios colectivos ambientalistas.
+      </Paragraph>
+      
       <Paragraph>
         Las evidencias presentadas en este reportaje revelan que los impactos ambientales, sociales y económicos del desarrollo basado en la extracción y conversión de ecosistemas, están siendo sub-dimensionados, pues en el largo plazo tienen consecuencias para los países más costosas que los réditos que perciben.
         <StoryMedia
@@ -300,7 +311,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        La Amazonía está en una encrucijada. Los nueve países que la conforman poseen la selva tropical más biodiversa y la mayor reserva de agua dulce del planeta. Pero sus gobernantes, las políticas de Estado y los intereses económicos la empujan hacia su agotamiento. Los últimos refugios para especies únicas están en las áreas protegidas y los territorios indígenas. Los científicos ya hablan de la inminencia de un punto de no retorno, donde las contribuciones de la naturaleza al bienestar humano o a la humanidad –el agua, el aire limpio, la regulación del clima, los recursos naturales– dejarán de ser provistos por el bioma. ¿Llegaremos hasta ese extremo?
+        La Amazonía está en una encrucijada. Los nueve países que la conforman poseen la selva tropical más biodiversa y la mayor reserva de agua dulce del planeta. Pero sus gobernantes, las políticas de Estado y los intereses económicos la empujan hacia su agotamiento. Los últimos refugios para especies únicas están en las áreas protegidas y los territorios indígenas. Los científicos ya hablan de la inminencia de un punto de no retorno, donde las contribuciones de la naturaleza al bienestar humano o a la humanidad –el agua, el aire limpio, la regulación del clima, los recursos naturales– dejarán de ser provistos por la Panamazonía. ¿Llegaremos hasta ese extremo?
       </Paragraph>
     </Container>
   </article>
