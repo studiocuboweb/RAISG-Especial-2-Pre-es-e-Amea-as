@@ -12,17 +12,17 @@ import TableIntro from "components/blocks/TableIntro";
 export default () => (
   <article>
     <Helmet>
-      <title>Introduction | Amazonia at crossroads</title>
+      <title>Introduction | Amazonia at the crossroads</title>
     </Helmet>
     <Container>
       <Note>
         <p>
-          The Pan-Amazon region protects the world's largest rainforest, accounting for 40% of South America. It contains indigenous peoples covering 28% of the territory and mega biodiversity in protected areas that represent 23% of the region. Now, more than ever, this great cultural and natural wealth faces many challenges.
+          The Pan-Amazonia region protects the world's largest rainforest, accounting for 40% of South America. It contains indigenous peoples covering 28% of the territory and mega biodiversity in protected areas that represent 23% of the region. Now, more than ever, this great cultural and natural wealth faces many challenges.
         </p>
       </Note>
 
       <Paragraph>
-        The <ExternalLink href="https://www.amazoniasocioambiental.org/en/" language="en">Amazonian Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}a technical group formed by organizations from six countries in the region, has published its latest collection of maps on the pressures and threats faced by the Amazon.
+        The <ExternalLink href="https://www.amazoniasocioambiental.org/en/" language="en">Amazonian Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}a technical group formed by organizations from six countries in the region, has published its latest collection of maps on the pressures and threats faced by the Amazonia.
       </Paragraph>
 
       <Paragraph>
@@ -42,10 +42,6 @@ export default () => (
             zoomMax: 10
           }
         }}> 68% of the region's protected natural areas and indigenous territories overlap with infrastructure projects and investment plans</StoryMedia>.
-      </Paragraph>
-
-      <Paragraph>
-        <strong>Total pressures and threats – Numbers of issues analysed that overlap with indigenous territories (TIs) and protected natural areas (ANPs)</strong>
       </Paragraph>
 
       <TableIntro>
@@ -126,11 +122,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The maps also show the presence of hydroelectric projects and roads in protected natural areas and in indigenous territories. In this case, 78 of the 272 large hydroelectric power plants in the Amazon - planned, under construction or in operation - are inside indigenous territories and 84 are in conflict with protected natural areas. As far as roads, waterways and railways are concerned, of the 136,000 kilometres mapped in the region, approximately 20% (26,000 km) are superimposed onto protected natural areas and indigenous territories.
+        The maps also show the presence of hydroelectric projects and roads in protected natural areas and in indigenous territories. In this case, 78 of the 272 large hydroelectric power plants in the Amazonia - planned, under construction or in operation - are inside indigenous territories and 84 are in conflict with protected natural areas. As far as roads, waterways and railways are concerned, of the 136,000 kilometres mapped in the region, approximately 20% (26,000 km) are superimposed onto protected natural areas and indigenous territories.
       </Paragraph>
 
       <Quote author="Richard C. Smith, director of the Instituto Bien Común, Peru">
-        Currently, there is no national policy for the Amazon that will allow us to draw up a comprehensive, coherent and long-term vision for the region. Thus, a clear territorial development strategy is also not in force. In fact, guidance for policy decisions depends mainly on circumstances and the will of the current rulers
+        Currently, there is no national policy for the Amazonia that will allow us to draw up a comprehensive, coherent and long-term vision for the region. Thus, a clear territorial development strategy is also not in force. In fact, guidance for policy decisions depends mainly on circumstances and the will of the current rulers
       </Quote>
     </Container>
   </article>

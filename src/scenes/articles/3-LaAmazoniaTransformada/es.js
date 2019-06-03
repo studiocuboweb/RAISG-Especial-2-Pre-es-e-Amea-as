@@ -16,13 +16,13 @@ import Table from "components/blocks/Table";
 export default () => (
   <article>
     <Helmet>
-      <title>La Amazonia Transformada | Amazonía en la encrucijada</title>
+      <title>La Amazonía Transformada | Amazonía en la encrucijada</title>
     </Helmet>
     <Container>
-      <Title as="h2">La Amazonia Transformada</Title>
+      <Title as="h2">La Amazonía Transformada</Title>
       <Note>
         <p>
-          Las industrias extractivas  tienen presencia en la Pan Amazonía desde hace varias décadas. Algunas de ellas son las mayores minas a cielo abierto del planeta o cuentan con
+          Las industrias extractivas  tienen presencia en la Panamazonía desde hace varias décadas. Algunas de ellas son las mayores minas a cielo abierto del planeta o cuentan con
           <StoryMedia
             media={{
             id: "image-1",
@@ -42,7 +42,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Estas amenazas y presiones no ocurren de manera uniforme o con la misma intensidad en todo este vasto territorio cubierto por 
+        Estas amenazas y presiones no ocurren de manera uniforme o con la misma intensidad en todo este vasto territorio cubierto por
         <StoryMedia
           icon="map"
           media={{
@@ -58,7 +58,7 @@ export default () => (
               zoomMin: 4,
               zoomMax: 22
             }
-          }}> áreas bajo concesiones mineras y de hidrocarburos
+          }}> áreas bajo concesiones
           </StoryMedia>. 
           Pero su existencia demuestra cuál es el modelo propuesto en estos países, basado en el extractivismo y la renta, sin valorar las consecuencias de perder más de un cuarto de la Amazonía.
       </Paragraph>
@@ -94,7 +94,7 @@ export default () => (
             <td>6.817.191</td>
           </tr>
           <tr>
-            <td>GUF</td>
+            <td>Guiana Francesa</td>
             <td>s.i.</td>
             <td>s.i.</td>
           </tr>
@@ -273,7 +273,7 @@ export default () => (
             }
           }}> Zona de Desarrollo Estratégico Nacional “Arco Minero del Orinoco” (ZDEN-AMO)
           </StoryMedia> 
-          fue decretada en febrero de 2016 por el gobierno nacional de Venezuela. Es referida como un megaproyecto, aunque en realidad es un área sujeta a exploración y explotación sin un proyecto conocido. Su extensión territorial supera a países como Cuba, Bélgica, Panamá, Ecuador, entre muchos otros. Abarca 11,1 millones de hectares, divididos en cuatro bloques, al norte del estado Bolívar, pero alcanza casi 11,4 millones de hectáreas al incluir lo que se denominó Bloque Especial Icabarú (1.7 millones de hectáreas ), al sur del Parque Nacional Canaima, tal como lo indica Francisco Ruiz en su trabajo de 2018,
+          fue decretada en febrero de 2016 por el gobierno de Venezuela. Es referida como un megaproyecto, aunque en realidad es un área sujeta a exploración y explotación sin un proyecto conocido. Su extensión territorial supera a países como Cuba, Bélgica, Panamá, Ecuador, entre muchos otros. Abarca 11,1 millones de hectáreas, divididos en cuatro bloques, al norte del estado Bolívar, pero alcanza casi 11,4 millones de hectáreas al incluir lo que se denominó Bloque Especial Icabarú, al sur del Parque Nacional Canaima, tal como lo indica Francisco Ruiz en su trabajo de 2018,
           <FileLink
             href={require("documents/chapter3/9.TC_Ruiz_274.pdf")}
             format="pdf"
@@ -372,11 +372,11 @@ export default () => (
           }
           }}> en la Cordillera del Cóndor, los awajún-wampis vienen luchando contra las operaciones mineras legales e ilegales
           </StoryMedia>
-          que tienen lugar en su territorio. Si bien el gobierno central y el gobierno regional de Amazonas han retirado los permisos de operaciones de la compañía, estos actos no han sido acompañados de acciones destinadas a asegurar el cumplimiento de la ley. La empresa ha continuado operando en la zona mediante estrategias como fomentar la actividad de pequeños mineros “artesanales” y provocando la división entre los indígenas al, por ejemplo, atraer a los jóvenes a su causa.  Éstos tomaron el caso en sus manos y destruyeron las oficinas de la empresa, ahora ilegal, y se encargan de patrullar la zona para mantener a raya a la minería ilegal, pero eso no ha cambiado significativamente el estado de cosas.
+          que tienen lugar en su territorio. Si bien los gobiernos central y regional de Amazonas han retirado los permisos de operaciones de la compañía, estos actos no han sido acompañados de acciones destinadas a asegurar el cumplimiento de la ley. La empresa ha continuado operando en la zona mediante estrategias como fomentar la actividad de pequeños mineros “artesanales” y provocando la división entre los indígenas al, por ejemplo, atraer a los jóvenes a su causa.  Éstos tomaron el caso en sus manos y destruyeron las oficinas de la empresa, ahora ilegal, y se encargan de patrullar la zona para mantener a raya a la minería ilegal, pero eso no ha cambiado significativamente el estado de cosas.
       </Paragraph>
 
       <Paragraph>
-        En toda la Pan Amazonía, la superposición de los bloques de minería y petróleo con áreas naturales protegidas y territorios indígenas es motivo de constantes conflictos socioambientales. Juntos, los bloques de concesión para la explotación de minerales y petróleo se extienden sobre 87,2 millones de hectáreas de bosques. Los intereses económicos se imponen a la conservación de la diversidad que habita en ellos.
+        En la Panamazonía, la superposición de los bloques de minería y petróleo con áreas naturales protegidas y territorios indígenas es motivo de constantes conflictos socioambientales. Juntos, los bloques de concesión para la explotación de minerales y petróleo se extienden sobre 87,2 millones de hectáreas de bosques. Los intereses económicos se imponen a la conservación de la diversidad que habita en ellos.
       </Paragraph>
       
       <Paragraph>
@@ -416,7 +416,7 @@ export default () => (
           }}
         > de los siete parques nacionales existentes en la Amazonía venezolana, seis presentan puntos o áreas de minería ilegal dentro de sus límites
         </StoryMedia>.
-        La excepción la constituye el PN Delta del Orinoco, en el estado Delta Amacuro. Los restantes se encuentran en el estado Amazonas (Duida – Marahuaca, Parima – Tapirecó, Serranía La Neblina, Yapacana y Caura), donde la minería está totalmente prohibida por decreto, y en Bolívar (Caura y Canaima), el área con mayor minería en el país. Los parques nacionales Canaima y Yapacana, en Venezuela, destacan por ser los que presentan la mayor intensidad de actividad minera, la cual en el caso del PN Canaima no sólo se encuentra dentro de sus límites, sino que prácticamente flanquea todo su extremo occidental y sur (río Caroní, en su límite oeste, y en el Bloque Especial Icabarú, al sur). Se trata además de un área protegida declarada Patrimonio Natural de la Humanidad por la Unesco en el año 1994. En ambos casos se encienden las alarmas, porque si bien en el Parque Nacional Yapacana la superficie afectada es proporcionalmente mayor, en el PN Canaima sólo la intensidad de impacto a lo largo de sus linderos este y sur es motivo de alarma, aún sin considerar lo que sucede en su territorio directo. 
+        La excepción la constituye el PN Delta del Orinoco, en el estado Delta Amacuro. Los restantes se encuentran en el estado Amazonas (Duida – Marahuaca, Parima – Tapirecó, Serranía La Neblina, Yapacana y Caura), donde la minería está totalmente prohibida por decreto, y en Bolívar (Caura y Canaima), el área con mayor minería en el país. Los parques nacionales Canaima y Yapacana, en Venezuela, destacan por ser los que presentan la mayor intensidad de actividad minera, la cual en el caso del PN Canaima no sólo se encuentra dentro de sus límites, sino que prácticamente flanquea todo su extremo occidental y sur (río Caroní, en su límite oeste, y en la Zona Especial Icabarú, al sur). Se trata además de un área protegida declarada Patrimonio Natural de la Humanidad por la Unesco en el año 1994. En ambos casos se encienden las alarmas, porque si bien en el Parque Nacional Yapacana la superficie afectada es proporcionalmente mayor, en el PN Canaima solo la intensidad de impacto a lo largo de sus linderos este y sur es motivo de alarma, aún sin considerar lo que sucede en su territorio directo.
       </Paragraph>
 
       <Paragraph>

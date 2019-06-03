@@ -24,7 +24,7 @@ const messages = defineMessages({
   },
   siteTitle: {
     id: "head.title",
-    defaultMessage: "Looted Amazon"
+    defaultMessage: "Amazonia at the crossroads"
   }
 });
 

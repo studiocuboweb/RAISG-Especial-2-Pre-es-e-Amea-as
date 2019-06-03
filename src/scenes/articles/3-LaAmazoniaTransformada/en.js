@@ -16,13 +16,13 @@ import Table from "components/blocks/Table";
 export default () => (
   <article>
     <Helmet>
-      <title>The Amazon transformed | Amazonia at crossroads</title>
+      <title>The Amazonia transformed | Amazonia at the crossroads</title>
     </Helmet>
     <Container>
-      <Title as="h2">The Amazon transformed</Title>
+      <Title as="h2">The Amazonia transformed</Title>
       <Note>
         <p>
-          Extractive industries have been a feature of the Pan-Amazon region for several decades. Among these ventures are some of the largest open-cast mines on the planet and
+          Extractive industries have been a feature of the Pan-Amazonia region for several decades. Among these ventures are some of the largest open-cast mines on the planet and
           <StoryMedia
             media={{
             id: "image-1",
@@ -38,7 +38,7 @@ export default () => (
       </Note>
 
       <Paragraph>
-        In its recent analysis of pressures and threats in the Amazon, RAISG shows that, in terms of area, the extractive industries of mining and oil are those with the greatest weight. Together, these two sectors have blocks of land set aside for exploration and exploitation equivalent to 208 million hectares, representing 24.5% of the entire <ExternalLink href="https://www.amazoniasocioambiental.org/es/publicacion/amazonia-2017-areas-protegidas-y-territorios-indigenas/" language="es">Pan-Amazonian area, whose total area is calculated to be ​​847 million hectares (RAISG, 2017)</ExternalLink>.
+        In its recent analysis of pressures and threats in the Amazonia, RAISG shows that, in terms of area, the extractive industries of mining and oil are those with the greatest weight. Together, these two sectors have blocks of land set aside for exploration and exploitation equivalent to 208 million hectares, representing 24.5% of the entire <ExternalLink href="https://www.amazoniasocioambiental.org/es/publicacion/amazonia-2017-areas-protegidas-y-territorios-indigenas/" language="es">Pan-Amazonian area, whose total area is calculated to be ​​847 million hectares (RAISG, 2017)</ExternalLink>.
       </Paragraph>
 
       <Paragraph>
@@ -60,7 +60,7 @@ export default () => (
             }
           }}> areas covered by mining and hydrocarbon concessions
           </StoryMedia>. 
-          But the existence of such an area confirms the proposed model for the countries of the region: one based on extraction and profit, with no evaluation of the consequences of losing more than a quarter of the Amazon.
+          But the existence of such an area confirms the proposed model for the countries of the region: one based on extraction and profit, with no evaluation of the consequences of losing more than a quarter of the Amazonia.
       </Paragraph>
       
       <Table>
@@ -127,7 +127,7 @@ export default () => (
       </Table>
 
       <Paragraph>
-        Unremedied environmental damage is common. This occurs both where mining and oil extraction took place in the past and where these are still carried out. Although illegal mining, which we address in the <ExternalLink href="https://illegalmining.amazoniasocioambiental.org/?lang=en" language="en">special report "Looted Amazon" (published by RAISG and InfoAmazonia in 2018)</ExternalLink>, is present in all Amazonian countries, the greatest damage is caused by projects supported by national and regional governments. Often these projects have been authorized without due consultation with the affected populations and cause indiscriminate impacts on other countries of the Amazon region. In other cases, government agents participate in or contribute to the activity, although in theory this is illegal.
+        Unremedied environmental damage is common. This occurs both where mining and oil extraction took place in the past and where these are still carried out. Although illegal mining, which we address in the <ExternalLink href="https://illegalmining.amazoniasocioambiental.org/?lang=en" language="en">special report "Looted Amazonia" (published by RAISG and InfoAmazonia in 2018)</ExternalLink>, is present in all Amazonian countries, the greatest damage is caused by projects supported by national and regional governments. Often these projects have been authorized without due consultation with the affected populations and cause indiscriminate impacts on other countries of the Amazonia region. In other cases, government agents participate in or contribute to the activity, although in theory this is illegal.
       </Paragraph>
 
       <Paragraph>
@@ -172,7 +172,7 @@ export default () => (
               ]
             }
           }}
-        > According to the energy and mining investment watchdog, Osinergmin, 190 oil spills were recorded in the Peruvian Amazon over 20 years
+        > According to the energy and mining investment watchdog, Osinergmin, 190 oil spills were recorded in the Peruvian Amazonia over 20 years
         </StoryMedia>.
         This source also suggests that spills are mainly due to the existence of old infrastructure in the most productive wells, which date back to the 1970s and are not properly maintained. Between 2008 and 2017, 25,000 barrels of oil were spilled, according to a report by the National Congress.
       </Paragraph>
@@ -192,7 +192,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Oil spills in the Peruvian Amazon have caused serious environmental impacts - pollution of water courses and fish mortality, as well as serious cultural and social damage to the indigenous population, since the leaks affect their health and quality of life and have not been adequately addressed to date.
+        Oil spills in the Peruvian Amazonia have caused serious environmental impacts - pollution of water courses and fish mortality, as well as serious cultural and social damage to the indigenous population, since the leaks affect their health and quality of life and have not been adequately addressed to date.
       </Paragraph>
 
       <Paragraph>
@@ -243,11 +243,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Ecuadorian oil receives the same treatment. So far this century, oil exports have accounted for 50% of total exports, with economic returns accounting for an average 11% of GDP. However, oil exploration has led to the deforestation of 2 million hectares and spillage of more than 650,000 barrels of oil in forests, rivers and streams, as well as heavy metals that have contaminated water sources in the Amazon region. This has had an impact on the health of populations studied who fall sick after drinking contaminated water and can no longer fish in these rivers.
+        Ecuadorian oil receives the same treatment. So far this century, oil exports have accounted for 50% of total exports, with economic returns accounting for an average 11% of GDP. However, oil exploration has led to the deforestation of 2 million hectares and spillage of more than 650,000 barrels of oil in forests, rivers and streams, as well as heavy metals that have contaminated water sources in the Amazonia region. This has had an impact on the health of populations studied who fall sick after drinking contaminated water and can no longer fish in these rivers.
       </Paragraph>
 
       <FeaturedText>
-        Illegal mining and the presence of irregular armed groups (national or foreign) in the Venezuelan Amazon are extremely important factors.
+        Illegal mining and the presence of irregular armed groups (national or foreign) in the Venezuelan Amazonia are extremely important factors.
       </FeaturedText>
       
       <Paragraph>
@@ -376,7 +376,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Throughout the Pan-Amazon region, the overlapping of mining and petroleum blocks with protected natural areas and indigenous territories is the cause of constant socio-environmental conflicts. Together, concession blocks for mineral and oil exploration cover more than 87.2 million hectares of protected forests. Economic interests prevail over conservation of the diversity found in them.
+        Throughout the Pan-Amazonia region, the overlapping of mining and petroleum blocks with protected natural areas and indigenous territories is the cause of constant socio-environmental conflicts. Together, concession blocks for mineral and oil exploration cover more than 87.2 million hectares of protected forests. Economic interests prevail over conservation of the diversity found in them.
       </Paragraph>
       
       <Paragraph>
@@ -414,13 +414,13 @@ export default () => (
               ]
             }
           }}
-        > of the seven national parks in the Venezuelan Amazon, six have areas of illegal mining within their borders
+        > of the seven national parks in the Venezuelan Amazonia, six have areas of illegal mining within their borders
         </StoryMedia>.
         The exception is the Delta del Orinoco National Park, in the state of Delta Amacuro. The remainder are in the states of Amazonas (Duida-Marahuaca, Parima Tapirapecó, Serranía La Neblina, Yapacana and Caura), where mining is prohibited by decree, and Bolívar (Caura and Canaima), the area most affected by mining in the country. The Canaima and Yapacana top the list of national parks with the highest intensity of mining activity. In the case of the Canaima national park, mining is found not only within its boundaries, but practically encircling its entire western and southern edges (the Caroní River on its western boundary and the Icabarú Special Block to the south). This is also a protected area classified as a World Heritage Site by Unesco in 1994. In both cases alarms have been raised because, although the affected area of ​​the Yapacana National Park is proportionally greater than that of the Canaima National Park, the intensity of the impact over the western and southern borders of the latter is cause for concern, even without regard to what is happening within the area itself.
       </Paragraph>
 
       <Paragraph>
-        In Peru, in the Andean portion of the Amazon basin, most mining concessions are superimposed on peasant communities. This creates socio-environmental conflicts. One of the strategies used by concessionaires is to buy the land under concession. Being communal property, this is not easy, but not impossible. For more than a decade, the Peruvian state has been making changes to the communal tenure system to facilitate the division and sale of communal lands as individual plots. 
+        In Peru, in the Andean portion of the Amazonia basin, most mining concessions are superimposed on peasant communities. This creates socio-environmental conflicts. One of the strategies used by concessionaires is to buy the land under concession. Being communal property, this is not easy, but not impossible. For more than a decade, the Peruvian state has been making changes to the communal tenure system to facilitate the division and sale of communal lands as individual plots. 
       </Paragraph>
     </Container>
   </article>

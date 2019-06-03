@@ -16,13 +16,13 @@ import Board from "components/blocks/Board";
 export default () => (
   <article>
     <Helmet>
-    <title>The loss of the Amazon | Amazonia at crossroads</title>
+    <title>The loss of the Amazonia | Amazonia at the crossroads</title>
     </Helmet>
     <Container>
-      <Title as="h2">The loss of the Amazon</Title>
+      <Title as="h2">The loss of the Amazonia</Title>
       <Note>
         <p>
-          The Pan-Amazon region is suffering serious impacts. With investments in infrastructure, there is degradation of forest ecosystems as a consequence of deforestation. But this is not the only parameter. Non-forest ecosystems experience loss of endemic species, replacement of their original vegetation by invasive species or by species resistant to fire. Or again, there is impoverishment caused by the establishment of unnatural savanna ecosystems, resulting from changes in the ecological processes linked to alterations in hydrological systems.
+          The Pan-Amazonia region is suffering serious impacts. With investments in infrastructure, there is degradation of forest ecosystems as a consequence of deforestation. But this is not the only parameter. Non-forest ecosystems experience loss of endemic species, replacement of their original vegetation by invasive species or by species resistant to fire. Or again, there is impoverishment caused by the establishment of unnatural savanna ecosystems, resulting from changes in the ecological processes linked to alterations in hydrological systems.
         </p>
       </Note>
 
@@ -45,7 +45,7 @@ export default () => (
           <tr>
             <th>Protection category</th>
             <th>area (thousands of ha)</th>
-            <th>% in relation to the Amazon overall</th>
+            <th>% in relation to the Amazonia overall</th>
           </tr>
           <tr>
             <td>Protected Natural Areas</td>
@@ -113,15 +113,15 @@ export default () => (
           }}
         > 10.3 million hectares of protected natural areas and indigenous territories were directly affected by deforestation between 2000 and 2015
         </StoryMedia>, 
-        amounting to 12% of the Amazon region.
+        amounting to 12% of the Amazonia region.
       </Paragraph>
 
       <Paragraph>
-      The results are a warning for the protection of the biome, as highlighted by a study by Thomas Lovejoy and Carlos Nobre published in the journal Science in 2018. According to the authors, <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">the sum of the impacts of deforestation, climate change and forest fires will lead to an inflection point (or point of no return) for the Amazon system.</ExternalLink>. That is, once deforestation reaches 20% to 25% of the biome there will be irreversible consequences for the non-forest ecosystems of southern and central Amazonia. This model considered the Amazon basin without the inclusion of parts of the Orinoco, Araguaia and Tocantins basins and of the North Atlantic and coastal areas.
+      The results are a warning for the protection of the biome, as highlighted by a study by Thomas Lovejoy and Carlos Nobre published in the journal Science in 2018. According to the authors, <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">the sum of the impacts of deforestation, climate change and forest fires will lead to an inflection point (or point of no return) for the Amazonia system.</ExternalLink>. That is, once deforestation reaches 20% to 25% of the biome there will be irreversible consequences for the non-forest ecosystems of southern and central Amazonia. This model considered the Amazonia basin without the inclusion of parts of the Orinoco, Araguaia and Tocantins basins and of the North Atlantic and coastal areas.
       </Paragraph>
 
       <Paragraph>
-        In the Bolivian Amazon, as has been happening for more than a decade, there is a development model based on land use conversion. That is, 
+        In the Bolivian Amazonia, as has been happening for more than a decade, there is a development model based on land use conversion. That is, 
         <StoryMedia
           media={{
             id: "image-2",
@@ -136,11 +136,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The analysis of the Fundación Amigos de la Naturaleza (FAN) for the period 2005-2018 shows that 88% of burnings and forest fires in Bolivia are concentrated in the Amazon region, affecting more than 18.7 million hectares, with the ecosystems most impacted being natural grasslands, comprising savannas and cerrados (70%) and, to a lesser degree (30%), forest areas.
+        The analysis of the Fundación Amigos de la Naturaleza (FAN) for the period 2005-2018 shows that 88% of burnings and forest fires in Bolivia are concentrated in the Amazonia region, affecting more than 18.7 million hectares, with the ecosystems most impacted being natural grasslands, comprising savannas and cerrados (70%) and, to a lesser degree (30%), forest areas.
       </Paragraph>
 
       <FeaturedText>
-        The 2010 events in Bolivia, where fires associated with drought affected more than 8.5 million hectares in the Amazon Basin, were considered to have been the greatest in magnitude and impact.
+        The 2010 events in Bolivia, where fires associated with drought affected more than 8.5 million hectares in the Amazonia Basin, were considered to have been the greatest in magnitude and impact.
       </FeaturedText>
       
       <Paragraph>
@@ -159,7 +159,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The overview of the Colombian Amazon reveals high deforestation, an increase in illicit crops and the presence of forest fires. In addition, in the National Development Plan, the current government has decided that there will be no change in its deforestation goal relative to the previous government's four-year administration. That is to say, the destruction of 215,000 hectares of forest per year will be allowed at the national level, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">of which 72% will be from the Amazon region</ExternalLink>. hThere is thus a green light for economic development projects previously not allowed in this region of Colombia.
+        The overview of the Colombian Amazonia reveals high deforestation, an increase in illicit crops and the presence of forest fires. In addition, in the National Development Plan, the current government has decided that there will be no change in its deforestation goal relative to the previous government's four-year administration. That is to say, the destruction of 215,000 hectares of forest per year will be allowed at the national level, <ExternalLink href="https://www.elespectador.com/noticias/medio-ambiente/las-cifras-de-deforestacion-para-la-amazonia-colombiana-que-no-convencen-articulo-839968" language="es">of which 72% will be from the Amazonia region</ExternalLink>. hThere is thus a green light for economic development projects previously not allowed in this region of Colombia.
       </Paragraph>
 
       <Paragraph>
@@ -172,9 +172,9 @@ export default () => (
               credits: "Lilo Clareto / ISA",
               src: require("photos/chapter4/LiloClaretoISA_RS26041_Castanha-3548.jpg")
             }
-          }}> during the electoral period (August to November 2018), deforestation in the Amazon doubled compared to the same period of the previous year
+          }}> during the electoral period (August to November 2018), deforestation in the Amazonia doubled compared to the same period of the previous year
           </StoryMedia>, 
-          reaching 1.4 million hectares of forest loss. Specifically, deforestation detected in November 2018 was four times greater than in November 2017. This scenario of threats and intensification of deforestation continued after the elections. In January 2019, the Amazon region (Amazônia Legal) lost 10,800 hectares of forest, an increase of 54% over the same period the previous year, according to data released by the Instituto do Homem e Meio Ambiente da Amazônia (Imazon). Of this deforestation recorded in January 2019, 12% occurred in indigenous territories and 5% in protected areas.
+          reaching 1.4 million hectares of forest loss. Specifically, deforestation detected in November 2018 was four times greater than in November 2017. This scenario of threats and intensification of deforestation continued after the elections. In January 2019, the Amazonia region (Amazônia Legal) lost 10,800 hectares of forest, an increase of 54% over the same period the previous year, according to data released by the Instituto do Homem e Meio Ambiente da Amazônia (Imazon). Of this deforestation recorded in January 2019, 12% occurred in indigenous territories and 5% in protected areas.
       </Paragraph>
 
       <Paragraph>
@@ -182,7 +182,7 @@ export default () => (
       </Paragraph>
 
       <FeaturedText>
-        In light of the worrying picture of the threats and pressures they face, the ancestral communities that traditionally occupy the Pan-Amazon region are 
+        In light of the worrying picture of the threats and pressures they face, the ancestral communities that traditionally occupy the Pan-Amazonia region are 
         <StoryMedia
           media={{
             id: "image-5",
@@ -205,7 +205,7 @@ export default () => (
             href={require("documents/chapter4/Amazonia_bajo_presion.pdf")}
             format="pdf"
             size="19.3MB"
-          > Amazon under Pressure / RAISG, 2012
+          > Amazonia under Pressure / RAISG, 2012
           </FileLink>).
       </Paragraph>
 
@@ -232,7 +232,7 @@ export default () => (
               ]
             }
           }}
-          > year the Waorani have filed a constitutional complaint to halt a government plan to explore oil in the Amazon
+          > year the Waorani have filed a constitutional complaint to halt a government plan to explore oil in the Amazonia
         </StoryMedia>, 
         by which they intend to keep around 180,000 hectares of their ancestral territory in the northern part of Pastaza free of oil-related activities. They demand recognition of their rights and compensation for damages suffered since 2012, when the State offered part of their land for oil extraction. The lawsuit resulted in a ruling favourable to the communities; one that can act as a legal precedent in favour of free and informed prior consultation and self-determination of peoples.
       </Paragraph>
@@ -246,7 +246,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        In respect of the frequent oil spills that have occurred in the Peruvian Amazon in recent years, which have a direct impact on the water sources and food security of the local population, which mostly comprises indigenous communities, they are demanding that the State honour its commitment to provide environmental remediation, potable water services and specialized medical care.
+        In respect of the frequent oil spills that have occurred in the Peruvian Amazonia in recent years, which have a direct impact on the water sources and food security of the local population, which mostly comprises indigenous communities, they are demanding that the State honour its commitment to provide environmental remediation, potable water services and specialized medical care.
       </Paragraph>
 
       <Paragraph>
@@ -295,11 +295,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        In Brazil, the proposals of the new government which took office in 2019 tend to aggravate the situation because its policies on indigenous peoples and their lands are similar to those of the military dictatorship that ruled the country between 1964 and 1985, when thousands of Indians were killed and thousands more were driven from their lands as a result of major infrastructure projects. These proposals imply cuts in government funding available to meet indigenous demands, policy reversals and reduced environmental control operations, freezing of demarcations by the federal government, and even several demonstrations in favour of opening up mining territories. Infrastructure projects implemented in the Amazon during the last decade, under the argument of maintaining the energy supply and stimulating the Brazilian economy, are examples of works planned in accordance with sectoral interests to the detriment of local needs.
+        In Brazil, the proposals of the new government which took office in 2019 tend to aggravate the situation because its policies on indigenous peoples and their lands are similar to those of the military dictatorship that ruled the country between 1964 and 1985, when thousands of Indians were killed and thousands more were driven from their lands as a result of major infrastructure projects. These proposals imply cuts in government funding available to meet indigenous demands, policy reversals and reduced environmental control operations, freezing of demarcations by the federal government, and even several demonstrations in favour of opening up mining territories. Infrastructure projects implemented in the Amazonia during the last decade, under the argument of maintaining the energy supply and stimulating the Brazilian economy, are examples of works planned in accordance with sectoral interests to the detriment of local needs.
       </Paragraph>
 
       <Paragraph>
-        The Amazon is at a crossroads. The nine countries that comprise the region have the most biodiverse tropical forest and the largest freshwater reserves on the planet. But its rulers, government policies, and economic interests are driving it to exhaustion. The last refuges for unique species are in protected areas and indigenous territories. Scientists are already talking about the imminence of a point of no return, where the contributions of nature to human well-being - water, clean air, climate regulation, natural resources - will no longer be provided by the biome. Are we about to reach this point?
+        The Amazonia is at a crossroads. The nine countries that comprise the region have the most biodiverse tropical forest and the largest freshwater reserves on the planet. But its rulers, government policies, and economic interests are driving it to exhaustion. The last refuges for unique species are in protected areas and indigenous territories. Scientists are already talking about the imminence of a point of no return, where the contributions of nature to human well-being - water, clean air, climate regulation, natural resources - will no longer be provided by the biome. Are we about to reach this point?
       </Paragraph>
     </Container>
   </article>

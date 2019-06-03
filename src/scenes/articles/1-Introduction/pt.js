@@ -45,15 +45,11 @@ export default () => (
         }}> 68% das áreas naturais protegidas e territórios indígenas da região se sobrepõem a projetos de infraestrutura e planos de investimento</StoryMedia>.
       </Paragraph>
 
-      <Paragraph>
-        <strong>Total de pressões e ameaças - Qtd de temas analisados que se superpõe a territórios indígenas  (TIs) e áreas naturais protegidas (ANPs)</strong>
-      </Paragraph>
-
       <TableIntro>
       <table>
           <tr>
             <th colspan="5">
-              Número de pressões e ameaças que se sobrepõem aos Territórios Indígenas e Áreas Naturais Protegidas
+            Total de pressões e ameaças - Quantidade de temas analisados que se sobrepõe a territórios indígenas (TIs) e áreas naturais protegidas (ANPs)
             </th>
           </tr>
           <tr>

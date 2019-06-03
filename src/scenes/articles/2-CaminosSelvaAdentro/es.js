@@ -29,12 +29,12 @@ export default () => (
                 src: require("photos/chapter2/PauloSantos_AnapuPara_13_Transamazonica©PS.jpg")
               }
             }}> apertura de nuevas carreteras</StoryMedia>, 
-          ferrocarriles e hidrovías en la selva amazónica, siempre ha sido y será el principal vector de transformación del territorio.
+          ferrocarriles e hidrovías en la región amazónica, siempre ha sido y será el principal vector de transformación del territorio.
         </p>
       </Note>
 
       <Paragraph>
-        Más de 136 mil kilómetros de carreteras se han desarrollado hasta el 2018 en la Pan Amazonía, siendo que 26 mil kilómetros están localizadas dentro de áreas naturales protegidas y territorios indígenas.  De este total, 16,9 mil kilómetros atraviesan territorios indígenas y 9,1 mil km fragmentan áreas naturales protegidas.
+        Más de 136 mil kilómetros de carreteras se han desarrollado hasta el 2018 en la Panamazonía, siendo que 26 mil kilómetros están localizadas dentro de áreas naturales protegidas y territorios indígenas.  De este total, 16,9 mil kilómetros atraviesan territorios indígenas y 9,1 mil km fragmentan áreas naturales protegidas.
       </Paragraph>
 
       <Paragraph>
@@ -60,7 +60,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Los resultados de las investigaciones sobre este tema, sin embargo, varían en cuanto a cuál es la distancia en la que ocurre la mayor intensidad de deforestación. Por ejemplo, Gregory Asner, en 2006, encuentra que <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">hasta 50 km de las carreteras tiene lugar 67% de la deforestación</ExternalLink>, pero, según el trabajo de Kenneth M. Chomitz y Timothy S. Thomas, a esa distancia ya <ExternalLink href="http://documents.worldbank.org/curated/en/102381468769744789/Geographic-patterns-of-land-use-and-land-intensity-in-the-Brazilian-Amazon" language="en">la cobertura vegetal ha sido removida a un nivel de 85%</ExternalLink>. En contraposición y casi una década después, los hallazgos de Christopher P. Barber muestran que en la Amazonía Legal brasileña <ExternalLink href="https://www.sciencedirect.com/science/article/abs/pii/S000632071400264X" language="en">94,9% de la deforestación ocurrió en los 5,5 kilómetros contiguos a las carreteras y un kilómetro de los ríos</ExternalLink>. Todo esto pone en evidencia la íntima conexión entre  la expansión de estos medios de transporte y la eliminación de la vegetación nativa.
+        Los resultados de las investigaciones sobre este tema, sin embargo, varían en cuanto a cuál es la distancia en la que ocurre la mayor intensidad de deforestación. Por ejemplo, Gregory Asner, en 2006, encuentra que <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">hasta 50 km contiguos a las carreteras tiene lugar el 67% de la deforestación</ExternalLink>, pero, según el trabajo de Kenneth M. Chomitz y Timothy S. Thomas, a esa distancia ya <ExternalLink href="http://documents.worldbank.org/curated/en/102381468769744789/Geographic-patterns-of-land-use-and-land-intensity-in-the-Brazilian-Amazon" language="en">la cobertura vegetal ha sido removida hasta en un 85%</ExternalLink>. En contraposición y casi una década después, los hallazgos de Christopher P. Barber muestran que en la Amazonía Legal brasileña <ExternalLink href="https://www.sciencedirect.com/science/article/abs/pii/S000632071400264X" language="en">94,9% de la deforestación ocurrió en los 5,5 kilómetros contiguos a las carreteras y un kilómetro de los ríos</ExternalLink>. Todo esto pone en evidencia la íntima conexión entre  la expansión de estos medios de transporte y la eliminación de la vegetación nativa.
       </Paragraph>
 
       <Paragraph>
@@ -132,7 +132,7 @@ export default () => (
             zoomMax: 10
           }
         }}>Parque Nacional y Territorio Indígena Isiboro Sécure (TIPNIS), una de las 22 áreas protegidas nacionales, la cual cubre 1,3 millones de hectáreas</StoryMedia>.
-        Está delimitada por el río Isiboro (al sur) y el río Sécure (al norte), en el corazón del país. Fue creada para conservar los bosques y la cultura de  los pueblos indígenas que alberga (12 mil habitantes entre mojeños, yuracarés y chimanes). Si bien 80% de su extensión se encuentra en buen estado de conservación, está amenazada por el avance de cultivos desarrollados en su límite sur: enfrenta una gran amenaza debido a la expansión de plantaciones de coca junto a la
+        Está delimitada por el río Isiboro (al sur) y el río Sécure (al norte), en el corazón del país. Fue creada para conservar los bosques y la cultura de  los pueblos indígenas que alberga (12 mil habitantes entre mojeños, yuracarés y chimanes). Si bien 80% de su extensión se encuentra en buen estado de conservación, está amenazada por el avance de cultivos desarrollados en su límite sur, debido a la expansión de plantaciones de coca junto a la
         <StoryMedia
           media={{
           id: "image-3",
@@ -147,11 +147,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Las presiones sobre el TIPNIS son preocupantes y los indígenas denuncian atropellos en su territorio. Tanto el Estado como una facción del CONISUR (Consejo Indígena del Sur), promovido por campesinos y grupos de poder del departamento del Beni mediante diferentes estrategias, han debilitado la resistencia de los indígenas.  El año 2017 se abroga la Ley 180, que declara al Territorio Indígena y Parque Nacional Isiboro Sécure - TIPNIS patrimonio sociocultural y natural, zona de preservación ecológica, reproducción histórica y hábitat de los pueblos indígenas Chimán, Yuracaré y se aprueba la Ley 969, anulando la intangibilidad del TIPNIS en nombre del desarrollo y progreso del país. Este conflicto puso en evidencia la visión de desarrollo del país, basada en la explotación de los recursos naturales, sin considerar los costos y consecuencias socioambientales en el largo plazo.
+        En el año 2017 se abroga la Ley 180, que declara al Territorio Indígena y Parque Nacional Isiboro Sécure - TIPNIS patrimonio sociocultural y natural, zona de preservación ecológica, reproducción histórica y hábitat de los pueblos indígenas Chimán, Yuracaré y se aprueba la Ley 969, la cual anula la intangibilidad del TIPNIS en nombre del desarrollo y progreso del país. Este conflicto puso en evidencia la visión de desarrollo del país, basada en la explotación de los recursos naturales, sin considerar los costos y consecuencias socioambientales en el largo plazo.
       </Paragraph>
 
       <Paragraph>
-        En Venezuela, la Organización Regional de Pueblos Indígenas de Amazonas (Orpia) y Wataniba reportan el incremento de caminos fluviales y de tierra que son utilizados para el tráfico de coca. Venezuela sigue sin presentar espacios de producción de esta droga, pero su tráfico se une al de gasolina, alimentos y oro, entre otros bienes, en la frontera colombo-venezolana y colombo-brasilera, e incide en la gobernanza dentro de los territorios indígenas e incluso en la permanencia dentro de éstos. La
+        En Venezuela, la Organización Regional de Pueblos Indígenas de Amazonas (Orpia) y Wataniba reportan el incremento de caminos fluviales y de tierra que son utilizados para el tráfico de coca. Venezuela sigue sin presentar espacios de cultivo de esta droga, pero su tráfico se une al de gasolina, alimentos y oro, entre otros bienes, en la frontera colombo-venezolana y colombo-brasilera, e incide en la gobernanza dentro de los territorios indígenas e incluso en la permanencia de los pobladores tradicionales dentro de éstos. La
         <StoryMedia
           media={{
           id: "image-4",
@@ -214,7 +214,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Las obras contemplan el dragado o remoción de sedimentos en zonas poco profundas y accidentadas de los mencionados ríos. Los especialistas advierten del impacto ambiental, toda vez que el reglamento de Protección Ambiental en el sector Transportes no contempla medidas específicas para hidrovías. De otro lado, señalan que el proyecto no ha considerado el impacto que tendrá el dragado de los ríos sobre el tránsito, reproducción y desove de peces, ni ha tomado en cuenta la turbidez que causará en el agua, que es usada por las poblaciones locales. Todo permite anticipar que la hidrovía se convertirá en un nuevo foco de conflicto socioambiental. Sin embargo, es motivo de esperanza la decisión, en marzo de 2019, del Servicio Nacional de Certificación Ambiental para las Inversiones Sostenibles (Senace), el cual por segunda vez rechazó el Estudio de Impacto Ambiental (EIA) del proyecto Hidrovía Amazónica. Sin este requisito no se puede dar inicio a las obras.
+        Las obras contemplan el dragado o remoción de sedimentos en zonas poco profundas y accidentadas de los mencionados ríos. Los especialistas advierten del impacto ambiental, toda vez que el reglamento de Protección Ambiental en el sector Transportes no contempla medidas específicas para hidrovías. De otro lado, señalan que el proyecto no ha considerado el impacto que tendrá el dragado de los ríos sobre el tránsito, reproducción y desove de peces, ni ha tomado en cuenta la turbidez que causará en el agua, que es usada por las poblaciones locales. Todo permite anticipar que la hidrovía se convertirá en un nuevo foco de conflicto socioambiental. Sin embargo, es motivo de esperanza la decisión, de marzo de 2019, del Servicio Nacional de Certificación Ambiental para las Inversiones Sostenibles (Senace), el cual por segunda vez rechazó el Estudio de Impacto Ambiental (EIA) del proyecto Hidrovía Amazónica. Sin este requisito no se puede dar inicio a las obras.
       </Paragraph>
 
       <Paragraph>
@@ -222,7 +222,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Por su parte, la continua expansión de la infraestructura de transportes en la Amazonia brasileña tiene como uno de sus protagonistas la modalidad ferroviaria. Con casi mil kilómetros de extensión, partiendo
+        Por su parte, la continua expansión de la infraestructura de transportes en la Amazonía brasileña tiene como uno de sus protagonistas la modalidad ferroviaria. Con casi mil kilómetros de extensión, partiendo
         <StoryMedia
           icon="map"
           media={{

@@ -5,7 +5,6 @@ import { margins } from "./utils";
 
 const Wrapper = styled.div`
   ${margins}
-  margin-bottom: 6vw;
   padding: 1rem;
   font-size: 0.7em;
   font-style: italic;

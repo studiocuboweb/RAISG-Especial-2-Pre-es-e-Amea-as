@@ -23,12 +23,12 @@ export default () => (
       <Title as="h2">Introducción</Title>
       <Note>
         <p>
-          La Pan Amazonía resguarda el bosque tropical más extenso del mundo, representa el 40% de la extensión de Sudamérica. En ella habitan pueblos indígenas que cubren el 28% del territorio y una mega-biodiversidad en áreas protegidas que representan el 23% de la región. Ahora, más que nunca, esta gran riqueza cultural y natural afronta diversos retos.
+          La Panamazonía alberga el bosque tropical continuo más extenso del mundo, el cual representa el 40% de la extensión de Sudamérica y una gran biodiversidad. En esta región habitan pueblos indígenas cuyos territorios abarcan 28% de su superficie y cuenta con áreas protegidas que cubren 23% de la región. Ahora, más que nunca, esta gran riqueza cultural y natural afronta diversos retos.
         </p>
       </Note>
 
       <Paragraph>
-        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/" language="es">Red Amazónica de Información Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}grupo técnico formado por organizaciones de seis países de la región, publicó la más reciente colección de mapas con las presiones y amenazas que enfrenta la Amazonía.
+        La <ExternalLink href="https://www.amazoniasocioambiental.org/es/" language="es">Red Amazónica de Información Socioambiental Georreferenciada (RAISG)</ExternalLink>{" "}, grupo técnico formado por organizaciones de seis países de la región, publicó la más reciente colección de mapas con las presiones y amenazas que enfrenta la Amazonía.
       </Paragraph>
 
       <Paragraph>
@@ -48,10 +48,6 @@ export default () => (
             zoomMax: 10
           }
         }}> 68% de las áreas naturales protegidas y territorios indígenas de la región tienen superposición con proyectos de infraestructura y planes de inversión</StoryMedia>.
-      </Paragraph>
-
-      <Paragraph>
-        <strong>Total de presiones y amenazas - Qtd de temas analizados que se superponen a territorios indígenas (TIs) y áreas naturales protegidas (ANPs)</strong>
       </Paragraph>
 
       <TableIntro>
