@@ -14,6 +14,7 @@ import Legend10_Ferrovia_Planificada from './components/Legend10_Ferrovia_Planif
 import Legend11_Carreteras_principales from './components/Legend11_Carreteras_principales.js'
 import Legend12_Limite_TIPNIS from './components/Legend12_Limite_TIPNIS.js'
 import Legend13_Limite_TIPNIS_nacional from './components/Legend13_Limite_TIPNIS_nacional.js'
+import Legend14_Carretera_Planificada from './components/Legend14_Carretera_Planificada.js'
 
 class LegendCollapse extends React.Component {
 
@@ -67,6 +68,7 @@ class LegendCollapse extends React.Component {
             }
             {legend == 'legend_group5' &&
                 <div>
+                    <Legend14_Carretera_Planificada key="legend23" legendGroup='legend_group5' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <Legend5_Carreteras_principales key="legend10" legendGroup='legend_group5' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <Legend1_Areas_Naturales_Protegidas key="legend11" legendGroup='legend_group5' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <Legend13_Limite_TIPNIS_nacional key="legend12" legendGroup='legend_group5' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />

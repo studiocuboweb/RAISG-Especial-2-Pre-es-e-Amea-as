@@ -30,7 +30,7 @@ const styles = {
 
 //const categories = ['labels', 'roads', 'mineriailegal-pt-5owfra', 'parks', 'water', 'background'];
 
-const categories = ['bosquesprot','nacionales','departamentales','tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica','LEGENDA_BR163_vias','Desmatamento_60m_3857_LZWNoData','PNCanaima_nacionales','LEGENDA_PontoDragado_hidroviaamazonica-','LEGENDA_Ferrograo'];
+const categories = ['bosquesprot','nacionales','departamentales','tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica','LEGENDA_BR163_vias','Desmatamento_60m_3857_LZWNoData','PNCanaima_nacionales','LEGENDA_PontoDragado_hidroviaamazonica-','LEGENDA_Ferrograo','linha-viaplanejada-tipnis'];
 
 // const notShowInLegend = {'map1':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_mineria_azulEscuro','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica'],
 // 'map1_5':['tindigenas','petroleo_LEGENDA','tindigenas_LEGENDA','LEGENDA_vias_Vermelhos','TIPNIS_TI-limite_LEGENDA','TIPNIS_Nacionales-limite_LEGENDA','LEGENDA_RIOS_hidroviaamazonica','LEGENDA_PontoDragado_hidroviaamazonica'],
@@ -59,7 +59,8 @@ const layerSelector = {
   'Desmatamento_60m_3857_LZWNoData':/Desmatamento_60m_3857_LZWNoData/,
   'PNCanaima_nacionales':/PNCanaima_nacionales/,
   'LEGENDA_PontoDragado_hidroviaamazonica-':/LEGENDA_PontoDragado_hidroviaamazonica-/,
-  'LEGENDA_Ferrograo':/LEGENDA_Ferrograo/
+  'LEGENDA_Ferrograo':/LEGENDA_Ferrograo/,
+  'linha-viaplanejada-tipnis':/linha-viaplanejada-tipnis/
 };
 
 // const subCategories = {
@@ -171,7 +172,8 @@ export default class StyleControls extends PureComponent {
         'Desmatamento_60m_3857_LZWNoData':true,
         'PNCanaima_nacionales':true,
         'LEGENDA_PontoDragado_hidroviaamazonica-':true,
-        'LEGENDA_Ferrograo':true
+        'LEGENDA_Ferrograo':true,
+        'linha-viaplanejada-tipnis':true
       },
       color: {
         'bosquesprot': '',
@@ -190,7 +192,8 @@ export default class StyleControls extends PureComponent {
         'Desmatamento_60m_3857_LZWNoData':'',
         'PNCanaima_nacionales':'',
         'LEGENDA_PontoDragado_hidroviaamazonica-':'',
-        'LEGENDA_Ferrograo':''
+        'LEGENDA_Ferrograo':'',
+        'linha-viaplanejada-tipnis':''
       }
     };
   }
