@@ -209,7 +209,7 @@ export default class StyleControls extends PureComponent {
     } else if (this.props.map == 'map7') {
       visibility = {...this.state.visibility, ['tindigenas']: false, ['bosquesprot']: false, ['nacionales']: false, ['departamentales']: false};
     } else if (this.props.map == 'map11' || this.props.map == 'map10') {
-      visibility = {...this.state.visibility, ['bosquesprot']: false, ['nacionales']: true, ['departamentales']: false, ['tindigenas']: false};
+      visibility = {...this.state.visibility, ['bosquesprot']: false, ['nacionales']: false, ['departamentales']: false, ['tindigenas']: false};
     } else {
       visibility = {...this.state.visibility, [this.props.showExtraLayers]: true};
     }

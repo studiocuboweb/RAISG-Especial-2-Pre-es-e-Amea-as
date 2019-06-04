@@ -36,6 +36,9 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
         }
         if (this.props.legendGroup == 'legend_group10' || this.props.legendGroup == 'legend_group11') {
             var items = document.getElementsByName('acs');
+            var itemMaster = document.getElementsByName('areas-protegidas')
+            itemMaster[0].checked = false;
+            items[0].checked = false;
             items[1].checked = false;
             items[2].checked = false;
         }
