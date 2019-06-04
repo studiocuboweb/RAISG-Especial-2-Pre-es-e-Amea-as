@@ -22,7 +22,7 @@
             },
             "1b0bf84dc9295c195587566d7667e5b5": {
                 "name": "ETIQUETA APSeTIs",
-                "collapsed": false
+                "collapsed": true
             },
             "9612493b6f9d5e3c50b3ffc708114060": {
                 "name": "ETIQUETAS_BaseCartograficaGroup",
@@ -50,7 +50,7 @@
             "type": "vector"
         }
     },
-    "sprite": "mapbox://sprites/infoamazonia/cjw5pswra32pe1cpacnws5unx/3mlf68av7yuyg9wgiakowbjk8",
+    "sprite": "mapbox://sprites/infoamazonia/cjw5pswra32pe1cpacnws5unx/c3331xl4qy9hr75bo0igbcqfw",
     "glyphs": "mapbox://fonts/infoamazonia/{fontstack}/{range}.pbf",
     "layers": [
         {
@@ -116,7 +116,7 @@
                     "match",
                     ["get", "vias"],
                     [1],
-                    "hsla(12, 87%, 65%, 0.93)",
+                    "hsla(12, 87%, 65%, 0.87)",
                     [0],
                     "hsla(12, 87%, 65%, 0.09)",
                     "hsla(316, 100%, 40%, 0)"
@@ -127,7 +127,7 @@
                     [1],
                     "hsla(22, 95%, 43%, 0.91)",
                     0,
-                    "hsla(10, 86%, 66%, 0.21)",
+                    "hsla(10, 86%, 66%, 0.31)",
                     "hsla(347, 78%, 27%, 0)"
                 ],
                 "fill-opacity": [
@@ -363,8 +363,9 @@
             }
         },
         {
-            "id": "vias_ETIQUETAS_ESTRADAS",
+            "id": "vias_ETIQUETAS_ESTRADAS copy",
             "type": "symbol",
+            "metadata": {},
             "source": "composite",
             "source-layer": "vias",
             "minzoom": 6.5,
@@ -381,17 +382,9 @@
                     18
                 ],
                 "text-max-angle": 45,
-                "symbol-spacing": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    250,
-                    8,
-                    200
-                ],
+                "symbol-spacing": 1,
                 "text-font": ["Ubuntu Bold", "Arial Unicode MS Regular"],
-                "symbol-placement": "line",
+                "symbol-placement": "line-center",
                 "text-padding": 2,
                 "text-offset": [0, 0],
                 "text-field": ["get", "nm_sigla"],
@@ -665,8 +658,8 @@
                     10,
                     23
                 ],
-                "icon-offset": [0, -4],
-                "icon-image": "circle-11_laranja",
+                "icon-offset": [0, -6],
+                "icon-image": "circle-11",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -687,27 +680,28 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"],
+                    " ",
                     ["get", "etnias"]
                 ],
                 "text-letter-spacing": 0.01
             },
             "paint": {
-                "text-color": "hsl(10, 83%, 46%)",
-                "text-halo-color": "hsl(22, 0%, 22%)",
-                "text-halo-width": 0,
+                "text-color": "#ff8161",
+                "text-halo-color": "#0d0d0d",
+                "text-halo-width": 0.3,
                 "text-opacity": [
                     "interpolate",
                     ["linear"],
                     ["zoom"],
                     6,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    0.8,
                     7,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.5, 1, 1],
-                    8,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 1, 1, 1]
+                    1
                 ],
-                "text-translate": [0, 0]
+                "text-translate": [0, 0],
+                "icon-opacity": 0.9
             }
         },
         {
@@ -757,13 +751,14 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
             },
             "paint": {
                 "text-color": "#53f9e3",
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.5,
                 "icon-opacity": [
                     "interpolate",
                     ["linear"],
@@ -783,7 +778,7 @@
                     ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
                 ],
                 "text-translate": [0, 0],
-                "text-halo-color": "#383838"
+                "text-halo-color": "#1a1a1a"
             }
         },
         {
@@ -833,13 +828,14 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
             },
             "paint": {
                 "text-color": "#53f9e3",
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.5,
                 "icon-opacity": [
                     "interpolate",
                     ["linear"],
@@ -859,7 +855,7 @@
                     ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
                 ],
                 "text-translate": [0, 0],
-                "text-halo-color": "hsl(0, 0%, 22%)"
+                "text-halo-color": "#1a1a1a"
             }
         },
         {
@@ -887,7 +883,7 @@
                     23
                 ],
                 "icon-offset": [0, 0],
-                "icon-image": "park-11_greenaps_stroke",
+                "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -909,6 +905,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -924,7 +921,7 @@
                     7,
                     ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
                 ],
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.5,
                 "icon-opacity": [
                     "interpolate",
                     ["linear"],
@@ -935,7 +932,7 @@
                     ["interpolate", ["linear"], ["get", "vias"], 0, 0.9, 1, 0.9]
                 ],
                 "text-translate": [0, 0],
-                "text-halo-color": "hsl(0, 0%, 22%)"
+                "text-halo-color": "#1a1a1a"
             }
         },
         {
@@ -962,7 +959,7 @@
     ],
     "created": "2019-05-27T01:50:23.024Z",
     "id": "cjw5pswra32pe1cpacnws5unx",
-    "modified": "2019-05-29T17:39:45.189Z",
+    "modified": "2019-06-04T14:53:32.822Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false
