@@ -164,7 +164,7 @@
   .mapbox_custom-checkbox-tipnis:after {
     content: " ";
     background-color:#ffffff;
-    background-image: url("/0d5beb668914478db184751b64f120f8.png");
+    background-image: url("/legend-checkbox-icons/tipnis.png");
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -172,13 +172,13 @@
   }
 
   .mapbox_custom-checkbox-tipnis:checked:after {
-    padding: 0.36rem;
+    padding: 0.5rem;
   }
 
   .mapbox_custom-checkbox-tipnis-nacional:after {
     content: " ";
     background-color:#ffffff;
-    background-image: url("/1affd1b01e9ddce0ddc630cee0690177.png");
+    background-image: url("/legend-checkbox-icons/tipnis_nacional.png");
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -186,7 +186,7 @@
   }
 
   .mapbox_custom-checkbox-tipnis-nacional:checked:after {
-    padding: 0.36rem;
+    padding: 0.5rem;
   }
 
 
