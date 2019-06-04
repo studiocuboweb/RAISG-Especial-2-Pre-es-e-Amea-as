@@ -11,15 +11,15 @@
   {
     "descriptors": [
       {
-        "defaultMessage": "Amazônia saqueada",
+        "defaultMessage": "Amazonia at the crossroads",
         "id": "head.title"
       },
       {
-        "defaultMessage": "The destruction of 110 thousand square kilometres of forests in the largest mining project in Venezuela",
+        "defaultMessage": "Recent analysis from six countries show the conflict between the vision of economic development and the rights of indigenous territories and conservation of protected areas",
         "id": "head.description"
       },
       {
-        "defaultMessage": "venezuela, mining arc",
+        "defaultMessage": "Amazonia, crossroads",
         "id": "head.keywords"
       }
     ],
@@ -78,7 +78,7 @@
         "id": "about.title"
       },
       {
-        "defaultMessage": "Amazônia saqueada",
+        "defaultMessage": "Amazonia at the crossroads",
         "id": "head.title"
       },
       {
@@ -172,7 +172,7 @@
         "id": "share.title"
       },
       {
-        "defaultMessage": "Amazônia saqueada",
+        "defaultMessage": "Amazonia at the crossroads",
         "id": "head.title"
       }
     ],
