@@ -137,7 +137,14 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The analysis of the Fundación Amigos de la Naturaleza (FAN) for the period 2005-2018 shows that 88% of burnings and forest fires in Bolivia are concentrated in the Amazonia region, affecting more than 18.7 million hectares, with the ecosystems most impacted being natural grasslands, comprising savannas and cerrados (70%) and, to a lesser degree (30%), forest areas.
+        The analysis of the Fundación Amigos de la Naturaleza (FAN) 
+        <FileLink
+            href={require("documents/chapter4/P-8_Quemas_e_incendios_forestales_2a.pdf")}
+            format="pdf"
+            size="4.4MB"
+          > for the period 2005-2018 shows that 88% of burnings and forest fires in Bolivia
+          </FileLink> 
+           are concentrated in the Amazonia region, affecting more than 18.7 million hectares, with the ecosystems most impacted being natural grasslands, comprising savannas and cerrados (70%) and, to a lesser degree (30%), forest areas.
       </Paragraph>
 
       <FeaturedText>

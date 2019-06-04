@@ -137,7 +137,13 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Análises da Fundação Amigos da Natureza (FAN) no período 2005-2018 indicam que 88% das queimadas e incêndios florestais na Bolívia estão concentrados na região amazônica, afetando mais de 18,7 milhões de hectares, onde os ecossistemas mais impactos são pastagens naturais (70%), constituídas por savanas e cerrados, e em menor grau (30%) áreas florestais.
+        Análises da Fundação Amigos da Natureza (FAN) 
+        <FileLink
+            href={require("documents/chapter4/P-8_Quemas_e_incendios_forestales_2a.pdf")}
+            format="pdf"
+            size="4.4MB"
+          > no período 2005-2018 indicam que 88% das queimadas e incêndios florestais na Bolívia
+          </FileLink> estão concentrados na região amazônica, afetando mais de 18,7 milhões de hectares, onde os ecossistemas mais impactos são pastagens naturais (70%), constituídas por savanas e cerrados, e em menor grau (30%) áreas florestais.
       </Paragraph>
 
       <FeaturedText>
