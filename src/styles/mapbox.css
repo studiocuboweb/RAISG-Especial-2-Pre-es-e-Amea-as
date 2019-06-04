@@ -149,7 +149,7 @@
   .mapbox_custom-checkbox-colored_legend_10:after {
     content: " ";
     background-color:#ffffff;
-    background-image: url("/b5930228ada015bef75f50122d63071f.png");
+    background-image: url("/legend-checkbox-icons/map08_1.png");
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
@@ -158,7 +158,6 @@
 
   .mapbox_custom-checkbox-colored_legend_10:checked:after {
     padding:0.5rem;
-    border-radius:4px;
   }
 
   .mapbox_custom-checkbox-tipnis:after {
