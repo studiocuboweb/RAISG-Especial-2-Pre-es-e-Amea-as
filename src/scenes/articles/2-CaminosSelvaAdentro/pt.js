@@ -42,7 +42,7 @@ export default () => (
         <StoryMedia
         icon="map"
         media={{
-        id: "map_02",
+        id: "5_02",
         type: "mapbox",
           data: {
             map: "map2",
@@ -126,8 +126,8 @@ export default () => (
             legend:"legend_group5",
             update:"map5",
             showExtraLayers: [],
-            coordinates: [-65.896617,-16.237845],
-            zoomNumber: 8.17,
+            coordinates: [-65.901742,-16.128925],
+            zoomNumber: 8.25,
             zoomMin: 4,
             zoomMax: 10
           }

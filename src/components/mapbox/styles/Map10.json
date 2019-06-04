@@ -26,7 +26,7 @@
             },
             "9612493b6f9d5e3c50b3ffc708114060": {
                 "name": "ETIQUETAS_BaseCartograficaGroup",
-                "collapsed": false
+                "collapsed": true
             }
         }
     },
@@ -682,9 +682,8 @@
             }
         },
         {
-            "id": "tindigenas etiqueta",
+            "id": "tindigenas_etiqueta",
             "type": "symbol",
-            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
             "source-layer": "tindigenas",
             "minzoom": 6,
@@ -706,7 +705,6 @@
                     23
                 ],
                 "icon-offset": [0, -9],
-                "icon-image": "circle-11",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -752,7 +750,7 @@
             }
         },
         {
-            "id": "bosquesprot etiqueta",
+            "id": "bosquesprot_etiqueta",
             "type": "symbol",
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
@@ -819,7 +817,7 @@
             }
         },
         {
-            "id": "departamentales etiqueta",
+            "id": "departamentales_etiqueta",
             "type": "symbol",
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
@@ -886,7 +884,7 @@
             }
         },
         {
-            "id": "nacionales etiqueta",
+            "id": "nacionales_etiqueta",
             "type": "symbol",
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
@@ -1053,7 +1051,7 @@
     ],
     "created": "2019-05-24T14:48:53.115Z",
     "id": "cjw27aiho0lof1csau1x6n7zd",
-    "modified": "2019-06-04T19:28:08.676Z",
+    "modified": "2019-06-04T22:54:33.039Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false
