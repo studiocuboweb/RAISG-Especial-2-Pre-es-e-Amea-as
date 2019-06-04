@@ -126,7 +126,7 @@ export default () => (
       </Paragraph>
 
       <Quote author="Richard C. Smith, director of the Instituto Bien Común, Peru">
-        Currently, there is no national policy for the Amazonia that will allow us to draw up a comprehensive, coherent and long-term vision for the region. Thus, a clear territorial development strategy is also not in force. In fact, guidance for policy decisions depends mainly on circumstances and the will of the current rulers
+        Currently, there is no national policies for the Amazonia that will allow us to draw up a comprehensive, coherent and long-term vision for the region. Thus, a clear territorial development strategy is also not in force. In fact, guidance for policy decisions depends mainly on circumstances and the will of the current rulers
       </Quote>
     </Container>
   </article>
