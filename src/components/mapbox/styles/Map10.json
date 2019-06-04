@@ -22,7 +22,7 @@
             },
             "1b0bf84dc9295c195587566d7667e5b5": {
                 "name": "ETIQUETA APSeTIs",
-                "collapsed": true
+                "collapsed": false
             },
             "9612493b6f9d5e3c50b3ffc708114060": {
                 "name": "ETIQUETAS_BaseCartograficaGroup",
@@ -106,7 +106,6 @@
         {
             "id": "PNCanaima_limite",
             "type": "line",
-            "metadata": {},
             "source": "composite",
             "source-layer": "nacionales_Canaima-9fydbm",
             "minzoom": 4,
@@ -494,7 +493,13 @@
             },
             "paint": {
                 "text-color": "#4f4f4f",
-                "text-opacity": 1,
+                "text-opacity": [
+                    "match",
+                    ["get", "nomedep"],
+                    ["Bolivar"],
+                    0,
+                    0.81
+                ],
                 "text-translate": [0, 0],
                 "text-halo-width": 0,
                 "text-halo-color": "hsl(0, 0%, 3%)"
@@ -580,9 +585,19 @@
                     5,
                     2,
                     6,
-                    10
+                    16,
+                    7,
+                    20
                 ],
-                "text-offset": [-3, 0],
+                "text-offset": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    ["literal", [-1, 0]],
+                    6,
+                    ["literal", [-13, 7.3]]
+                ],
                 "text-rotation-alignment": "map",
                 "text-anchor": "top-right",
                 "text-pitch-alignment": "map",
@@ -930,35 +945,35 @@
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    5.7,
-                    ["match", ["get", "nombre"], ["Canaima"], 1, 0],
                     6,
                     ["match", ["get", "nombre"], ["Canaima"], 1, 0.8],
+                    6.31,
+                    ["match", ["get", "nombre"], ["Canaima"], 1, 1],
                     7,
                     ["match", ["get", "nombre"], ["Canaima"], 1, 1]
                 ]
             }
         },
         {
-            "id": "PNCanaima_nacionales etiqueta",
+            "id": "PNCanaima_etiqueta",
             "type": "symbol",
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
-            "source-layer": "nacionales",
+            "source-layer": "nacionales_Canaima-9fydbm",
             "minzoom": 5.5,
             "maxzoom": 6.3,
             "layout": {
-                "text-line-height": 0.8,
+                "text-line-height": 1.1,
                 "text-size": [
                     "interpolate",
                     ["linear"],
                     ["zoom"],
                     5.7,
-                    12,
+                    13.5,
                     6,
-                    13,
-                    7,
                     15,
+                    7,
+                    17,
                     8,
                     17,
                     9,
@@ -969,9 +984,8 @@
                 "icon-offset": [3, -10],
                 "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
-                "icon-allow-overlap": true,
-                "text-padding": 1,
-                "text-offset": [1, 0],
+                "text-padding": 11,
+                "text-offset": [0, 0],
                 "text-anchor": "top",
                 "text-field": [
                     "concat",
@@ -979,17 +993,14 @@
                     " ",
                     ["get", "nombre"]
                 ],
-                "text-letter-spacing": 0.01,
-                "icon-padding": 3,
-                "text-max-width": 10
+                "text-letter-spacing": 0.02,
+                "icon-padding": 3
             },
             "paint": {
-                "text-color": "#53f9e3",
+                "text-color": "hsl(172, 93%, 65%)",
                 "text-opacity": ["match", ["get", "nombre"], ["Canaima"], 1, 0],
-                "text-halo-width": 0.4,
-                "icon-opacity": ["match", ["get", "nombre"], ["Canaima"], 1, 0],
-                "text-translate": [0, 0],
-                "text-halo-color": "hsl(0, 0%, 3%)"
+                "text-halo-color": "#0d0d0d",
+                "text-halo-width": 0.5
             }
         },
         {
@@ -1042,7 +1053,7 @@
     ],
     "created": "2019-05-24T14:48:53.115Z",
     "id": "cjw27aiho0lof1csau1x6n7zd",
-    "modified": "2019-06-04T03:00:36.552Z",
+    "modified": "2019-06-04T19:28:08.676Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false
