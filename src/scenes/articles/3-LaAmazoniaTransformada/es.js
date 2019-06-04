@@ -368,7 +368,7 @@ export default () => (
           id: "video-2",
           type: "youtube",
           data: {
-            id: "Sy2Nm0bPljI"
+            id: "dUk198STPxU"
           }
           }}> en la Cordillera del Cóndor, los awajún-wampis vienen luchando contra las operaciones mineras legales e ilegales
           </StoryMedia>

@@ -366,7 +366,7 @@ export default () => (
           id: "video-2",
           type: "youtube",
           data: {
-            id: "Sy2Nm0bPljI"
+            id: "dUk198STPxU"
           }
           }}> Cordilheira do Condor, os Awajún-Wampis têm lutado contra as operações legais e ilegais de mineração
           </StoryMedia>

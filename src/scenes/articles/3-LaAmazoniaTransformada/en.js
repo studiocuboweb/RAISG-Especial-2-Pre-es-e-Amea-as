@@ -368,7 +368,7 @@ export default () => (
           id: "video-2",
           type: "youtube",
           data: {
-            id: "Sy2Nm0bPljI"
+            id: "dUk198STPxU"
           }
           }}> Cordillera del Condor, the Awajún-Wampis have fought against these legal and illegal mining operations
           </StoryMedia>

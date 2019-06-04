@@ -89,7 +89,7 @@ class Legend1_Areas_Naturales_Protegidas extends Component {
         const {legendGroup} = this.props;
         return (
             <div>
-                <input type="checkbox" name='areas-protegidas' className="mapbox_custom-checkbox" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'areas-naturales-protegidas')} />
+                <input type="checkbox" name='areas-protegidas' className="mapbox_custom-checkbox-colored_anp" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'areas-naturales-protegidas')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                 <FormattedMessage id="legend1.title" defaultMessage="Natural Protected Areas">
                     {(txt) => (txt)}
