@@ -42,7 +42,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        These threats and pressures do not occur uniformly or with the same intensity throughout this vast territory of 
+        These threats and pressures do not occur uniformly or with the same intensity throughout this vast territory of areas covered by mining and
         <StoryMedia
           icon="map"
           media={{
@@ -58,7 +58,7 @@ export default () => (
               zoomMin: 4,
               zoomMax: 22
             }
-          }}> areas covered by mining and hydrocarbon concessions
+          }}> hydrocarbon concessions
           </StoryMedia>. 
           But the existence of such an area confirms the proposed model for the countries of the region: one based on extraction and profit, with no evaluation of the consequences of losing more than a quarter of the Amazonia.
       </Paragraph>

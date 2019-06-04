@@ -211,7 +211,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        This
+        This year
         <StoryMedia
           media={{
             id: "galery-2",
@@ -233,7 +233,7 @@ export default () => (
               ]
             }
           }}
-          > year the Waorani have filed a constitutional complaint to halt a government plan to explore oil in the Amazonia
+          > the Waorani have filed a constitutional complaint to halt a government plan to explore oil in the Amazonia
         </StoryMedia>, 
         by which they intend to keep around 180,000 hectares of their ancestral territory in the northern part of Pastaza free of oil-related activities. They demand recognition of their rights and compensation for damages suffered since 2012, when the State offered part of their land for oil extraction. The lawsuit resulted in a ruling favourable to the communities; one that can act as a legal precedent in favour of free and informed prior consultation and self-determination of peoples.
       </Paragraph>
