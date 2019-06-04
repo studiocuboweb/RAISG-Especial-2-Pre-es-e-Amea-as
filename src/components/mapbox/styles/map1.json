@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "RAISGPressoes2018_geral_escala",
+    "name": "RAISGPressoes2018_Mapa01_geral_escala",
     "metadata": {
         "mapbox:origin": "basic-template-v1",
         "mapbox:autocomposite": true,
@@ -26,10 +26,6 @@
             },
             "9612493b6f9d5e3c50b3ffc708114060": {
                 "name": "ETIQUETAS_BaseCartograficaGroup",
-                "collapsed": true
-            },
-            "fbde983a5adef1683929492f19050191": {
-                "name": "ANPsTI_farol Group",
                 "collapsed": true
             }
         }
@@ -98,6 +94,207 @@
             }
         },
         {
+            "id": "nacionales",
+            "type": "fill",
+            "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
+            "source": "composite",
+            "source-layer": "nacionales",
+            "minzoom": 4,
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "total_pres"],
+                    0,
+                    "#1dbfa9",
+                    [1],
+                    "#fadbdd",
+                    [2],
+                    "#f3aab0",
+                    [3],
+                    "#ee5d6a",
+                    [4],
+                    "#d61b44",
+                    [5],
+                    "#991431",
+                    [6],
+                    "#5e0c1e",
+                    "hsla(129, 3%, 23%, 0)"
+                ],
+                "fill-outline-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ],
+                    5,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ],
+                    6,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ]
+                ],
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    0.71,
+                    7,
+                    0.6,
+                    10,
+                    0.56
+                ]
+            }
+        },
+        {
+            "id": "departamentales",
+            "type": "fill",
+            "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
+            "source": "composite",
+            "source-layer": "departamentales",
+            "minzoom": 4,
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "total_pres"],
+                    0,
+                    "hsl(172, 74%, 43%)",
+                    [1],
+                    "hsl(356, 75%, 92%)",
+                    [2],
+                    "#f3aab0",
+                    [3],
+                    "hsl(355, 81%, 65%)",
+                    [4],
+                    "#d61b44",
+                    [5],
+                    "hsl(347, 77%, 34%)",
+                    [6],
+                    "#5e0c1e",
+                    "hsla(129, 3%, 23%, 0)"
+                ],
+                "fill-outline-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ],
+                    5,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ],
+                    6,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ]
+                ],
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    0.71,
+                    7,
+                    0.6,
+                    10,
+                    0.56
+                ]
+            }
+        },
+        {
+            "id": "bosquesprot",
+            "type": "fill",
+            "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
+            "source": "composite",
+            "source-layer": "bosquesprot",
+            "minzoom": 4,
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "total_pres"],
+                    0,
+                    "hsl(172, 74%, 43%)",
+                    [1],
+                    "hsl(356, 75%, 92%)",
+                    [2],
+                    "#f3aab0",
+                    [3],
+                    "hsl(355, 81%, 65%)",
+                    [4],
+                    "#d61b44",
+                    [5],
+                    "hsl(347, 77%, 34%)",
+                    [6],
+                    "#5e0c1e",
+                    "hsla(129, 3%, 23%, 0)"
+                ],
+                "fill-outline-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ],
+                    5,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ],
+                    6,
+                    [
+                        "case",
+                        ["==", ["get", "total_pres"], 0],
+                        "hsl(172, 100%, 54%)",
+                        "hsla(347, 78%, 27%, 0)"
+                    ]
+                ],
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    0.71,
+                    7,
+                    0.6,
+                    10,
+                    0.56
+                ]
+            }
+        },
+        {
             "id": "tindigenas",
             "type": "fill",
             "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
@@ -148,208 +345,7 @@
                         "case",
                         ["==", ["get", "total_pres"], 0],
                         "hsl(172, 100%, 54%)",
-                        "hsl(347, 78%, 27%)"
-                    ]
-                ],
-                "fill-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    0.71,
-                    7,
-                    0.6,
-                    10,
-                    0.56
-                ]
-            }
-        },
-        {
-            "id": "nacionales",
-            "type": "fill",
-            "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
-            "source": "composite",
-            "source-layer": "nacionales",
-            "minzoom": 4,
-            "layout": {},
-            "paint": {
-                "fill-color": [
-                    "match",
-                    ["get", "total_pres"],
-                    0,
-                    "#1dbfa9",
-                    [1],
-                    "#fadbdd",
-                    [2],
-                    "#f3aab0",
-                    [3],
-                    "#ee5d6a",
-                    [4],
-                    "#d61b44",
-                    [5],
-                    "#991431",
-                    [6],
-                    "#5e0c1e",
-                    "hsl(129, 3%, 23%)"
-                ],
-                "fill-outline-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
                         "hsla(347, 78%, 27%, 0)"
-                    ],
-                    5,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsla(347, 78%, 27%, 0)"
-                    ],
-                    6,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsl(347, 78%, 27%)"
-                    ]
-                ],
-                "fill-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    0.71,
-                    7,
-                    0.6,
-                    10,
-                    0.56
-                ]
-            }
-        },
-        {
-            "id": "departamentales",
-            "type": "fill",
-            "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
-            "source": "composite",
-            "source-layer": "departamentales",
-            "minzoom": 4,
-            "layout": {},
-            "paint": {
-                "fill-color": [
-                    "match",
-                    ["get", "total_pres"],
-                    0,
-                    "hsl(172, 74%, 43%)",
-                    [1],
-                    "hsl(356, 75%, 92%)",
-                    [2],
-                    "#f3aab0",
-                    [3],
-                    "hsl(355, 81%, 65%)",
-                    [4],
-                    "#d61b44",
-                    [5],
-                    "hsl(347, 77%, 34%)",
-                    [6],
-                    "#5e0c1e",
-                    "hsl(129, 3%, 23%)"
-                ],
-                "fill-outline-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsla(347, 78%, 27%, 0)"
-                    ],
-                    5,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsla(347, 78%, 27%, 0)"
-                    ],
-                    6,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsl(347, 78%, 27%)"
-                    ]
-                ],
-                "fill-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    0.71,
-                    7,
-                    0.6,
-                    10,
-                    0.56
-                ]
-            }
-        },
-        {
-            "id": "bosquesprot",
-            "type": "fill",
-            "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
-            "source": "composite",
-            "source-layer": "bosquesprot",
-            "minzoom": 4,
-            "layout": {},
-            "paint": {
-                "fill-color": [
-                    "match",
-                    ["get", "total_pres"],
-                    0,
-                    "hsl(172, 74%, 43%)",
-                    [1],
-                    "hsl(356, 75%, 92%)",
-                    [2],
-                    "#f3aab0",
-                    [3],
-                    "hsl(355, 81%, 65%)",
-                    [4],
-                    "#d61b44",
-                    [5],
-                    "hsl(347, 77%, 34%)",
-                    [6],
-                    "#5e0c1e",
-                    "hsl(129, 3%, 23%)"
-                ],
-                "fill-outline-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsla(347, 78%, 27%, 0)"
-                    ],
-                    5,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsla(347, 78%, 27%, 0)"
-                    ],
-                    6,
-                    [
-                        "case",
-                        ["==", ["get", "total_pres"], 0],
-                        "hsl(172, 100%, 54%)",
-                        "hsl(347, 78%, 27%)"
                     ]
                 ],
                 "fill-opacity": [
@@ -612,71 +608,7 @@
             }
         },
         {
-            "id": "tindigenas copy 4",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
-            "source": "composite",
-            "source-layer": "tindigenas",
-            "minzoom": 6,
-            "layout": {
-                "text-line-height": 0.8,
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    14,
-                    7,
-                    15,
-                    8,
-                    17,
-                    9,
-                    21,
-                    10,
-                    23
-                ],
-                "icon-offset": [0, 0],
-                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
-                "text-padding": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    55,
-                    8,
-                    90,
-                    9,
-                    300,
-                    10,
-                    350
-                ],
-                "text-offset": [0, 0],
-                "text-anchor": "top",
-                "text-field": [
-                    "concat",
-                    ["get", "categoria"],
-                    ["get", "nombre"]
-                ],
-                "text-letter-spacing": 0.01
-            },
-            "paint": {
-                "text-color": "hsl(347, 78%, 37%)",
-                "text-halo-color": "hsl(0, 0%, 100%)",
-                "text-halo-width": 0,
-                "text-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    0.8,
-                    7,
-                    1
-                ],
-                "text-translate": [0, 0]
-            }
-        },
-        {
-            "id": "bosquesprot copy 4",
+            "id": "bosquesprot_ETIQUETA",
             "type": "symbol",
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
@@ -720,6 +652,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -742,7 +675,7 @@
             }
         },
         {
-            "id": "departamentales copy 4",
+            "id": "departamentales_ETIQUETA",
             "type": "symbol",
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
@@ -786,6 +719,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -808,7 +742,7 @@
             }
         },
         {
-            "id": "nacionales copy 4",
+            "id": "nacionales_ETIQUETA",
             "type": "symbol",
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
@@ -831,7 +765,7 @@
                     10,
                     23
                 ],
-                "icon-offset": [0, 0],
+                "icon-offset": [0, -4],
                 "icon-image": "park-11_DarkRed",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
@@ -852,6 +786,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -871,6 +806,71 @@
                 "text-halo-width": 0,
                 "text-translate": [0, 0],
                 "icon-opacity": 1
+            }
+        },
+        {
+            "id": "tindigenas_ETIQUETA",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
+            "source": "composite",
+            "source-layer": "tindigenas",
+            "minzoom": 6,
+            "layout": {
+                "text-line-height": 0.8,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    14,
+                    7,
+                    15,
+                    8,
+                    17,
+                    9,
+                    21,
+                    10,
+                    23
+                ],
+                "icon-offset": [0, 0],
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    55,
+                    8,
+                    90,
+                    9,
+                    300,
+                    10,
+                    350
+                ],
+                "text-offset": [0, 0],
+                "text-anchor": "top",
+                "text-field": [
+                    "concat",
+                    ["get", "categoria"],
+                    " ",
+                    ["get", "nombre"]
+                ],
+                "text-letter-spacing": 0.01
+            },
+            "paint": {
+                "text-color": "hsl(347, 78%, 37%)",
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-halo-width": 0,
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    0.8,
+                    7,
+                    1
+                ],
+                "text-translate": [0, 0]
             }
         },
         {
@@ -897,7 +897,7 @@
     ],
     "created": "2019-05-22T22:51:34.947Z",
     "id": "cjvztnkg51ko31co5t3k0sg6m",
-    "modified": "2019-05-30T00:09:52.526Z",
+    "modified": "2019-06-03T23:48:42.266Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false
