@@ -128,7 +128,7 @@ export default () => (
       </Paragraph>
 
       <Quote author="Richard C. Smith, diretor do Instituto del Bien Común, do Peru">
-        Atualmente, não existe uma política nacional para a Amazônia que nos permita traçar uma visão abrangente, coerente e de longo prazo para a região. Portanto, uma estratégia clara de desenvolvimento territorial também não está em vigor. De fato, a orientação das decisões políticas depende principalmente das circunstâncias e da vontade dos atuais governantes
+        Atualmente, não existe políticas nacionais para a Amazônia que nos permita traçar uma visão abrangente, coerente e de longo prazo para a região. Portanto, uma estratégia clara de desenvolvimento territorial também não está em vigor. De fato, a orientação das decisões políticas depende principalmente das circunstâncias e da vontade dos atuais governantes
       </Quote>
     </Container>
   </article>
