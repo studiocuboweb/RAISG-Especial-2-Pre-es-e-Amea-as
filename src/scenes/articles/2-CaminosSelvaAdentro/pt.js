@@ -138,8 +138,8 @@ export default () => (
           id: "image-3",
           type: "image",
           data: {
-            credits: "El Espectador",
-            src: require("photos/chapter2/Andina_000095074W_CarreteraInteroceanica.jpg")
+            credits: "Samy Schwartz - El Espectador",
+            src: require("photos/chapter2/Foto03_SamySchwartz_Tipnis_SemCredito.jpg")
           }
         }}> construção da nova estrada Villa Tunari - San Ignacio de Moxos
         </StoryMedia>
