@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "RAISGPressoes2018_Ferrograo_Vias",
+    "name": "RAISGPressoes2018_Mapa08_Ferrograo_Vias",
     "metadata": {
         "mapbox:origin": "basic-template-v1",
         "mapbox:autocomposite": true,
@@ -14,11 +14,11 @@
         "mapbox:groups": {
             "0fb61dd51be8c8b757a7a4bfaead63ea": {
                 "name": "LEGENDA_ANP e TI_Pressao",
-                "collapsed": false
+                "collapsed": true
             },
             "35193f33295b3e2cce6e4992a11631e7": {
                 "name": "BaseCartografica_RAISGMapbox",
-                "collapsed": false
+                "collapsed": true
             },
             "1b0bf84dc9295c195587566d7667e5b5": {
                 "name": "ETIQUETA APSeTIs",
@@ -26,7 +26,10 @@
             },
             "9612493b6f9d5e3c50b3ffc708114060": {
                 "name": "ETIQUETAS_BaseCartograficaGroup",
-                "collapsed": true
+                "collapsed": false
+            },
+            "ab0511f088fb4d23ef972c5c57906476": {
+                "name": "LEGENDA_ANPeTI_SemPressao"
             }
         }
     },
@@ -104,9 +107,9 @@
             }
         },
         {
-            "id": "tindigenas_LEGENDA",
+            "id": "tindigenas_LEGENDA copy",
             "type": "fill",
-            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
+            "metadata": {"mapbox:group": "ab0511f088fb4d23ef972c5c57906476"},
             "source": "composite",
             "source-layer": "tindigenas",
             "minzoom": 4,
@@ -123,30 +126,14 @@
                     10,
                     0.56
                 ],
-                "fill-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(12, 87%, 65%, 0.09)",
-                    1,
-                    "hsla(12, 87%, 65%, 0.93)"
-                ],
-                "fill-outline-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(22, 95%, 43%, 0.21)",
-                    1,
-                    "hsla(22, 95%, 43%, 0.91)"
-                ]
+                "fill-color": "hsla(12, 87%, 65%, 0.2)",
+                "fill-outline-color": "hsla(22, 95%, 43%, 0.21)"
             }
         },
         {
-            "id": "nacionales_LEGENDA",
+            "id": "nacionales_LEGENDA copy",
             "type": "fill",
-            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
+            "metadata": {"mapbox:group": "ab0511f088fb4d23ef972c5c57906476"},
             "source": "composite",
             "source-layer": "nacionales",
             "minzoom": 4,
@@ -163,30 +150,14 @@
                     10,
                     0.56
                 ],
-                "fill-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(172, 74%, 43%, 0.21)",
-                    1,
-                    "hsla(172, 74%, 43%, 0.91)"
-                ],
-                "fill-outline-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(172, 100%, 54%, 0.31)",
-                    1,
-                    "hsla(172, 100%, 54%, 0.97)"
-                ]
+                "fill-color": "hsla(172, 74%, 43%, 0.2)",
+                "fill-outline-color": "hsla(172, 100%, 54%, 0.9)"
             }
         },
         {
-            "id": "departamentales_LEGENDA",
+            "id": "departamentales_LEGENDA copy",
             "type": "fill",
-            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
+            "metadata": {"mapbox:group": "ab0511f088fb4d23ef972c5c57906476"},
             "source": "composite",
             "source-layer": "departamentales",
             "minzoom": 4,
@@ -203,30 +174,14 @@
                     10,
                     0.56
                 ],
-                "fill-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(172, 74%, 43%, 0.21)",
-                    1,
-                    "hsla(172, 74%, 43%, 0.91)"
-                ],
-                "fill-outline-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(172, 100%, 54%, 0.31)",
-                    1,
-                    "hsla(172, 100%, 54%, 0.97)"
-                ]
+                "fill-color": "hsla(172, 74%, 43%, 0.2)",
+                "fill-outline-color": "hsla(172, 100%, 54%, 0.9)"
             }
         },
         {
-            "id": "bosquesprot_LEGENDA",
+            "id": "bosquesprot_LEGENDA copy",
             "type": "fill",
-            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
+            "metadata": {"mapbox:group": "ab0511f088fb4d23ef972c5c57906476"},
             "source": "composite",
             "source-layer": "bosquesprot",
             "minzoom": 4,
@@ -243,24 +198,8 @@
                     10,
                     0.56
                 ],
-                "fill-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(172, 74%, 43%, 0.21)",
-                    1,
-                    "hsla(172, 74%, 43%, 0.91)"
-                ],
-                "fill-outline-color": [
-                    "interpolate",
-                    ["linear"],
-                    ["get", "vias"],
-                    0,
-                    "hsla(172, 100%, 54%, 0.31)",
-                    1,
-                    "hsla(172, 100%, 54%, 0.97)"
-                ]
+                "fill-color": "hsla(172, 74%, 43%, 0.2)",
+                "fill-outline-color": "hsla(172, 100%, 54%, 0.9)"
             }
         },
         {
@@ -399,7 +338,7 @@
             "type": "symbol",
             "source": "composite",
             "source-layer": "vias",
-            "minzoom": 4,
+            "minzoom": 5,
             "layout": {
                 "text-field": ["get", "nm_sigla"],
                 "text-size": 18,
@@ -421,7 +360,7 @@
                     ["linear"],
                     ["zoom"],
                     5,
-                    ["literal", [-1, 0.4]],
+                    ["literal", [-2.5, 0.4]],
                     6,
                     ["literal", [-1, -0.3]],
                     7,
@@ -434,10 +373,13 @@
                     5,
                     2,
                     6,
-                    2,
-                    8.118,
-                    60
-                ]
+                    20,
+                    8,
+                    30,
+                    11,
+                    90
+                ],
+                "text-letter-spacing": 0.05
             },
             "paint": {
                 "text-color": "#df051b",
@@ -496,7 +438,39 @@
                         0
                     ],
                     6,
-                    ["match", ["get", "nomemun"], ["Sinop", "Itaituba"], 0.7, 0]
+                    [
+                        "match",
+                        ["get", "nomemun"],
+                        ["Sinop", "Itaituba"],
+                        0.7,
+                        0
+                    ],
+                    7.5,
+                    [
+                        "match",
+                        ["get", "nomemun"],
+                        ["Sinop", "Itaituba"],
+                        1,
+                        0.5
+                    ],
+                    7.511,
+                    [
+                        "match",
+                        ["get", "nomemun"],
+                        ["Sinop", "Itaituba"],
+                        1,
+                        0.5
+                    ],
+                    8,
+                    [
+                        "match",
+                        ["get", "nomemun"],
+                        ["Sinop", "Itaituba"],
+                        1,
+                        0.75
+                    ],
+                    8.5,
+                    ["match", ["get", "nomemun"], ["Sinop", "Itaituba"], 1, 1]
                 ],
                 "circle-stroke-color": "#292929",
                 "circle-stroke-opacity": 1,
@@ -550,6 +524,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -625,7 +600,9 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"],
+                    " ",
                     ["get", "etnias"]
                 ],
                 "text-letter-spacing": 0.01
@@ -695,6 +672,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -749,7 +727,7 @@
                     23
                 ],
                 "icon-offset": [0, 0],
-                "icon-image": "park-11_greenaps_stroke",
+                "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -771,12 +749,13 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
             },
             "paint": {
-                "text-color": "hsl(172, 93%, 65%)",
+                "text-color": "#53f9e3",
                 "text-opacity": [
                     "interpolate",
                     ["linear"],
@@ -786,7 +765,7 @@
                     7,
                     ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
                 ],
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.3,
                 "icon-opacity": [
                     "interpolate",
                     ["linear"],
@@ -797,7 +776,7 @@
                     ["interpolate", ["linear"], ["get", "vias"], 0, 0.9, 1, 0.9]
                 ],
                 "text-translate": [0, 0],
-                "text-halo-color": "hsl(0, 0%, 22%)"
+                "text-halo-color": "hsl(0, 0%, 5%)"
             }
         },
         {
@@ -807,7 +786,7 @@
             "source": "composite",
             "source-layer": "country_label",
             "minzoom": 4,
-            "maxzoom": 10.6,
+            "maxzoom": 5.5,
             "layout": {
                 "text-offset": [
                     "interpolate",
@@ -820,7 +799,7 @@
                         ["Guyane"],
                         ["literal", [0.7, 0]],
                         ["Brasil"],
-                        ["literal", [0, 0]],
+                        ["literal", [-17.8, -3.8]],
                         ["literal", [0, 0]]
                     ],
                     5,
@@ -849,7 +828,8 @@
                     22
                 ],
                 "text-field": ["to-string", ["get", "name"]],
-                "text-padding": 0
+                "text-padding": 0,
+                "text-allow-overlap": true
             },
             "paint": {
                 "text-opacity": [
@@ -892,7 +872,7 @@
                         0.9,
                         0
                     ],
-                    22,
+                    5.51,
                     [
                         "match",
                         ["get", "name"],
@@ -907,7 +887,7 @@
                         ],
                         0.8,
                         ["Brasil"],
-                        1,
+                        0.98,
                         0
                     ]
                 ],
@@ -923,7 +903,7 @@
             "metadata": {"mapbox:group": "9612493b6f9d5e3c50b3ffc708114060"},
             "source": "composite",
             "source-layer": "div_politica_departamental",
-            "minzoom": 4.5,
+            "minzoom": 5,
             "layout": {
                 "text-size": [
                     "interpolate",
@@ -937,8 +917,23 @@
                     18
                 ],
                 "text-transform": "uppercase",
+                "symbol-spacing": 250,
                 "text-font": ["Open Sans Italic", "Arial Unicode MS Regular"],
-                "text-padding": 1,
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    1,
+                    5.214,
+                    1,
+                    6,
+                    70,
+                    7,
+                    140,
+                    8,
+                    200
+                ],
                 "text-offset": [
                     "interpolate",
                     ["linear"],
@@ -948,7 +943,7 @@
                         "match",
                         ["get", "nomedep"],
                         ["Pará"],
-                        ["literal", [4.4, 9.4]],
+                        ["literal", [5, 9.9]],
                         ["literal", [0, 0]]
                     ],
                     22,
@@ -956,7 +951,7 @@
                         "match",
                         ["get", "nomedep"],
                         ["Pará"],
-                        ["literal", [5, 10]],
+                        ["literal", [5, 9.9]],
                         ["literal", [0, 0]]
                     ]
                 ],
@@ -1054,7 +1049,23 @@
                     7,
                     ["match", ["get", "nomemun"], ["Sinop", "Itaituba"], 1, 0],
                     7.5,
-                    0.5
+                    [
+                        "match",
+                        ["get", "nomemun"],
+                        ["Sinop", "Itaituba"],
+                        1,
+                        0.5
+                    ],
+                    8,
+                    [
+                        "match",
+                        ["get", "nomemun"],
+                        ["Sinop", "Itaituba"],
+                        1,
+                        0.75
+                    ],
+                    8.5,
+                    ["match", ["get", "nomemun"], ["Sinop", "Itaituba"], 1, 1]
                 ],
                 "text-translate": [5, -7]
             }
@@ -1077,13 +1088,23 @@
                 ],
                 "symbol-spacing": 100,
                 "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
-                "text-padding": 200,
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    200,
+                    5.22,
+                    200,
+                    6,
+                    340
+                ],
                 "text-offset": [
                     "interpolate",
                     ["linear"],
                     ["zoom"],
                     5,
-                    ["literal", [0.5, 1]],
+                    ["literal", [0.9, 1]],
                     6,
                     ["literal", [0.5, 0]]
                 ],
@@ -1122,7 +1143,7 @@
     ],
     "created": "2019-05-28T16:23:45.842Z",
     "id": "cjw80fxnx57oi1cp5spt65aom",
-    "modified": "2019-05-29T19:06:35.666Z",
+    "modified": "2019-06-04T01:30:27.925Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false

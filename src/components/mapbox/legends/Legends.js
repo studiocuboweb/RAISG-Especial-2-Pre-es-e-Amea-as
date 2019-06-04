@@ -91,11 +91,12 @@ class LegendCollapse extends React.Component {
                 </div>
             }
             {legend == 'legend_group8' &&
+                //Legend1 e Legend9 possuem o mesmo comportamento da legend_group7. Estou mantendo a legendGroup considerando o 7
                 <div>
                     <Legend10_Ferrovia_Planificada key="legend17" legendGroup='legend_group8' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
                     <Legend11_Carreteras_principales key="legend18" legendGroup='legend_group8' defaultOpened={true} _onChangeHandler={this._onChangeHandler.bind(this)} />
-                    <Legend1_Areas_Naturales_Protegidas key="legend19" legendGroup='legend_group8' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
-                    <Legend2_Territorios_Indigenas key="legend20" legendGroup='legend_group8' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend1_Areas_Naturales_Protegidas key="legend19" legendGroup='legend_group7' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
+                    <Legend9_Territorios_Indigenas key="legend20" legendGroup='legend_group7' defaultOpened={false} _onChangeHandler={this._onChangeHandler.bind(this)} />
                 </div>
             }
             {legend == 'legend_group9' &&
