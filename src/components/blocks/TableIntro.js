@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   ${margins} ${props =>
       props.big &&
       css`
-        font-size: 0.6em!important;
+        font-size: 0.8em!important;
         a {
           color: #333;
           &:active,
@@ -38,7 +38,7 @@ const Wrapper = styled.div`
       border:1px solid #cccccc;
       border-collapse: collapse;
       background-color: #f3f3f3;
-      font-size: 0.6em!important;
+      font-size: 0.8em!important;
       th {
           font-wight:bold
       }
