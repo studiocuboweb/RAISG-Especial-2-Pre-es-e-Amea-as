@@ -6,16 +6,16 @@ import { Helmet } from "react-helmet";
 const messages = defineMessages({
   title: {
     id: "head.title",
-    defaultMessage: "Amazônia saqueada"
+    defaultMessage: "Amazonia at the crossroads"
   },
   description: {
     id: "head.description",
     defaultMessage:
-      "The destruction of 44 thousand square miles of forests in the largest mining project in Venezuela"
+      "Recent analysis from six countries show the conflict between the vision of economic development and the rights of indigenous territories and conservation of protected areas"
   },
   keywords: {
     id: "head.keywords",
-    defaultMessage: "venezuela, mining arc"
+    defaultMessage: "Amazonia, crossroads"
   }
 });
 
