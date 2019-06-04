@@ -38,7 +38,7 @@ export default () => (
       </Note>
 
       <Paragraph>
-        En su reciente análisis de presiones y amenazas en la Amazonía, la RAISG indica que en términos de extensión territorial, las industrias extractivas de minería y de petróleo son las que tienen mayor peso. Juntos, estos dos sectores poseen lotes asignados a  concesión equivalentes a 208 millones de hectáreas, lo que representa 24,5% de toda la extensión de la <ExternalLink href="https://www.amazoniasocioambiental.org/es/publicacion/amazonia-2017-areas-protegidas-y-territorios-indigenas/" language="es">Pan Amazonia, para la cual se estima una superficie total de 847 millones de hectáreas (RAISG, 2017)</ExternalLink>.
+        En su reciente análisis de presiones y amenazas en la Amazonía, la RAISG indica que en términos de extensión territorial, las industrias extractivas de minería y de petróleo son las que tienen mayor peso. Juntos, estos dos sectores poseen lotes asignados a  concesión equivalentes a 208 millones de hectáreas, lo que representa 24,5% de toda la extensión de la <ExternalLink href="https://www.amazoniasocioambiental.org/es/publicacion/amazonia-2017-areas-protegidas-y-territorios-indigenas/" language="es">Panamazonía, para la cual se estima una superficie total de 847 millones de hectáreas (RAISG, 2017)</ExternalLink>.
       </Paragraph>
 
       <Paragraph>

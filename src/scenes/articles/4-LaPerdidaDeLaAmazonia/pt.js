@@ -305,7 +305,6 @@ export default () => (
       <RelatedNews
         sectionTitle={"Leia também"}
         title={"Pressões e ameaças nas áreas protegidas e nos territórios indígenas da Amazônia"}
-        subtitle={"O mapa, com informações atualizadas de 2018, apresenta uma classificação de territórios indígenas e áreas naturais protegidas, pois afetam estradas, hidrelétricas, mineração, queimadas, desmatamento, petróleo e gás, que são importantes causas da transformação da paisagem amazônica. aconteceu nas últimas décadas."}
         imageUrl={require("images/read-more.jpg")}
         href={"https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/"}
       />
