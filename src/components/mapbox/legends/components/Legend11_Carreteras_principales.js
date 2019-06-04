@@ -59,7 +59,7 @@ class Legend4_Zonas_Mineras extends Component {
                             </FormattedMessage>
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
-                            <span style={{'width':'15px',height:'15px',paddingTop:'10px'}}>
+                            <span style={{'width':'15px',height:'15px'}}>
                                 <img src={require('images/legend-icons/map_06_2.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend11.item2" defaultMessage="no pressure or threat known">
@@ -67,7 +67,7 @@ class Legend4_Zonas_Mineras extends Component {
                             </FormattedMessage>
                         </div>
                         <div className='mapbox_control-panel_subtitle'>
-                            <span style={{'width':'15px',height:'15px',paddingTop:'10px'}}>
+                            <span style={{'width':'15px',height:'15px'}}>
                                 <img src={require('images/legend-icons/map_06_3.png')} alt='ico_circle-11_active2' title='ico_circle-11_active2' style={{'margin-top':'8px','padding':0}} />
                             </span>
                             <FormattedMessage id="legend11.item3" defaultMessage="no pressure or threat known">
