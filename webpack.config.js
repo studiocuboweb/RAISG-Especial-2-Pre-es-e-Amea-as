@@ -5,6 +5,7 @@ const OfflinePlugin = require("offline-plugin");
 const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 let config = {
   entry: {
@@ -19,6 +20,7 @@ let config = {
     filename: "[name]-[chunkhash].js"
   },
   plugins: [
+    new CopyPlugin([{ from: 'src/images/legend-icons/legend-checkbox-icons', to: 'legend-checkbox-icons'}]),
     new webpack.DefinePlugin({
       '__REACT_DEVTOOLS_GLOBAL_HOOK__': '({ isDisabled: true })',
       "process.env": {

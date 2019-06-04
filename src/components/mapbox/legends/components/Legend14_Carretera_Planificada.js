@@ -38,7 +38,7 @@ class Legend14_Carretera_Planificada extends Component {
     render () {
         return (
             <div className='mapbox_control-panel_subtitle' style={{paddingTop:'3px'}}>
-                <input type="checkbox" className="mapbox_custom-checkbox-tipnis-nacional" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'linha-viaplanejada-tipnis')} />
+                <input type="checkbox" className="mapbox_custom-checkbox-colored_legend_14" defaultChecked={true} onChange={this._onChangeHandler.bind(this,'linha-viaplanejada-tipnis')} />
                 <label className="mapbox_custom-checkbox-label" style={{pointerEvents:'auto',cursor:'pointer',zIndex:'-100',marginLeft:'.5rem'}} onClick={this.toggle}>
                     <FormattedMessage id="legend14.title" defaultMessage="national">
                         {(txt) => (txt)}
