@@ -303,7 +303,7 @@ export default () => (
         The Amazonia is at a crossroads. The nine countries that comprise the region have the most biodiverse tropical forest and the largest freshwater reserves on the planet. But its rulers, government policies, and economic interests are driving it to exhaustion. The last refuges for unique species are in protected areas and indigenous territories. Scientists are already talking about the imminence of a point of no return, where the contributions of nature to human well-being - water, clean air, climate regulation, natural resources - will no longer be provided by the biome. Are we about to reach this point?
       </Paragraph>
       <RelatedNews
-        title={"The map, with updated information of 2018, presents a classification of indigenous territories and protected natural areas as they affect roads, hydroelectric, mining, burning, deforestation, oil and gas, which are important causes of the transformation of the Amazonian landscape happened in the last decades."}
+        title={"Pressures and threats on the Protected Areas and the Indigenous Territories of the Amazonia"}
         imageUrl={require("images/read-more.jpg")}
         href={"https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/"}
       />
