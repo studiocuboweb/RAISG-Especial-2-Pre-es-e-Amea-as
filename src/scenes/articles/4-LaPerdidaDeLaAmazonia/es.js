@@ -140,11 +140,11 @@ export default () => (
       <Paragraph>
         Análisis realizados por la Fundación Amigos de la Naturaleza (FAN) 
         <FileLink
-            href={require("documents/chapter3/9.TC_Ruiz_274.pdf")}
+            href={require("documents/chapter4/P-8_Quemas_e_incendios_forestales_2a.pdf")}
             format="pdf"
-            size="1.2MB"
+            size="4.4MB"
           > en el período 2005–2018 indican que el 88% de las quemas e incendios forestales de Bolivia
-          </FileLink>.
+          </FileLink>
            se concentran en la región Amazónica, lo que afecta a más de 18,7 millones de hectáreas, en donde los ecosistemas con mayor impacto son pastizales naturales (70%), comprendidos por sabanas y cerrados, y, en menor proporción (30%) áreas boscosas.
       </Paragraph>
 
