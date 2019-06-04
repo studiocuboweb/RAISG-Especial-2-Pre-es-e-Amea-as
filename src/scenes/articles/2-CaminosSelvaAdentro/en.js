@@ -138,12 +138,12 @@ export default () => (
           id: "image-3",
           type: "image",
           data: {
-            credits: "Samy Schwartz - El Espectador",
+            credits: "Samy Schwartz",
             src: require("photos/chapter2/Foto03_SamySchwartz_Tipnis_SemCredito.jpg")
           }
-        }}> construction of the new Villa Tunari to San Ignacio de Moxos 
+        }}> construction of the new Villa Tunari to San Ignacio de Moxos road
         </StoryMedia>
-        road (306 km long and 9.2 m wide) that crosses the core of the territory to connect the departments of Cochabamba and Beni.
+         (306 km long and 9.2 m wide) that crosses the core of the territory to connect the departments of Cochabamba and Beni.
       </Paragraph>
 
       <Paragraph>

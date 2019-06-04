@@ -138,7 +138,7 @@ export default () => (
           id: "image-3",
           type: "image",
           data: {
-            credits: "Samy Schwartz - El Espectador",
+            credits: "Samy Schwartz",
             src: require("photos/chapter2/Foto03_SamySchwartz_Tipnis_SemCredito.jpg")
           }
         }}> construção da nova estrada Villa Tunari - San Ignacio de Moxos
