@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "RAISG2018_Mapa07_HidroviaAmazonica_APsSemPressao",
+    "name": "RAISG2018_Mapa07_HidroviaAmazonica",
     "metadata": {
         "mapbox:origin": "basic-template-v1",
         "mapbox:autocomposite": true,
@@ -18,11 +18,11 @@
             },
             "35193f33295b3e2cce6e4992a11631e7": {
                 "name": "BaseCartografica_RAISGMapbox",
-                "collapsed": true
+                "collapsed": false
             },
             "1b0bf84dc9295c195587566d7667e5b5": {
                 "name": "ETIQUETA APSeTIs",
-                "collapsed": true
+                "collapsed": false
             },
             "9612493b6f9d5e3c50b3ffc708114060": {
                 "name": "ETIQUETAS_BaseCartograficaGroup",
@@ -30,8 +30,8 @@
             }
         }
     },
-    "center": [-73.83326658944713, -6.402685520695613],
-    "zoom": 5.6506760657721635,
+    "center": [-74.4805184156557, -6.5314675820567345],
+    "zoom": 6.2984256566936105,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -94,19 +94,20 @@
                     ["zoom"],
                     4,
                     0.41,
+                    6.301,
+                    0.6,
                     8,
                     0.81,
                     10,
                     1
                 ],
                 "raster-contrast": 0,
-                "raster-saturation": 0.15
+                "raster-saturation": 0
             }
         },
         {
             "id": "tindigenas_LEGENDA",
             "type": "fill",
-            "metadata": {"mapbox:group": "0fb61dd51be8c8b757a7a4bfaead63ea"},
             "source": "composite",
             "source-layer": "tindigenas",
             "minzoom": 4,
@@ -124,7 +125,7 @@
                     0.56
                 ],
                 "fill-color": "hsla(12, 87%, 65%, 0.2)",
-                "fill-outline-color": "hsla(22, 95%, 43%, 0.21)"
+                "fill-outline-color": "hsla(22, 95%, 43%, 0.31)"
             }
         },
         {
@@ -229,11 +230,9 @@
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    6,
-                    0,
-                    7,
-                    0.65,
-                    7.4,
+                    7.1,
+                    0.5,
+                    8,
                     1
                 ],
                 "circle-stroke-color": "#292929",
@@ -317,6 +316,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -338,9 +338,9 @@
                     ["linear"],
                     ["zoom"],
                     6,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    0.8,
                     7,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
+                    1
                 ],
                 "text-translate": [0, 0],
                 "text-halo-color": "#383838"
@@ -392,7 +392,9 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"],
+                    " ",
                     ["get", "etnias"]
                 ],
                 "text-letter-spacing": 0.01
@@ -406,11 +408,11 @@
                     ["linear"],
                     ["zoom"],
                     6,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    0.8,
                     7,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.5, 1, 1],
+                    1,
                     8,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 1, 1, 1]
+                    1
                 ],
                 "text-translate": [0, 0]
             }
@@ -462,6 +464,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -483,9 +486,9 @@
                     ["linear"],
                     ["zoom"],
                     6,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    0.8,
                     7,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
+                    1
                 ],
                 "text-translate": [0, 0],
                 "text-halo-color": "hsl(0, 0%, 22%)"
@@ -507,16 +510,16 @@
                     6,
                     13,
                     7,
-                    15,
-                    8,
                     17,
+                    8,
+                    19,
                     9,
                     21,
                     10,
                     23
                 ],
                 "icon-offset": [0, 0],
-                "icon-image": "park-11_greenaps_stroke",
+                "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -538,6 +541,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -549,11 +553,11 @@
                     ["linear"],
                     ["zoom"],
                     6,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0, 1, 0.8],
+                    0.8,
                     7,
-                    ["interpolate", ["linear"], ["get", "vias"], 0, 0.8, 1, 1]
+                    1
                 ],
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.5,
                 "icon-opacity": [
                     "interpolate",
                     ["linear"],
@@ -564,83 +568,7 @@
                     ["interpolate", ["linear"], ["get", "vias"], 0, 0.9, 1, 0.9]
                 ],
                 "text-translate": [0, 0],
-                "text-halo-color": "hsl(0, 0%, 22%)"
-            }
-        },
-        {
-            "id": "LEGENDA_PontoDragado_hidroviaamazonica-",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "HidroviaAmazonica_dragado-bzjyrb",
-            "minzoom": 4,
-            "layout": {"icon-image": "circle-stroked-11", "icon-size": 1},
-            "paint": {"icon-opacity": 0.9}
-        },
-        {
-            "id": "hidroviaamazonica-rio-4e7vde copy",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "HidroviaAmazonica_rio-4e7vde",
-            "minzoom": 4,
-            "maxzoom": 9,
-            "layout": {
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    13,
-                    7,
-                    15,
-                    10,
-                    16
-                ],
-                "symbol-spacing": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    100,
-                    6.428,
-                    10,
-                    7,
-                    1,
-                    10,
-                    100
-                ],
-                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
-                "text-padding": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    90,
-                    7,
-                    110,
-                    9,
-                    350
-                ],
-                "text-offset": [0, 0],
-                "text-anchor": "top-left",
-                "text-field": ["to-string", ["get", "EJES"]],
-                "text-letter-spacing": 0.1
-            },
-            "paint": {
-                "text-color": "#60108e",
-                "text-opacity": [
-                    "match",
-                    ["get", "EJES"],
-                    [
-                        "Río Marañón",
-                        "Río Amazonas",
-                        "Río Ucayali",
-                        "Río Huallaga"
-                    ],
-                    1,
-                    0
-                ],
-                "text-halo-width": 0.3,
-                "text-halo-color": "hsl(0, 2%, 94%)"
+                "text-halo-color": "hsl(0, 0%, 2%)"
             }
         },
         {
@@ -704,81 +632,6 @@
             }
         },
         {
-            "id": "country-label (1)",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "9612493b6f9d5e3c50b3ffc708114060"},
-            "source": "composite",
-            "source-layer": "country_label",
-            "minzoom": 4,
-            "maxzoom": 10.6,
-            "layout": {
-                "text-offset": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    [
-                        "match",
-                        ["get", "name"],
-                        ["Guyane"],
-                        ["literal", [0.7, 0]],
-                        ["Perú"],
-                        ["literal", [1, 0]],
-                        ["literal", [0, 0]]
-                    ],
-                    6,
-                    [
-                        "match",
-                        ["get", "name"],
-                        ["Guyane"],
-                        ["literal", [0.7, 0]],
-                        ["Perú"],
-                        ["literal", [-1, -10]],
-                        ["literal", [0, 0]]
-                    ]
-                ],
-                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    4,
-                    15,
-                    5,
-                    17,
-                    6,
-                    18,
-                    6.49,
-                    22
-                ],
-                "text-field": ["to-string", ["get", "name"]],
-                "text-padding": 0
-            },
-            "paint": {
-                "text-opacity": [
-                    "match",
-                    ["get", "name"],
-                    [
-                        "Guyana",
-                        "Guyane",
-                        "Venezuela",
-                        "Ecuador",
-                        "Suriname",
-                        "Brasil",
-                        "Bolivia"
-                    ],
-                    0.5,
-                    ["Perú"],
-                    0.9,
-                    0
-                ],
-                "text-halo-blur": 0,
-                "text-halo-width": 0.7,
-                "text-halo-color": "hsl(0, 0%, 100%)",
-                "text-color": "#4d4d4d"
-            }
-        },
-        {
             "id": "cidades-principais-6gbant copy",
             "type": "symbol",
             "metadata": {"mapbox:group": "9612493b6f9d5e3c50b3ffc708114060"},
@@ -809,12 +662,306 @@
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    7,
-                    0.75,
-                    7.5,
+                    7.1,
+                    0.5,
+                    8,
                     1
                 ],
                 "text-translate": [5, 0]
+            }
+        },
+        {
+            "id": "country-label (1)",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "9612493b6f9d5e3c50b3ffc708114060"},
+            "source": "composite",
+            "source-layer": "country_label",
+            "minzoom": 4,
+            "maxzoom": 10.6,
+            "layout": {
+                "text-offset": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    [
+                        "match",
+                        ["get", "name"],
+                        ["Guyane"],
+                        ["literal", [0.7, 0]],
+                        ["Perú"],
+                        ["literal", [1, 0]],
+                        ["literal", [0, 0]]
+                    ],
+                    5,
+                    [
+                        "match",
+                        ["get", "name"],
+                        ["Guyane"],
+                        ["literal", [0.7, 0]],
+                        ["Perú"],
+                        ["literal", [-3, 0]],
+                        ["literal", [0, 0]]
+                    ]
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    4,
+                    15,
+                    5,
+                    17,
+                    6,
+                    17,
+                    6.49,
+                    22
+                ],
+                "text-field": ["to-string", ["get", "name"]],
+                "text-padding": 1,
+                "text-allow-overlap": true
+            },
+            "paint": {
+                "text-opacity": [
+                    "match",
+                    ["get", "name"],
+                    [
+                        "Guyana",
+                        "Guyane",
+                        "Venezuela",
+                        "Ecuador",
+                        "Suriname",
+                        "Brasil",
+                        "Bolivia"
+                    ],
+                    0.5,
+                    ["Perú"],
+                    1,
+                    0
+                ],
+                "text-halo-blur": 0,
+                "text-halo-width": 0.7,
+                "text-halo-color": "hsl(0, 0%, 100%)",
+                "text-color": "#4d4d4d"
+            }
+        },
+        {
+            "id": "LEGENDA_PontoDragado_hidroviaamazonica-",
+            "type": "symbol",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "HidroviaAmazonica_dragado-bzjyrb",
+            "minzoom": 5,
+            "layout": {
+                "icon-image": "circle-stroked-11",
+                "icon-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    0.75,
+                    7,
+                    0.9,
+                    7.5,
+                    1
+                ],
+                "icon-allow-overlap": ["step", ["zoom"], false, 6, true],
+                "icon-padding": 1
+            },
+            "paint": {"icon-opacity": 0.9}
+        },
+        {
+            "id": "RioHuallaga_hidroviaamazonica-rio-4e7vde copy 1",
+            "type": "symbol",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "HidroviaAmazonica_rio-4e7vde",
+            "minzoom": 5,
+            "maxzoom": 9,
+            "layout": {
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    12,
+                    7,
+                    15,
+                    10,
+                    16
+                ],
+                "symbol-avoid-edges": true,
+                "symbol-spacing": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    100,
+                    6.428,
+                    10,
+                    7,
+                    1,
+                    10,
+                    100
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-padding": 0,
+                "text-anchor": "top-left",
+                "text-field": ["to-string", ["get", "EJES"]],
+                "text-letter-spacing": 0.1
+            },
+            "paint": {
+                "text-color": "#60108e",
+                "text-opacity": [
+                    "match",
+                    ["get", "EJES"],
+                    ["Río Huallaga"],
+                    1,
+                    0
+                ],
+                "text-halo-width": 0.5,
+                "text-halo-color": "hsl(0, 2%, 94%)",
+                "text-translate": [0, 0]
+            }
+        },
+        {
+            "id": "Ucayalli_hidroviaamazonica-rio-4e7vde copy 1",
+            "type": "symbol",
+            "metadata": {},
+            "source": "composite",
+            "source-layer": "HidroviaAmazonica_rio-4e7vde",
+            "minzoom": 5,
+            "maxzoom": 9,
+            "layout": {
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    13,
+                    7,
+                    15,
+                    10,
+                    16
+                ],
+                "symbol-avoid-edges": true,
+                "symbol-spacing": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    100,
+                    6.428,
+                    10,
+                    7,
+                    1,
+                    10,
+                    100
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    20,
+                    6.283,
+                    21,
+                    7,
+                    40,
+                    8,
+                    80,
+                    9,
+                    350
+                ],
+                "text-offset": [1, 0],
+                "text-anchor": "top-left",
+                "text-field": ["to-string", ["get", "EJES"]],
+                "text-letter-spacing": 0.1
+            },
+            "paint": {
+                "text-color": "#60108e",
+                "text-opacity": [
+                    "match",
+                    ["get", "EJES"],
+                    ["Río Ucayali"],
+                    1,
+                    0
+                ],
+                "text-halo-width": 0.5,
+                "text-halo-color": "hsl(0, 2%, 94%)"
+            }
+        },
+        {
+            "id": "MaranonAmazonas_hidroviaamazonica-rio-4e7vde copy",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "HidroviaAmazonica_rio-4e7vde",
+            "minzoom": 5,
+            "maxzoom": 9,
+            "layout": {
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    13,
+                    7,
+                    15,
+                    10,
+                    16
+                ],
+                "symbol-avoid-edges": true,
+                "symbol-spacing": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    100,
+                    6.428,
+                    10,
+                    7,
+                    1,
+                    10,
+                    100
+                ],
+                "text-font": ["Open Sans Bold", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    70,
+                    7,
+                    77,
+                    9,
+                    350
+                ],
+                "text-offset": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    ["literal", [1, 0.79]],
+                    7,
+                    ["literal", [0, 0]]
+                ],
+                "text-anchor": "left",
+                "text-field": ["to-string", ["get", "EJES"]],
+                "text-letter-spacing": 0.1
+            },
+            "paint": {
+                "text-color": "#60108e",
+                "text-opacity": [
+                    "match",
+                    ["get", "EJES"],
+                    ["Río Marañón", "Río Amazonas"],
+                    1,
+                    0
+                ],
+                "text-halo-width": 0.5,
+                "text-halo-color": "#f0efef"
             }
         },
         {
@@ -841,7 +988,7 @@
     ],
     "created": "2019-05-28T16:11:52.478Z",
     "id": "cjw800n9a1w8l1ckamhfr4nkk",
-    "modified": "2019-05-29T18:40:26.413Z",
+    "modified": "2019-06-04T13:54:33.075Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false
