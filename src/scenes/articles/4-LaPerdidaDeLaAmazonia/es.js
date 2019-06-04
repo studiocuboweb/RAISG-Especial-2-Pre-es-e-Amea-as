@@ -12,6 +12,7 @@ import Quote from "components/blocks/Quote";
 import Note from "components/blocks/Note";
 import LittleNote from "components/blocks/LittleNote";
 import Board from "components/blocks/Board";
+import RelatedNews from "components/RelatedNews";
 
 export default () => (
   <article>
@@ -313,6 +314,14 @@ export default () => (
       <Paragraph>
         La Amazonía está en una encrucijada. Los nueve países que la conforman poseen la selva tropical más biodiversa y la mayor reserva de agua dulce del planeta. Pero sus gobernantes, las políticas de Estado y los intereses económicos la empujan hacia su agotamiento. Los últimos refugios para especies únicas están en las áreas protegidas y los territorios indígenas. Los científicos ya hablan de la inminencia de un punto de no retorno, donde las contribuciones de la naturaleza al bienestar humano o a la humanidad –el agua, el aire limpio, la regulación del clima, los recursos naturales– dejarán de ser provistos por la Panamazonía. ¿Llegaremos hasta ese extremo?
       </Paragraph>
+
+      <RelatedNews
+        sectionTitle={"Vea también"}
+        title={"Presiones y amenazas sobre las Áreas Protegidas y los Territorios Indígenas de la Amazonía"}
+        subtitle={"El mapa, con informaciones actualizadas de 2018, presenta una clasificación de los territorios indígenas y de las áreas naturales protegidas según inciden sobre ellos carreteras, hidroeléctricas, minería, quemas, deforestación, petróleo y gas, que constituyen importantes causas de la transformación del paisaje amazónico ocurrido en las últimas décadas."}
+        imageUrl={require("images/read-more.jpg")}
+        href={"https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/"}
+      />
     </Container>
   </article>
 );
