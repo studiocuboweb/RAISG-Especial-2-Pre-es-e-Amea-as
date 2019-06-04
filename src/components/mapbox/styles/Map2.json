@@ -310,9 +310,9 @@
             "minzoom": 3,
             "layout": {"line-join": "bevel"},
             "paint": {
-                "line-color": "#6e6e6e",
+                "line-color": "hsl(0, 0%, 43%)",
                 "line-opacity": 1,
-                "line-width": 1
+                "line-width": ["match", ["get", "paisiso"], ["BRA"], 3, 1]
             }
         },
         {
@@ -445,6 +445,8 @@
                     ["literal", [0, -5]],
                     ["Guyane"],
                     ["literal", [0.7, 0]],
+                    ["Brasil"],
+                    ["literal", [-4, -1]],
                     ["literal", [0, 0]]
                 ]
             },
@@ -535,7 +537,7 @@
     ],
     "created": "2019-05-26T23:12:35.272Z",
     "id": "cjw5k5ze22xmo1cq4pfcxr8lx",
-    "modified": "2019-05-29T13:10:19.000Z",
+    "modified": "2019-05-31T15:08:50.572Z",
     "owner": "infoamazonia",
     "visibility": "public",
     "draft": false
