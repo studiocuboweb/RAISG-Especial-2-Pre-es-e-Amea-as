@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "RAISGPressoes2018_Petroleo_geral",
+    "name": "RAISGPressoes2018_Mapa09_Petroleo",
     "metadata": {
         "mapbox:origin": "basic-template-v1",
         "mapbox:autocomposite": true,
@@ -46,7 +46,7 @@
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://infoamazonia.2pv5ho58,infoamazonia.a163w3r6,infoamazonia.95hlikd1,infoamazonia.agozjoy2,mapbox.mapbox-streets-v7,infoamazonia.4lhvnfbu,infoamazonia.6d1wlvd9,infoamazonia.430srds2,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g,mapbox.mapbox-terrain-v2",
+            "url": "mapbox://infoamazonia.2pv5ho58,infoamazonia.a163w3r6,infoamazonia.95hlikd1,infoamazonia.agozjoy2,mapbox.mapbox-streets-v7,infoamazonia.4lhvnfbu,infoamazonia.6d1wlvd9,infoamazonia.430srds2,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g",
             "type": "vector"
         }
     },
@@ -54,12 +54,10 @@
     "glyphs": "mapbox://fonts/infoamazonia/{fontstack}/{range}.pbf",
     "layers": [
         {
-            "id": "landcover",
-            "type": "fill",
-            "source": "composite",
-            "source-layer": "landcover",
+            "id": "background",
+            "type": "background",
             "layout": {},
-            "paint": {"fill-color": "hsl(0, 0%, 100%)"}
+            "paint": {"background-color": "hsl(0, 0%, 100%)"}
         },
         {
             "id": "mapbox-terrain-rgb",
@@ -126,7 +124,7 @@
                     "hsla(299, 41%, 24%, 0.61)",
                     "hsla(0, 100%, 58%, 0)"
                 ],
-                "fill-outline-color": "hsla(314, 64%, 23%, 0.61)"
+                "fill-outline-color": "#60154f"
             }
         },
         {
@@ -557,6 +555,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -602,7 +601,7 @@
                     23
                 ],
                 "icon-offset": [0, 0],
-                "icon-image": "park-11_greenaps_stroke",
+                "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -622,13 +621,14 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
             },
             "paint": {
                 "text-color": "#53f9e3",
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.5,
                 "icon-opacity": 1,
                 "text-opacity": [
                     "interpolate",
@@ -668,7 +668,7 @@
                     23
                 ],
                 "icon-offset": [0, 0],
-                "icon-image": "park-11_greenaps_stroke",
+                "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -688,13 +688,14 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
             },
             "paint": {
                 "text-color": "#53f9e3",
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.5,
                 "icon-opacity": 1,
                 "text-opacity": [
                     "interpolate",
@@ -734,7 +735,7 @@
                     23
                 ],
                 "icon-offset": [0, 0],
-                "icon-image": "park-11_greenaps_stroke",
+                "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
                 "text-padding": [
                     "interpolate",
@@ -754,6 +755,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -769,7 +771,7 @@
                     7,
                     1
                 ],
-                "text-halo-width": 0.2,
+                "text-halo-width": 0.5,
                 "icon-opacity": 1,
                 "text-translate": [0, 0],
                 "text-halo-color": "hsl(0, 0%, 22%)"
@@ -799,7 +801,7 @@
     ],
     "created": "2019-05-23T19:26:47.993Z",
     "id": "cjw11s27m0mrr1cmkn714f26s",
-    "modified": "2019-05-28T18:38:07.663Z",
+    "modified": "2019-06-04T14:18:49.444Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false
