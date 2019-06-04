@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "RAISGPressoes2018_Mineria_CordilleraCondor",
+    "name": "RAISGPressoes2018_Mapa11_Mineria_CordilleraCondor",
     "metadata": {
         "mapbox:origin": "basic-template-v1",
         "mapbox:autocomposite": true,
@@ -18,7 +18,7 @@
             },
             "35193f33295b3e2cce6e4992a11631e7": {
                 "name": "BaseCartografica_RAISGMapbox",
-                "collapsed": true
+                "collapsed": false
             },
             "1b0bf84dc9295c195587566d7667e5b5": {
                 "name": "ETIQUETA APSeTIs",
@@ -26,12 +26,12 @@
             },
             "9612493b6f9d5e3c50b3ffc708114060": {
                 "name": "ETIQUETAS_BaseCartograficaGroup",
-                "collapsed": true
+                "collapsed": false
             }
         }
     },
-    "center": [-78.0784200568545, -3.6609829378281518],
-    "zoom": 8.5,
+    "center": [-78.09598806526378, -3.71179036534177],
+    "zoom": 8.564436725839883,
     "bearing": 0,
     "pitch": 0,
     "sources": {
@@ -46,7 +46,7 @@
             "tileSize": 256
         },
         "composite": {
-            "url": "mapbox://infoamazonia.2pv5ho58,infoamazonia.a163w3r6,infoamazonia.95hlikd1,mapbox.mapbox-streets-v7,infoamazonia.4lhvnfbu,infoamazonia.6d1wlvd9,infoamazonia.430srds2,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g,infoamazonia.27ukze8w",
+            "url": "mapbox://infoamazonia.2pv5ho58,infoamazonia.29qvocwb,infoamazonia.a163w3r6,infoamazonia.95hlikd1,mapbox.mapbox-streets-v7,infoamazonia.4lhvnfbu,infoamazonia.6d1wlvd9,infoamazonia.bk49hnv5,infoamazonia.430srds2,infoamazonia.8i6m3mzp,infoamazonia.6ny4aw4g,infoamazonia.27ukze8w",
             "type": "vector"
         }
     },
@@ -134,7 +134,6 @@
         {
             "id": "tindigenas_LEGENDA",
             "type": "fill",
-            "metadata": {"mapbox:group": "2fda30ef93da7a3f7b9d5626d112acd6"},
             "source": "composite",
             "source-layer": "tindigenas",
             "minzoom": 4,
@@ -308,27 +307,50 @@
             }
         },
         {
-            "id": "PNsIchigkatSComaina_nacionales copy",
+            "id": "ZRComaina_limite",
             "type": "line",
             "source": "composite",
-            "source-layer": "nacionales",
+            "source-layer": "nacionales_Comaina-a5g906",
+            "minzoom": 4,
+            "maxzoom": 18,
+            "layout": {},
+            "paint": {
+                "line-color": "#14ffe0",
+                "line-gap-width": 0.1,
+                "line-width": 3
+            }
+        },
+        {
+            "id": "PNCordilleraCondor_limite",
+            "type": "line",
+            "source": "composite",
+            "source-layer": "nacionales_CordilleraCondor-0wrz5l",
+            "minzoom": 4,
+            "maxzoom": 18,
+            "layout": {},
+            "paint": {
+                "line-color": "#14ffe0",
+                "line-width": 3,
+                "line-gap-width": 0.1
+            }
+        },
+        {
+            "id": "AMZLoretoOK_div-politica-departamental",
+            "type": "line",
+            "metadata": {"mapbox:group": "35193f33295b3e2cce6e4992a11631e7"},
+            "source": "composite",
+            "source-layer": "div_politica_departamental",
             "minzoom": 5,
             "layout": {},
             "paint": {
-                "line-gap-width": 0.1,
-                "line-opacity": [
+                "line-pattern": "minimo-grey_poi-1",
+                "line-width": [
                     "match",
-                    ["get", "nombre"],
-                    [
-                        "Ichigkat Muja - Cordillera del Cóndor",
-                        "Santiago Comaina"
-                    ],
-                    1,
+                    ["get", "nomedep"],
+                    ["Amazonas"],
+                    1.5,
                     0
-                ],
-                "line-color": "hsl(172, 100%, 54%)",
-                "line-blur": 0,
-                "line-width": 3
+                ]
             }
         },
         {
@@ -365,96 +387,16 @@
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    0,
-                    0,
                     7,
-                    0.65,
-                    7.4,
+                    0,
+                    7.5,
+                    0.5,
+                    8,
+                    0.75,
+                    9,
                     1
                 ],
                 "circle-stroke-color": "hsl(0, 0%, 16%)"
-            }
-        },
-        {
-            "id": "tindigenas etiqueta",
-            "type": "symbol",
-            "source": "composite",
-            "source-layer": "tindigenas",
-            "minzoom": 6,
-            "layout": {
-                "text-line-height": 0.8,
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    12,
-                    7,
-                    13,
-                    8.53,
-                    15,
-                    9,
-                    21,
-                    10,
-                    23
-                ],
-                "icon-offset": [0, 0],
-                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
-                "text-padding": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    55,
-                    8,
-                    60,
-                    9,
-                    300,
-                    10,
-                    350
-                ],
-                "text-offset": [0, 0],
-                "text-anchor": "top",
-                "text-field": [
-                    "concat",
-                    ["get", "categoria"],
-                    ["get", "nombre"],
-                    ["get", "etnias"]
-                ],
-                "text-letter-spacing": 0.01
-            },
-            "paint": {
-                "text-color": "#f3775e",
-                "text-halo-color": "hsl(0, 0%, 100%)",
-                "text-halo-width": 0.2,
-                "text-opacity": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    6,
-                    0.8,
-                    7,
-                    0.9,
-                    8.5,
-                    [
-                        "match",
-                        ["get", "etnias"],
-                        ["Aguaruna (Awajun)", "Huambisa (Wampis)"],
-                        1,
-                        0
-                    ],
-                    8.61,
-                    [
-                        "match",
-                        ["get", "etnias"],
-                        ["Aguaruna (Awajun)", "Huambisa (Wampis)"],
-                        1,
-                        0
-                    ],
-                    9,
-                    0
-                ],
-                "text-translate": [0, 0]
             }
         },
         {
@@ -509,52 +451,7 @@
                 "text-halo-blur": 0,
                 "text-halo-width": 0.7,
                 "text-halo-color": "hsl(0, 0%, 100%)",
-                "text-color": "hsl(0, 0%, 30%)"
-            }
-        },
-        {
-            "id": "Amazonas_div-politica-departamental",
-            "type": "symbol",
-            "metadata": {"mapbox:group": "9612493b6f9d5e3c50b3ffc708114060"},
-            "source": "composite",
-            "source-layer": "div_politica_departamental",
-            "minzoom": 6,
-            "layout": {
-                "text-line-height": 1,
-                "text-size": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    5,
-                    12,
-                    8,
-                    13,
-                    9,
-                    18
-                ],
-                "text-transform": "uppercase",
-                "text-font": ["Open Sans Italic", "Arial Unicode MS Regular"],
-                "text-padding": 1,
-                "text-offset": [0, 0],
-                "text-rotation-alignment": "map",
-                "text-anchor": "top-right",
-                "text-pitch-alignment": "map",
-                "text-field": ["to-string", ["get", "nomedep"]],
-                "text-letter-spacing": 0.3,
-                "text-max-width": 20
-            },
-            "paint": {
-                "text-color": "#4f4f4f",
-                "text-halo-color": "hsl(113, 0%, 36%)",
-                "text-translate": [0, 0],
-                "text-halo-width": 0.1,
-                "text-opacity": [
-                    "match",
-                    ["get", "nomedep"],
-                    ["Amazonas"],
-                    1,
-                    0
-                ]
+                "text-color": "#4d4d4d"
             }
         },
         {
@@ -589,11 +486,148 @@
                     ["linear"],
                     ["zoom"],
                     7,
-                    0.65,
+                    0,
                     7.5,
+                    0.5,
+                    8,
+                    0.75,
+                    9,
                     1
                 ],
                 "text-translate": [5, 0]
+            }
+        },
+        {
+            "id": "tindigenas etiqueta",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "tindigenas",
+            "minzoom": 6.5,
+            "layout": {
+                "text-line-height": 0.8,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    12,
+                    7,
+                    13,
+                    8.53,
+                    15,
+                    9,
+                    21,
+                    10,
+                    23
+                ],
+                "icon-offset": [0, 0],
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6,
+                    55,
+                    8,
+                    70,
+                    9,
+                    300,
+                    10,
+                    350
+                ],
+                "text-offset": [0, 0],
+                "text-anchor": "top",
+                "text-field": [
+                    "concat",
+                    ["get", "categoria"],
+                    " ",
+                    ["get", "nombre"],
+                    ["get", "etnias"]
+                ],
+                "text-letter-spacing": 0.01
+            },
+            "paint": {
+                "text-color": "#ff8161",
+                "text-translate": [0, 0],
+                "text-halo-width": 0.2,
+                "text-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    6.5,
+                    0.8,
+                    7,
+                    0.9,
+                    8.5,
+                    [
+                        "match",
+                        ["get", "etnias"],
+                        ["Aguaruna (Awajun)", "Huambisa (Wampis)"],
+                        1,
+                        0
+                    ],
+                    8.71,
+                    [
+                        "match",
+                        ["get", "etnias"],
+                        ["Aguaruna (Awajun)", "Huambisa (Wampis)"],
+                        1,
+                        0
+                    ]
+                ],
+                "text-halo-color": "hsl(0, 0%, 5%)"
+            }
+        },
+        {
+            "id": "Amazonas_div-politica-departamental",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "div_politica_departamental",
+            "minzoom": 6,
+            "layout": {
+                "text-line-height": 1,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    12,
+                    8,
+                    13,
+                    9,
+                    18
+                ],
+                "text-transform": "uppercase",
+                "text-font": ["Open Sans Italic", "Arial Unicode MS Regular"],
+                "text-padding": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    20,
+                    10,
+                    150
+                ],
+                "text-offset": [0, 0],
+                "text-rotation-alignment": "map",
+                "text-anchor": "top-right",
+                "text-pitch-alignment": "map",
+                "text-field": ["to-string", ["get", "nomedep"]],
+                "text-letter-spacing": 0.3,
+                "text-max-width": 20
+            },
+            "paint": {
+                "text-color": "#4f4f4f",
+                "text-halo-color": "#4f4f4f",
+                "text-translate": [0, 0],
+                "text-halo-width": 0.2,
+                "text-opacity": [
+                    "match",
+                    ["get", "nomedep"],
+                    ["Amazonas"],
+                    1,
+                    0
+                ]
             }
         },
         {
@@ -602,7 +636,7 @@
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
             "source-layer": "bosquesprot",
-            "minzoom": 6,
+            "minzoom": 6.5,
             "layout": {
                 "text-line-height": 0.8,
                 "text-size": [
@@ -641,6 +675,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -656,6 +691,12 @@
                     6,
                     0.8,
                     7,
+                    1,
+                    8.4,
+                    1,
+                    8.5,
+                    0,
+                    8.6,
                     1
                 ],
                 "text-translate": [0, 10],
@@ -668,7 +709,7 @@
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
             "source-layer": "departamentales",
-            "minzoom": 6,
+            "minzoom": 6.5,
             "layout": {
                 "text-line-height": 0.8,
                 "text-size": [
@@ -707,6 +748,7 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
@@ -734,7 +776,7 @@
             "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
             "source-layer": "nacionales",
-            "minzoom": 6,
+            "minzoom": 6.5,
             "layout": {
                 "text-line-height": 0.8,
                 "text-size": [
@@ -762,7 +804,7 @@
                     6,
                     55,
                     8,
-                    90,
+                    100,
                     9,
                     300,
                     10,
@@ -773,12 +815,13 @@
                 "text-field": [
                     "concat",
                     ["get", "categoria"],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01
             },
             "paint": {
-                "text-color": "hsl(172, 93%, 65%)",
+                "text-color": "#53f9e3",
                 "text-halo-color": "hsl(0, 0%, 15%)",
                 "text-halo-width": 0.5,
                 "icon-opacity": 1,
@@ -787,22 +830,37 @@
                     "interpolate",
                     ["linear"],
                     ["zoom"],
-                    5.7,
-                    ["match", ["get", "nombre"], ["Canaima"], 1, 0],
-                    6,
-                    ["match", ["get", "nombre"], ["Canaima"], 1, 0.8],
+                    6.5,
+                    [
+                        "match",
+                        ["get", "nombre"],
+                        [
+                            "Santiago Comaina",
+                            "Ichigkat Muja - Cordillera del Cóndor"
+                        ],
+                        0,
+                        0.75
+                    ],
                     7,
-                    ["match", ["get", "nombre"], ["Canaima"], 1, 1]
+                    [
+                        "match",
+                        ["get", "nombre"],
+                        [
+                            "Santiago Comaina",
+                            "Ichigkat Muja - Cordillera del Cóndor"
+                        ],
+                        1,
+                        1
+                    ]
                 ]
             }
         },
         {
-            "id": "8.5PNIchigkat_nacionales etiqueta copy",
+            "id": "ZRComaina_limite copy",
             "type": "symbol",
-            "metadata": {"mapbox:group": "1b0bf84dc9295c195587566d7667e5b5"},
             "source": "composite",
-            "source-layer": "nacionales",
-            "minzoom": 8,
+            "source-layer": "nacionales_Comaina-a5g906",
+            "minzoom": 6,
             "maxzoom": 9,
             "layout": {
                 "text-line-height": 1.1,
@@ -813,50 +871,27 @@
                     5.7,
                     12,
                     8,
-                    13,
+                    17,
                     9,
                     21,
                     10,
                     23
                 ],
+                "icon-offset": [0, -30],
+                "icon-image": "park-11_greenaps_strokestronger",
                 "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
-                "text-padding": 37,
-                "text-offset": [
-                    "interpolate",
-                    ["linear"],
-                    ["zoom"],
-                    0,
-                    [
-                        "match",
-                        ["get", "nombre"],
-                        ["Ichigkat Muja - Cordillera del Cóndor"],
-                        ["literal", [-7, 10]],
-                        ["Santiago Comaina"],
-                        ["literal", [5, -10]],
-                        ["literal", [0, 0]]
-                    ],
-                    8,
-                    [
-                        "match",
-                        ["get", "nombre"],
-                        ["Ichigkat Muja - Cordillera del Cóndor"],
-                        ["literal", [-3, 10]],
-                        ["Santiago Comaina"],
-                        ["literal", [1, 0]],
-                        ["literal", [0, 0]]
-                    ]
-                ],
+                "text-padding": 100,
                 "text-field": [
                     "concat",
-                    ["get", "categoria"],
+                    ["to-string", ["get", "categoria"]],
+                    " ",
                     ["get", "nombre"]
                 ],
                 "text-letter-spacing": 0.01,
-                "icon-padding": 300,
-                "text-max-width": 6
+                "text-max-width": 12
             },
             "paint": {
-                "text-color": "#53f9e3",
+                "text-color": "hsl(172, 93%, 65%)",
                 "text-opacity": [
                     "match",
                     ["get", "nombre"],
@@ -868,9 +903,44 @@
                     0
                 ],
                 "text-halo-width": 0.5,
+                "text-halo-color": "hsl(0, 0%, 5%)"
+            }
+        },
+        {
+            "id": "PNCordilleraCondor_limite copy",
+            "type": "symbol",
+            "source": "composite",
+            "source-layer": "nacionales_CordilleraCondor-0wrz5l",
+            "minzoom": 6,
+            "maxzoom": 9,
+            "layout": {
+                "text-line-height": 1,
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5.7,
+                    12,
+                    8,
+                    15,
+                    9,
+                    21,
+                    10,
+                    23
+                ],
+                "icon-offset": [0, -33],
+                "icon-image": "park-11_greenaps_strokestronger",
+                "text-font": ["Ubuntu Medium", "Arial Unicode MS Regular"],
+                "text-padding": 20,
+                "text-offset": [1, 0],
+                "text-field": "PN Ichigkat Muja - Cordillera del Cóndor",
+                "text-letter-spacing": 0.01,
+                "text-max-width": 10
+            },
+            "paint": {
+                "text-color": "hsl(172, 93%, 65%)",
                 "text-halo-color": "hsl(0, 0%, 10%)",
-                "icon-opacity": 0.9,
-                "text-translate": [0, 0]
+                "text-halo-width": 0.5
             }
         },
         {
@@ -897,7 +967,7 @@
     ],
     "created": "2019-05-26T03:34:24.807Z",
     "id": "cjw4e2u9m1ugf1cpctfuxedms",
-    "modified": "2019-05-28T20:30:00.334Z",
+    "modified": "2019-06-04T12:29:38.918Z",
     "owner": "infoamazonia",
     "visibility": "private",
     "draft": false

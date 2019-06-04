@@ -347,8 +347,8 @@ export default () => (
               legend:"legend_group11",
               update:"map11",
               showExtraLayers: ['bosquesprot'],
-              coordinates: [-78.078420,-3.660983],
-              zoomNumber: 8.50,
+              coordinates: [-78.095988,-3.711790],
+              zoomNumber: 8.56,
               zoomMin: 4,
               zoomMax: 12
             }
