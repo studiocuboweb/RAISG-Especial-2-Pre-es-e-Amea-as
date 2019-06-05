@@ -1,20 +1,20 @@
 <IfModule mod_rewrite.c>
     RewriteEngine on
 
-    # If the hostname is mineriailegal.amazoniasocioambiental.org
-    RewriteCond %{HTTP_HOST} ^mineriailegal\.amazoniasocioambiental\.org$
+    # If the hostname is encrucijada.amazoniasocioambiental.org
+    RewriteCond %{HTTP_HOST} ^encrucijada\.amazoniasocioambiental\.org$
     RewriteCond %{QUERY_STRING} !(^|&)lang=es($|&)
     # 301 redirect to the same resource on mineriailegal.amazoniasocioambiental.org
     RewriteRule ^ https://encrucijada.amazoniasocioambiental.org%{REQUEST_URI}?lang=es [R=301,L,NE]
 
-    # If the hostname is illegalmining.amazoniasocioambiental.org
-    RewriteCond %{HTTP_HOST} ^illegalmining\.amazoniasocioambiental\.org$
+    # If the hostname is crossroads.amazoniasocioambiental.org
+    RewriteCond %{HTTP_HOST} ^crossroads\.amazoniasocioambiental\.org$
     RewriteCond %{QUERY_STRING} !(^|&)lang=en($|&)
     # 301 redirect to the same resource on illegalmining.amazoniasocioambiental.org
     RewriteRule ^ https://crossroads.amazoniasocioambiental.org%{REQUEST_URI}?lang=en [R=301,L,NE]
 
-    # If the hostname is garimpoilegal.amazoniasocioambiental.org
-    RewriteCond %{HTTP_HOST} ^garimpoilegal\.amazoniasocioambiental\.org$
+    # If the hostname is encruzilhada.amazoniasocioambiental.org
+    RewriteCond %{HTTP_HOST} ^encruzilhada\.amazoniasocioambiental\.org$
     RewriteCond %{QUERY_STRING} !(^|&)lang=pt($|&)
     # 301 redirect to the same resource on garimpoilegal.amazoniasocioambiental.org
     RewriteRule ^ https://encruzilhada.amazoniasocioambiental.org%{REQUEST_URI}?lang=pt [R=301,L,NE]
