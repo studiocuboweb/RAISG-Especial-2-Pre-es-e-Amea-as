@@ -56,8 +56,8 @@ export default () => (
               zoomMin: 4,
               zoomMax: 22
             }
-          }}> áreas sob concessões de mineração e hidrocarbonetos
-          </StoryMedia>. 
+          }}> áreas sob concessões de hidrocarbonetos 
+          </StoryMedia> e mineração. 
           Mas a sua existência mostra qual é o modelo proposto nos países da região: baseado no extrativismo e no lucro, sem avaliar as consequências de perder mais de um quarto da Amazônia.
       </Paragraph>
       

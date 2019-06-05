@@ -13,6 +13,8 @@ import Note from "components/blocks/Note";
 import LittleNote from "components/blocks/LittleNote";
 import Board from "components/blocks/Board";
 import RelatedNews from "components/RelatedNews";
+import EndChapter from "components/blocks/EndChapter";
+import { FormattedMessage } from 'react-intl';
 
 export default () => (
   <article>
@@ -315,12 +317,17 @@ export default () => (
         La Amazonía está en una encrucijada. Los nueve países que la conforman poseen la selva tropical más biodiversa y la mayor reserva de agua dulce del planeta. Pero sus gobernantes, las políticas de Estado y los intereses económicos la empujan hacia su agotamiento. Los últimos refugios para especies únicas están en las áreas protegidas y los territorios indígenas. Los científicos ya hablan de la inminencia de un punto de no retorno, donde las contribuciones de la naturaleza al bienestar humano o a la humanidad –el agua, el aire limpio, la regulación del clima, los recursos naturales– dejarán de ser provistos por la Panamazonía. ¿Llegaremos hasta ese extremo?
       </Paragraph>
 
-      <RelatedNews
-        sectionTitle={"Vea también"}
-        title={"Presiones y amenazas sobre las Áreas Protegidas y los Territorios Indígenas de la Amazonía"}
-        imageUrl={require("images/read-more.jpg")}
-        href={"https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/"}
-      />
+      <EndChapter>
+          <strong>
+            <FormattedMessage id="general.readMore" defaultMessage="Amazonia at the crossroads" />
+          </strong>
+        <RelatedNews
+          title={"Presiones y amenazas sobre las Áreas Protegidas y los Territorios Indígenas de la Amazonía"}
+          imageUrl={require("images/read-more.jpg")}
+          href={"https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/"}
+        />
+      </EndChapter>
+
     </Container>
   </article>
 );
