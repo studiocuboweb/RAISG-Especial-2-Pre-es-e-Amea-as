@@ -59,7 +59,7 @@ export default () => (
               zoomMax: 22
             }
           }}> áreas bajo concesiones de hidrocarburos 
-          </StoryMedia> e mineria. 
+          </StoryMedia> e minería. 
           Pero su existencia demuestra cuál es el modelo propuesto en estos países, basado en el extractivismo y la renta, sin valorar las consecuencias de perder más de un cuarto de la Amazonía.
       </Paragraph>
       
