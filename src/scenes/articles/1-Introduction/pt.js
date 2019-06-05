@@ -127,7 +127,7 @@ export default () => (
         Seus mapas também revelam a presença de hidrelétricas e estradas em áreas naturais protegidas e em territórios indígenas. Nesse sentido, das 272 grandes usinas hidrelétricas da Amazônia - planejadas, em construção ou em operação - 78 estão dentro dos territórios indígenas e 84 estão em conflito com áreas naturais protegidas. No que diz respeito a estradas e rotas, dos 136.000 quilômetros mapeados na região, aproximadamente 20% (26.000 km) são sobrepostos com áreas naturais protegidas e territórios indígenas.
       </Paragraph>
 
-      <Quote author="Richard C. Smith, diretor do Instituto del Bien Común, do Peru">
+      <Quote author="Richard C. Smith, diretor do Instituto Bien Común, do Peru">
         Atualmente, não existem políticas nacionais para a Amazônia que nos permitam traçar uma visão abrangente, coerente e de longo prazo para a região. Portanto, uma estratégia clara de desenvolvimento territorial também não está em vigor. De fato, a orientação das decisões políticas depende principalmente das circunstâncias e da vontade dos atuais governantes
       </Quote>
     </Container>
