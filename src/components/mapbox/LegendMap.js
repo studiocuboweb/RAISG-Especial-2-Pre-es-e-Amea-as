@@ -146,9 +146,6 @@ export default class StyleControls extends PureComponent {
   constructor(props) {
     super(props);
     this.defaultMapStyle = fromJS(styles[this.props.map]);
-    console.log('defaultMapStyle')
-    console.log(this.defaultMapStyle)
-    console.log(styles[this.props.map]);
     this._defaultLayers = this.defaultMapStyle.get('layers');
     
     this.state = {
@@ -199,8 +196,6 @@ export default class StyleControls extends PureComponent {
   }
 
   componentDidMount() {
-    console.log('VISIBILIDADE');
-    console.log(this.state.visibility);
     var visibility = '';
     if (this.props.map == 'map8') {
       visibility = {...this.state.visibility, ['tindigenas']: false, ['bosquesprot']: false, ['nacionales']: false, ['departamentales']: false};

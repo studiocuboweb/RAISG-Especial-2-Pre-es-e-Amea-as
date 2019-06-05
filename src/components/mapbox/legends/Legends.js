@@ -43,8 +43,6 @@ class LegendCollapse extends React.Component {
 
     render() {
         const {legend} = this.props;
-        console.log('legenda')
-        console.log(legend)
         return (
             <div key="1" className="input">
             {legend == 'legend_group1' &&
