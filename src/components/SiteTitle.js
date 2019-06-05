@@ -64,7 +64,7 @@ const Title = styled.h1`
       font-weight: 700;
       padding: 0;
       ${media.phone`
-      font-size: 1.2em;
+      font-size: 0.9em;
     `}
     ${media.phablet`
       font-size: 1.6em;
