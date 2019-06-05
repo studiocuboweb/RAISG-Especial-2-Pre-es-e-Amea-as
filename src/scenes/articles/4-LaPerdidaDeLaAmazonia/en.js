@@ -13,6 +13,8 @@ import Note from "components/blocks/Note";
 import LittleNote from "components/blocks/LittleNote";
 import Board from "components/blocks/Board";
 import RelatedNews from "components/RelatedNews";
+import EndChapter from "components/blocks/EndChapter";
+import { FormattedMessage } from 'react-intl';
 
 export default () => (
   <article>
@@ -309,11 +311,18 @@ export default () => (
       <Paragraph>
         The Amazonia is at a crossroads. The nine countries that comprise the region have the most biodiverse tropical forest and the largest freshwater reserves on the planet. But its rulers, government policies, and economic interests are driving it to exhaustion. The last refuges for unique species are in protected areas and indigenous territories. Scientists are already talking about the imminence of a point of no return, where the contributions of nature to human well-being - water, clean air, climate regulation, natural resources - will no longer be provided by the biome. Are we about to reach this point?
       </Paragraph>
-      <RelatedNews
-        title={"Pressures and threats on the Protected Areas and the Indigenous Territories of the Amazonia"}
-        imageUrl={require("images/read-more.jpg")}
-        href={"https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/"}
-      />
+
+      <EndChapter>
+          <strong>
+            <FormattedMessage id="general.readMore" defaultMessage="Amazonia at the crossroads" />
+          </strong>
+        <RelatedNews
+          title={"Pressures on and threats to protect areas and indigenous territories in Amazonia"}
+          imageUrl={require("images/read-more.jpg")}
+          href={"https://www.amazoniasocioambiental.org/en/publication/pressures-on-and-threats-to-protect-areas-and-indigenous-territories-in-amazonia-2/"}
+        />
+      </EndChapter>
+
     </Container>
   </article>
 );

@@ -6,15 +6,16 @@ import { media } from '../styles/utils';
 const Wrapper = styled.div`
   max-width: 500px;
   display: block;
-  margin: 0 auto;
-  background-color:#ffffff;
-  margin: 0 4vw 4vh 4vw;
+  margin: 30px auto 15px auto;
   a {
       color:#434343;
       font-size:1rem;
   }
   .more-content {
-    text-align:left;
+    text-align:center;
+  }
+  .more-tit {
+    padding-bottom:20px  
   }
   img {
       margin:0px;
@@ -27,7 +28,7 @@ const RelatedNews = ({ title, imageUrl, href }) => {
       <div className="more-content">
         <a href={href} target='_blank'>
           <div className="related-content">
-            <h3>{title}</h3>
+            <h3 class="more-tit">{title}</h3>
             <img src={imageUrl} />
           </div>
         </a>

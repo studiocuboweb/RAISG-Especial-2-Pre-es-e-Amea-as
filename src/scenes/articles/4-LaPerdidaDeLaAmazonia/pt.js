@@ -13,6 +13,8 @@ import Note from "components/blocks/Note";
 import LittleNote from "components/blocks/LittleNote";
 import Board from "components/blocks/Board";
 import RelatedNews from "components/RelatedNews";
+import EndChapter from "components/blocks/EndChapter";
+import { FormattedMessage } from 'react-intl';
 
 export default () => (
   <article>
@@ -308,12 +310,17 @@ export default () => (
       <Paragraph>
         A Amazônia está em uma encruzilhada. Os nove países que a compõem têm a floresta tropical mais biodiversa e a maior reserva de água doce do planeta. Mas seus governantes, políticas estatais e interesses econômicos a levam à exaustão. Os últimos refúgios para espécies únicas estão em áreas protegidas e territórios indígenas. Os cientistas já falam sobre a iminência de um ponto sem retorno, onde as contribuições da natureza para o bem-estar humano - água, ar limpo, regulação climática, recursos naturais - não serão mais fornecidas pelo bioma. Chegaremos a esse extremo?
       </Paragraph>
-      <RelatedNews
-        sectionTitle={"Leia também"}
-        title={"Pressões e ameaças nas áreas protegidas e nos territórios indígenas da Amazônia"}
-        imageUrl={require("images/read-more.jpg")}
-        href={"https://www.amazoniasocioambiental.org/es/publicacion/presiones-y-amenazas-sobre-las-areas-protegidas-y-los-territorios-indigenas-de-la-amazonia-2/"}
-      />
+
+      <EndChapter>
+          <strong>
+            <FormattedMessage id="general.readMore" defaultMessage="Amazonia at the crossroads" />
+          </strong>
+        <RelatedNews
+          title={"Pressões e ameaças nas áreas protegidas e nos territórios indígenas da Amazônia"}
+          imageUrl={require("images/read-more.jpg")}
+          href={"https://www.amazoniasocioambiental.org/pt-br/publicacao/pressoes-e-ameacas-sobre-as-areas-protegidas-e-territorios-indigenas-da-amazonia-2/"}
+        />
+      </EndChapter>
     </Container>
   </article>
 );

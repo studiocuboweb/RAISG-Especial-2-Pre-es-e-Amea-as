@@ -14,7 +14,8 @@ import Paragraph from "components/blocks/Paragraph";
 import Title from "components/blocks/Title";
 import GeneralBlock from "components/blocks/GeneralBlock";
 import "styles/about.css";
-
+import RelatedNews from "components/RelatedNews";
+import EndChapterAbout from "components/blocks/EndChapterAbout";
 import { Link } from "react-router-dom";
 
 const messages = defineMessages({
@@ -192,6 +193,21 @@ const About = ({ intl, lastPath }) => {
           </Button>
           <hr />
           <Paragraph small>
+            <EndChapterAbout>
+                <strong>
+                  <FormattedMessage id="general.readMore" defaultMessage="Amazonia at the crossroads" />
+                </strong>
+              <RelatedNews
+                title={
+                  <FormattedMessage
+                  id="about.more"
+                  defaultMessage="Looted Amazon"
+                  /> 
+                    }
+                    imageUrl={require("images/about-more.jpg")}
+                    href={"https://saqueada.amazoniasocioambiental.org"}
+              />
+            </EndChapterAbout>
             <FormattedMessage
               id="about.license"
               defaultMessage="Copyright. To use text, image or data please contact {RAISG} and {INFO}"
@@ -209,6 +225,7 @@ const About = ({ intl, lastPath }) => {
               }}
             />
           </Paragraph>
+          
         </Container>
       </section>
     </Page>
