@@ -52,7 +52,7 @@ export default () => (
             </th>
           </tr>
           <tr>
-            <th># pressures and threatss</th>
+            <th># pressures and threats</th>
             <th># Indigenous Territories</th>
             <th>Percentage</th>
             <th># Natural Protected Areas</th>
