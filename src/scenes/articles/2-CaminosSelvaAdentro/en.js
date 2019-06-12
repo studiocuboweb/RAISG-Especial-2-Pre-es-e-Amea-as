@@ -204,7 +204,7 @@ export default () => (
             update:"map7",
             showExtraLayers: [],
             coordinates: [-73.780518,-6.531468],
-            zoomNumber: 6.20,
+            zoomNumber: 5.92,
             zoomMin: 4,
             zoomMax: 10
           }
