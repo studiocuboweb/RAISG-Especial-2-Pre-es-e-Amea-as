@@ -22,7 +22,7 @@ export default () => (
       </Note>
 
       <Paragraph>
-        The <ExternalLink href="https://www.amazoniasocioambiental.org/en/" language="en">Amazonian Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}a technical group formed by organizations from six countries in the region, has published its latest collection of maps on the pressures and threats faced by the Amazonia.
+        The <ExternalLink href="https://www.amazoniasocioambiental.org/en/" language="en">Amazonian Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}a technical group formed by organizations from six countries in the region, has published its latest collection of maps on the pressures and threats faced by Amazonia.
       </Paragraph>
 
       <Paragraph>
@@ -122,11 +122,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The maps also show the presence of hydroelectric projects and roads in protected natural areas and in indigenous territories. In this case, 78 of the 272 large hydroelectric power plants in the Amazonia - planned, under construction or in operation - are inside indigenous territories and 84 are in conflict with protected natural areas. As far as roads, waterways and railways are concerned, of the 136,000 kilometres mapped in the region, approximately 20% (26,000 km) are superimposed onto protected natural areas and indigenous territories.
+        The maps also show the presence of hydroelectric projects and roads in protected natural areas and in indigenous territories. In this case, 78 of the 272 large hydroelectric power plants in Amazonia - planned, under construction or in operation - are inside indigenous territories and 84 are in conflict with protected natural areas. As far as roads, waterways and railways are concerned, of the 136,000 kilometres mapped in the region, approximately 20% (26,000 km) are superimposed onto protected natural areas and indigenous territories.
       </Paragraph>
 
       <Quote author="Richard C. Smith, director of the Instituto Bien Común, Peru">
-        Currently, there are no national policies for the Amazonia that allow us to draw up a comprehensive, coherent and long-term vision for the region. Thus, a clear territorial development strategy is also not in force. In fact, guidance for policy decisions depends mainly on circumstances and the will of the current rulers
+        Currently, there are no national policies for Amazonia that allow us to draw up a comprehensive, coherent and long-term vision for the region. Thus, a clear territorial development strategy is also not in force. In fact, guidance for policy decisions depends mainly on circumstances and the will of the current rulers
       </Quote>
     </Container>
   </article>

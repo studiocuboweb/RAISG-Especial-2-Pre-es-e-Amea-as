@@ -116,7 +116,7 @@ export default () => (
           }}
         > 10,3 milhões de hectares de áreas naturais protegidas e territórios indígenas foram diretamente afetados pelo desmatamento entre 2000 e 2015
         </StoryMedia>, 
-        representando 12% da região amazônica.
+        representando 12% do desmatamento da região amazônica.
       </Paragraph>
 
       <Paragraph>

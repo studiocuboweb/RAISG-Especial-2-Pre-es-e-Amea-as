@@ -117,7 +117,7 @@ export default () => (
           }}
         > 10,3 millones de hectáreas de áreas naturales protegidas y territorios indígenas fueron directamente afectadas por la deforestación entre 2000 y 2015
         </StoryMedia>, 
-        lo que representa un 12% de la región amazónica.
+        lo que representa 12% de la deforestación en la región amazónica.
       </Paragraph>
 
       <Paragraph>

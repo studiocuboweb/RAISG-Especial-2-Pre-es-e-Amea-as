@@ -29,7 +29,7 @@ export default () => (
                 src: require("photos/chapter2/PauloSantos_AnapuPara_13_Transamazonica©PS.jpg")
               }
             }}> opening of new roads</StoryMedia>, 
-          railways and waterways in the Amazonia forest has always been and always will be the main vector of transformation of the territory.
+          railways and waterways in Amazonia forest has always been and always will be the main vector of transformation of the territory.
         </p>
       </Note>
 
@@ -38,7 +38,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The case of the Brazilian Amazonia helps us to visualize the future of the entire region.
+        The case of Brazilian Amazonia helps us to visualize the future of the entire region.
         <StoryMedia
         icon="map"
         media={{
@@ -60,7 +60,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The results of research on this subject, however, vary with respect to the distance at which the highest intensity of deforestation occurs. For example, Gregory Asner, in 2006, found that <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">67% of deforestation occurs at a maximum distance of 50 km from roads</ExternalLink>, whereas Kenneth M. Chomitz and Timothy S. Thomas found that at this distance <ExternalLink href="http://documents.worldbank.org/curated/en/102381468769744789/Geographic-patterns-of-land-use-and-land-intensity-in-the-Brazilian-Amazon" language="en">85% of the vegetation cover was removed</ExternalLink>. In contrast, almost a decade later, Christopher P. Barber's findings show that in the Brazilian Amazonia <ExternalLink href="https://www.sciencedirect.com/science/article/abs/pii/S000632071400264X" language="en">94.9% of deforestation occurred within 5.5 kilometres of roads and one kilometre of rivers</ExternalLink>. This all this goes to show the close connection between the expansion of this form of transport network and the loss of native vegetation.
+        The results of research on this subject, however, vary with respect to the distance at which the highest intensity of deforestation occurs. For example, Gregory Asner, in 2006, found that <ExternalLink href="https://doi.org/10.1080/01431160110096791" language="en">67% of deforestation occurs at a maximum distance of 50 km from roads</ExternalLink>, whereas Kenneth M. Chomitz and Timothy S. Thomas found that at this distance <ExternalLink href="http://documents.worldbank.org/curated/en/102381468769744789/Geographic-patterns-of-land-use-and-land-intensity-in-the-Brazilian-Amazon" language="en">85% of the vegetation cover was removed</ExternalLink>. In contrast, almost a decade later, Christopher P. Barber's findings show that in Brazilian Amazonia <ExternalLink href="https://www.sciencedirect.com/science/article/abs/pii/S000632071400264X" language="en">94.9% of deforestation occurred within 5.5 kilometres of roads and one kilometre of rivers</ExternalLink>. This all this goes to show the close connection between the expansion of this form of transport network and the loss of native vegetation.
       </Paragraph>
 
       <Paragraph>
@@ -75,7 +75,7 @@ export default () => (
           }
         }}> Interoceanic South, completed in 2010
         </StoryMedia>.
-        And previously unaffected areas of the Amazonia are now experiencing a boom in new roads, such as in Colombia and Bolivia.
+        And previously unaffected areas of Amazonia are now experiencing a boom in new roads, such as in Colombia and Bolivia.
       </Paragraph>
 
       <Paragraph>
@@ -83,7 +83,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Currently, the Colombian Amazonia has a total of 32,780 km of level 1 to 7 roads, with levels 6 and 7 (tertiary roads) representing the largest amount by distance, with a total of 
+        Currently, Colombian Amazonia has a total of 32,780 km of level 1 to 7 roads, with levels 6 and 7 (tertiary roads) representing the largest amount by distance, with a total of 
         <StoryMedia
         icon="map"
         media={{
@@ -104,11 +104,11 @@ export default () => (
       </Paragraph>
 
       <FeaturedText>
-        In Colombia, after the signing of the peace agreement, FARC guerrillas stopped occupying strategic entry points in the Amazonia jungle. At these points, the presence of the state is almost non-existent, so new actors (legal and illegal) have begun to arrive in search of natural resources and lands.
+        In Colombia, after the signing of the peace agreement, FARC guerrillas stopped occupying strategic entry points in jungle of Amazonia. At these points, the presence of the state is almost non-existent, so new actors (legal and illegal) have begun to arrive in search of natural resources and lands.
       </FeaturedText>
 
       <Paragraph>
-        This has been facilitated by the rapid opening of new routes and the formalization of others built by FARC guerrillas before the signing of the peace agreement. They are mainly tertiary roads, the new way to penetrate the heart of the jungle. As shown in the map of pressures and threats (RAISG, 2018), the presence of roads in Colombia is concentrated in the northwest arc of the Amazonia. In the case of FARC roads, of <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3,753 kilometres built</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km are inside protected areas</ExternalLink> of the Colombian Amazonia, specifically in the Serras de Chiribiquete National Park, the Nukak National Wildlife Reserve and the Tinigua Natural National Park.
+        This has been facilitated by the rapid opening of new routes and the formalization of others built by FARC guerrillas before the signing of the peace agreement. They are mainly tertiary roads, the new way to penetrate the heart of the jungle. As shown in the map of pressures and threats (RAISG, 2018), the presence of roads in Colombia is concentrated in the northwest arc of Amazonia. In the case of FARC roads, of <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3,753 kilometres built</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km are inside protected areas</ExternalLink> of the Colombian Amazonia, specifically in the Serras de Chiribiquete National Park, the Nukak National Wildlife Reserve and the Tinigua Natural National Park.
       </Paragraph>
 
       <Paragraph>
@@ -170,7 +170,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Two important access routes to the Amazonia territory in Peru also act as vectors of deforestation:
+        Two important access routes to Amazonia territory in Peru also act as vectors of deforestation:
         <StoryMedia
         icon="map"
         media={{
@@ -188,7 +188,7 @@ export default () => (
           }
         }}> the Carretera Marginal de la Selva, built in the sixties, which extends to Ucayali, and the Southern Interoceanic, completed in 2010, which extends to Madre de Dios
         </StoryMedia>.
-        In addition, in recent years, warnings have been issued on the proliferation of a network of forest access roads built without the authorization of the Peruvian authorities. These roads accelerate the process of colonization of the Peruvian Amazonia, facilitating depredation by miners, loggers and coca planters operating outside the law.
+        In addition, in recent years, warnings have been issued on the proliferation of a network of forest access roads built without the authorization of the Peruvian authorities. These roads accelerate the process of colonization of Peruvian Amazonia, facilitating depredation by miners, loggers and coca planters operating outside the law.
       </Paragraph>
 
       <Paragraph>
@@ -214,7 +214,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        The works include the dredging or removal of sediments in shallow and rocky stretches of these rivers. Experts warn of the environmental impact, since environmental protection regulations for the transport sector do not include specific measures for waterways. In addition, they point out that the project has not considered the impact of river dredging on the migration, reproduction and spawning of fish, nor has it taken into account the turbidity that will affect the water used by local populations. All this points to an expectation that the waterway will become a new focus of socio-environmental conflict. However, there is reason for hope, since in a decision of March 2019, the National Environmental Certification Service for Sustainable Investment (Senace) rejected the Environmental Impact Assessment (EIA) of the Amazonia Waterway project for the second time. Without this, work cannot start.
+        The works include the dredging or removal of sediments in shallow and rocky stretches of these rivers. Experts warn of the environmental impact, since environmental protection regulations for the transport sector do not include specific measures for waterways. In addition, they point out that the project has not considered the impact of river dredging on the migration, reproduction and spawning of fish, nor has it taken into account the turbidity that will affect the water used by local populations. All this points to an expectation that the waterway will become a new focus of socio-environmental conflict. However, there is reason for hope, since in a decision of March 2019, the National Environmental Certification Service for Sustainable Investment (Senace) rejected the Environmental Impact Assessment (EIA) of Amazonia Waterway project for the second time. Without this, work cannot start.
       </Paragraph>
 
       <Paragraph>
@@ -222,7 +222,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        On the other hand, a main thrust of the continuous expansion of transport infrastructure in the Brazilian Amazonia is railway construction. The Ferrogrão line, almost a thousand kilometres long, from the
+        On the other hand, a main thrust of the continuous expansion of transport infrastructure in Brazilian Amazonia is railway construction. The Ferrogrão line, almost a thousand kilometres long, from the
         <StoryMedia
           icon="map"
           media={{
