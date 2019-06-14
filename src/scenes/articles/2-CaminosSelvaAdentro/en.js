@@ -29,7 +29,7 @@ export default () => (
                 src: require("photos/chapter2/PauloSantos_AnapuPara_13_Transamazonica©PS.jpg")
               }
             }}> opening of new roads</StoryMedia>, 
-          railways and waterways in Amazonia forest has always been and always will be the main vector of transformation of the territory.
+          railways and waterways in Amazonia has always been and always will be the main vector of transformation of the territory.
         </p>
       </Note>
 
@@ -108,7 +108,7 @@ export default () => (
       </FeaturedText>
 
       <Paragraph>
-        This has been facilitated by the rapid opening of new routes and the formalization of others built by FARC guerrillas before the signing of the peace agreement. They are mainly tertiary roads, the new way to penetrate the heart of the jungle. As shown in the map of pressures and threats (RAISG, 2018), the presence of roads in Colombia is concentrated in the northwest arc of Amazonia. In the case of FARC roads, of <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3,753 kilometres built</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km are inside protected areas</ExternalLink> of the Colombian Amazonia, specifically in the Serras de Chiribiquete National Park, the Nukak National Wildlife Reserve and the Tinigua Natural National Park.
+        This has been facilitated by the rapid opening of new routes and the formalization of others built by FARC guerrillas before the signing of the peace agreement. They are mainly tertiary roads, the new way to penetrate the heart of the jungle. As shown in the map of pressures and threats (RAISG, 2018), the presence of roads in Colombia is concentrated in the northwest arc of Amazonia. In the case of FARC roads, of <ExternalLink href="https://www.elespectador.com/noticias/judicial/las-farc-habrian-construido-mas-vias-que-odebrecht-y-los-nule-juntos-articulo-709623" language="es">3,753 kilometres built</ExternalLink>, <ExternalLink href="https://www.youtube.com/watch?v=j4IuJHhdCjk" language="es">490 km are inside protected areas</ExternalLink> of Colombian Amazonia, specifically in the Serras de Chiribiquete National Park, the Nukak National Wildlife Reserve and the Tinigua Natural National Park.
       </Paragraph>
 
       <Paragraph>
@@ -170,7 +170,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Two important access routes to Amazonia territory in Peru also act as vectors of deforestation:
+        Two important access routes into Amazonian territory in Peru also act as vectors of deforestation:
         <StoryMedia
         icon="map"
         media={{

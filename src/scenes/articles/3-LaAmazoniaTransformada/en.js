@@ -127,7 +127,7 @@ export default () => (
       </Table>
 
       <Paragraph>
-        Unremedied environmental damage is common. This occurs both where mining and oil extraction took place in the past and where these are still carried out. Although illegal mining, which we address in the <ExternalLink href="https://illegalmining.amazoniasocioambiental.org/?lang=en" language="en">special report "Looted Amazonia" (published by RAISG and InfoAmazonia in 2018)</ExternalLink>, is present in all Amazonian countries, the greatest damage is caused by projects supported by national and regional governments. Often these projects have been authorized without due consultation with the affected populations and cause indiscriminate impacts on other countries of Amazonia region. In other cases, government agents participate in or contribute to the activity, although in theory this is illegal.
+        Unremedied environmental damage is common. This occurs both where mining and oil extraction took place in the past and where these are still carried out. Although illegal mining, which we address in the <ExternalLink href="https://illegalmining.amazoniasocioambiental.org/?lang=en" language="en">special report "Looted Amazonia" (published by RAISG and InfoAmazonia in 2018)</ExternalLink>, is present in all Amazonian countries, the greatest damage is caused by projects supported by national and regional governments. Often these projects have been authorized without due consultation with the affected populations and cause indiscriminate impacts on other Amazonian countries. In other cases, government agents participate in or contribute to the activity, although in theory this is illegal.
       </Paragraph>
 
       <Paragraph>
@@ -243,11 +243,11 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        Ecuadorian oil receives the same treatment. So far this century, oil exports have accounted for 50% of total exports, with economic returns accounting for an average 11% of GDP. However, oil exploration has led to the deforestation of 2 million hectares and spillage of more than 650,000 barrels of oil in forests, rivers and streams, as well as heavy metals that have contaminated water sources in Amazonia region. This has had an impact on the health of populations studied who fall sick after drinking contaminated water and can no longer fish in these rivers.
+        Ecuadorian oil receives the same treatment. So far this century, oil exports have accounted for 50% of total exports, with economic returns accounting for an average 11% of GDP. However, oil exploration has led to the deforestation of 2 million hectares and spillage of more than 650,000 barrels of oil in forests, rivers and streams, as well as heavy metals that have contaminated water sources in Amazonia. This has had an impact on the health of populations studied who fall sick after drinking contaminated water and can no longer fish in these rivers.
       </Paragraph>
 
       <FeaturedText>
-      Illegal mining and the presence of irregular armed groups (national or foreign) in Venezuelan Amazonia are extremely important factors.
+        Illegal mining and the presence of irregular armed groups (national or foreign) in Venezuelan Amazonia are extremely important factors.
       </FeaturedText>
       
       <Paragraph>
@@ -420,7 +420,7 @@ export default () => (
       </Paragraph>
 
       <Paragraph>
-        In Peru, in the Andean portion of Amazonia basin, most mining concessions are superimposed on peasant communities. This creates socio-environmental conflicts. One of the strategies used by concessionaires is to buy the land under concession. Being communal property, this is not easy, but not impossible. For more than a decade, the Peruvian state has been making changes to the communal tenure system to facilitate the division and sale of communal lands as individual plots. 
+        In Peru, in the Andean portion of Amazonia, most mining concessions are superimposed on peasant communities. This creates socio-environmental conflicts. One of the strategies used by concessionaires is to buy the land under concession. Being communal property, this is not easy, but not impossible. For more than a decade, the Peruvian state has been making changes to the communal tenure system to facilitate the division and sale of communal lands as individual plots. 
       </Paragraph>
     </Container>
   </article>

@@ -48,7 +48,7 @@ export default () => (
           <tr>
             <th>Protection category</th>
             <th>area (thousands of ha)</th>
-            <th>% in relation to the Amazonia overall</th>
+            <th>% in relation to Amazonia overall</th>
           </tr>
           <tr>
             <td>Protected Natural Areas</td>
@@ -116,11 +116,11 @@ export default () => (
           }}
         > 10.3 million hectares of protected natural areas and indigenous territories were directly affected by deforestation between 2000 and 2015
         </StoryMedia>, 
-        amounting to 12% of the deforestation in Amazon region.
+        amounting to 12% of the deforestation in Amazonia.
       </Paragraph>
 
       <Paragraph>
-      The results are a warning for the protection of the biome, as highlighted by a study by Thomas Lovejoy and Carlos Nobre published in the journal Science in 2018. According to the authors, <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">the sum of the impacts of deforestation, climate change and forest fires will lead to an inflection point (or point of no return) for Amazonia system</ExternalLink>. That is, once deforestation reaches 20% to 25% of the biome there will be irreversible consequences for the non-forest ecosystems of southern and central Amazonia. This model considered Amazonia basin without the inclusion of parts of the Orinoco, Araguaia and Tocantins basins and of the North Atlantic and coastal areas.
+      The results are a warning for the protection of the biome, as highlighted by a study by Thomas Lovejoy and Carlos Nobre published in the journal Science in 2018. According to the authors, <ExternalLink href="https://advances.sciencemag.org/content/4/2/eaat2340" language="en">the sum of the impacts of deforestation, climate change and forest fires will lead to an inflection point (or point of no return) for Amazonia system</ExternalLink>. That is, once deforestation reaches 20% to 25% of the biome there will be irreversible consequences for the non-forest ecosystems of southern and central Amazonia. This model considered Amazonia without the inclusion of parts of the Orinoco, Araguaia and Tocantins basins and of the North Atlantic and coastal areas.
       </Paragraph>
 
       <Paragraph>
@@ -146,11 +146,11 @@ export default () => (
             size="4.4MB"
           > for the period 2005-2018 shows that 88% of burnings and forest fires in Bolivia
           </FileLink> 
-           are concentrated in Amazonia region, affecting more than 18.7 million hectares, with the ecosystems most impacted being natural grasslands, comprising savannas and cerrados (70%) and, to a lesser degree (30%), forest areas.
+           are concentrated in Amazonia, affecting more than 18.7 million hectares, with the ecosystems most impacted being natural grasslands, comprising savannas and cerrados (70%) and, to a lesser degree (30%), forest areas.
       </Paragraph>
 
       <FeaturedText>
-        The 2010 events in Bolivia, where fires associated with drought affected more than 8.5 million hectares in Amazonia Basin, were considered to have been the greatest in magnitude and impact.
+        The 2010 events in Bolivia, where fires associated with drought affected more than 8.5 million hectares in Amazonia, were considered to have been the greatest in magnitude and impact.
       </FeaturedText>
       
       <Paragraph>
@@ -184,7 +184,7 @@ export default () => (
             }
           }}> during the electoral period (August to November 2018), deforestation in Amazonia doubled compared to the same period of the previous year
           </StoryMedia>, 
-          reaching 1.4 million hectares of forest loss. Specifically, deforestation detected in November 2018 was four times greater than in November 2017. This scenario of threats and intensification of deforestation continued after the elections. In January 2019, Amazonia region (Amazônia Legal) lost 10,800 hectares of forest, an increase of 54% over the same period the previous year, according to data released by the Instituto do Homem e Meio Ambiente da Amazônia (Imazon). Of this deforestation recorded in January 2019, 12% occurred in indigenous territories and 5% in protected areas.
+          reaching 1.4 million hectares of forest loss. Specifically, deforestation detected in November 2018 was four times greater than in November 2017. This scenario of threats and intensification of deforestation continued after the elections. In January 2019, the Amazonia Legal region lost 10,800 hectares of forest, an increase of 54% over the same period the previous year, according to data released by the Instituto do Homem e Meio Ambiente da Amazônia (Imazon). Of this deforestation recorded in January 2019, 12% occurred in indigenous territories and 5% in protected areas.
       </Paragraph>
 
       <Paragraph>

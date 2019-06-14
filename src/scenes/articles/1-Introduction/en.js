@@ -22,7 +22,7 @@ export default () => (
       </Note>
 
       <Paragraph>
-        The <ExternalLink href="https://www.amazoniasocioambiental.org/en/" language="en">Amazonian Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}a technical group formed by organizations from six countries in the region, has published its latest collection of maps on the pressures and threats faced by Amazonia.
+        The <ExternalLink href="https://www.amazoniasocioambiental.org/en/" language="en">Amazonian Georeferenced Socio-Environmental Information Network (RAISG)</ExternalLink>{" "}, a technical group formed by organizations from six countries in the region, has published its latest collection of maps on the pressures and threats faced by Amazonia.
       </Paragraph>
 
       <Paragraph>
