@@ -181,13 +181,35 @@ class LanguageSelect extends Component {
           //console.log('redirect')
           //console.log(this.state.language);
           var location = "";
-        if (this.state.language == 'pt') {
-            location = '?lang=pt';
-        } else if (this.state.language == 'es') {
-            location = '?lang=es';
-        } else {
-            location = '?lang=en';
-        }
+
+          var location_2 = document.location.href;
+          var uri = '';
+          if (location_2.search('story') > -1) {
+            uri = '/story';
+            if (location_2.search('caminos-selva-adentro') > -1) {
+              uri = '/story/caminos-selva-adentro';
+            }
+            if (location_2.search('la-amazonia-transformada') > -1) {
+              uri = '/story/la-amazonia-transformada';
+            }
+            if (location_2.search('la-perdida-de-la-amazonia') > -1) {
+              uri = '/story/la-perdida-de-la-amazonia';
+            }
+          }
+          if (location_2.search('about') > -1) { 
+            uri = '/about';
+          }
+          if (location_2.search('share') > -1) {
+            uri = '/share';
+          }
+          if (this.state.language == 'pt') {
+              location = 'https://encruzilhada.amazoniasocioambiental.org'+uri;
+          } else if (this.state.language == 'es') {
+              location = 'https://encrucijada.amazoniasocioambiental.org'+uri;
+          } else {
+              location = 'https://crossroads.amazoniasocioambiental.org'+uri;
+          }
+
         //console.log(location)
         document.location.href = location;
         //return <Redirect push={true} to={location} />
